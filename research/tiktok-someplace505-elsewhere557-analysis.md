@@ -6,6 +6,22 @@
 
 ---
 
+> **Update 2026-10-21: first-party TikTok data now available.** Network access to TikTok was opened after this document was first written. Where the items below conflict with the text further down, these are correct. Full numbers are in [tiktok-growth-regression.md](tiktok-growth-regression.md).
+> - **@someplace505 is no longer a blank.**
+>   - Display name: blank invisible characters (`￴ ￴`), the same trick as the 557 accounts.
+>   - Bio: "🌞 DM For Sound Promo". Created 2026-01-10.
+>   - **214,189 followers, 25.8M likes, 176 videos.**
+>   - Captions empty on 100% of videos; median length 8 s.
+>   - It shares sounds with @elsewhere557 ("lovers rock": 21 uses here, 39 there).
+>
+>   It fits the same network pattern. Its *visual* style still hasn't been watched frame by frame.
+> - **@elsewhere557's real totals are 380,134 followers, 85.2M likes and 581 videos** (TokPortal's 106.7K / 161 was out of date).
+>   - Bio: "Follow my vibes · Dm for sound promo · **Video made by me (Not IA)** · How to make the same videos as me ⬇️", plus a **Payhip shop link** selling the how-to.
+>   - Account created 2024-09-29.
+>   - Because the bio claims the footage is its own, the "foina" mark may be the account's own signature. **The "reposted footage" inference in §3 and §5 is downgraded to unconfirmed.**
+> - **@anywhere557:** 302,120 followers, 54.9M likes, 179 videos. Bio: "you feel it? follow my vibes 🍀 … or dm for sound promo". Created 2024-10-19.
+> - **Captions:** "another life" and "your love" were page titles TikTok generated, **not captions**. Every visible video on both target accounts has an empty caption.
+
 ## 0. Bottom line
 
 1. **@elsewhere557 is a faceless "mood POV" account.** Both watched videos are a single 7–13 s handheld first-person take of a rainy Japanese street. No text, no face, no creator voice. The audio is borrowed film or anime dialogue. What it sells is escapism: *"this could be your other life."*
