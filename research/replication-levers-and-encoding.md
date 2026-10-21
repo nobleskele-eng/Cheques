@@ -42,7 +42,9 @@ Ranked by strength of evidence.
 5. **Slightly longer clips:** 11–14 s+ did 1.13–1.98× on both accounts, but sample sizes are small.
 
 **No measurable effect (skip)**
-- **60 fps vs 30 fps:** @elsewhere557 did 1.00× at ~60 fps vs 1.15× at ~30 fps.
+- **60 fps vs 30 fps:** @elsewhere557 did 1.00× at ~60 fps vs 1.15× at ~30 fps on beating the week median.
+  - ⚠ **Conflicting signal:** the [success model](success-model.md) finds 60 fps uploads had **1.8× the odds of reaching 1M+**. But the model can't predict 1M+ hits on held-out data, so that may be noise or a side effect of what was filmed.
+  - **Don't switch frame rate on this evidence alone. Test both.**
 - **Loudness, and TikTok's own quality scores:** no meaningful link to views.
   - On @elsewhere557 the correlations are −0.04 to −0.01.
   - @someplace505's loudness correlation is −0.15, and its quality scores are missing for most videos, so those can't be tested properly.
@@ -220,6 +222,7 @@ On @elsewhere557, which is all re-encoded, another account's sound did 1.24× vs
 - **60 fps gets half the bits per frame.** TikTok gives 1080p HEVC tiers about the same bitrate at both frame rates: a median of 1,764 kbps at ~30 fps vs 1,836 kbps at ~60 fps. That's **64 vs 31 kb per frame**.
   - 60 fps also showed no view benefit: 1.00× vs 1.15× (§2).
   - So for slow mood footage, a 30 fps export should look cleaner after re-encoding.
+  - **But** see the frame-rate warning in §0: the success model links 60 fps with more 1M+ hits. Cleaner frames and more views may pull in opposite directions, so test both.
 
 **Limit:** this is what an anonymous web viewer was offered at one moment. The phone app, or the first few hours after posting, may behave differently.
 
