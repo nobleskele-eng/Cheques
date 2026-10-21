@@ -7,7 +7,9 @@
 
 **Integrity check:** summed per-video likes match each profile's total likes, at 99.7% (@someplace505) and 98.3% (@elsewhere557).
 
-**Companion doc:** [content-style analysis](tiktok-someplace505-elsewhere557-analysis.md).
+**Companion docs:**
+- [Content-style analysis](tiktok-someplace505-elsewhere557-analysis.md).
+- [Plain-language summary of §9](reliability-plain-summary.md).
 
 ---
 
