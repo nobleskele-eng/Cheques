@@ -294,7 +294,7 @@ On @elsewhere557, which is all re-encoded, another account's sound did 1.24× vs
 
 **What this shows:**
 - The first four posts each stalled at ~4.3K views, with likes under 7%: the "test pool doesn't engage" stage.
-- The breakout came on **post 5 after the rename, within ~3 days, posting 2–3 a day**.
+- The breakout came on the **5th surviving post after the rename** (a 6th, posted on Aug 27, was later deleted), **within ~3 days, posting 2–3 a day**.
 - It came on the **second** try of a long-established sound that had already failed once. The account then kept reusing that sound.
 - The original-file upload method was on from the start of the relaunch, including during the stall, so it wasn't what broke the stall.
 
