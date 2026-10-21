@@ -260,6 +260,46 @@ On @elsewhere557, which is all re-encoded, another account's sound did 1.24× vs
 - The account's *other* videos (picked sounds, re-encoded) weren't watched, so I can't yet say how the batch's footage differs from them.
 - vidIQ named two different songs ("Her" by eeryskies; "Romantic Homicide" by d4vd) for the same lyric in two videos. Treat song names as unverified.
 
+## 2.7 Early engagement: benchmarks, and how @someplace505 got out of a cold start
+
+**Limit:** test-pool (first-hours) data isn't public for other people's videos. Everything here uses lifetime totals, so it's a yardstick, not a measurement of the first hours.
+
+**Engagement per view, by final views (medians):**
+
+| Final views | @someplace505 likes / shares / saves | @elsewhere557 likes / shares / saves |
+|---|---|---|
+| <10K | 7.6% / 1.09% / 1.03% | 10.7% / 0.57% / 1.02% |
+| 10K–100K | 13.0% / 1.35% / 1.68% | 18.4% / 1.26% / 1.99% |
+| 100K–1M | 20.8% / 2.95% / 2.12% | 24.1% / 1.91% / 2.54% |
+| 1M+ | 24.5% / 4.35% / 2.80% | 23.9% / 1.95% / 2.41% |
+
+- **Rank correlation with total views** (post-takeoff), @someplace505 / @elsewhere557:
+  - likes per view: **+0.74 / +0.71**
+  - shares per view: +0.70 / +0.57
+  - saves per view: +0.57 / +0.52
+  - comments per view: −0.60 / −0.75
+- **Rough yardstick (from established accounts):** breakouts sit at ~20–25% likes per view and ~2–4% shares per view. Flops sit at ~8–11% likes.
+- **Reading it:** bigger reach usually *dilutes* engagement rates, yet here bigger videos have *higher* rates. That fits engagement driving distribution, which matches TikTok's own description that user interactions feed recommendations. But it's correlation.
+
+**@someplace505's cold start.** It was renamed 2026-08-27; these are its first posts after that.
+
+| Posted | Views | Likes / view | Sound |
+|---|---|---|---|
+| Aug 28 02:51 | 4,335 | 5.4% | "lovers rock" (another account's upload, created 1,279 days earlier) |
+| Aug 28 16:01 | 4,387 | 4.2% | another account's sound |
+| Aug 29 11:41 | 4,294 | 4.8% | official library track ("Self Aware") |
+| Aug 30 02:19 | 6,418 | 6.6% | official library track ("nuts") |
+| **Aug 30 06:11** | **972,200** | **24.0%** | **"lovers rock" again** |
+| Aug 30 – Sep 10 | 0.4M–8.6M on most posts | 19–33% | "lovers rock" on 11 of its first 30 posts |
+
+**What this shows:**
+- The first four posts each stalled at ~4.3K views, with likes under 7%: the "test pool doesn't engage" stage.
+- The breakout came on **post 5 after the rename, within ~3 days, posting 2–3 a day**.
+- It came on the **second** try of a long-established sound that had already failed once. The account then kept reusing that sound.
+- The original-file upload method was on from the start of the relaunch, including during the stall, so it wasn't what broke the stall.
+
+This is one account, so it's an example, not a rule.
+
 ## 3. Caveats
 
 1. **Correlation, not cause.** For example, the operator may use the HD upload method and their own audio on footage they already think is strongest. Official library tracks may also include paid "sound promo" placements (both bios advertise sound promotion), chosen for payment rather than fit. That's a hypothesis, not verified.
