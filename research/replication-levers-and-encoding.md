@@ -6,6 +6,10 @@
 
 > **Everything here is correlation, from two accounts that already succeeded.** It shows what went with more views on *these* accounts. It doesn't prove what causes views, and it won't guarantee results on a new account.
 
+> **Correction (2026-10-21).** An earlier version of this doc said "bake the audio into the video file" and credited original-quality uploads with 1.44–7.23×. Both were wrong. They came from grouping sounds by *title* ("original sound" vs a song name).
+>
+> Sound IDs carry their creation time, and they show that both accounts pick their sound in TikTok's upload screen on **88% (@someplace505) and 99.7% (@elsewhere557)** of videos. The corrected analysis is §2 "Audio" and the updated items 1 and 4 below.
+
 ---
 
 ## 0. Answer: the best evidence-based way to replicate
@@ -13,8 +17,12 @@
 Ranked by strength of evidence.
 
 **Strong (consistent on both accounts)**
-1. **Bake the audio into the video file**, so TikTok labels it "original sound", instead of picking a song from TikTok's library.
-   - Same-week relative views: **1.31× and 2.52×** for baked-in audio, vs **0.38× and 0.78×** for library songs used fewer than 5 times. *(Relative views = a video's views ÷ the account's median for that week, so 1.0× is an average week.)*
+1. **Add the sound in TikTok's upload screen, and pick another account's uploaded version of the song** rather than the official library track. These user versions are often sped-up, slowed or edited cuts, and TikTok labels them "original sound".
+   - Same-week relative views:
+     - another account's sound: **1.24×** (@elsewhere557) and **1.53×** (@someplace505);
+     - official library track: **0.36×** and **0.80×**.
+   - *(Relative views = a video's views ÷ the account's median for that week, so 1.0× is an average week.)*
+   - The sounds they pick had been created a median of **98 days** (@elsewhere557) and **51 days** (@someplace505) earlier. Both accounts draw from the same uploaders: "lia", "imar" and "by your side" appear on both.
 2. **Upload at full 1080×1920 or above.** @elsewhere557's few uploads without a 1080p tier did **0.21×** (22 videos, only 18% beat their week's median).
 3. **Keep daily volume moderate.** Views per post drop beyond ~3 posts/day (@someplace505) and ~6/day (@elsewhere557).
    - On @elsewhere557, days with 2–3 posts did **2.43×** per post, vs **~0.9×** on days with 7+.
@@ -23,7 +31,11 @@ Ranked by strength of evidence.
 
 **Moderate (one account only)**
 
-4. **Original-quality upload: TikTok serves your file without re-encoding it.** On @someplace505 this went with **1.44×** (library song) to **7.23×** (with baked-in audio). See §1.3 for how it appears to be done, and the risk.
+4. **Own-audio uploads (one batch on @someplace505).** On 22 videos, @someplace505 uploaded its own audio, creating a new sound titled "original sound - ￴ ￴". 19 of those 22 were also served as the original file, likely via the third-party uploader (§1.3).
+   - Those 19 did **10.27×** (95% beat their week's median).
+   - The quality bypass *on its own* showed no benefit: original-file uploads that used another account's sound did **0.81×** (n=17), worse than re-encoded uploads with the same kind of sound (1.68×).
+   - So the hits are a specific batch of own-audio uploads. What's *in* that batch (the footage or the audio) is the open question, and watching those 19 videos would answer it.
+   - @elsewhere557 never does this.
 5. **Slightly longer clips:** 11–14 s+ did 1.13–1.98× on both accounts, but sample sizes are small.
 
 **No measurable effect (skip)**
@@ -122,26 +134,35 @@ On these accounts about 1 in 6 videos passed 1M views, so results are lottery-li
 - Each video's views are divided by the median views of that account's videos posted the same week. This removes the takeoff and decay trends.
 - Groups need at least 8 videos (5 for upload quality).
 
-#### Audio
+#### Audio: where each video's sound came from
 
-| | @someplace505 | @elsewhere557 |
+Each sound ID encodes when the sound was created:
+- A sound created within an hour of the video, by the same account, came in with the upload.
+- Anything older, or by another account, was picked in TikTok's upload screen.
+
+| Sound origin | @someplace505 | @elsewhere557 |
 |---|---|---|
-| Baked-in audio ("original sound") | **2.52×** (n=42, 74% beat week median) | **1.31×** (n=278, 56%) |
-| Library song used 5+ times | 0.93× (n=67) | 0.88× (n=103) |
-| Library song used fewer than 5 times | 0.78× (n=66) | **0.38×** (n=98, 35%) |
-| Its own named sound ("original sound - ￴ ￴") | **7.28×** (n=21, 90%) | n/a |
-| "lovers rock" (shared by both accounts) | 3.64× (n=21) | 0.85× (n=28) |
+| Picked in-app: another account's sound | 50 videos, **1.53×** (n=50, 60% beat week median) | 461 videos, **1.24×** (n=370, 55%) |
+| Picked in-app: official library track | 104 videos, 0.80× (n=104, 36%) | 109 videos, **0.36×** (n=107, 30%) |
+| New sound created by its own upload | 22 videos, **7.28×** (n=21, 90%) | 1 video (n=1, 0.06×) |
+| Re-used its own earlier sound | 0 | 1 video (0.56×) |
 
-#### Upload quality × audio (@someplace505; checks whether the two effects are separate)
+*Counts are all videos; relative views use the active period only.*
 
-| | Baked-in audio | Library song |
-|---|---|---|
-| Original file served | **7.23×** (n=22, 82%) | 1.44× (n=17, 59%) |
-| Re-encoded | 1.18× (n=20, 65%) | 0.84× (n=116, 39%) |
+- **Commercial matches:** TikTok matched the audio to a commercial song on 130/176 (@someplace505) and 260/572 (@elsewhere557) videos. Many "another account's sound" uploads are re-uploads of real songs.
+- **Shared sounds:** 52 (@someplace505) and 123 (@elsewhere557) videos use a sound ID that the other account also used.
+- **Hint of a previous identity:** @someplace505's very first video (2026-06-16) uses a sound titled "suara asli - Spax" (Indonesian for "original sound"). That suggests the account went by "Spax" before its 2026-08-27 rename.
 
-Each factor helps on its own; together they're strongest.
+#### Upload quality × sound origin (@someplace505)
 
-@elsewhere557 has no original-file videos. For it, baked-in audio is 1.31× vs 0.73× for library songs (re-encoded only).
+| | Own new sound | Another account's sound | Official library track |
+|---|---|---|---|
+| Original file served | **10.27×** (n=19, 95%) | 0.81× (n=17, 47%) | 1.19× (n=3) |
+| Re-encoded | 1.01× (n=2) | 1.68× (n=33, 67%) | 0.80× (n=101, 35%) |
+
+**Reading:** the original-file upload doesn't help by itself (0.81× vs 1.68× with the same kind of sound). The effect is concentrated in the 19 own-sound uploads, and the two can't be separated.
+
+On @elsewhere557, which is all re-encoded, another account's sound did 1.24× vs 0.36× for official tracks.
 
 #### Volume per day
 
@@ -201,7 +222,7 @@ Each factor helps on its own; together they're strongest.
 
 ## 3. Caveats
 
-1. **Correlation, not cause.** For example, the operator may use the HD upload method or baked-in audio on footage they already think is strongest.
+1. **Correlation, not cause.** For example, the operator may use the HD upload method and their own audio on footage they already think is strongest. Official library tracks may also include paid "sound promo" placements (both bios advertise sound promotion), chosen for payment rather than fit. That's a hypothesis, not verified.
 2. **Survivorship.** Both accounts succeeded, and @elsewhere557 may have deleted around 59 underperforming videos (see the regression doc), which would flatter the survivors.
 3. **Small groups.** Several cells have fewer than 30 videos. Treat effects under about 1.3× as noise.
 4. **Partial tier lists.** The API and video pages return different tier lists for different clients, so the "best tier" for re-encoded videos is a lower bound.
@@ -216,3 +237,5 @@ Each factor helps on its own; together they're strongest.
   - `tech_summary.py`: encoding distributions and correlations.
   - `probe_sample.py`: download, probe, delete.
   - `levers.py`: the same-week relative-views tables.
+  - `pull_music.py`, `sound_origin.py`: sound ID, creation time and author, plus the sound-origin tables.
+- `research/data/someplace505_sounds.csv`, `research/data/elsewhere557_sounds.csv`: per-video sound ID, sound creation time, sound age when used, author, origin category, official-track flag and matched commercial song.
