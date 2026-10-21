@@ -28,7 +28,9 @@ Ranked by strength of evidence.
 
 **No measurable effect (skip)**
 - **60 fps vs 30 fps:** @elsewhere557 did 1.00× at ~60 fps vs 1.15× at ~30 fps.
-- **Loudness, and TikTok's own quality scores:** correlation with views is ~0, between −0.15 and +0.03.
+- **Loudness, and TikTok's own quality scores:** no meaningful link to views.
+  - On @elsewhere557 the correlations are −0.04 to −0.01.
+  - @someplace505's loudness correlation is −0.15, and its quality scores are missing for most videos, so those can't be tested properly.
 - **Posting time of day:** the two accounts disagree, so there's no reliable signal.
 
 **Untestable from this data, but both accounts had it**
