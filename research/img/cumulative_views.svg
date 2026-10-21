@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d">
+<title id="t">Cumulative views by post date, @elsewhere557 vs @someplace505</title>
+<desc id="d">Both accounts were flat until takeoff: elsewhere557 on Aug 8 2026 (346.6M cumulative views by Oct 21), someplace505 on Aug 31 2026 (107.2M by Oct 21).</desc>
+<style>
+svg { --surface-1:#fcfcfb; --ink-1:#0b0b0b; --ink-2:#52514e; --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7; --series-1:#2a78d6; --series-2:#eb6834; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+@media (prefers-color-scheme: dark) { svg { --surface-1:#1a1a19; --ink-1:#f0efec; --ink-2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835; --series-1:#3987e5; --series-2:#d95926; } }
+.bg { fill: var(--surface-1); }
+.grid { stroke: var(--grid); stroke-width: 1; }
+.axis { stroke: var(--axis); stroke-width: 1; }
+.tick { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.title { fill: var(--ink-1); font-size: 16px; font-weight: 600; }
+.sub { fill: var(--ink-2); font-size: 12px; }
+.legend, .label { fill: var(--ink-1); font-size: 13px; }
+.value { fill: var(--ink-2); font-size: 12px; }
+.note { fill: var(--ink-2); font-size: 11px; }
+</style>
+<rect class="bg" width="760" height="420" rx="8"/>
+<text class="title" x="64" y="28">Cumulative views by post date</text>
+<text class="sub" x="64" y="46">Lifetime views of all videos posted up to each day · dot = takeoff date (piecewise fit) · data pulled 2026-10-21</text>
+<line class="axis" x1="64" x2="592" y1="376.0" y2="376.0"/>
+<text class="tick" x="56" y="380.0" text-anchor="end">0</text>
+<line class="grid" x1="64" x2="592" y1="305.0" y2="305.0"/>
+<text class="tick" x="56" y="309.0" text-anchor="end">100M</text>
+<line class="grid" x1="64" x2="592" y1="234.0" y2="234.0"/>
+<text class="tick" x="56" y="238.0" text-anchor="end">200M</text>
+<line class="grid" x1="64" x2="592" y1="163.0" y2="163.0"/>
+<text class="tick" x="56" y="167.0" text-anchor="end">300M</text>
+<line class="grid" x1="64" x2="592" y1="92.0" y2="92.0"/>
+<text class="tick" x="56" y="96.0" text-anchor="end">400M</text>
+<text class="tick" x="64.0" y="396" text-anchor="middle">Jun</text>
+<text class="tick" x="174.8" y="396" text-anchor="middle">Jul</text>
+<text class="tick" x="289.2" y="396" text-anchor="middle">Aug</text>
+<text class="tick" x="403.7" y="396" text-anchor="middle">Sep</text>
+<text class="tick" x="514.5" y="396" text-anchor="middle">Oct</text>
+<path d="M170.9,376.0 L171.1,375.8 L174.8,375.8 L178.5,375.8 L182.2,375.8 L185.8,375.8 L189.5,375.8 L193.2,375.8 L196.9,375.8 L200.6,375.8 L204.3,374.9 L208.0,374.9 L211.7,374.9 L215.4,374.9 L219.1,374.9 L222.8,374.9 L226.5,374.9 L230.2,374.9 L233.8,374.9 L237.5,373.8 L241.2,373.8 L244.9,373.8 L248.6,373.8 L252.3,373.8 L256.0,373.4 L259.7,373.4 L263.4,373.3 L267.1,371.2 L270.8,371.2 L274.5,370.5 L278.2,370.5 L281.8,370.5 L285.5,369.8 L289.2,369.8 L292.9,369.8 L296.6,369.8 L300.3,369.8 L304.0,369.8 L307.7,369.8 L311.4,369.4 L315.1,366.3 L318.8,366.3 L322.5,366.1 L326.2,346.0 L329.8,343.6 L333.5,335.8 L337.2,333.7 L340.9,324.4 L344.6,318.5 L348.3,317.0 L352.0,316.6 L355.7,315.5 L359.4,309.6 L363.1,302.0 L366.8,296.6 L370.5,287.7 L374.2,278.5 L377.8,267.6 L381.5,258.0 L385.2,252.2 L388.9,249.1 L392.6,244.9 L396.3,238.9 L400.0,235.2 L403.7,233.4 L407.4,226.9 L411.1,223.3 L414.8,221.4 L418.5,220.4 L422.2,218.1 L425.8,215.7 L429.5,213.8 L433.2,206.6 L436.9,201.6 L440.6,201.0 L444.3,200.9 L448.0,200.1 L451.7,196.6 L455.4,196.2 L459.1,195.8 L462.8,192.6 L466.5,191.0 L470.2,189.5 L473.8,186.7 L477.5,186.1 L481.2,186.0 L484.9,185.7 L488.6,185.5 L492.3,184.8 L496.0,182.3 L499.7,182.2 L503.4,177.4 L507.1,176.7 L510.8,176.1 L514.5,175.7 L518.2,174.1 L521.8,173.6 L525.5,169.3 L529.2,167.5 L532.9,158.3 L536.6,157.7 L540.3,157.0 L544.0,156.6 L547.7,156.4 L551.4,156.2 L555.1,155.7 L558.8,140.8 L562.5,140.4 L566.2,137.6 L569.8,137.4 L573.5,137.0 L577.2,133.0 L580.9,132.9 L584.6,131.1 L588.3,130.6 L591.3,129.9" fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="318.8" cy="366.3" r="4" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/>
+<text class="note" x="310.8" y="356.3" text-anchor="end">Aug 8</text>
+<circle cx="591.3" cy="129.9" r="4" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/>
+<path d="M122.4,376.0 L123.1,376.0 L126.8,376.0 L130.5,376.0 L134.2,376.0 L137.8,376.0 L141.5,376.0 L145.2,376.0 L148.9,376.0 L152.6,376.0 L156.3,376.0 L160.0,376.0 L163.7,376.0 L167.4,376.0 L171.1,376.0 L174.8,376.0 L178.5,376.0 L182.2,376.0 L185.8,376.0 L189.5,376.0 L193.2,376.0 L196.9,376.0 L200.6,376.0 L204.3,376.0 L208.0,376.0 L211.7,376.0 L215.4,376.0 L219.1,376.0 L222.8,376.0 L226.5,376.0 L230.2,376.0 L233.8,376.0 L237.5,376.0 L241.2,376.0 L244.9,376.0 L248.6,376.0 L252.3,376.0 L256.0,376.0 L259.7,376.0 L263.4,376.0 L267.1,376.0 L270.8,376.0 L274.5,376.0 L278.2,376.0 L281.8,376.0 L285.5,376.0 L289.2,376.0 L292.9,376.0 L296.6,376.0 L300.3,376.0 L304.0,376.0 L307.7,376.0 L311.4,376.0 L315.1,376.0 L318.8,376.0 L322.5,376.0 L326.2,376.0 L329.8,376.0 L333.5,376.0 L337.2,376.0 L340.9,376.0 L344.6,376.0 L348.3,376.0 L352.0,376.0 L355.7,376.0 L359.4,376.0 L363.1,376.0 L366.8,376.0 L370.5,376.0 L374.2,376.0 L377.8,376.0 L381.5,376.0 L385.2,376.0 L388.9,376.0 L392.6,376.0 L396.3,376.0 L400.0,375.3 L403.7,375.3 L407.4,374.8 L411.1,373.2 L414.8,371.0 L418.5,370.9 L422.2,370.8 L425.8,370.1 L429.5,367.6 L433.2,365.6 L436.9,356.0 L440.6,352.1 L444.3,349.5 L448.0,345.6 L451.7,344.5 L455.4,343.5 L459.1,341.2 L462.8,341.1 L466.5,340.7 L470.2,340.6 L473.8,336.5 L477.5,332.2 L481.2,329.4 L484.9,329.3 L488.6,329.3 L492.3,329.3 L496.0,329.2 L499.7,328.3 L503.4,328.3 L507.1,328.1 L510.8,328.1 L514.5,323.7 L518.2,323.7 L521.8,323.5 L525.5,323.5 L529.2,306.1 L532.9,304.3 L536.6,303.9 L540.3,303.9 L544.0,303.8 L547.7,302.1 L551.4,302.1 L555.1,302.0 L558.8,300.4 L562.5,300.3 L566.2,300.2 L569.8,300.2 L573.5,300.0 L577.2,300.0 L580.9,300.0 L584.6,299.9 L588.3,299.9 L591.3,299.9" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="403.7" cy="375.3" r="4" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/>
+<text class="note" x="395.7" y="365.3" text-anchor="end">Aug 31</text>
+<circle cx="591.3" cy="299.9" r="4" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/>
+<text class="label" x="601.3" y="127.9">@elsewhere557</text>
+<text class="value" x="601.3" y="143.9">346.6M views</text>
+<text class="label" x="601.3" y="297.9">@someplace505</text>
+<text class="value" x="601.3" y="313.9">107.2M views</text>
+<line x1="64" x2="82" y1="66" y2="66" stroke="var(--series-2)" stroke-width="2" stroke-linecap="round"/>
+<text class="legend" x="88" y="70">@elsewhere557</text>
+<line x1="214" x2="232" y1="66" y2="66" stroke="var(--series-1)" stroke-width="2" stroke-linecap="round"/>
+<text class="legend" x="238" y="70">@someplace505</text>
+</svg>
