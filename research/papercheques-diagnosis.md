@@ -39,7 +39,7 @@
 
 | | @papercheques | Network accounts |
 |---|---|---|
-| Videos with a 1080p version | **0 of 39** | 75–99% (including their flops); 100% of their posts from the last 3 days |
+| Videos with a 1080p version | **0 of 39** | @elsewhere557: 81–99% at every view level, including flops. @someplace505: varies (its tier lists are partial). Posts from their last 3 days: 89–100% |
 | Versions per video | 1 on 25 videos (just "lowest_540") | Usually 5 |
 | Best version's bitrate (median) | **533 kbps** (files measured: 126, 298, 590 kbps) | ~1,800–2,000 kbps |
 | TikTok's source-quality score for your upload | **74.4** | 75.9–77.4 |
