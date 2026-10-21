@@ -34,7 +34,10 @@ Ranked by strength of evidence.
 4. **Own-audio uploads (one batch on @someplace505).** On 22 videos, @someplace505 uploaded its own audio, creating a new sound titled "original sound - ￴ ￴". 19 of those 22 were also served as the original file, likely via the third-party uploader (§1.3).
    - Those 19 did **10.27×** (95% beat their week's median).
    - The quality bypass *on its own* showed no benefit: original-file uploads that used another account's sound did **0.81×** (n=17), worse than re-encoded uploads with the same kind of sound (1.68×).
-   - So the hits are a specific batch of own-audio uploads. What's *in* that batch (the footage or the audio) is the open question, and watching those 19 videos would answer it.
+   - So the hits are a specific batch of own-audio uploads. §2.6 covers 8 of them:
+     - all self-filmed China/Hong Kong travel POV, one take, 7–11 s;
+     - the top 5 all open with an upward reveal;
+     - the audio is a mix of anime dialogue, ambient/synth and slowed songs.
    - @elsewhere557 never does this.
 5. **Slightly longer clips:** 11–14 s+ did 1.13–1.98× on both accounts, but sample sizes are small.
 
@@ -219,6 +222,40 @@ On @elsewhere557, which is all re-encoded, another account's sound did 1.24× vs
   - So for slow mood footage, a 30 fps export should look cleaner after re-encoding.
 
 **Limit:** this is what an anonymous web viewer was offered at one moment. The phone app, or the first few hours after posting, may behave differently.
+
+## 2.6 Inside @someplace505's hit batch (8 of the 19 own-audio, original-file videos watched)
+
+**Method:**
+- vidIQ AI frame-by-frame breakdowns, 2026-10-21.
+- Picked to span the batch's results: the top 5 by views, plus 3 lower ones.
+- Song and dialogue identifications are vidIQ's and unverified.
+
+| Views | Location (from signage and landmarks) | Footage | Opening | Audio | Length |
+|---|---|---|---|---|---|
+| 20,600,000 | Jiuzhaigou Valley, Sichuan, China | Turquoise lake from a boardwalk, daytime | Tilt up from the water to the lake and mountains | *Attack on Titan* dialogue, Japanese ("beyond the walls is the ocean… beyond the ocean is freedom"), plus animated Japanese text of the line. **The only video with on-screen text.** | 8 s |
+| 6,200,000 | Central, Hong Kong | Night skyline (Bank of China Tower) from a footbridge | Fast whip-pan up from the street | Instrumental synth plus a whoosh effect | 8.8 s |
+| 2,500,000 | Changsha, Hunan, China | Rainy night street under an umbrella | Tilt up from wet pavement | English indie song ("And she cried… over nothing…") | 11 s |
+| 2,200,000 | Jiuzhaigou Valley, China | Turquoise lake, autumn leaves | Tilt up from the deck | *Attack on Titan* dialogue, Japanese ("this is… freedom") | 10 s |
+| 2,000,000 | Victoria Harbour, Hong Kong | Stormy harbour at night, heavy blue grade | Tilt up from the railing | Storm ambience plus a synth bed, no vocals | 7 s |
+| 250,800 | Unnamed Chinese city | Rainy street seen through a wet window, from above | Static | English song with the same lyric as the 2.5M video | 9 s |
+| 58,700 | Chongqing, China | Rooftop skywalk over the night skyline | Tilt up from the feet | Slowed + reverb English pop | 10 s |
+| 39,400 | Hong Kong | Rainy night street under an umbrella, two people in raincoats | Slight forward pan | Slowed + reverb English song (vidIQ: Don Toliver, "No Idea") | 7 s |
+
+**What all 8 share:**
+- **Self-filmed travel footage from China and Hong Kong.** Jiuzhaigou appears twice, Hong Kong three times, plus Changsha, Chongqing and one unnamed city. No watermarks, logos or other creators' marks.
+  - This is *not* the Japan footage seen on @elsewhere557. The visual identity is "East Asian cityscape and nature", not Japan specifically.
+- **One continuous shot, 7–11 s, no cuts.** No speed ramps, and none loop seamlessly.
+
+**What separates the top 5 from the lower 3 (only 8 videos, so suggestive only):**
+- **Opening move:** all 5 top videos open with an upward camera move (a tilt-up or whip-pan reveal). Only 1 of the 3 lower ones does.
+- **Audio:** the top 5 lean on non-song audio (2× anime dialogue, 2× ambient/synth). The lower 3 are all slowed English songs.
+  - *But* across the whole 19-video batch, the 5 clips TikTok matched to a commercial song did 15.7× the week median, vs 8.8× for the 14 with no match.
+  - So "song vs no song" doesn't explain the batch's performance.
+- **Theme matching:** the biggest hit pairs a "freedom / beyond the walls is the ocean" line with a reveal of a vast turquoise lake. The audio's meaning matches the picture.
+
+**Limits:**
+- The account's *other* videos (picked sounds, re-encoded) weren't watched, so I can't yet say how the batch's footage differs from them.
+- vidIQ named two different songs ("Her" by eeryskies; "Romantic Homicide" by d4vd) for the same lyric in two videos. Treat song names as unverified.
 
 ## 3. Caveats
 
