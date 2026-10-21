@@ -176,6 +176,29 @@ Each factor helps on its own; together they're strongest.
 
 ---
 
+## 2.5 Does TikTok restrict quality for low-view posts? (tested 2026-10-21)
+
+**Not in this data.**
+
+| Views | @elsewhere557: has a 1080p tier | @elsewhere557: best-tier bitrate (median) | @someplace505: has a 1080p tier |
+|---|---|---|---|
+| <10K | 81% (44/54) | 1,958 kbps | 75% (12/16) |
+| 10K–100K | 96% (225/235) | 2,012 kbps | 34% (32/93) |
+| 100K–1M | 99% (186/188) | 1,983 kbps | 9% (1/11) |
+| 1M+ | 99% (94/95) | 2,006 kbps | 12% (2/17) |
+
+- **@elsewhere557:**
+  - Best-tier bitrate is flat across every view level.
+  - All 20 videos posted in the last 3 days already had a 1080p tier (median 32K views).
+  - So a missing 1080p tier is more likely a property of that upload than a penalty for low views.
+- **@someplace505 shows the reverse:** its *popular* videos were offered fewer and lower tiers. Its 8.6M-view video was offered only at 480p. That might be TikTok saving bandwidth on heavily-watched videos, or it may depend on the device requesting it.
+- **No re-encoded tier above 1080×1920 exists in any of the 748 videos.** A 4K upload is only ever *seen* in 4K when TikTok serves the original file (@someplace505's case).
+- **60 fps gets half the bits per frame.** TikTok gives 1080p HEVC tiers about the same bitrate at both frame rates: a median of 1,764 kbps at ~30 fps vs 1,836 kbps at ~60 fps. That's **64 vs 31 kb per frame**.
+  - 60 fps also showed no view benefit: 1.00× vs 1.15× (§2).
+  - So for slow mood footage, a 30 fps export should look cleaner after re-encoding.
+
+**Limit:** this is what an anonymous web viewer was offered at one moment. The phone app, or the first few hours after posting, may behave differently.
+
 ## 3. Caveats
 
 1. **Correlation, not cause.** For example, the operator may use the HD upload method or baked-in audio on footage they already think is strongest.
