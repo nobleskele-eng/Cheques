@@ -2,8 +2,8 @@
 Updated 2026-10-22 11:42 UTC by cloud session (v7b: elm outreach). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
-- Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K views): 8–11% likes, 0.6–1.1% shares. Breakouts (100K+): 21–25% likes, 2–4% shares (lifetime rates on 200K–380K accounts: direction only). [C] [L csv]
+- ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct). [C]
+- Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K views): 8–11% likes, 0.6–1.1% shares. Breakouts (100K+): 21–25% likes, 2–4% shares (lifetime rates; direction only). [C] [L csv]
 - Sourcing is good enough [V]: permissioned Douyin clips, and big accounts got millions from clips Vyx posted first. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
 
@@ -33,7 +33,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
 - **rvf5567 DM'd us 22 Oct:** "all your videos are reposted". True by design (permissioned reposts); likely a course-funnel opener [est]. Reply: ask which clips. Source doubts: p62 (_青), Hana. [V]
-- **elm (new contact, 22 Oct [V]):** Vyx messaged them on Discord (link in their bio). No course seen, so maybe willing to share tips. Not yet in library/accounts; TikTok handle needed.
+- **elm:** Vyx DM'd on Discord 22 Oct (bio link); no course seen. Handle not logged. [V]
 - **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
 
 ## 5. Waiting on Vyx
