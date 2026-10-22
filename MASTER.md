@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-22 by local session (v4: reports folded; inbox p65–p72 all used; p73–p75 approved). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-22 by local session (v5: p74 posted, p73 stuck at lite, end-session protocol). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 39 public posts, 3–21 Oct; nothing newer pulled (cloud self pull denied 22 Oct; local deep-dive used the 21 Oct csv). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -35,11 +35,11 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Our log is behind Vyx:** p65 and p69 were rejected at lite. Vyx also said "67", but p67 was posted on 20 Oct (link + 159 views), so the third reject is probably p66 or p68. The other four are likely the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, and 02:00 scheduled at 00:06), not mapped yet. [V][L]
 
 ## 5. Waiting on Vyx
-1. **Third lite reject:** not p66/p67/p68 [V]; unknown. Then Studio links for the posts.
-2. **Who is shortening the clips:** are you trimming them, or does TikTok cut them when you add the sound? Still open. Either way, post at full length.
-3. Fill the tiktok_link for each posted p-number (Studio post list), starting with the 4 posts in §4.
-4. Still open: 雾必野 permission; download 鱼丸三三.
-5. Self pull is blocked in the cloud: rerun it locally or in a session allowed to fetch the profile.
+1. **p74 (first new-recipe post):** link, file used (edit or original), length shown on TikTok, 1 h and 24 h views/likes/shares. Bar: >5% likes and any shares.
+2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
+3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
+4. Download p75/p76 (one load each, or Vyx's SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
+5. Cloud self pull: first test of pull_account.py is the Sat 24 Oct run.
 - Answered 21 Oct: editing and colour correction OK (rule 1); scripts never fetch our own videos (rule 3).
 
 ## 6. Pipeline

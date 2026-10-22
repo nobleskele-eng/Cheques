@@ -9,6 +9,16 @@ Current state, findings and next steps: @MASTER.md
 - Never claim something works unless it was checked.
 - Label every number as sourced (say where) or estimate.
 - Don't move or reorganise files without a yes. Don't bring up swimming.
+- **Check status first:** Vyx posts and runs Content check lite on their own, so log.csv lags behind. Before planning posts, confirm what was already posted or rejected, then record it.
+
+## Sessions: one-shot, GitHub is the memory
+Vyx never reopens a finished session. Each new session starts from this file, MASTER.md and `git log -15 --stat`. Never rely on an earlier chat.
+- **During a session:** push after every change of state (a clip in, a post made, a check result, a decision).
+- **When Vyx says "end session":**
+  1. `git pull --rebase`.
+  2. Write every new fact, decision and open question into the file that owns it: MASTER.md (under the cap), log.csv, library/, docs/ or reports/.
+  3. Commit and push to main. Check that `git ls-remote origin main` matches `git rev-parse HEAD`.
+  4. Reply with a summary of 3–5 lines and the commit hash. If something couldn't be saved, say what.
 
 ## Hard rules (never break, whoever asks)
 1. **Editing is OK, evading isn't** (Vyx, 21 Oct). Colour correction, exposure, denoise, re-export and trims are fine. Still banned: any change made to fool TikTok's duplicate matching (mirroring, speed changes, borders/overlays/noise added to dodge detection). Keep the untouched original and save edits as `pNN <content> edit.mp4`.

@@ -30,14 +30,23 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 - DM text (from 21 Oct; covers colour correction and trims): 你好！很喜欢你这条视频，想问一下可以发到我的TikTok（海外）账号吗？可能会稍微调色或剪短一点，不加字，文案里会注明你的抖音号。方便的话能发一下原片就更好了，谢谢！
   (Roughly: "May I post it on my overseas TikTok? I may lightly colour-correct or shorten it, no added text, and I'll credit your Douyin ID. The original file would be great.")
 - Old DM (permissions for p50–p72 were asked with this): …不剪辑、不加字… = "no cutting/editing, no text". Keep those clips full length; colour correction only.
-- **Edits:** never overwrite the original. Save as `pNN <content> edit.mp4` next to it and note the change in log.csv `notes`.
+- **Edits:** never overwrite the original. Save as `pNN <content> edit.mp4` next to it and note the change in log.csv `notes`. Recipes used 22 Oct (all ffmpeg, libx264 slow, CRF 16, AAC 192k, full length):
+  - **Bright clips:** `eq=gamma=1.08–1.15,hqdn3d=1.5:1.2:2:2`, plus `scale=1080:-2` if the source is bigger. YAVG +6 to +11.
+  - **Dark interiors** (e.g. a train window): `hqdn3d=3:2.5:3:3,curves=all='0/0 0.12/0.19 0.5/0.56 1/1'` lifts the shadows without blowing out the window. YAVG 45→53.
+  - Check that the frame count and length match the original, then look at a before/after pair.
+- **Precheck quirk:** an edit always shows "same footage" as its original plus "no permission found". That's expected, since permission lives on the original's row.
+- **Clips Vyx downloads:** when our pane is bounced, Vyx sometimes downloads clips themselves. They land in `C:\Users\Yichen\Downloads` as `SaveTik.co_<douyin id>-hd.mp4` (1080p, 1.3–1.9 Mbps, below Option B's 1440p–4K). Copy them, don't move them, into inbox\ as the next pNN, and match by the id in the filename.
 
 ## 4. Posting gate
 - **TikTok Studio web upload → "Content check lite"** (~10 min). PASS → no FYP flag 3/3 (p60, p64, p67). ERROR → p54 (not posted), p58 (flagged). Post only on a PASS (n small, keep scoring it).
 - Post directly, hours apart. Credit the Douyin creator in the caption.
 
 ## 5. TikTok data
-- **Bulk stats (CLOUD, Python):** `research/scripts/pull_items.py` pages `api/creator/item_list` from a profile's secUid; `pull_tech.py` / `pull_music.py` add encoding and sound fields; `own_account.py` prints our per-post table. Model: `python3 research/model/success_model.py` (needs numpy).
+- **Bulk stats (CLOUD, Python):** run `python3 -I research/scripts/pull_account.py <handles>`. It wraps `pull_items.py`, `pull_tech.py`, `pull_music.py` and `build_csvs.py`, and stops at the first block. Sounds: `proven_sounds.py`. Model: `python3 research/model/success_model.py` (needs numpy).
+- **Cloud lessons (22 Oct run):** environment "Hi" reaches www.tiktok.com.
+  - The auto-mode safety classifier denied a hand-rolled curl of our own profile, so always use the committed script.
+  - The cloud git proxy refuses tag pushes, so the weekly tag comes from `.github/workflows/snapshot.yml`.
+  - Debug a routine with RemoteTrigger `list_runs`, then `get_run_log`.
 - **Logged-out profile facts (LOCAL browser):** `#__UNIVERSAL_DATA_FOR_REHYDRATION__` → `__DEFAULT_SCOPE__['webapp.user-detail'].userInfo` gives createTime, name-change times, language, bio, bioLink, stats. Loads even when the grid shows "Something went wrong".
 - **Collision check (LOCAL):** dHash frame 1 of each candidate (9x8 + mirrored) on douyin.com; on a TikTok grid, reload covers with crossOrigin=anonymous, hash, flag Hamming ≤14, eyeball flagged pairs. Scripts in tiktok.com localStorage (`__c2`, refs `__refs3`). Only catches covers that are frame 1. Pinned posts break the date cutoff (use `__c2`).
 - Short links: `curl -s -o /dev/null -w "%{redirect_url}" https://vt.tiktok.com/...` gives the full URL without loading the page.
