@@ -50,7 +50,6 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
   - **Not downloaded** (our Douyin pane was bounced 22 Oct): p75 谢景行 7693926803313088960 (7.7 s Dali lane, shares 33% of likes) and p76 韬 7697564623889337435 (8.0 s HK rain, dark).
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
-- Screen opening frames at 0.1 s: some clips open on a 0.05–0.1 s creator cover still. [L]
 - Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
 - Seasonal lead: Yunnan 冬樱花 (winter cherry), usually mid-Nov to Dec [est, verify].
 - Score so far: snow posts 0 for 4 (p48 699, p49 332, p64 681, p67 155); p60 712. No theme has beaten ~700. [C data]
@@ -59,4 +58,4 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - `reports/rivals.md` 22 Oct: "Let Go" live hit; decay continues; someplace505 encoding pull failed.
 - `reports/self.md` 22 Oct (local, 21 Oct csv): 9 of 12 clips cut; scheduled vs direct; hour split.
 - `reports/scout.md` 22 Oct: 3 DM picks; Douyin throttled at load 11 (use rec lists and profiles on such days).
-- `reports/gate.md` 22 Oct: checked p65–p72 (now all used); edit recipe = `eq=gamma=1.10–1.15` + light hqdn3d + 1080 wide, CRF 16.
+- `reports/gate.md` 22 Oct: p65–p72 checks; the edit recipe.

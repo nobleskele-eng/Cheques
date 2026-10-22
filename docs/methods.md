@@ -18,6 +18,7 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 5. **No baked-in signature/text:** check frames at 1/4/8 s and the end at ≥480–540 px wide (Iuk, 7na. bake a cursive name at right-middle; contact sheets miss it). A clear umbrella with a real leaf is not an overlay.
 6. **Shares > likes** = already passed around → backup only.
 7. Vertical, not sideways (check the video page dims). Exclude #可灵AI / AI生成.
+   Also look at frames from 0.1 s: some clips open on a 0.05–0.1 s creator cover still.
 8. Reposts: identical first frame + identical length across accounts → only the earliest poster can give permission.
 
 ## 3. Permission → download → name
