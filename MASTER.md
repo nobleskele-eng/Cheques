@@ -33,7 +33,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
 - **rvf5567 DM'd us 22 Oct:** "all your videos are reposted". True by design (permissioned reposts); likely a course-funnel opener [est]. Reply: ask which clips. Source doubts: p62 (_青), Hana. [V]
-- **@.1elm:** DM'd on Discord 22 Oct [V]. Pulled: 757 posts since Dec 2023, ~1/day, 11 s median, 1080p on 79%; Oct 2026 median 140K, 24% likes. First months: ~1.3K, 8–9% likes. [C]
+- **@.1elm:** DM'd on Discord 22 Oct [V]. 757 posts since Dec 2023, ~1/day, 11 s, 1080p 79%; Oct median 140K, 24% likes; first months ~1.3K. [C]
 - **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
 
 ## 5. Waiting on Vyx
