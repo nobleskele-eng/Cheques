@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-10-21T19:16:19+00:00",
+ "snapshot": "2026-10-22T00:05:24+00:00",
  "n_active": 661,
  "n_train": 472,
  "n_test": 189,
@@ -10,115 +10,115 @@
    "label": "beats the account's median for that week",
    "base_rate_train": 0.4915254237288136,
    "base_rate_test": 0.5026455026455027,
-   "auc_test": 0.6954087346024636,
-   "brier_test": 0.22381357271656022,
+   "auc_test": 0.7013437849944009,
+   "brier_test": 0.22170704077889367,
    "brier_base": 0.2501166574708661,
-   "skill": 0.10516326669434117,
-   "mean_pred_test": 0.46760034287123964,
+   "skill": 0.11358546439587536,
+   "mean_pred_test": 0.4666951105748215,
    "effects": [
     {
      "feature": "acct_someplace",
      "desc": "Account is @someplace505 (control, not a choice)",
      "unit": "yes vs no",
-     "odds_ratio": 1.398094361512833,
-     "lo": 0.7891131092910969,
-     "hi": 2.347492322511275
+     "odds_ratio": 1.4283407091391478,
+     "lo": 0.7980109642174273,
+     "hi": 2.414993340736408
     },
     {
      "feature": "snd_other",
      "desc": "Sound: picked another account's sound (vs official library track)",
      "unit": "yes vs no",
-     "odds_ratio": 3.0562409710575964,
-     "lo": 2.0009532676009893,
-     "hi": 5.142432137752183
+     "odds_ratio": 3.1283487563605465,
+     "lo": 2.065810658017308,
+     "hi": 5.302672112711619
     },
     {
      "feature": "snd_own",
      "desc": "Sound: own audio uploaded with the video (vs official library track)",
      "unit": "yes vs no",
-     "odds_ratio": 3.941437742126045,
-     "lo": 1.635909773724058,
-     "hi": 11.85070501186806
+     "odds_ratio": 3.959815887569419,
+     "lo": 1.6238957662808824,
+     "hi": 12.048258178527751
     },
     {
      "feature": "matched_song",
      "desc": "TikTok matched the audio to a commercial song",
      "unit": "yes vs no",
-     "odds_ratio": 1.0920313574156915,
-     "lo": 0.7638406624692805,
-     "hi": 1.5968751094410552
+     "odds_ratio": 1.046005923060594,
+     "lo": 0.7265425072958565,
+     "hi": 1.5089912616115098
     },
     {
      "feature": "orig_file",
      "desc": "Served as the original file (third-party upload method)",
      "unit": "yes vs no",
-     "odds_ratio": 1.16307975544026,
-     "lo": 0.4839735684155462,
-     "hi": 2.788130858111328
+     "odds_ratio": 1.152873657321664,
+     "lo": 0.4843205557563666,
+     "hi": 2.770065296626711
     },
     {
      "feature": "has_1080",
      "desc": "Has a 1080p (or higher) version",
      "unit": "yes vs no",
-     "odds_ratio": 1.0669247566309774,
-     "lo": 0.6747028211961605,
-     "hi": 1.9545550252104653
+     "odds_ratio": 1.0746866037596183,
+     "lo": 0.692662590003162,
+     "hi": 1.9563889946422695
     },
     {
      "feature": "fps_60",
      "desc": "Uploaded at ~60 fps",
      "unit": "yes vs no",
-     "odds_ratio": 1.055427035573234,
-     "lo": 0.6986730083239828,
-     "hi": 1.5644311507903164
+     "odds_ratio": 1.0110669606569258,
+     "lo": 0.6532810357036989,
+     "hi": 1.5062779067536023
     },
     {
      "feature": "duration",
      "desc": "Length (seconds)",
      "unit": "per +2.4",
-     "odds_ratio": 1.1561341470814994,
-     "lo": 0.9710692626880919,
-     "hi": 1.3442265378070346
+     "odds_ratio": 1.1543028936291242,
+     "lo": 0.9719861640399932,
+     "hi": 1.3431566810889328
     },
     {
      "feature": "posts_that_day",
      "desc": "Posts by the account that day",
      "unit": "per +5.6",
-     "odds_ratio": 0.9662767909781542,
-     "lo": 0.7746207797672816,
-     "hi": 1.1598381628269814
+     "odds_ratio": 0.9802228089181602,
+     "lo": 0.7916390880705836,
+     "hi": 1.1780537098603958
     },
     {
      "feature": "first_of_day",
      "desc": "First post of the account's day",
      "unit": "yes vs no",
-     "odds_ratio": 1.2619380162241616,
-     "lo": 0.8293923963610418,
-     "hi": 1.9672739005609876
+     "odds_ratio": 1.2671494249274526,
+     "lo": 0.8353181486376654,
+     "hi": 1.9785229099884025
     },
     {
      "feature": "log_sound_age",
      "desc": "Sound age when used (log days)",
      "unit": "per +1.9",
-     "odds_ratio": 0.8682637045037429,
-     "lo": 0.7193920809498353,
-     "hi": 1.0398659012624916
+     "odds_ratio": 0.8684257387329416,
+     "lo": 0.7186442466161108,
+     "hi": 1.0402839774556143
     },
     {
      "feature": "log_prior_uses",
      "desc": "Earlier uses of the same sound by these accounts (log count)",
      "unit": "per +1.1",
-     "odds_ratio": 1.0750722376074098,
-     "lo": 0.8981599158716925,
-     "hi": 1.2842367628083726
+     "odds_ratio": 1.0709060301186983,
+     "lo": 0.8882821608324637,
+     "hi": 1.2728643212224917
     },
     {
      "feature": "prior_beat_rate",
      "desc": "Share of those earlier uses that beat their week median",
      "unit": "per +0.28",
-     "odds_ratio": 1.257461381078973,
-     "lo": 1.067897579952858,
-     "hi": 1.4910427649628155
+     "odds_ratio": 1.2709816538905354,
+     "lo": 1.0784930403758954,
+     "hi": 1.5149780168191824
     }
    ],
    "scenarios": [
@@ -126,97 +126,97 @@
      "name": "Plan A",
      "desc": "Another account's sound (new to these accounts), 1080p, 30 fps, 11 s, 3 posts/day",
      "baseline": "someplace505",
-     "p": 0.651567089368719,
-     "lo": 0.530176760417236,
-     "hi": 0.7492078343846792
+     "p": 0.659924125282966,
+     "lo": 0.5426962195591426,
+     "hi": 0.7560089810403406
     },
     {
      "name": "Plan A",
      "desc": "Another account's sound (new to these accounts), 1080p, 30 fps, 11 s, 3 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.5721979786226573,
-     "lo": 0.4731986626106021,
-     "hi": 0.6610200491983292
+     "p": 0.576016724449761,
+     "lo": 0.4789046957503403,
+     "hi": 0.6705124242225969
     },
     {
      "name": "Plan A at 60 fps",
      "desc": "Same as Plan A but uploaded at 60 fps",
      "baseline": "someplace505",
-     "p": 0.66371194166485,
-     "lo": 0.5468231649356122,
-     "hi": 0.7629126703531083
+     "p": 0.6623898121108968,
+     "lo": 0.5485434955450174,
+     "hi": 0.7647768152172018
     },
     {
      "name": "Plan A at 60 fps",
      "desc": "Same as Plan A but uploaded at 60 fps",
      "baseline": "elsewhere557",
-     "p": 0.5853487418443241,
-     "lo": 0.49779971726869987,
-     "hi": 0.6778659306027209
+     "p": 0.5787023932336706,
+     "lo": 0.48924553692274575,
+     "hi": 0.666636700076698
     },
     {
      "name": "Same, reusing a proven sound",
      "desc": "Plan A, but the sound was used twice before here and both times beat the median",
      "baseline": "someplace505",
-     "p": 0.7519495567558375,
-     "lo": 0.651884770713518,
-     "hi": 0.8361812564185275
+     "p": 0.7611130273724505,
+     "lo": 0.6615554958210058,
+     "hi": 0.8410675223039809
     },
     {
      "name": "Same, reusing a proven sound",
      "desc": "Plan A, but the sound was used twice before here and both times beat the median",
      "baseline": "elsewhere557",
-     "p": 0.6843697651271343,
-     "lo": 0.5893509681671564,
-     "hi": 0.7775293725524957
+     "p": 0.6904615397785856,
+     "lo": 0.5964511184281627,
+     "hi": 0.7830634422290409
     },
     {
      "name": "@elsewhere557's typical",
      "desc": "Another account's sound, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "someplace505",
-     "p": 0.6038752269180268,
-     "lo": 0.47473985342223807,
-     "hi": 0.7128563121943633
+     "p": 0.60576277111317,
+     "lo": 0.4756524235478499,
+     "hi": 0.7156573600953872
     },
     {
      "name": "@elsewhere557's typical",
      "desc": "Another account's sound, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.5216185668707102,
-     "lo": 0.4597858190047985,
-     "hi": 0.5837708573990846
+     "p": 0.5182474382724159,
+     "lo": 0.45641678052150114,
+     "hi": 0.581279313276565
     },
     {
      "name": "Official library track",
      "desc": "Official library track, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "someplace505",
-     "p": 0.3328001722161244,
-     "lo": 0.2333904640143168,
-     "hi": 0.459285937979159
+     "p": 0.32938460719332413,
+     "lo": 0.227058922388578,
+     "hi": 0.45366288517660613
     },
     {
      "name": "Official library track",
      "desc": "Official library track, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.26295665286076464,
-     "lo": 0.1903321384964705,
-     "hi": 0.3521674282268882
+     "p": 0.25588201821572915,
+     "lo": 0.18068851029777164,
+     "hi": 0.3381058645627483
     },
     {
      "name": "@someplace505 hit recipe",
      "desc": "Own audio + original-file upload (third-party tool), 9 s, 3 posts/day",
      "baseline": "someplace505",
-     "p": 0.7751305775277229,
-     "lo": 0.6527529176548779,
-     "hi": 0.8736876361466737
+     "p": 0.7769409314431615,
+     "lo": 0.6573016131357391,
+     "hi": 0.8759923011563139
     },
     {
      "name": "@someplace505 hit recipe",
      "desc": "Own audio + original-file upload (third-party tool), 9 s, 3 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.7114427561727795,
-     "lo": 0.531027980768501,
-     "hi": 0.8492889942235218
+     "p": 0.7091819442852197,
+     "lo": 0.5305757186045553,
+     "hi": 0.8473398761422829
     }
    ],
    "base_rate_all": 0.4947049924357035,
@@ -227,115 +227,115 @@
    "label": "reaches 100K+ views",
    "base_rate_train": 0.5317796610169492,
    "base_rate_test": 0.2857142857142857,
-   "auc_test": 0.6925925925925925,
-   "brier_test": 0.21054208800613805,
+   "auc_test": 0.6927297668038409,
+   "brier_test": 0.21055673167765945,
    "brier_base": 0.2646298015759019,
-   "skill": 0.2043901074167198,
-   "mean_pred_test": 0.4374487708539994,
+   "skill": 0.20433477097526764,
+   "mean_pred_test": 0.4371249076147899,
    "effects": [
     {
      "feature": "acct_someplace",
      "desc": "Account is @someplace505 (control, not a choice)",
      "unit": "yes vs no",
-     "odds_ratio": 0.6944798097378898,
-     "lo": 0.4215450442456517,
-     "hi": 1.1687708574714806
+     "odds_ratio": 0.696579028844503,
+     "lo": 0.42358473402780805,
+     "hi": 1.1702776848263106
     },
     {
      "feature": "snd_other",
      "desc": "Sound: picked another account's sound (vs official library track)",
      "unit": "yes vs no",
-     "odds_ratio": 5.424072941725553,
-     "lo": 3.416075853810441,
-     "hi": 9.942707183227883
+     "odds_ratio": 5.347964734806606,
+     "lo": 3.376032291307825,
+     "hi": 9.860311874167138
     },
     {
      "feature": "snd_own",
      "desc": "Sound: own audio uploaded with the video (vs official library track)",
      "unit": "yes vs no",
-     "odds_ratio": 2.206697776741399,
-     "lo": 0.8623339151244028,
-     "hi": 4.859225100521091
+     "odds_ratio": 2.175730764616569,
+     "lo": 0.8503960254912614,
+     "hi": 4.677477345555836
     },
     {
      "feature": "matched_song",
      "desc": "TikTok matched the audio to a commercial song",
      "unit": "yes vs no",
-     "odds_ratio": 0.7608473899089028,
-     "lo": 0.5321953070796157,
-     "hi": 1.0153359041368357
+     "odds_ratio": 0.7425693239919612,
+     "lo": 0.5301105203711728,
+     "hi": 0.9959750887818769
     },
     {
      "feature": "orig_file",
      "desc": "Served as the original file (third-party upload method)",
      "unit": "yes vs no",
-     "odds_ratio": 1.3364775450655695,
-     "lo": 0.5930771396749851,
-     "hi": 3.14162434411959
+     "odds_ratio": 1.3343911982641528,
+     "lo": 0.5921927712420029,
+     "hi": 3.1387381418802445
     },
     {
      "feature": "has_1080",
      "desc": "Has a 1080p (or higher) version",
      "unit": "yes vs no",
-     "odds_ratio": 0.9007370113047457,
-     "lo": 0.5549851371646853,
-     "hi": 1.4987332714102894
+     "odds_ratio": 0.8971996962448167,
+     "lo": 0.553518597262377,
+     "hi": 1.495889584691497
     },
     {
      "feature": "fps_60",
      "desc": "Uploaded at ~60 fps",
      "unit": "yes vs no",
-     "odds_ratio": 1.3122709630433445,
-     "lo": 0.8588316315481332,
-     "hi": 1.9622849259763884
+     "odds_ratio": 1.313983644825096,
+     "lo": 0.8588154292274093,
+     "hi": 1.9660718402113673
     },
     {
      "feature": "duration",
      "desc": "Length (seconds)",
      "unit": "per +2.4",
-     "odds_ratio": 1.1517471526616998,
-     "lo": 0.9896768797136901,
-     "hi": 1.3492445031261286
+     "odds_ratio": 1.1526088249977626,
+     "lo": 0.9904675846950253,
+     "hi": 1.3493183263970092
     },
     {
      "feature": "posts_that_day",
      "desc": "Posts by the account that day",
      "unit": "per +5.6",
-     "odds_ratio": 0.8125707858596167,
-     "lo": 0.6486851109228741,
-     "hi": 1.0066970640096928
+     "odds_ratio": 0.8146565304633048,
+     "lo": 0.649837914174684,
+     "hi": 1.0087037512211294
     },
     {
      "feature": "first_of_day",
      "desc": "First post of the account's day",
      "unit": "yes vs no",
-     "odds_ratio": 1.2236617195715331,
-     "lo": 0.7869726279364274,
-     "hi": 1.923312177377996
+     "odds_ratio": 1.225351392684603,
+     "lo": 0.789910435609632,
+     "hi": 1.9256539190772175
     },
     {
      "feature": "log_sound_age",
      "desc": "Sound age when used (log days)",
      "unit": "per +1.9",
-     "odds_ratio": 0.8500308633348913,
-     "lo": 0.688882526046308,
-     "hi": 1.0498971391482164
+     "odds_ratio": 0.8503832729678814,
+     "lo": 0.688503647191674,
+     "hi": 1.050379281856309
     },
     {
      "feature": "log_prior_uses",
      "desc": "Earlier uses of the same sound by these accounts (log count)",
      "unit": "per +1.1",
-     "odds_ratio": 1.0788655586386409,
-     "lo": 0.8746378200212144,
-     "hi": 1.3076626078348765
+     "odds_ratio": 1.0753039751991806,
+     "lo": 0.8746696601276521,
+     "hi": 1.2981758783318604
     },
     {
      "feature": "prior_beat_rate",
      "desc": "Share of those earlier uses that beat their week median",
      "unit": "per +0.28",
-     "odds_ratio": 1.115252664400318,
-     "lo": 0.9239541335483981,
-     "hi": 1.3626652779253718
+     "odds_ratio": 1.12069914758505,
+     "lo": 0.926731176843168,
+     "hi": 1.3694673362438126
     }
    ],
    "scenarios": [
@@ -343,97 +343,97 @@
      "name": "Plan A",
      "desc": "Another account's sound (new to these accounts), 1080p, 30 fps, 11 s, 3 posts/day",
      "baseline": "someplace505",
-     "p": 0.36769603518768107,
-     "lo": 0.27730381106259994,
-     "hi": 0.4777824412835225
+     "p": 0.36739249543394753,
+     "lo": 0.27666846176589216,
+     "hi": 0.4776083001631913
     },
     {
      "name": "Plan A",
      "desc": "Another account's sound (new to these accounts), 1080p, 30 fps, 11 s, 3 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.45573582330423384,
-     "lo": 0.36540533393592556,
-     "hi": 0.563356338029092
+     "p": 0.4546635122776167,
+     "lo": 0.3647843816581995,
+     "hi": 0.5625020663816601
     },
     {
      "name": "Plan A at 60 fps",
      "desc": "Same as Plan A but uploaded at 60 fps",
      "baseline": "someplace505",
-     "p": 0.43282008405337086,
-     "lo": 0.3133346690694594,
-     "hi": 0.5497143407495785
+     "p": 0.432819710860306,
+     "lo": 0.3134970092599577,
+     "hi": 0.5504902936990845
     },
     {
      "name": "Plan A at 60 fps",
      "desc": "Same as Plan A but uploaded at 60 fps",
      "baseline": "elsewhere557",
-     "p": 0.5235420186985085,
-     "lo": 0.44446217167671676,
-     "hi": 0.6081335400363116
+     "p": 0.5227887186685608,
+     "lo": 0.44376814593295716,
+     "hi": 0.6081454380963999
     },
     {
      "name": "Same, reusing a proven sound",
      "desc": "Plan A, but the sound was used twice before here and both times beat the median",
      "baseline": "someplace505",
-     "p": 0.43257156764284255,
-     "lo": 0.32972911202674526,
-     "hi": 0.5452392337748568
+     "p": 0.43329096919779886,
+     "lo": 0.3312094554450567,
+     "hi": 0.5450032667947562
     },
     {
      "name": "Same, reusing a proven sound",
      "desc": "Plan A, but the sound was used twice before here and both times beat the median",
      "baseline": "elsewhere557",
-     "p": 0.5232894713222436,
-     "lo": 0.41525145187817414,
-     "hi": 0.636829306174514
+     "p": 0.5232675612838844,
+     "lo": 0.41518271814584895,
+     "hi": 0.6364312654321957
     },
     {
      "name": "@elsewhere557's typical",
      "desc": "Another account's sound, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "someplace505",
-     "p": 0.3382288104260141,
-     "lo": 0.235602560860215,
-     "hi": 0.4449677179894265
+     "p": 0.33846636624674425,
+     "lo": 0.23593633705789352,
+     "hi": 0.44487674178723313
     },
     {
      "name": "@elsewhere557's typical",
      "desc": "Another account's sound, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.4239436227570174,
-     "lo": 0.37875402413084697,
-     "hi": 0.47301567395063504
+     "p": 0.4234657590004038,
+     "lo": 0.3781974875545775,
+     "hi": 0.4721478728948908
     },
     {
      "name": "Official library track",
      "desc": "Official library track, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "someplace505",
-     "p": 0.08611318139243633,
-     "lo": 0.049714050271335006,
-     "hi": 0.12966531100181464
+     "p": 0.08731630450649178,
+     "lo": 0.05027712696788841,
+     "hi": 0.13144995461590964
     },
     {
      "name": "Official library track",
      "desc": "Official library track, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.11947070005596673,
-     "lo": 0.07640904524354013,
-     "hi": 0.1654199136677334
+     "p": 0.12075730884500521,
+     "lo": 0.07736312732860638,
+     "hi": 0.16701226558821186
     },
     {
      "name": "@someplace505 hit recipe",
      "desc": "Own audio + original-file upload (third-party tool), 9 s, 3 posts/day",
      "baseline": "someplace505",
-     "p": 0.2904470157146317,
-     "lo": 0.16719959042402818,
-     "hi": 0.44262355789157587
+     "p": 0.2895324793262728,
+     "lo": 0.16565435226263608,
+     "hi": 0.4421507793579663
     },
     {
      "name": "@someplace505 hit recipe",
      "desc": "Own audio + original-file upload (third-party tool), 9 s, 3 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.37083838544988323,
-     "lo": 0.19043650551091565,
-     "hi": 0.5653249127565746
+     "p": 0.3690995427779801,
+     "lo": 0.18921930634456785,
+     "hi": 0.5632421863925269
     }
    ],
    "base_rate_all": 0.46142208774583965,
@@ -444,115 +444,115 @@
    "label": "reaches 1M+ views",
    "base_rate_train": 0.21398305084745764,
    "base_rate_test": 0.07407407407407407,
-   "auc_test": 0.5081632653061224,
-   "brier_test": 0.08555753626544019,
+   "auc_test": 0.5106122448979592,
+   "brier_test": 0.08562189081348306,
    "brier_base": 0.08816162740591783,
-   "skill": 0.029537693632715856,
-   "mean_pred_test": 0.1621845681497361,
+   "skill": 0.02880773265154457,
+   "mean_pred_test": 0.16224477339973742,
    "effects": [
     {
      "feature": "acct_someplace",
      "desc": "Account is @someplace505 (control, not a choice)",
      "unit": "yes vs no",
-     "odds_ratio": 1.517031750722665,
-     "lo": 0.8036621472338544,
-     "hi": 2.7775010615494415
+     "odds_ratio": 1.5191199128225952,
+     "lo": 0.8044556022484078,
+     "hi": 2.7770773446392876
     },
     {
      "feature": "snd_other",
      "desc": "Sound: picked another account's sound (vs official library track)",
      "unit": "yes vs no",
-     "odds_ratio": 3.655519842001269,
-     "lo": 2.0988635254741683,
-     "hi": 7.960026644808167
+     "odds_ratio": 3.623280998722151,
+     "lo": 2.084290661771388,
+     "hi": 7.843416745257999
     },
     {
      "feature": "snd_own",
      "desc": "Sound: own audio uploaded with the video (vs official library track)",
      "unit": "yes vs no",
-     "odds_ratio": 2.431594492132113,
-     "lo": 0.8888007360682012,
-     "hi": 5.628033650998176
+     "odds_ratio": 2.4168782056778824,
+     "lo": 0.8823689977618417,
+     "hi": 5.581505446708357
     },
     {
      "feature": "matched_song",
      "desc": "TikTok matched the audio to a commercial song",
      "unit": "yes vs no",
-     "odds_ratio": 0.5388949925944998,
-     "lo": 0.309306699813045,
-     "hi": 0.8547021607427353
+     "odds_ratio": 0.531326020773062,
+     "lo": 0.30730496488950326,
+     "hi": 0.8494777071362994
     },
     {
      "feature": "orig_file",
      "desc": "Served as the original file (third-party upload method)",
      "unit": "yes vs no",
-     "odds_ratio": 0.9930632406997408,
-     "lo": 0.45872136994083473,
-     "hi": 2.090932148863254
+     "odds_ratio": 0.9917419042922158,
+     "lo": 0.4571572065114388,
+     "hi": 2.0826854814380664
     },
     {
      "feature": "has_1080",
      "desc": "Has a 1080p (or higher) version",
      "unit": "yes vs no",
-     "odds_ratio": 0.6130705564309386,
-     "lo": 0.3525560036387634,
-     "hi": 1.059221990074892
+     "odds_ratio": 0.6112717656609209,
+     "lo": 0.34958075980567643,
+     "hi": 1.0572027068995289
     },
     {
      "feature": "fps_60",
      "desc": "Uploaded at ~60 fps",
      "unit": "yes vs no",
-     "odds_ratio": 1.8152900948074782,
-     "lo": 1.1420727444542536,
-     "hi": 3.426456890664823
+     "odds_ratio": 1.819864944930641,
+     "lo": 1.1421318765778705,
+     "hi": 3.4303261303940227
     },
     {
      "feature": "duration",
      "desc": "Length (seconds)",
      "unit": "per +2.4",
-     "odds_ratio": 1.130236627515573,
-     "lo": 0.9347866143159962,
-     "hi": 1.3669753148379862
+     "odds_ratio": 1.1314536827461492,
+     "lo": 0.9354390255910621,
+     "hi": 1.3683145911312173
     },
     {
      "feature": "posts_that_day",
      "desc": "Posts by the account that day",
      "unit": "per +5.6",
-     "odds_ratio": 0.7711130782898583,
-     "lo": 0.5422704054540781,
-     "hi": 1.0100454269526629
+     "odds_ratio": 0.7715944639272586,
+     "lo": 0.5424115895450485,
+     "hi": 1.0102841829792444
     },
     {
      "feature": "first_of_day",
      "desc": "First post of the account's day",
      "unit": "yes vs no",
-     "odds_ratio": 1.2502985719981623,
-     "lo": 0.7307995209768756,
-     "hi": 2.032335679417023
+     "odds_ratio": 1.249916761199184,
+     "lo": 0.7306008078865921,
+     "hi": 2.032499333238461
     },
     {
      "feature": "log_sound_age",
      "desc": "Sound age when used (log days)",
      "unit": "per +1.9",
-     "odds_ratio": 0.8747337228162464,
-     "lo": 0.7095358901769322,
-     "hi": 1.1218812323484555
+     "odds_ratio": 0.8761386232586283,
+     "lo": 0.7103719209581814,
+     "hi": 1.1230665398641397
     },
     {
      "feature": "log_prior_uses",
      "desc": "Earlier uses of the same sound by these accounts (log count)",
      "unit": "per +1.1",
-     "odds_ratio": 1.0356526322568462,
-     "lo": 0.8261743311936217,
-     "hi": 1.3077897134910275
+     "odds_ratio": 1.0329445862271298,
+     "lo": 0.8237137964911301,
+     "hi": 1.3053596366572915
     },
     {
      "feature": "prior_beat_rate",
      "desc": "Share of those earlier uses that beat their week median",
      "unit": "per +0.28",
-     "odds_ratio": 1.1128059019077627,
-     "lo": 0.8688222954649129,
-     "hi": 1.4189473367349088
+     "odds_ratio": 1.1178757896235565,
+     "lo": 0.8708997651444549,
+     "hi": 1.4253624561119862
     }
    ],
    "scenarios": [
@@ -560,97 +560,97 @@
      "name": "Plan A",
      "desc": "Another account's sound (new to these accounts), 1080p, 30 fps, 11 s, 3 posts/day",
      "baseline": "someplace505",
-     "p": 0.12293189818649802,
-     "lo": 0.0781713618754073,
-     "hi": 0.1818216110280334
+     "p": 0.12261627674329449,
+     "lo": 0.07792883399008987,
+     "hi": 0.18120353107954346
     },
     {
      "name": "Plan A",
      "desc": "Another account's sound (new to these accounts), 1080p, 30 fps, 11 s, 3 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.08457809537066613,
-     "lo": 0.05003253126674414,
-     "hi": 0.12455420470397864
+     "p": 0.08424529463909555,
+     "lo": 0.049762046758800096,
+     "hi": 0.12424403955166038
     },
     {
      "name": "Plan A at 60 fps",
      "desc": "Same as Plan A but uploaded at 60 fps",
      "baseline": "someplace505",
-     "p": 0.20282853496224235,
-     "lo": 0.1247719089476897,
-     "hi": 0.3119514258248167
+     "p": 0.2027616781705716,
+     "lo": 0.12466589198890823,
+     "hi": 0.3115680048321915
     },
     {
      "name": "Plan A at 60 fps",
      "desc": "Same as Plan A but uploaded at 60 fps",
      "baseline": "elsewhere557",
-     "p": 0.14362969499040537,
-     "lo": 0.10537523294138824,
-     "hi": 0.1990669592704017
+     "p": 0.14340977892492546,
+     "lo": 0.10515992453854167,
+     "hi": 0.19897502535020478
     },
     {
      "name": "Same, reusing a proven sound",
      "desc": "Plan A, but the sound was used twice before here and both times beat the median",
      "baseline": "someplace505",
-     "p": 0.14952587428215916,
-     "lo": 0.09265449462952312,
-     "hi": 0.2223586645753118
+     "p": 0.14970702649488468,
+     "lo": 0.09284566623324855,
+     "hi": 0.22203705052258274
     },
     {
      "name": "Same, reusing a proven sound",
      "desc": "Plan A, but the sound was used twice before here and both times beat the median",
      "baseline": "elsewhere557",
-     "p": 0.10385745385502493,
-     "lo": 0.05419170608728121,
-     "hi": 0.16648280820590353
+     "p": 0.10386194641597592,
+     "lo": 0.05425318563341509,
+     "hi": 0.16593493961037975
     },
     {
      "name": "@elsewhere557's typical",
      "desc": "Another account's sound, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "someplace505",
-     "p": 0.14219244722617422,
-     "lo": 0.08532633483998713,
-     "hi": 0.22395977370801015
+     "p": 0.1420550970227164,
+     "lo": 0.08530301639473627,
+     "hi": 0.22405311664285707
     },
     {
      "name": "@elsewhere557's typical",
      "desc": "Another account's sound, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.09850439466408112,
-     "lo": 0.07419655555158435,
-     "hi": 0.12311539929468719
+     "p": 0.09828243251941692,
+     "lo": 0.07415848265695033,
+     "hi": 0.1228462430163928
     },
     {
      "name": "Official library track",
      "desc": "Official library track, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "someplace505",
-     "p": 0.04337879854587182,
-     "lo": 0.022248329024880067,
-     "hi": 0.07232322605715123
+     "p": 0.043700781837951376,
+     "lo": 0.022420224173589486,
+     "hi": 0.07299045191245648
     },
     {
      "name": "Official library track",
      "desc": "Official library track, 1080p, 60 fps, 8 s, 8 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.029023615656349217,
-     "lo": 0.016395909980579878,
-     "hi": 0.04323144402050697
+     "p": 0.0292032811393848,
+     "lo": 0.01642957906492394,
+     "hi": 0.04319470387438788
     },
     {
      "name": "@someplace505 hit recipe",
      "desc": "Own audio + original-file upload (third-party tool), 9 s, 3 posts/day",
      "baseline": "someplace505",
-     "p": 0.10230157948555287,
-     "lo": 0.041492850635415704,
-     "hi": 0.1753608037775429
+     "p": 0.10174628030202924,
+     "lo": 0.040910747855651686,
+     "hi": 0.17448878764507925
     },
     {
      "name": "@someplace505 hit recipe",
      "desc": "Own audio + original-file upload (third-party tool), 9 s, 3 posts/day",
      "baseline": "elsewhere557",
-     "p": 0.06987151384792573,
-     "lo": 0.02512641116721749,
-     "hi": 0.1541648948280519
+     "p": 0.06938974539013501,
+     "lo": 0.02497762939907904,
+     "hi": 0.15415673830930723
     }
    ],
    "base_rate_all": 0.17397881996974282,
@@ -665,43 +665,43 @@
    "cold_100k": 1.0,
    "cold_1m": 0.0,
    "n_active": 142,
-   "active_median": 25100.0,
+   "active_median": 25150.0,
    "active_1m_rate": 0.19014084507042253
   },
   "elsewhere557": {
    "n_cold": 14,
-   "cold_median": 731450.0,
+   "cold_median": 731650.0,
    "cold_100k": 12.0,
    "cold_1m": 5.0,
    "n_active": 519,
-   "active_median": 99300.0,
+   "active_median": 99400.0,
    "active_1m_rate": 0.16955684007707128
   }
  },
  "plan_90_posts": {
   "hit_100k|someplace505": {
    "n_posts": 90,
-   "expected": 33.0926431668913,
-   "exp_lo": 24.957342995633994,
-   "exp_hi": 43.000419715517026
+   "expected": 33.06532458905528,
+   "exp_lo": 24.900161558930293,
+   "exp_hi": 42.984747014687215
   },
   "hit_100k|elsewhere557": {
    "n_posts": 90,
-   "expected": 41.01622409738105,
-   "exp_lo": 32.8864800542333,
-   "exp_hi": 50.702070422618284
+   "expected": 40.919716104985504,
+   "exp_lo": 32.830594349237955,
+   "exp_hi": 50.625185974349414
   },
   "hit_1m|someplace505": {
    "n_posts": 90,
-   "expected": 11.063870836784822,
-   "exp_lo": 7.0354225687866565,
-   "exp_hi": 16.363944992523006
+   "expected": 11.035464906896504,
+   "exp_lo": 7.013595059108089,
+   "exp_hi": 16.30831779715891
   },
   "hit_1m|elsewhere557": {
    "n_posts": 90,
-   "expected": 7.612028583359952,
-   "exp_lo": 4.502927814006973,
-   "exp_hi": 11.209878423358077
+   "expected": 7.582076517518599,
+   "exp_lo": 4.478584208292009,
+   "exp_hi": 11.181963559649434
   }
  }
 }
