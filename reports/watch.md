@@ -22,7 +22,7 @@ Updated 2026-10-22 06:21 UTC (pull 3, posts ~8.9 h old). Sources: research/data/
 - **Flat, no new activity:** still 2 posts, no deletions, no new posts since 17:34 EDT (~12 h gap). Views 873 -> 886 and 316 -> 325 since 04:28 UTC; the curve has stalled near our ~700 median (post 1 above it, post 2 well below). 24/48 h not reached.
 - **Reaction still differs from ours:** likes 15.1% / 14.2% vs our 5.2%; saves 1.5% / 1.2% vs 0.28%; shares ~0.1% / 0% (like ours, n=2).
 - **Followers 12 (flat since 04:28 UTC)**, we have ~55 (rvf5567_profile.csv). Not a follower-growth story yet.
-- **Resolution unchanged:** post 1 1080x1920, post 2 576x1024. Post 1 is 15 s per the profile table; the snapshot csv logs 7-9 s (different field, check watch.py before relying on length).
+- **Resolution unchanged:** post 1 1080x1920, post 2 576x1024. Lengths 15 s / 8 s, the same in every snapshot (duration_s column; checked 06:45 UTC).
 - **Same-operator evidence unchanged** (blank name, "fr", empty bio, mutual follow, house sound "lovers rock"). Own account vs coached student still unseparated.
 - **kadzoo55871 is taking off on its own post:** 15:45 EDT post 558K -> 589K -> 697K views (3 pulls), 34.8% likes; followers 162,627 (+332 since pull 1). Nothing it does visibly feeds rvf5567.
 - No contradiction with MASTER §2. No ALERT triggers (no 10K+ post on rvf5567, no deletion, no +100 followers, no new sibling).
