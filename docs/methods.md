@@ -26,7 +26,10 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 - **Name:** `pNN <content>.mp4`, next number after the highest in D:\cheques. Add a `log.csv` row (UTF-8 with BOM; in Excel save as "CSV UTF-8").
 - **Pre-post check:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1` → `checks\report.html` (duration/res/audio, first-second sheet, <5 s flag, frame-hash duplicate vs posted\, permission vs log.csv).
 - **Library page:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\render_library.ps1` → `library\library.html` (phone-friendly).
-- DM text: 你好！很喜欢你这条视频，想问一下可以发到我的TikTok（海外）账号吗？不剪辑、不加字，文案里会注明你的抖音号。方便的话能发一下原片就更好了，谢谢！
+- DM text (from 21 Oct; covers colour correction and trims): 你好！很喜欢你这条视频，想问一下可以发到我的TikTok（海外）账号吗？可能会稍微调色或剪短一点，不加字，文案里会注明你的抖音号。方便的话能发一下原片就更好了，谢谢！
+  (Roughly: "May I post it on my overseas TikTok? I may lightly colour-correct or shorten it, no added text, and I'll credit your Douyin ID. The original file would be great.")
+- Old DM (permissions for p50–p72 were asked with this): …不剪辑、不加字… = "no cutting/editing, no text". Keep those clips full length; colour correction only.
+- **Edits:** never overwrite the original. Save as `pNN <content> edit.mp4` next to it and note the change in log.csv `notes`.
 
 ## 4. Posting gate
 - **TikTok Studio web upload → "Content check lite"** (~10 min). PASS → no FYP flag 3/3 (p60, p64, p67). ERROR → p54 (not posted), p58 (flagged). Post only on a PASS (n small, keep scoring it).

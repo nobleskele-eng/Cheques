@@ -11,9 +11,9 @@ Current state, findings and next steps: @MASTER.md
 - Don't move or reorganise files without a yes. Don't bring up swimming.
 
 ## Hard rules (never break, whoever asks)
-1. **No de-duplication tricks:** no mirror, speed change, crop, overlays or filters to fool TikTok matching.
-2. **Permission and credit:** only post clips whose creator allowed reuse (拿了留痕 / 随便拿 / 可以拿 / 原创素材 in the caption, or a yes by DM). Credit them. Prefer the original file.
-3. **Never play @papercheques videos in a browser.** Use post lists and page data only. For other accounts: grid covers only, never hover tiles. Proposed 21 Oct (awaiting Vyx's OK): scripts must not load or download our own video pages or files either.
+1. **Editing is OK, evading isn't** (Vyx, 21 Oct). Colour correction, exposure, denoise, re-export and trims are fine. Still banned: any change made to fool TikTok's duplicate matching (mirroring, speed changes, borders/overlays/noise added to dodge detection). Keep the untouched original and save edits as `pNN <content> edit.mp4`.
+2. **Permission and credit:** only post clips whose creator allowed reuse (拿了留痕 / 随便拿 / 可以拿 / 原创素材 in the caption, or a yes by DM). Credit them. Prefer the original file. Permissions for p50–p72 were asked with "不剪辑、不加字" (no cutting/editing, no text). For those clips, keep the full length; colour correction only. New requests use the DM in `docs/methods.md` §3.
+3. **Never play @papercheques videos in a browser, and scripts never load or download our own video pages or files** (confirmed 21 Oct). Use post lists and page data only. For other accounts: grid covers only, never hover tiles.
 4. **Don't get around captchas or anti-bot checks.** TikTok "Please wait..."/"Something went wrong" or Douyin "服务器出现问题" means stop for the day.
 5. **Never ask for API keys or passwords in chat.** No third-party upload tools or anything that needs the TikTok login (e.g. "HD by Rein").
 

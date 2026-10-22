@@ -22,7 +22,7 @@ Core genre = Chinese "city mood": vertical POV of a city in rain/fog or at blue 
 TikTok network Popular tabs (~48 hits, 18 Oct): wild weather ~16 (.aaapaathy windy lake path 91.2M), golden glow ~14 (kadzoo sea-view rooms 19.7M), wet night streets ~7, sunlit green ~4, clear water ~3.
 
 ## Known tension (open)
-- Charm says dark, muted grade. The cloud diagnosis (`research/papercheques-diagnosis.md` §2) says TikTok serves our posts at 540p / ~0.5 Mbps, where dark footage turns to mush. Not resolved: needs a test.
+- Charm says dark, muted grade. The cloud diagnosis (`research/papercheques-diagnosis.md` §2) says TikTok serves our posts at 540p / ~0.5 Mbps, where dark footage turns to mush. Colour correction has been allowed since 21 Oct, so test a lifted-exposure grade that keeps the muted palette.
 - 可爱到爆炸's biggest hits open on sneakers then tilt up; the network's top hits also open with an upward reveal from the ground. An upward reveal is probably fine; a static floor shot isn't.
 
 ## Search words that match hit types (Douyin)
