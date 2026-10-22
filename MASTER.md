@@ -2,7 +2,7 @@
 Updated 2026-10-22 11:42 UTC, cloud (v7b: elm). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712): tested, but the test audience doesn't react. Best: 2,207 (10 Oct). [C]
+- ~55 followers. 40 public posts, 3–22 Oct. Every post gets ~700 views (median 712): tested, but the test audience doesn't react. Best: 2,207 (10 Oct). [C]
 - Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K views): 8–11% likes, 0.6–1.1% shares. Breakouts (100K+): 21–25% likes, 2–4% shares (lifetime rates; direction only). [C] [L csv]
 - Sourcing is good enough [V]: permissioned Douyin clips, and big accounts got millions from clips Vyx posted first. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
