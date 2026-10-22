@@ -21,7 +21,7 @@ Updated 2026-10-22 UTC by cloud session (v8: p75 rejected at lite). Cap 8,000 by
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Next post = p76 (lite PASS, edit then post)** (approved 22 Oct, new DM allows colour and trims). Every inbox clip p65–p72 has already been posted or tested [V 22 Oct]. The p69/p72 edits are spare: p69 was tested and rejected on 20 Oct. These are the first new-recipe posts; record recipe fields in log.csv when posted.
+- **Next post = p76 (lite PASS, edit then post)**. Every inbox clip p65–p72 has already been posted or tested [V 22 Oct]. The p69/p72 edits are spare: p69 was tested and rejected on 20 Oct. These are the first new-recipe posts; record recipe fields in log.csv when posted.
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
 - **Edit for 540p**: lift exposure, denoise, export 1080×1920 H.264 at a high bitrate, muted palette. Save as `pNN … edit.mp4`.
