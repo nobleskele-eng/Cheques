@@ -8,7 +8,7 @@ Updated 2026-10-22 UTC by cloud session (v8: p75 rejected at lite). Cap 8,000 by
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
 
 ## 2. What we know (strongest first)
-1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. n=5. Also rejected at lite: p65, p69, p75. p74 (3-day-old source) passed almost instantly; p73 (12 days old, 8.9K shares) stuck = likely ERROR [V]. Check time may be a signal. [L]
+1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. n=5. Also rejected at lite: p65, p69, p75. p76 PASSED instantly (22 Oct). p74 (3-day-old source) passed almost instantly; p73 (12 days old, 8.9K shares) stuck = likely ERROR [V]. Check time may be a signal. [L]
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 11.6× over 6 uses; 4 posts 17–20 Oct: 182K–5.3M. 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
 3. **Served quality:** 0/39 of ours have a 1080p version (best ~533 kbps, 540–720p); the network gets 1080p on 81–99% of posts, flops included. Brightness alone doesn't track views: p60 (YAVG 42) 712, p64 (103) 681, p67 (104) 155. [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from the ground or a railing). The 3 of ours checked are mostly static. n=8+3. [C]
@@ -21,7 +21,7 @@ Updated 2026-10-22 UTC by cloud session (v8: p75 rejected at lite). Cap 8,000 by
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Next posts = p73 (likely blocked), p76** (approved 22 Oct, new DM allows colour and trims). Every inbox clip p65–p72 has already been posted or tested [V 22 Oct]. The p69/p72 edits are spare: p69 was tested and rejected on 20 Oct. These are the first new-recipe posts; record recipe fields in log.csv when posted.
+- **Next post = p76 (lite PASS, edit then post)** (approved 22 Oct, new DM allows colour and trims). Every inbox clip p65–p72 has already been posted or tested [V 22 Oct]. The p69/p72 edits are spare: p69 was tested and rejected on 20 Oct. These are the first new-recipe posts; record recipe fields in log.csv when posted.
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
 - **Edit for 540p**: lift exposure, denoise, export 1080×1920 H.264 at a high bitrate, muted palette. Save as `pNN … edit.mp4`.
@@ -39,7 +39,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 1. **p74:** which file went up (edit or original)? (Vyx trimmed ~1 s in editor.)
 2. Were the other cut posts (9 of 12) also trimmed by Vyx in the editor? p74 was. Post at full length.
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
-4. Download p76 (one load, or SaveTik). p75 is dead (lite reject). Still open: 雾必野 permission; 鱼丸三三 download.
+4. p75 dead (lite ERROR). p76 downloaded, passed lite. Still open: 雾必野 permission; 鱼丸三三 download.
 5. Cloud self pull: first test is the Sat 24 Oct run.
 6. rvf5567 DM: which clips did they name?
 
@@ -48,7 +48,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **New recipe (permission yes 22 Oct [V]):**
   - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. At 7.7 h: 703 views, **2.3% likes** (bar 5%), 1 share, 1 save; 8 s on TikTok (Vyx trimmed ~1 s in editor); served 540p h264 336 kbps, no 1080p. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s) stuck at lite → likely blocked. Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
-  - **p75 谢景行 7693926803313088960 (Dali lane): REJECTED at lite 22 Oct. Do not post.** **Not downloaded:** p76 韬 7697564623889337435 (8.0 s HK rain, dark).
+  - **p75 谢景行 7693926803313088960 (Dali lane): REJECTED at lite 22 Oct. Do not post.** p76 韬 7697564623889337435 (8.0 s HK rain, dark): lite PASS.
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
