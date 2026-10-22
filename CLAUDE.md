@@ -32,7 +32,7 @@ Vyx never reopens a finished session. Each new session starts from this file, MA
 - **Cloud (Claude Code on the web, this repo):** public TikTok data pulls, Python/numpy models and scheduled refreshes. It has no Douyin login and no video files.
 - **The repo is the bridge.** Video files never go in it (see .gitignore).
 - **Weekly routine** "papercheques weekly analysis": Saturdays 13:00 UTC (9 AM EDT / 8 AM EST), Sonnet 5.5, environment "Hi". It runs rival-analyst → self-analyst → editor and pushes to main. Manage it at https://claude.ai/code/routines/trig_01MAPoQSqFEPnTD3oJKjA9sL
-- **Watch routine** "papercheques watch rvf5567": every 6 h until 5 Nov. It pulls @rvf5567 (probably kadzoo's new account, found 22 Oct) and kadzoo55871, appends snapshots to `research/data/watch/`, rewrites `reports/watch.md`, and pushes to main with commits starting "watch:". Manage it at https://claude.ai/code/routines/trig_01Dn3CdYE2CAhni4pcqbMFr3
+- **Watch routine** "papercheques watch rvf5567": every 6 h until 5 Nov. It pulls @rvf5567 (probably kadzoo's new account, found 22 Oct) and kadzoo55871, appends snapshots to `research/data/watch/`, rewrites `reports/watch.md`, and pushes to main with commits starting "watch:". It wakes one standing session (session_01URpg2EFJgQPvR6zPBe9xK8, Sonnet 5.5, steps in its first message), because a routine created from chat starts with no repo. Delete the routine after 5 Nov: https://claude.ai/code/routines/trig_012ygYS68kuGA2j5qZHckaTV
 
 ## Agents (`.claude/agents/`)
 | Agent | Job | Runs |
