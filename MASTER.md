@@ -44,11 +44,9 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 
 ## 6. Pipeline
 - Next file number: **p77**.
-- **Up next (permission yes 22 Oct [V]; NOT downloaded: Douyin bounced the first page load on 22 Oct, so retry the next day or use originals the creators send):**
-  - p73: 梁同学 7694994695836049551, 11.2 s, balcony tilt-up to a golden-hour Chongqing street;
-  - p74: 谢景行 7693926803313088960, 7.7 s, Dali lantern lane at blue hour; shares 33% of likes;
-  - p75: 韬 7697564623889337435, 8.0 s, HK rain under an umbrella; dark (YAVG ~37).
-  - p76: 梁同学 7698341392645358656, train-door window, golden-hour skyline, 1440p 3.0 Mbps (yes covers it [V]).
+- **New recipe (permission yes 22 Oct [V]):**
+  - **In the inbox:** p73 (梁同学 balcony tilt-up, 11.2 s, YAVG 103→109 edit; at lite on 21 Oct night) and p74 (梁同学 train door, 9.3 s, dark: YAVG 45→53 edit). Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
+  - **Not downloaded** (our Douyin pane was bounced 22 Oct): p75 谢景行 7693926803313088960 (7.7 s Dali lane, shares 33% of likes) and p76 韬 7697564623889337435 (8.0 s HK rain, dark).
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - Screen opening frames at 0.1 s: some clips open on a 0.05–0.1 s creator cover still. [L]
