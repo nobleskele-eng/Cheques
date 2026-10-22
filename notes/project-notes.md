@@ -1,5 +1,5 @@
-# @papercheques — project notes (auto-loaded after every compaction; keep updated)
-Last updated: 2026-10-20 (Tue). Claude updates this after each working message.
+# @papercheques — project notes (FROZEN 2026-10-21: full history log)
+Current state now lives in MASTER.md (auto-loaded via CLAUDE.md). Do not load this file whole; search it. Last entry: 21 Oct.
 
 ## Who / how to work
 - Vyx (they/them): Grade 11 IB student, Windows 10/11, limited coding — Vyx directs, Claude builds. Goal: clout (views/followers), not money.
