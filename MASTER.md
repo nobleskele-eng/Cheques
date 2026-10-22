@@ -41,7 +41,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
 4. Download p75/p76 (one load each, or SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
 5. Cloud self pull: first test is the Sat 24 Oct run.
-6. rvf5567 DM: did they answer "which clips"? Paste it in.
+6. rvf5567 DM: did they say which clips? Paste it in.
 
 ## 6. Pipeline
 - Next file number: **p77**.
