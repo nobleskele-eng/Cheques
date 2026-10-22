@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-22 by local session (v5: p74 posted, p73 stuck at lite, end-session protocol). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-22 by cloud session (v6: rvf5567 watch added). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 39 public posts, 3–21 Oct; nothing newer pulled (cloud self pull denied 22 Oct; local deep-dive used the 21 Oct csv). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -16,7 +16,7 @@ Updated 2026-10-22 by local session (v5: p74 posted, p73 stuck at lite, end-sess
 6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Posted <10 min apart (n=4): 758, 912, 461, 159; 42 min–2 h apart: ~700 each. Post directly, 40+ min apart. [L csv + decode]
 8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, holds the top 4. 02:30–05:00 UTC n=19: median 687, 7 of 8 posts <600, but 6 of those 7 were scheduled or stacked; 3 of the top 4 were one Friday. A test, not a rule. [L csv]
-9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557) = one operator; someplace505 likely separate. Hot phase ~1–3 weeks, then decay: elsewhere557 weekly median 102K (wk 28 Sep) → 20K (wk 19 Oct, partial). [C]
+9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557) = one operator; someplace505 likely separate. **New: rvf5567** (22 Oct) is very likely theirs: same blank name, language "fr", house sound "lovers rock"; first posts 310–859 views, 15% likes. Hot phase ~1–3 weeks, then decay: elsewhere557 weekly median 102K (wk 28 Sep) → 20K (wk 19 Oct, partial). [C]
 10. **Model** (`research/success-model.md`): ranks 100K+ (AUC 0.69), not 1M+ (0.51). [C]
 
 ## 3. Recommendation now: change the recipe, then test it
@@ -40,7 +40,6 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
 4. Download p75/p76 (one load each, or Vyx's SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
 5. Cloud self pull: first test of pull_account.py is the Sat 24 Oct run.
-- Answered 21 Oct: editing and colour correction OK (rule 1); scripts never fetch our own videos (rule 3).
 
 ## 6. Pipeline
 - Next file number: **p77**.
@@ -55,7 +54,8 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - Score so far: snow posts 0 for 4 (p48 699, p49 332, p64 681, p67 155); p60 712. No theme has beaten ~700. [C data]
 
 ## 7. Latest agent reports
-- `reports/rivals.md` 22 Oct: "Let Go" live hit; decay continues; someplace505 encoding pull failed.
+- `reports/rivals.md` 22 Oct: "Let Go" live hit; decay continues.
 - `reports/self.md` 22 Oct (local, 21 Oct csv): 9 of 12 clips cut; scheduled vs direct; hour split.
 - `reports/scout.md` 22 Oct: 3 DM picks; Douyin throttled at load 11 (use rec lists and profiles on such days).
 - `reports/gate.md` 22 Oct: p65–p72 checks; the edit recipe.
+- `reports/watch.md` (every 6 h until 5 Nov): rvf5567 live tracker; its 1st post got 1080p at 10 followers.

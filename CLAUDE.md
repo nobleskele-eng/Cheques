@@ -12,7 +12,7 @@ Current state, findings and next steps: @MASTER.md
 - **Check status first:** Vyx posts and runs Content check lite on their own, so log.csv lags behind. Before planning posts, confirm what was already posted or rejected, then record it.
 
 ## Sessions: one-shot, GitHub is the memory
-Vyx never reopens a finished session. Each new session starts from this file, MASTER.md and `git log -15 --stat`. Never rely on an earlier chat.
+Vyx never reopens a finished session. Each new session starts from this file, MASTER.md and `git log -15 --stat --invert-grep --grep='^watch:'` (this hides the watch routine's data commits). Never rely on an earlier chat.
 - **During a session:** push after every change of state (a clip in, a post made, a check result, a decision).
 - **When Vyx says "end session":**
   1. `git pull --rebase`.
@@ -32,6 +32,7 @@ Vyx never reopens a finished session. Each new session starts from this file, MA
 - **Cloud (Claude Code on the web, this repo):** public TikTok data pulls, Python/numpy models and scheduled refreshes. It has no Douyin login and no video files.
 - **The repo is the bridge.** Video files never go in it (see .gitignore).
 - **Weekly routine** "papercheques weekly analysis": Saturdays 13:00 UTC (9 AM EDT / 8 AM EST), Sonnet 5.5, environment "Hi". It runs rival-analyst → self-analyst → editor and pushes to main. Manage it at https://claude.ai/code/routines/trig_01MAPoQSqFEPnTD3oJKjA9sL
+- **Watch routine** "papercheques watch rvf5567": every 6 h until 5 Nov. It pulls @rvf5567 (probably kadzoo's new account, found 22 Oct) and kadzoo55871, appends snapshots to `research/data/watch/`, rewrites `reports/watch.md`, and pushes to main with commits starting "watch:". Manage it at https://claude.ai/code/routines/trig_01Dn3CdYE2CAhni4pcqbMFr3
 
 ## Agents (`.claude/agents/`)
 | Agent | Job | Runs |

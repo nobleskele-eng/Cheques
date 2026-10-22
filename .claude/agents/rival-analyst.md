@@ -8,9 +8,10 @@ Start by reading `CLAUDE.md` (hard rules), `MASTER.md`, and the previous `report
 
 ## Run
 1. **Pull** all six accounts with one command:
-   `python3 -I research/scripts/pull_account.py someplace505 elsewhere557 anywhere557 kadzoo55871 .aaapaathy fang_w3`
+   `python3 -I research/scripts/pull_account.py someplace505 elsewhere557 anywhere557 kadzoo55871 .aaapaathy fang_w3 rvf5567`
    - It fetches each profile page once, then the item_list endpoint (items, encoding, sounds), and writes `research/data/<handle>_{videos,encoding,sounds}.csv`. Missing files are created.
    - Add other handles only if MASTER or Vyx names them.
+   - rvf5567 (added 22 Oct) is kadzoo's likely new account. The watch routine tracks it every 6 h in `reports/watch.md`. Read that report and its snapshots; don't edit them.
    - The 4 accounts beyond someplace505/elsewhere557 feed the weekly read only. Add one to `proven_sounds.py`/`success_model.py` only after 2+ weeks of its data, with its own active-period start date.
    - **Stop rule (4):** the script stops at the first block or error and prints `stopped_at` + `not_pulled`. Don't re-run it, don't fetch around it, no header or cookie tricks. Report what you have.
 2. **Proven sounds:**

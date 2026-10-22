@@ -3,6 +3,7 @@
     "allow": [
       "Bash(python3 -I research/scripts/pull_account.py:*)",
       "Bash(python3 -I research/scripts/proven_sounds.py:*)",
+      "Bash(python3 -I research/scripts/watch.py:*)",
       "Bash(python3 research/model/success_model.py:*)"
     ]
   },
