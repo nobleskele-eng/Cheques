@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-22 11:10 UTC by cloud session (v7: p74 result, self pull works). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-22 11:42 UTC by cloud session (v7b: elm outreach). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -33,6 +33,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
 - **rvf5567 DM'd us 22 Oct:** "all your videos are reposted". True by design (permissioned reposts); likely a course-funnel opener [est]. Reply: ask which clips. Source doubts: p62 (_青), Hana. [V]
+- **elm (new contact, 22 Oct [V]):** Vyx messaged them on Discord (link in their bio). No course seen, so maybe willing to share tips. Not yet in library/accounts; TikTok handle needed.
 - **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
 
 ## 5. Waiting on Vyx
