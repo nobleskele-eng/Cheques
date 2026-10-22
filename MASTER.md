@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-10-22 by cloud session (v6: rvf5567 watch + its DM). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-22 11:10 UTC by cloud session (v7: p74 result, self pull works). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~55 followers. 39 public posts, 3–21 Oct; nothing newer pulled (cloud self pull denied 22 Oct; local deep-dive used the 21 Oct csv). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
+- ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
 - Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K views): 8–11% likes, 0.6–1.1% shares. Breakouts (100K+): 21–25% likes, 2–4% shares (lifetime rates on 200K–380K accounts: direction only). [C] [L csv]
 - Sourcing is good enough [V]: permissioned Douyin clips, and big accounts got millions from clips Vyx posted first. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
@@ -36,7 +36,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
 
 ## 5. Waiting on Vyx
-1. **p74 (first new-recipe post):** link, file used (edit or original), length shown on TikTok, 1 h and 24 h views/likes/shares. Bar: >5% likes and any shares.
+1. **p74:** which file went up (edit or original)? Did the editor preview show 9 s or 8 s?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
 4. Download p75/p76 (one load each, or SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
@@ -46,7 +46,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 6. Pipeline
 - Next file number: **p77**.
 - **New recipe (permission yes 22 Oct [V]):**
-  - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. Link, file used, and length on TikTok pending [V].
+  - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. At 7.7 h: 703 views, **2.3% likes** (bar 5%), 1 share, 1 save; 8 s on TikTok (~1 s cut); served 540p h264 336 kbps, no 1080p. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s) stuck at lite → likely blocked. Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
   - **Not downloaded** (our Douyin pane was bounced 22 Oct): p75 谢景行 7693926803313088960 (7.7 s Dali lane, shares 33% of likes) and p76 韬 7697564623889337435 (8.0 s HK rain, dark).
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
