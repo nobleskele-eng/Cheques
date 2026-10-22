@@ -8,7 +8,7 @@ Updated 2026-10-22 by local session (v4: reports folded; inbox p65–p72 all use
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
 
 ## 2. What we know (strongest first)
-1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. n=5. [L]
+1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. n=5. Also rejected at lite, never posted: p65, p69 [V 22 Oct]. [L]
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 11.6× over 6 uses; 4 posts 17–20 Oct: 182K–5.3M. 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
 3. **Served quality:** 0/39 of ours have a 1080p version (best ~533 kbps, 540–720p); the network gets 1080p on 81–99% of posts, flops included. Brightness alone doesn't track views: p60 (YAVG 42) 712, p64 (103) 681, p67 (104) 155. [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from the ground or a railing). The 3 of ours checked are mostly static. n=8+3. [C]
@@ -32,23 +32,24 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
-- **Our log is behind Vyx:** p65–p72 were all posted or tested by 21 Oct, but log.csv doesn't say which. The 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, and 02:00 scheduled at 00:06) aren't mapped to p-numbers. [V][L]
+- **Our log is behind Vyx:** p65 and p69 were rejected at lite. Vyx also said "67", but p67 was posted on 20 Oct (link + 159 views), so the third reject is probably p66 or p68. The other four are likely the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, and 02:00 scheduled at 00:06), not mapped yet. [V][L]
 
 ## 5. Waiting on Vyx
-1. **Status of p65–p72:** for each, posted (with its link) or rejected at Content check lite. This keeps the log and the test honest.
+1. **The third lite reject:** p66 or p68 (not p67, which is live)? Then the Studio links for the four that went up.
 2. **Who is shortening the clips:** are you trimming them, or does TikTok cut them when you add the sound? Still open. Either way, post at full length.
 3. Fill the tiktok_link for each posted p-number (Studio post list), starting with the 4 posts in §4.
-4. Is 梁同学's train-door clip 7698341392645358656 covered by their yes? Still open: 雾必野 permission; download 鱼丸三三.
+4. Still open: 雾必野 permission; download 鱼丸三三.
 5. Self pull is blocked in the cloud: rerun it locally or in a session allowed to fetch the profile.
 - Answered 21 Oct: editing and colour correction OK (rule 1); scripts never fetch our own videos (rule 3).
 
 ## 6. Pipeline
-- Next file number: **p76**.
+- Next file number: **p77**.
 - **Up next (permission yes 22 Oct [V]; NOT downloaded: Douyin bounced the first page load on 22 Oct, so retry the next day or use originals the creators send):**
   - p73: 梁同学 7694994695836049551, 11.2 s, balcony tilt-up to a golden-hour Chongqing street;
   - p74: 谢景行 7693926803313088960, 7.7 s, Dali lantern lane at blue hour; shares 33% of likes;
   - p75: 韬 7697564623889337435, 8.0 s, HK rain under an umbrella; dark (YAVG ~37).
-- **Used up:** p65–p72 all posted or tested [V]. Edits of p69/p72 are in the inbox; p69 was rejected 20 Oct.
+  - p76: 梁同学 7698341392645358656, train-door window, golden-hour skyline, 1440p 3.0 Mbps (yes covers it [V]).
+- **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - Screen opening frames at 0.1 s: some clips open on a 0.05–0.1 s creator cover still. [L]
 - Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
