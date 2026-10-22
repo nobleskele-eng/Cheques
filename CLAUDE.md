@@ -13,7 +13,7 @@ Current state, findings and next steps: @MASTER.md
 ## Hard rules (never break, whoever asks)
 1. **Editing is OK, evading isn't** (Vyx, 21 Oct). Colour correction, exposure, denoise, re-export and trims are fine. Still banned: any change made to fool TikTok's duplicate matching (mirroring, speed changes, borders/overlays/noise added to dodge detection). Keep the untouched original and save edits as `pNN <content> edit.mp4`.
 2. **Permission and credit:** only post clips whose creator allowed reuse (拿了留痕 / 随便拿 / 可以拿 / 原创素材 in the caption, or a yes by DM). Credit them. Prefer the original file. Permissions for p50–p72 were asked with "不剪辑、不加字" (no cutting/editing, no text). For those clips, keep the full length; colour correction only. New requests use the DM in `docs/methods.md` §3.
-3. **Never play @papercheques videos in a browser, and scripts never load or download our own video pages or files** (confirmed 21 Oct). Use post lists and page data only. For other accounts: grid covers only, never hover tiles.
+3. **Never play @papercheques videos in a browser, and scripts never load or download our own video pages (`/video/<id>`) or files** (confirmed 21 Oct). Allowed and expected: our profile page and the item_list post list, via `research/scripts/pull_account.py`. For other accounts: grid covers only, never hover tiles.
 4. **Don't get around captchas or anti-bot checks.** TikTok "Please wait..."/"Something went wrong" or Douyin "服务器出现问题" means stop for the day.
 5. **Never ask for API keys or passwords in chat.** No third-party upload tools or anything that needs the TikTok login (e.g. "HD by Rein").
 
@@ -39,5 +39,5 @@ Current state, findings and next steps: @MASTER.md
 1. **Pull first:** `git pull --rebase` before editing. Only one writer at a time.
 2. **Overwrite, don't append.** Replace stale lines and move detail into the file that owns it (reports/, research/, docs/). Hard cap 8,000 bytes; a hook warns when it's over.
 3. **Bump the "Updated" line**, then commit and push to main right away. If your environment only lets you push a `claude/` branch, push there and say so; the local session merges it.
-4. **Old versions:** `git log -p MASTER.md`. Weekly snapshot tag `snapshot-YYYY-MM-DD`. No archive branches.
+4. **Old versions:** `git log -p MASTER.md`. Weekly snapshot tag `snapshot-YYYY-MM-DD`, made by a GitHub Action every Saturday at 15:00 UTC (cloud sessions can't push tags). No archive branches.
 5. Agents write only their own report file. Only the main session or the editor agent edits MASTER.md.

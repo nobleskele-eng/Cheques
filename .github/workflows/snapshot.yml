@@ -1,0 +1,22 @@
+# Weekly snapshot tag of main (cloud Claude sessions can't push tags).
+# Runs Saturdays 15:00 UTC, ~2 h after the weekly analysis routine. Can also be run by hand from the Actions tab.
+name: weekly snapshot
+on:
+  schedule:
+    - cron: '0 15 * * 6'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Tag main as snapshot-YYYY-MM-DD
+        run: |
+          tag="snapshot-$(date -u +%F)"
+          if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then echo "$tag already exists"; exit 0; fi
+          git tag "$tag"
+          git push origin "$tag"

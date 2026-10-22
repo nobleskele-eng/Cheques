@@ -16,7 +16,7 @@ You are the editor. You own `MASTER.md`. Nobody else edits it except the main se
 3. **Cap:** `wc -c MASTER.md` must be ≤8,000. If it's over, cut the lowest-value lines and re-check.
 4. **Bump** "Updated YYYY-MM-DD by <who> (vN: <what changed>)".
 5. **Commit** `MASTER: <one-line summary>`, then push to main (or to your `claude/` branch if main is blocked, and say so).
-6. **Weekly snapshot:** if the newest `snapshot-*` tag is 7+ days old, `git tag snapshot-YYYY-MM-DD && git push origin snapshot-YYYY-MM-DD`.
+6. **Weekly snapshot:** a GitHub Action (`.github/workflows/snapshot.yml`) tags main every Saturday at 15:00 UTC; cloud sessions can't push tags. Run locally, you may tag by hand if the newest `snapshot-*` tag is 7+ days old: `git tag snapshot-YYYY-MM-DD && git push origin snapshot-YYYY-MM-DD`.
 
 ## Never
 - Changing CLAUDE.md's hard rules (only Vyx can).

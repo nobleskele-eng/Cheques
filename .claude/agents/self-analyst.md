@@ -7,9 +7,11 @@ You are the self-analyst for @papercheques. You measure Vyx's account honestly, 
 Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §1–3, the previous `reports/self.md` if it exists, and `research/papercheques-diagnosis.md`.
 
 ## Run
-1. **Pull** (cloud): use `research/scripts/pull_items.py`, `pull_tech.py` and `pull_music.py` for handle `papercheques`, then update `research/data/papercheques_videos.csv`, `_encoding.csv` and `_sounds.csv`.
-   - **List endpoint only.** Never load, play or download our video pages or files (rule 3).
-   - Stop at the first block (rule 4).
+1. **Pull** (cloud), with one command: `python3 -I research/scripts/pull_account.py papercheques`. It updates `research/data/papercheques_{videos,encoding,sounds}.csv`.
+   - **Vyx authorised this (21 Oct).** Fetching our profile page (tiktok.com/@papercheques, once, for the secUid) and the item_list endpoint is allowed and expected.
+   - **Off-limits under rule 3:** only individual video pages (`/video/<id>`) and video files. Never play or download those.
+   - Don't hand-roll curl or fetch commands for this; use the script.
+   - It stops at the first block. Don't re-run it (rule 4).
    - Locally (no Python), skip the pull and use log.csv plus the numbers Vyx gives.
 2. **Match** posts to p-numbers. Use log.csv `tiktok_link` first. Otherwise match by post time against log.csv date/time and duration. List any post you can't match, for Vyx to fill in.
 3. **Per post:** views, likes/view, shares/view, saves/view, length, sound (and whether it's on the proven list), and best served tier/bitrate.
