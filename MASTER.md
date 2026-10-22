@@ -35,7 +35,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Our log is behind Vyx:** p65 and p69 were rejected at lite. Vyx also said "67", but p67 was posted on 20 Oct (link + 159 views), so the third reject is probably p66 or p68. The other four are likely the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, and 02:00 scheduled at 00:06), not mapped yet. [V][L]
 
 ## 5. Waiting on Vyx
-1. **The third lite reject:** p66 or p68 (not p67, which is live)? Then the Studio links for the four that went up.
+1. **Third lite reject:** not p66/p67/p68 [V]; unknown. Then Studio links for the posts.
 2. **Who is shortening the clips:** are you trimming them, or does TikTok cut them when you add the sound? Still open. Either way, post at full length.
 3. Fill the tiktok_link for each posted p-number (Studio post list), starting with the 4 posts in §4.
 4. Still open: 雾必野 permission; download 鱼丸三三.
