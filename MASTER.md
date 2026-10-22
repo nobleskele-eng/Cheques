@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-22 by cloud session (v6: rvf5567 watch added). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-22 by cloud session (v6: rvf5567 watch + its DM). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 39 public posts, 3–21 Oct; nothing newer pulled (cloud self pull denied 22 Oct; local deep-dive used the 21 Oct csv). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -32,14 +32,16 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
-- **Our log is behind Vyx:** p65 and p69 were rejected at lite. Vyx also said "67", but p67 was posted on 20 Oct (link + 159 views), so the third reject is probably p66 or p68. The other four are likely the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, and 02:00 scheduled at 00:06), not mapped yet. [V][L]
+- **rvf5567 DM'd us 22 Oct:** "all your videos are reposted". True by design (permissioned reposts); likely a course-funnel opener [est]. Reply: ask which clips. Source doubts: p62 (_青), Hana. [V]
+- **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
 
 ## 5. Waiting on Vyx
 1. **p74 (first new-recipe post):** link, file used (edit or original), length shown on TikTok, 1 h and 24 h views/likes/shares. Bar: >5% likes and any shares.
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
-4. Download p75/p76 (one load each, or Vyx's SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
-5. Cloud self pull: first test of pull_account.py is the Sat 24 Oct run.
+4. Download p75/p76 (one load each, or SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
+5. Cloud self pull: first test is the Sat 24 Oct run.
+6. rvf5567 DM: did they answer "which clips"? Paste it in.
 
 ## 6. Pipeline
 - Next file number: **p77**.
@@ -50,7 +52,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
-- Seasonal lead: Yunnan 冬樱花 (winter cherry), usually mid-Nov to Dec [est, verify].
+- Seasonal lead: Yunnan 冬樱花, mid-Nov to Dec [est].
 - Score so far: snow posts 0 for 4 (p48 699, p49 332, p64 681, p67 155); p60 712. No theme has beaten ~700. [C data]
 
 ## 7. Latest agent reports
@@ -58,4 +60,4 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - `reports/self.md` 22 Oct (local, 21 Oct csv): 9 of 12 clips cut; scheduled vs direct; hour split.
 - `reports/scout.md` 22 Oct: 3 DM picks; Douyin throttled at load 11 (use rec lists and profiles on such days).
 - `reports/gate.md` 22 Oct: p65–p72 checks; the edit recipe.
-- `reports/watch.md` (every 6 h until 5 Nov): rvf5567 live tracker; its 1st post got 1080p at 10 followers.
+- `reports/watch.md` (every 6 h until 5 Nov): rvf5567 live tracker.
