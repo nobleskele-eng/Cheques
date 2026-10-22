@@ -8,7 +8,7 @@ Updated 2026-10-22 by local session (v4: reports folded; inbox p65–p72 all use
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
 
 ## 2. What we know (strongest first)
-1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. n=5. Also rejected at lite, never posted: p65, p69 [V 22 Oct]. [L]
+1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. n=5. Also rejected at lite: p65, p69. p74 (3-day-old source) passed almost instantly; p73 (12 days old, 8.9K shares) stuck = likely ERROR [V]. Check time may be a signal. [L]
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 11.6× over 6 uses; 4 posts 17–20 Oct: 182K–5.3M. 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
 3. **Served quality:** 0/39 of ours have a 1080p version (best ~533 kbps, 540–720p); the network gets 1080p on 81–99% of posts, flops included. Brightness alone doesn't track views: p60 (YAVG 42) 712, p64 (103) 681, p67 (104) 155. [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from the ground or a railing). The 3 of ours checked are mostly static. n=8+3. [C]
@@ -45,7 +45,8 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 6. Pipeline
 - Next file number: **p77**.
 - **New recipe (permission yes 22 Oct [V]):**
-  - **In the inbox:** p73 (梁同学 balcony tilt-up, 11.2 s, YAVG 103→109 edit; at lite on 21 Oct night) and p74 (梁同学 train door, 9.3 s, dark: YAVG 45→53 edit). Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
+  - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. Link, file used, and length on TikTok pending [V].
+  - p73 (balcony tilt-up, 11.2 s) stuck at lite → likely blocked. Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
   - **Not downloaded** (our Douyin pane was bounced 22 Oct): p75 谢景行 7693926803313088960 (7.7 s Dali lane, shares 33% of likes) and p76 韬 7697564623889337435 (8.0 s HK rain, dark).
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
