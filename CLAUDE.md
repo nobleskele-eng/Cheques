@@ -21,6 +21,7 @@ Current state, findings and next steps: @MASTER.md
 - **Local (Vyx's PC, D:\cheques):** anything needing the Douyin login (built-in browser pane), the video files, ffmpeg or the PowerShell tools. That covers sourcing, downloads, pre-post checks and the library page. Python can't run from Claude's shell here.
 - **Cloud (Claude Code on the web, this repo):** public TikTok data pulls, Python/numpy models and scheduled refreshes. It has no Douyin login and no video files.
 - **The repo is the bridge.** Video files never go in it (see .gitignore).
+- **Weekly routine** "papercheques weekly analysis": Saturdays 13:00 UTC (9 AM EDT / 8 AM EST), Sonnet 5.5, environment "Hi". It runs rival-analyst → self-analyst → editor and pushes to main. Manage it at https://claude.ai/code/routines/trig_01MAPoQSqFEPnTD3oJKjA9sL
 
 ## Agents (`.claude/agents/`)
 | Agent | Job | Runs |
