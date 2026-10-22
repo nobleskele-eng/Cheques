@@ -36,8 +36,8 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
 
 ## 5. Waiting on Vyx
-1. **p74:** which file went up (edit or original)? Did the editor preview show 9 s or 8 s?
-2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
+1. **p74:** which file went up (edit or original)? (Vyx trimmed ~1 s in editor.)
+2. Were the other cut posts (9 of 12) also trimmed by Vyx in the editor? p74 was. Post at full length.
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
 4. Download p76 (one load, or SaveTik). p75 is dead (lite reject). Still open: 雾必野 permission; 鱼丸三三 download.
 5. Cloud self pull: first test is the Sat 24 Oct run.
@@ -46,7 +46,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 6. Pipeline
 - Next file number: **p77**.
 - **New recipe (permission yes 22 Oct [V]):**
-  - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. At 7.7 h: 703 views, **2.3% likes** (bar 5%), 1 share, 1 save; 8 s on TikTok (~1 s cut); served 540p h264 336 kbps, no 1080p. Failed. [C pull]
+  - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. At 7.7 h: 703 views, **2.3% likes** (bar 5%), 1 share, 1 save; 8 s on TikTok (Vyx trimmed ~1 s in editor); served 540p h264 336 kbps, no 1080p. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s) stuck at lite → likely blocked. Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
   - **p75 谢景行 7693926803313088960 (Dali lane): REJECTED at lite 22 Oct. Do not post.** **Not downloaded:** p76 韬 7697564623889337435 (8.0 s HK rain, dark).
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
