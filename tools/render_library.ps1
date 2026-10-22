@@ -6,7 +6,8 @@ $lib = 'D:\cheques\library'
 $rows = [System.Collections.ArrayList]@(Import-Csv "$lib\library.csv" -Encoding UTF8)
 function HtmlEnc([string]$s) { [Net.WebUtility]::HtmlEncode($s) }
 $show = @($rows | Where-Object { $_.status -notlike '*not good enough*' -and $_.status -notlike 'permission yes*' })
-$dm = '你好！很喜欢你这条视频，想问一下可以发到我的TikTok（海外）账号吗？不剪辑、不加字，文案里会注明你的抖音号。方便的话能发一下原片就更好了，谢谢！'
+# DM text = docs/methods.md section 3 (new wording from 21 Oct: allows colour correction and trims)
+$dm = '你好！很喜欢你这条视频，想问一下可以发到我的TikTok（海外）账号吗？可能会稍微调色或剪短一点，不加字，文案里会注明你的抖音号。方便的话能发一下原片就更好了，谢谢！'
 $sb = New-Object Text.StringBuilder
 [void]$sb.Append(@"
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -46,7 +47,14 @@ h2{font-size:15px;margin:22px 0 8px;color:var(--mute);text-transform:uppercase;l
 </ol></div>
 <div class="dm"><b>DM to send (tap and hold to copy)</b><p>$(HtmlEnc $dm)</p></div>
 "@)
-$groups = @(
+# Scout batches use status "to contact - batch YYYY-MM-DD": newest batch first
+$batchDates = @($show | ForEach-Object { if ($_.status -match 'batch (\d{4}-\d{2}-\d{2})') { $Matches[1] } } | Sort-Object -Unique -Descending)
+$dyn = foreach ($d in $batchDates) {
+  $lbl = [datetime]::ParseExact($d, 'yyyy-MM-dd', $null).ToString('d MMM', [Globalization.CultureInfo]::InvariantCulture)
+  @{ name = "Batch $lbl - DM these first"; tag = 'A'; rows = @($show | Where-Object { $_.status -like "*batch $d*" -and $_.tier -eq 'A' }) }
+  @{ name = "Batch $lbl - backup"; tag = 'B'; rows = @($show | Where-Object { $_.status -like "*batch $d*" -and $_.tier -ne 'A' }) }
+}
+$groups = @($dyn) + @(
   @{ name = 'Batch 21 Oct - Chongqing accounts you sent'; tag = 'A'; rows = @($show | Where-Object { $_.status -like '*NEW batch 21 Oct*' -and $_.tier -eq 'A' }) },
   @{ name = 'Batch 21 Oct - backup'; tag = 'B'; rows = @($show | Where-Object { $_.status -like '*NEW batch 21 Oct*' -and $_.tier -eq 'B' }) },
   @{ name = 'Batch 20 Oct - summer glow, fireworks, sea (fresh, small creators)'; tag = 'A'; rows = @($show | Where-Object { $_.status -like '*NEW batch 20 Oct*' -and $_.tier -eq 'A' }) },
