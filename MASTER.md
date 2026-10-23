@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-23 02:52 UTC by local session (v12: p77 in, p76 setup = default). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-23 02:52 UTC by local session (v13: p77 in, scout batch, p76 setup default). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -37,25 +37,26 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 1. **p74:** which file went up (edit or original)? Did the editor preview show 9 s or 8 s?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
 3. tiktok_links for the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.), unmapped. Third lite reject: unknown.
-4. p75: which post was it (22:42, 23:24 or 00:06 EDT, 20–21 Oct)? Still open: 雾必野 permission; 鱼丸三三 download.
+4. p75: which post was it (22:42, 23:24 or 00:06 EDT, 20–21 Oct)? 雾必野 permission still open.
 5. rvf5567 DM: which clips did they name?
+6. DM Zwzzz + Hua. (batch 23 Oct). 韬 IFC: DM or skip? Drop 可爱到爆炸 (bio now sells footage)?
 
 ## 6. Pipeline
 - Next file number: **p78**. p77 鱼丸三三 Wuwei snow: in 23 Oct (scout, 1080p, 11.3 s, YAVG 71, shares > likes, old DM: uncut, colour only).
 - **New recipe (permission yes 22 Oct [V]):**
-  - **POSTED p74** (梁同学 train door, 9.3 s, lifted edit) 21 Oct 23:25 EDT, "Let Go": post 1. At 15 h: 709 views, **2.3% likes**, 1 share, 1 save; 8 s (~1 s cut); 540p 336 kbps. Failed. [C pull]
+  - **POSTED p74** (梁同学 train door, lifted edit) 21 Oct 23:25 EDT, "Let Go": 15 h 709 views, **2.3% likes**; 8 s (~1 s cut); 336 kbps. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s): FAILED lite 21 Oct [V].
   - **POSTED p76** (韬 HK rain, **original**, dark, lite instant PASS) 22 Oct 20:36 EDT, direct, "Let Go": post 2. Min 9: 400–500 views, ~25 likes (5–6%) [V]; 50 min: 694, **4.2%**, 3 comments, 2 saves; 8 s, no cut; 540p 617 kbps. [C pull]
-  - **POSTED p75** 谢景行 Dali lane, lite PASS, ~20–21 Oct night, flopped [V]: one of 3 unmapped 7 s posts (706–718 views, 3.9–5.0% likes). Re-downloaded 23 Oct by mistake (4K, 7.7 s). [L]
+  - **POSTED p75** 谢景行 Dali lane, lite PASS, ~20–21 Oct night, flopped [V]: one of 3 unmapped 7 s posts (706–718 views, 3.9–5.0% likes). [L]
 - **Used up: the whole inbox** [V 23 Oct]. Rejected at lite: p65, p69, p73; the rest were posted (one unclear).
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
-- Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
+- **Batch 23 Oct (to DM):** Zwzzz Shanghai fog (A), Hua. Raffles rain tilt-up (A), 韬 IFC rain (B: maybe p76's walk).
 - Seasonal lead: Yunnan 冬樱花, mid-Nov to Dec [est].
 - Score so far: snow posts 0 for 4 (p48 699, p49 332, p64 681, p67 155); p60 712. No theme has beaten ~700. [C data]
 
 ## 7. Latest agent reports
 - `reports/rivals.md` 22 Oct: "Let Go" live hit; decay continues.
 - `reports/self.md` 22 Oct (local, 21 Oct csv): 9 of 12 clips cut; scheduled vs direct; hour split.
-- `reports/scout.md` 22 Oct: 3 DM picks; Douyin throttled at load 11 (use rec lists and profiles on such days).
+- `reports/scout.md` 23 Oct: 3 DM picks, p77 in; stopped at load 16 (keyword filler).
 - `reports/gate.md` 22 Oct: p65–p72 checks; the edit recipe.
 - `reports/watch.md` (every 6 h until 5 Nov): rvf5567 live tracker.
