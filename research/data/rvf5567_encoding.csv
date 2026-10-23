@@ -1,5 +1,5 @@
 video_id,posted_utc,views,original_file_served,tiers,best_tier,best_tier_codec,best_tier_res,best_tier_fps,best_tier_kbps,default_kbps,tiktok_vq_score,source_quality_score,loudness,sound_title
-7699235201368476961,2026-10-21 21:24:53,935,False,4,adapt_lowest_1080_1,h265_hvc1,1080x1920,30,1112,1622,69.68,85.942,-9.8,original sound
-7699237550292094240,2026-10-21 21:34:02,346,False,2,normal_540_0,h264,576x1024,30,925,925,67.16,,-10.8,lovers rock
-7699626865060810017,2026-10-22 22:44:44,145,False,2,normal_540_0,h264,576x1024,30,843,843,,,-9.8,original sound
-7699627090152410401,2026-10-22 22:45:38,283,False,2,normal_540_0,h264,576x1024,30,551,551,,,-20.8,original sound - 𝙈𝙃𝘾
+7699235201368476961,2026-10-21 21:24:53,939,False,4,adapt_lowest_1080_1,h265_hvc1,1080x1920,30,1112,1622,69.68,85.942,-9.8,original sound
+7699237550292094240,2026-10-21 21:34:02,350,False,2,normal_540_0,h264,576x1024,30,925,925,67.16,,-10.8,lovers rock
+7699626865060810017,2026-10-22 22:44:44,289,False,4,adapt_lowest_1080_1,h265_hvc1,1080x1920,60,937,843,,,-9.8,original sound
+7699627090152410401,2026-10-22 22:45:38,294,False,2,normal_540_0,h264,576x1024,30,551,551,,,-20.8,original sound - 𝙈𝙃𝘾
