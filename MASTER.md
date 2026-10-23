@@ -39,7 +39,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 1. **p74:** which file went up (edit or original)? Did the editor preview show 9 s or 8 s?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
-4. Download p75 (one load, or SaveTik). p76: confirm file, edit or original, lite result, views at minute 9. Still open: 雾必野 permission; 鱼丸三三 download.
+4. Download p75 (one load or SaveTik). p76: confirm file, edit or original, lite result, views at minute 9. Still open: 雾必野 permission; 鱼丸三三 download.
 5. rvf5567 DM: which clips did they name?
 
 ## 6. Pipeline
