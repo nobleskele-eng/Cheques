@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-22 11:10 UTC by cloud session (v7: p74 result, self pull works). Cap 8,000 bytes. Overwrite stale lines; old versions are in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-23 01:30 UTC by cloud session (v8: p76 posted). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -39,16 +39,16 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 1. **p74:** which file went up (edit or original)? Did the editor preview show 9 s or 8 s?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
 3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
-4. Download p75/p76 (one load each, or SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
-5. Cloud self pull: first test is the Sat 24 Oct run.
-6. rvf5567 DM: which clips did they name?
+4. Download p75 (one load, or SaveTik). p76: confirm file, edit or original, lite result, views at minute 9. Still open: 雾必野 permission; 鱼丸三三 download.
+5. rvf5567 DM: which clips did they name?
 
 ## 6. Pipeline
 - Next file number: **p77**.
 - **New recipe (permission yes 22 Oct [V]):**
-  - **POSTED p74** (梁同学 train door, 9.3 s, YAVG 45→53 edit) 21 Oct 23:25 EDT with "Let Go": new-recipe post 1. At 7.7 h: 703 views, **2.3% likes** (bar 5%), 1 share, 1 save; 8 s on TikTok (~1 s cut); served 540p h264 336 kbps, no 1080p. Failed. [C pull]
+  - **POSTED p74** (梁同学 train door, 9.3 s, lifted edit) 21 Oct 23:25 EDT, "Let Go": post 1. At 15 h: 709 views, **2.3% likes**, 1 share, 1 save; 8 s (~1 s cut); 540p 336 kbps. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s) stuck at lite → likely blocked. Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
-  - **Not downloaded** (our Douyin pane was bounced 22 Oct): p75 谢景行 7693926803313088960 (7.7 s Dali lane, shares 33% of likes) and p76 韬 7697564623889337435 (8.0 s HK rain, dark).
+  - **POSTED p76** (韬 HK rain, assumed) 22 Oct 20:36 EDT, direct, "Let Go": post 2. At 50 min: 694 views, **4.2% likes** (29; ~25 by min 9 [V], then flat), 3 comments, 2 saves; 8 s, no cut; 540p 617 kbps. [C pull]
+  - Not downloaded: p75 谢景行 7693926803313088960 (7.7 s Dali lane).
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
