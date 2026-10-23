@@ -1,30 +1,35 @@
 # Scout report
-Run 2026-10-22 UTC (local session). Douyin page loads: 11 of 15. Stopped at the first throttle sign: the keyword search `落叶 路灯` returned 2 unrelated filler posts (load 11). No downloads, nothing committed.
+Run 2026-10-23 ~02:40-03:00 UTC (local). Douyin loads: 16 of 20 (1 main session + 15 here). Stopped at the first throttle sign: keyword search 雨夜 (load 16) returned filler (AI drama, gossip, game clips matched on the username @雨夜). Screened with v4 rules; no age or shares cap (Vyx's update).
 
-## Picks (batch 2026-10-22; TikTok collision check not done)
-1. **A · 梁同学 · 7694994695836049551** · 8.0万 likes / 3,876 saves / 8,882 shares · 11.2 s · 1440x2560 · 10 Oct. Opens on a balcony floor, tilts up to a golden-hour Chongqing street by 1 s, then bridge and river in sunset glow. Upward reveal, bright, in range. Risks: glow but no weather; shares are 11% of likes. A different dusk clip (other spot) went up the same day.
-2. **B · 谢景行 · 7693926803313088960** · 49.7万 / 2.3万 / 16.3万 · 7.7 s · 2160x3840 · 7 Oct. Dali old-town lane at deep blue hour with lit lanterns, slow walk; payoff in frame 1, well lit. Risks: 7.7 s; shares are 33% of likes (TikTok copies likely); a couple's silhouettes at the edge for ~1.5 s.
-3. **B · 韬 · 7697564623889337435** · 19.9万 / 4,166 / 1.3万 · 8.0 s · 2160x3840 · 17 Oct. HK court building in rain at night, seen from under a clear umbrella; payoff in frame 1. Risks: dark (mean luma ~37/255), needs a strong lift; the account re-posts one road spot almost daily.
-All three: vertical, not AI, self-shot, no baked-in signature at 480 px (2 frames each).
+## Picks (batch 2026-10-23; TikTok collision check not done)
+1. **A · Zwzzz · 7688731298719099237** · 8.0万 likes / 5,825 saves / 4,734 shares · 10.6 s · 1440x2560 · 23 Sep. Street level at dusk in low cloud: Shanghai Tower fading into mist over power lines and headlights. Payoff in frame 1, muted blue-grey, luma 49-66. Self-shot bio; said yes for p66. Risks: slow pan, no upward reveal; 30 days old.
+2. **A · Hua. · 7691526793030934266** · 1.7万 / 1,410 / 3,099 · 9.1 s · 2160x3840 · 1 Oct. Pans up from a riverside terrace, through rain-spotted glass, to red-lit Raffles City at blue hour by 1 s. Bright (luma 79-92). Self-shot (Chongqing). Risks: first ~0.5 s is a blurred pan over diners; restaurant sign and diners in frame; the red towers are a saturated accent.
+3. **B · 韬 · 7699464321282617802** · 719 / 16 / 8 · 10.3 s · 2160x3840 · 22 Oct. IFC and a wet crossing at night, seen from under a clear umbrella. Payoff in frame 1, luma ~45. Risks: probably the same rainy walk as p76 (court dome at left), so the one-upload rule is borderline; under a day old.
+All three: vertical, not AI, no baked-in signature at 480 px, shares below likes, the only upload from that spot in the creator's grid.
 
 ## Rejected
-- 梁同学 recs (15–24万): 22–72 days old, static far skylines.
-- 用户0201 blue-hour street: 58 days old. i 17 s and 雾必野 28 s: too long. 阿周在的: person-focused.
-- xxxxyh recs: 42 s–8 min Dali vlogs. 芝麻没味 and 葉 recs: generic feed and vlogs; h fireworks: flat grey sky; 恐龙快车: feet on grassland.
-- 谢景行: snow clips of 16–17 Oct are last winter's footage; plane-tree road 13.9万 and windy Erhai 54.5万 are daytime; leaf-on-glass rain clips have low likes.
-- 韬 blue-hour road 16.2万: same road uploaded ~9 times, 7–16 Oct.
-- Zwzzz: 9 Oct larch forest is daytime gold; 7 Oct Qingdao coast is the same trip as p66; the rest are dark, static skylines.
+- p75 recs: Dali vlogs (42 s-40 min); 雾必野 景迈山 8 s x2 (one trip, two uploads); 阿琦 waves 19 s.
+- p76 recs (sad-lyric clips): mostly 16-19 s; CCchuan bridge 11 s is August footage; snow forest 7 s.
+- 空白_ storm road: montage of mixed footage, 3:4.
+- 梁同学 11-21 Oct: 500-1,600 likes; Hongyadong view posted twice; the rest are static sunsets.
+- 韬: neon rain street 7699053974120891034 too dark (luma 30-37); blue-hour road re-uploads; taxi clip is from p76's shoot.
+- 谢景行: Nanjing snow is last winter's; Beijing autumn gold; baked-in star text; sky-only sunset.
+- 可爱到爆炸: bio now lists 素材/教学, so v4 excludes it (4 library rows still say "to contact").
+- Zwzzz: blue-hour bar 15 s, interior; Qingdao is the p66 trip; misty balcony dark and static.
+- Hua.: OPPO-sponsored rain clip; daytime; distant night skylines.
 
 ## Downloaded
-None (no new permissions).
+- **p77 wuwei first snow night lamp.mp4** (鱼丸三三 7692415023536714853): 1080x1920 HEVC 4.8 Mbps, 11.3 s, YAVG 71. Heavy snow under a car-park lamp in frame 1. Precheck OK; log.csv row added. Shares > likes (backup). Content check lite not run.
 
 ## Needs Vyx
-- DM 梁同学 once for both 7694994695836049551 and the pending train-door clip 7698341392645358656.
-- DM 谢景行 and 韬 (backups). Text: docs/methods.md §3 (the library page now shows it).
-- Still open: 雾必野 permission; download 鱼丸三三 (permission yes).
+- Run Content check lite on p77. Its permission was asked 19 Oct (old DM, likely no cutting), so post it full length, colour only.
+- DM Zwzzz and Hua. (text in docs/methods.md §3). For 韬 IFC: DM, or skip under the one-upload rule?
+- OK to drop the 可爱到爆炸 rows?
+- Still open: 雾必野 permission.
 
 ## Suggested MASTER changes
-- §6: batch 22 Oct = 梁同学 balcony reveal (A); 谢景行 Dali lane and 韬 HK rain (B).
-- Douyin: the second session of the day hit keyword filler at load 11. On throttle days, use rec lists and profiles only.
-- Rec lists of fireworks or Dali clips drift to vlogs at once; seed from city-mood clips instead.
-- render_library.ps1 now lists ISO-dated batches and shows the new DM (the old wording was still on the page).
+- §6: p77 in (鱼丸三三 snow, backup). Next file number p78.
+- §6: batch 2026-10-23 = Zwzzz Shanghai fog (A), Hua. rainy-glass Raffles (A), 韬 IFC umbrella (B, rule call).
+- methods §2: say whether different spots from one night's walk count as one shoot (韬 spreads one rainy night over several uploads).
+- accounts.csv: 可爱到爆炸 → skip (素材/教学 bio).
+- methods §1: add 雨夜 to the bad keywords (matches usernames).
