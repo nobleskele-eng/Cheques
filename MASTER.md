@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-23 02:50 UTC by local session (v11: p75 posted 20–21 Oct, p73 failed lite, inbox empty). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-23 02:52 UTC by local session (v12: p77 in, p76 setup = default). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -21,11 +21,11 @@ Updated 2026-10-23 02:50 UTC by local session (v11: p75 posted 20–21 Oct, p73 
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Next post:** inbox empty [V 23 Oct]. 鱼丸三三 (permission yes) → p77 via scout; else scout picks after DMs. Record recipe fields in log.csv when posted.
+- **Next post: p77** (鱼丸三三 snow, 11.3 s, precheck OK) tonight 22 Oct with the p76 setup, if lite PASS [V]. Then scout picks after DMs. Record recipe fields in log.csv when posted.
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
-- **Edit for 540p**: lift exposure, denoise, export 1080×1920 H.264 at a high bitrate, muted palette. Save as `pNN … edit.mp4`.
-- **Sound** (`research/data/proven_sounds.csv`): oscncs 18.8×, Let Go 11.6×, Cherry 10.4×, yuji 8.7×. Give each 2+ tries. Let Go done (p74, p76); oscncs next. Skip likely paid promos (CIGARETTES, gambling).
+- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
+- **Sound** (`research/data/proven_sounds.csv`): oscncs 18.8×, Let Go 11.6×, Cherry 10.4×, yuji 8.7×. Give each 2+ tries. Let Go: p74, p76, p77 (same as p76); oscncs next. Skip likely paid promos (CIGARETTES, gambling).
 - **Upload:** TikTok Studio web as drafts, "Upload HD" if offered, Content check lite must PASS. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by the 抖音号 on their profile.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 - **First milestone:** any post ≥10–15% likes/view (network flop range). [est]
@@ -41,7 +41,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 5. rvf5567 DM: which clips did they name?
 
 ## 6. Pipeline
-- Next file number: **p77**.
+- Next file number: **p78**. p77 鱼丸三三 Wuwei snow: in 23 Oct (scout, 1080p, 11.3 s, YAVG 71, shares > likes, old DM: uncut, colour only).
 - **New recipe (permission yes 22 Oct [V]):**
   - **POSTED p74** (梁同学 train door, 9.3 s, lifted edit) 21 Oct 23:25 EDT, "Let Go": post 1. At 15 h: 709 views, **2.3% likes**, 1 share, 1 save; 8 s (~1 s cut); 540p 336 kbps. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s): FAILED lite 21 Oct [V].
