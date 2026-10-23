@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-23 02:52 UTC by local session (v14: p77 posted). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-23 03:12 UTC by local session (v15: p77 posted, p78–p79 in; end of session). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -21,7 +21,7 @@ Updated 2026-10-23 02:52 UTC by local session (v14: p77 posted). Cap 8,000 bytes
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Next post:** inbox empty. Scout picks after DMs (Hua. first: upward reveal). Record recipe fields in log.csv when posted.
+- **Next posts: p78** (Hua. rain tilt-up, upward reveal), then **p79** (Zwzzz fog). Lite first, p76 setup, Fri 23 Oct 19:00–22:30 EDT. Record recipe fields in log.csv when posted.
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
@@ -36,22 +36,20 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 5. Waiting on Vyx
 1. **p77:** full link; 1 h views/likes. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
-3. tiktok_links for the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.), unmapped. Third lite reject: unknown.
-4. p75: which post was it (22:42, 23:24 or 00:06 EDT, 20–21 Oct)? 雾必野 permission still open.
-5. rvf5567 DM: which clips did they name?
-6. DM Zwzzz + Hua. (batch 23 Oct). 韬 IFC: DM or skip? Drop 可爱到爆炸 (bio now sells footage)?
+3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three. Third lite reject: unknown. 雾必野 permission open.
+4. rvf5567 DM: which clips did they name?
+5. 韬 IFC (batch 23 Oct): DM or skip? Drop 可爱到爆炸 (bio now sells footage)?
 
 ## 6. Pipeline
-- Next file number: **p78**.
+- Next file number: **p80**. Douyin: scout stop at load 16, 23 Oct 03:00 UTC; rest the pane until 24 Oct.
 - **New recipe (permission yes 22 Oct [V]):**
   - **POSTED p74** (梁同学 train door, lifted edit) 21 Oct 23:25 EDT, "Let Go": 15 h 709 views, **2.3% likes**; 8 s (~1 s cut); 336 kbps. Failed. [C pull]
-  - p73 (balcony tilt-up, 11.2 s): FAILED lite 21 Oct [V].
-  - **POSTED p76** (韬 HK rain, **original**, dark, lite instant PASS) 22 Oct 20:36 EDT, direct, "Let Go": post 2. Min 9: 400–500 views, ~25 likes (5–6%) [V]; 50 min: 694, **4.2%**, 3 comments, 2 saves; 8 s, no cut; 540p 617 kbps. [C pull]
+  - **POSTED p76** (韬 HK rain, **original**, dark, lite instant PASS) 22 Oct 20:36 EDT, direct, "Let Go". 50 min: 694 views, **4.2%**, 2 saves; 8 s, no cut; 617 kbps. [C pull]
   - **POSTED p75** 谢景行 Dali lane, lite PASS, ~20–21 Oct night, flopped [V]: one of 3 unmapped 7 s posts (706–718 views, 3.9–5.0% likes). [L]
   - **POSTED p77** (鱼丸三三 Wuwei snow, original, 11.3 s, lite instant PASS) ~22:52 EDT 22 Oct, direct, "Let Go": post 4. 10 min: 19 likes, 1 comment, 0 saves; views pending [V].
-- **Used up: the whole inbox** [V 23 Oct]. Rejected at lite: p65, p69, p73; the rest were posted (one unclear).
+- **Used up: p50–p77** [V 23 Oct]. Rejected at lite: p65, p69, p73; the rest were posted (one unclear).
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
-- **Batch 23 Oct (to DM):** Zwzzz Shanghai fog (A), Hua. Raffles rain tilt-up (A), 韬 IFC rain (B: maybe p76's walk).
+- **In inbox (yes 22 Oct [V], SaveTik 1080p, precheck OK):** p78 Hua. Raffles rain tilt-up, 9.1 s, YAVG 92; p79 Zwzzz Shanghai fog, 10.6 s, YAVG 67, 1.0 Mbps. 韬 IFC (B) undecided.
 - Seasonal lead: Yunnan 冬樱花, mid-Nov to Dec [est].
 - Score so far: snow posts 0 for 4 (p48 699, p49 332, p64 681, p67 155); p60 712. No theme has beaten ~700. [C data]
 
