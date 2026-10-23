@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-23 02:00 UTC by cloud session (v8: p76 posted). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-23 02:50 UTC by local session (v9: p75 downloaded, scout running). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud self pull OK 22 Oct 11:07 UTC). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -21,11 +21,11 @@ Updated 2026-10-23 02:00 UTC by cloud session (v8: p76 posted). Cap 8,000 bytes.
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Next posts = p73–p75** (approved 22 Oct, new DM allows colour and trims). Every inbox clip p65–p72 has already been posted or tested [V 22 Oct]. The p69/p72 edits are spare: p69 was tested and rejected on 20 Oct. These are the first new-recipe posts; record recipe fields in log.csv when posted.
+- **Next post = p75** (in inbox 23 Oct, precheck OK, lite not run). p73 stuck at lite; p65–p72 used up [V 22 Oct]; the p69/p72 edits are spare. Record recipe fields in log.csv when posted.
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
 - **Edit for 540p**: lift exposure, denoise, export 1080×1920 H.264 at a high bitrate, muted palette. Save as `pNN … edit.mp4`.
-- **Sound** (`research/data/proven_sounds.csv`): oscncs 18.8×, Let Go 11.6×, Cherry 10.4×, yuji 8.7×. Give each 2+ tries. Skip likely paid promos (CIGARETTES, gambling).
+- **Sound** (`research/data/proven_sounds.csv`): oscncs 18.8×, Let Go 11.6×, Cherry 10.4×, yuji 8.7×. Give each 2+ tries. Let Go done (p74, p76); oscncs next. Skip likely paid promos (CIGARETTES, gambling).
 - **Upload:** TikTok Studio web as drafts, "Upload HD" if offered, Content check lite must PASS. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by the 抖音号 on their profile.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 - **First milestone:** any post ≥10–15% likes/view (network flop range). [est]
@@ -33,13 +33,11 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
 - **rvf5567 DM'd us 22 Oct:** "all your videos are reposted". True by design (permissioned reposts); likely a course-funnel opener [est]. Reply: ask which clips. Source doubts: p62 (_青), Hana. [V]
-- **Our log is behind Vyx:** p65, p69 + one unknown rejected at lite; the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 scheduled) not mapped yet (§5.3). [V][L]
-
 ## 5. Waiting on Vyx
 1. **p74:** which file went up (edit or original)? Did the editor preview show 9 s or 8 s?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
-3. tiktok_links for the 20–21 Oct posts (§4). Third lite reject: unknown (not p66–p68).
-4. Download p75 (one load or SaveTik). Still open: 雾必野 permission; 鱼丸三三 download.
+3. tiktok_links for the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.), unmapped. Third lite reject: unknown.
+4. p75: lite result, file and sound used, post time. Still open: 雾必野 permission; 鱼丸三三 download.
 5. rvf5567 DM: which clips did they name?
 
 ## 6. Pipeline
@@ -48,7 +46,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
   - **POSTED p74** (梁同学 train door, 9.3 s, lifted edit) 21 Oct 23:25 EDT, "Let Go": post 1. At 15 h: 709 views, **2.3% likes**, 1 share, 1 save; 8 s (~1 s cut); 540p 336 kbps. Failed. [C pull]
   - p73 (balcony tilt-up, 11.2 s) stuck at lite → likely blocked. Vyx downloaded both via SaveTik (1080p, 1.3–1.9 Mbps).
   - **POSTED p76** (韬 HK rain, **original**, dark, lite instant PASS) 22 Oct 20:36 EDT, direct, "Let Go": post 2. Min 9: 400–500 views, ~25 likes (5–6%) [V]; 50 min: 694, **4.2%**, 3 comments, 2 saves; 8 s, no cut; 540p 617 kbps. [C pull]
-  - Not downloaded: p75 谢景行 7693926803313088960 (7.7 s Dali lane).
+  - **p75** 谢景行 Dali lantern lane: downloaded 23 Oct 02:37 UTC (1 load, no throttle), 4K 3.7 Mbps, 7.7 s, YAVG 56, no signature; precheck OK. 16 days old, shares 33% of likes → lite risk (cf. p73). Plan: original, oscncs, direct by midnight EDT, else Fri 19:00–22:30 EDT. [L]
 - **Used up:** p65–p72 [V]. p65 and p69 were rejected at lite; the rest were posted (except one unclear). The p69/p72 edits in the inbox are spare.
 - HOLD p61 (TikTok collision check not done). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - Permission yes, not downloaded: 鱼丸三三. Not confirmed: 雾必野.
