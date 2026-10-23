@@ -319,3 +319,14 @@ This is one account, so it's an example, not a rule.
   - `levers.py`: the same-week relative-views tables.
   - `pull_music.py`, `sound_origin.py`: sound ID, creation time and author, plus the sound-origin tables.
 - `research/data/someplace505_sounds.csv`, `research/data/elsewhere557_sounds.csv`: per-video sound ID, sound creation time, sound age when used, author, origin category, official-track flag and matched commercial song.
+
+## 5. Lead from a peer creator (23 Oct, Vyx via Discord)
+- "elmo" (another scenery account) said they film on an iPhone 12 Pro Max and post without editing. They don't use any compression trick. [V]
+- Our source files are mostly 1080×1920 or larger (log.csv: 8 at 1080p, 24 at 1440p–4K, 4 below 1080p), but 0/39 of our posts got a 1080p tier. So low input resolution doesn't explain the gap.
+- What's left that we can change is the upload path. We upload through TikTok Studio on the web. elmo and @elsewhere557 most likely post from the phone app, which has the "Upload HD" toggle. That's an inference and hasn't been tested.
+- Test (one post): use the p76 setup, but post from the TikTok app (iPad) with Upload HD on and the file exported at 1080×1920. Then check the served tier in the next cloud self pull.
+- **elmo's per-post Studio screen (sent 23 Oct, updated 22 Oct):** self-filmed close-up of grass in wind, 15.37 s, posted 14 Oct 21:45. 442.8K views; 98K likes (22.1%), 18K shares (4.1%), 9,431 saves (2.1%), 241 comments; average watch 6.8 s (44% of the length), 9.04% watched the full video; 222 new followers (0.05% of viewers). Day 1 ≈ 174K views (read off the chart, ±10%), roughly halving each day after. [V screenshot]
+  - Their rates fall in our network "breakout" band (21–25% likes, 2–4% shares). This is the first per-post confirmation; until now that band came from lifetime account rates.
+  - Ours: 5.2% likes, 0.00% shares, 0.28% saves → 4× fewer likes, 7.5× fewer saves.
+  - Opening: almost certainly an upward reveal. The cover (first frame) looks down at grass, and the clip most likely tilts up to the full scene (Vyx, 23 Oct; the cover is the only frame we've seen). Same pattern as all top 5 of the network's hit batch (§2.6). Only 9% watched to the end, so a breakout doesn't need high completion.
+  - Their average watch (6.8 s) is about as long as our whole typical clip (6–7 s). Next step: compare with the same Overview screen for p76 and p77.
