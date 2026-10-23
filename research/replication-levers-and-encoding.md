@@ -319,3 +319,9 @@ This is one account, so it's an example, not a rule.
   - `levers.py`: the same-week relative-views tables.
   - `pull_music.py`, `sound_origin.py`: sound ID, creation time and author, plus the sound-origin tables.
 - `research/data/someplace505_sounds.csv`, `research/data/elsewhere557_sounds.csv`: per-video sound ID, sound creation time, sound age when used, author, origin category, official-track flag and matched commercial song.
+
+## 5. Lead from a peer creator (23 Oct, Vyx via Discord)
+- "elmo" (another scenery account) said they film on an iPhone 12 Pro Max and post without editing. They don't use any compression trick. [V]
+- Our source files are mostly 1080×1920 or larger (log.csv: 8 at 1080p, 24 at 1440p–4K, 4 below 1080p), but 0/39 of our posts got a 1080p tier. So low input resolution doesn't explain the gap.
+- What's left that we can change is the upload path. We upload through TikTok Studio on the web. elmo and @elsewhere557 most likely post from the phone app, which has the "Upload HD" toggle. That's an inference and hasn't been tested.
+- Test (one post): use the p76 setup, but post from the TikTok app (iPad) with Upload HD on and the file exported at 1080×1920. Then check the served tier in the next cloud self pull.
