@@ -26,5 +26,5 @@ Updated 2026-10-24 12:19 UTC (pull 12). Sources: research/data/watch/rvf5567_sna
 - **22 Oct pair at ~37.6 h:** Cherry 299 views (10.0% likes), MHC 380 (11.1% likes, shares 1.1%). Creeping up by single digits per 6 h; both about half our ~700 median.
 - **21 Oct pair at ~63 h:** post 1 948, post 2 356; frozen since 24 h (935 / 346).
 - **Reaction vs ours:** likes 10-15% vs our 5.2%; saves 0.8-1.5% vs 0.28% (n=4). High rates on 299-948 views: a high like rate alone has not lifted views.
-- **kadzoo55871:** 23 Oct 16:09 EDT post (6 s, MHC) at 19.1K views, 25.2% likes (14.8K at 06:19 UTC); 22 Oct MHC post 150K (142.6K); 21 Oct post 2.0M. Followers 167,735 (+364 in 6 h). MHC is on all 3 of its latest posts' sound row except the 21 Oct one; rvf5567 used it once.
+- **kadzoo55871:** 23 Oct 16:09 EDT post (6 s, MHC) at 19.1K views, 25.2% likes (14.8K at 06:19 UTC); 22 Oct MHC post 150K (142.6K); 21 Oct post 2.0M. Followers 167,735 (+364 in 6 h). MHC is on its two newest posts (22 and 23 Oct); rvf5567 used it once.
 - No contradiction with MASTER 2. No ALERT triggers (no rvf5567 post at 10K+, deletion, +100 followers or new sibling).
