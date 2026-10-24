@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 04:45 UTC by cloud session (v22: self pull; levers tried; self-filmed test proposed). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-24 05:00 UTC by cloud session (v23: own footage also ~600; test-size gap vs someplace505). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–23 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712; last 6: 701–752 whatever changed): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -19,10 +19,9 @@ Updated 2026-10-24 04:45 UTC by cloud session (v22: self pull; levers tried; sel
 9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557) = one operator; someplace505 likely separate. rvf5567 (22 Oct) very likely theirs (`reports/watch.md`). Hot phase ~1–3 weeks, then decay: elsewhere557 weekly median 102K (wk 28 Sep) → 20K (wk 19 Oct, partial). [C]
 10. **Model** (`research/success-model.md`): ranks 100K+ (AUC 0.69), not 1M+ (0.51). [C]
 
-## 3. Recommendation now: change the recipe, then test it
-Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Tried, no change [V 24 Oct]:** app + Upload HD, instant-payoff clips, trending and non-trending sounds. Views don't move, so the cap is likely the account or reposting itself [est].
-- **Proposed [C 24 Oct, V to decide]:** 5 self-filmed posts, same format. ~700 too → account cap; higher → reposting is the ceiling.
+## 3. Recommendation now (recipe bundle since 21 Oct)
+- **Tried, no change [V 24 Oct]:** app + Upload HD, instant-payoff clips, trending/non-trending sounds, own footage (camp lake pan-up: ~600 views, 30 likes). So it isn't reposting.
+- **Real gap = test size [C]:** someplace505's first 4 relaunch posts had our like rate (4–7%) but ~4,300 views each; post 5 broke out (research §2.7). Formal account penalty unlikely: TikTok notifies + Account Check (good 19 Oct); p81 reached FYP.
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
@@ -41,7 +40,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 4. rvf5567 DM: which clips did they name?
 5. 韬 IFC: DM or skip? Drop 可爱到爆炸 (sells footage)?
 6. **p61:** still unused? (HOLD, lite never run.)
-7. Which posts used app + Upload HD? p80 posted? (not public 04:31 UTC 24 Oct)
+7. p81 Studio: traffic source (% For You) + Viewers tab. Which posts used app + Upload HD? p80 posted?
 
 ## 6. Pipeline
 - Next file number: **p82**. Douyin: 13 of 20 loads used 24 Oct UTC; rest until 25 Oct.
