@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 02:25 UTC by local session (v19: p81 lite PASS + posted 23 Oct). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-24 02:41 UTC by local session (v20: p81 posted, 14-min stats). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud pull 22 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -41,7 +41,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 4. rvf5567 DM: which clips did they name?
 5. 韬 IFC: DM or skip? Drop 可爱到爆炸 (sells footage)?
 6. **p61:** still unused? (HOLD, lite never run.)
-7. **p81:** post time, sound, app or web, full 10.8 s in preview? 1 h views/likes.
+7. **p81:** app or web? Full 10.8 s in preview? 1 h views/likes.
 
 ## 6. Pipeline
 - Next file number: **p82**. Douyin: 13 of 20 loads used 24 Oct UTC; rest until 25 Oct.
@@ -50,7 +50,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
   - **POSTED p76** (韬 HK rain, **original**, dark, lite instant PASS) 22 Oct 20:36 EDT, direct, "Let Go". 50 min: 694 views, **4.2%**, 2 saves; 8 s, no cut. [C pull]
   - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct, flopped: 706–718 views, 3.9–5.0% (which post: §5). [V][L]
   - **POSTED p77** (鱼丸三三 Wuwei snow, original, 11.3 s, lite instant PASS) ~22:52 EDT 22 Oct, direct, "Let Go": 10 min: 19 likes; views pending [V].
-  - **POSTED p81** (梁同学 rain bridge tilt-up, original, uncut, lite PASS) by 22:23 EDT 23 Oct. Rest: §5.
+  - **POSTED p81** (梁同学 rain bridge tilt-up, original, uncut, lite PASS) 23 Oct 22:22 EDT, "Let Go". 14 min: 37 likes, 1 save [V].
 - **Used up: p50–p79** [V 23 Oct]: lite rejects in §2.1, the rest posted (one unclear).
 - HOLD p61 (lite never run; §5). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
 - **IN p80** (梁同学 dusk car window, bright, no reveal; precheck OK; lite not run).
