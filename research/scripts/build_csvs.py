@@ -34,7 +34,7 @@ if not keep_enc:
     for i in items:
         t = tech.get(i['id'])
         if not t: continue
-        g = t['gears']; orig = not g
+        g = t['gears']; orig = not g or any((q['gear'] or '').startswith('original') for q in g)  # TikTok can list the untouched file as a gear named original_*
         b = max(g, key=lambda q: ((q['w'] or 0)*(q['h'] or 0), q['bitrate'] or 0)) if g else None
         ER.append([t['id'],T(t['createTime']),t['views'],orig,len(g),b and b['gear'] or '',b and b['codec'] or '',b and f"{b['w']}x{b['h']}" or '',
                    b and b['fps'] or '',b and round(b['bitrate']/1000) or '',round((t['default_bitrate'] or 0)/1000),t['vq'] or '',
