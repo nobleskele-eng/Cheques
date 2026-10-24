@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 05:00 UTC by cloud session (v23: own footage also ~600; test-size gap vs someplace505). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-24 05:20 UTC by cloud session (v24: viewers = For You + Canadian; caption test next). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~55 followers. 43 public posts, 3–23 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712; last 6: 701–752 whatever changed): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
+- ~55 followers. 43 public posts, 3–23 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712; last 6: 701–752 whatever changed): TikTok tests each one, but the test audience doesn't react. Best: 2,575 (10 Oct, waterfront walk-up reveal). [C]
 - Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K views): 8–11% likes, 0.6–1.1% shares. Breakouts (100K+): 21–25% likes, 2–4% shares (lifetime rates on 200K–380K accounts; one peer post fits: elmo, 442.8K views, 22% likes, 4.1% shares, 2.1% saves [V screenshot]). [C] [L csv]
 - Sourcing is good enough [V]: permissioned Douyin clips, and big accounts got millions from clips Vyx posted first. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Reposts only after a Content check lite PASS.
@@ -20,13 +20,14 @@ Updated 2026-10-24 05:00 UTC by cloud session (v23: own footage also ~600; test-
 10. **Model** (`research/success-model.md`): ranks 100K+ (AUC 0.69), not 1M+ (0.51). [C]
 
 ## 3. Recommendation now (recipe bundle since 21 Oct)
-- **Tried, no change [V 24 Oct]:** app + Upload HD, instant-payoff clips, trending/non-trending sounds, own footage (camp lake pan-up: ~600 views, 30 likes). So it isn't reposting.
-- **Real gap = test size [C]:** someplace505's first 4 relaunch posts had our like rate (4–7%) but ~4,300 views each; post 5 broke out (research §2.7). Formal account penalty unlikely: TikTok notifies + Account Check (good 19 Oct); p81 reached FYP.
-- **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
+- **Tried, no change [V 24 Oct]:** app + Upload HD, instant-payoff clips, trending/non-trending sounds, own footage (camp lake: ~600 views, 30 likes). Not reposting.
+- **Gap = test size [C]:** someplace505's first 4 relaunch posts had our like rate (4–7%) but ~4,300 views each; post 5 broke out (research §2.7). No hidden penalty: p81 views are For You, mostly Canadian [V 24 Oct]. TikTok: same country = weak signal, finishing = strong (newsroom); with no strong signals we get a local test pool [est].
+- **Next 5 posts: caption test [C]:** place/mood line + 2–3 interest hashtags (+ credit). Only 2/43 posts had captions: #1 2,575 (#cyberpunk) and #4 937 (#nightwalk #china), same night, n=2. Win = any post >1,100.
+- **Check length before Post:** preview must show the full file length.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
-- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
+- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, right after lite PASS.
 - **Sound** (`research/data/proven_sounds.csv`): oscncs 18.8×, Let Go 11.6×, Cherry 10.4×, yuji 8.7×. Give each 2+ tries. Let Go: p74/76/81 ~700, p77 unknown; oscncs next. Skip likely paid promos (CIGARETTES, gambling).
-- **Upload:** TikTok Studio web as drafts, "Upload HD" if offered, Content check lite must PASS. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by the 抖音号 on their profile.
+- **Upload:** Studio draft → lite PASS → post directly (never scheduled), 1–3/day, 40+ min apart. Credit the creator's 抖音号.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 - **First milestone:** any post ≥10–15% likes/view (network flop range). [est]
 
@@ -40,7 +41,7 @@ Updated 2026-10-24 05:00 UTC by cloud session (v23: own footage also ~600; test-
 4. rvf5567 DM: which clips did they name?
 5. 韬 IFC: DM or skip? Drop 可爱到爆炸 (sells footage)?
 6. **p61:** still unused? (HOLD, lite never run.)
-7. p81 Studio: traffic source (% For You) + Viewers tab. Which posts used app + Upload HD? p80 posted?
+7. Which posts used app + Upload HD? p80 posted? Where's the credit (41/43 captions empty)?
 
 ## 6. Pipeline
 - Next file number: **p82**. Douyin: 13 of 20 loads used 24 Oct UTC; rest until 25 Oct.
