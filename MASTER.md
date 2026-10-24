@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 by local session (v23: nature test). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-24 by local session (v24: p82–p84 in). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -21,7 +21,7 @@ Updated 2026-10-24 by local session (v23: nature test). Cap 8,000 bytes. Tags: [
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together for ~10 posts, compare with the old 39, then remove levers one at a time. [est]
-- **p80 next:** lite, post 24 Oct 19:00–22:30 EDT.
+- **Tonight:** lite p82 (nature test, best recipe fit), then p80; post 19:00–22:30 EDT, 40+ min apart.
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.** **Nature test [V 24 Oct]:** gorge/lake/snowy-forest POV; clear daytime OK.
@@ -39,16 +39,14 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 5. Waiting on Vyx
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
-3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three. Third lite reject: unknown. 雾必野 permission open.
+3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three. Third lite reject: unknown.
 4. rvf5567 DM: which clips did they name?
-5. 韬 IFC: DM or skip? Drop 可爱到爆炸 (sells footage)?
+5. Drop 可爱到爆炸 (sells footage)?
 6. **p61:** still unused? (HOLD, lite never run.)
 7. **p81:** app or web? Full 10.8 s in preview? 1 h views/likes.
-8. **Nature:** DM 盐放多会咸 for the 虎跳峡 tilt-up (`reports/scout.md`)?
-
 ## 6. Pipeline
-- Next file number: **p82**. Douyin: 16 of 20 loads used 24 Oct UTC; rest until 25 Oct 00:00 UTC (20:00 EDT).
-- **Batch 2026-10-24b (nature):** 盐放多会咸 虎跳峡 tilt-up, 9.6 s, 1080p. Same spot as someplace505's 2.8M, different footage; profile + frame check pending.
+- Next file number: **p85**. Douyin: 19 of 20 loads used 24 Oct UTC; rest until 25 Oct 00:00 UTC (20:00 EDT).
+- **IN p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p, bright; same spot as someplace505's 2.8M, different footage). **p83** (韬 IFC night rain, 10.3 s 4K, dark; same walk as p76). **p84** (雾必野 bus windscreen, sunny street, 7.0 s, dark; weak). Precheck OK; lite not run.
 - **New recipe [V 22 Oct]:**
   - **POSTED p74** (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct: 713 views, **2.2%**. **p76** (韬 HK rain, original, dark) 22 Oct: 730, **4.1%**. Both "Let Go", direct.
   - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
