@@ -5,7 +5,7 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 ## 1. Douyin discovery (LOCAL: logged-in built-in browser pane, Vyx logged in by QR)
 - **Best:** open a clip that passes the charm gate and read its 推荐视频 (recommended) list: ~10 similar clips with likes/author/length. Snowball from the best. Lists drift to generic feed after ~3 video pages.
 - **Charm accounts' profiles** (`library/accounts.csv`). A profile's 搜索Ta的作品 box finds uploads past the ~20-post grid limit.
-- **Keyword search is weak** (songs, news, filler after ~2–4 searches). If used: `?type=video&sort_type=0&publish_time=7` and sort by likes yourself (最多点赞 + 一周内 starves results). Good: 风景, 治愈系风景, 雪景, 心邸咖啡 蓝调. Bad: 大风/大雾, 下雨天/初雪, 雨天, 银杏, 氛围感, 雨夜 (matches a username; filler).
+- **Keyword search is weak** (songs, news, filler after ~2–4 searches). If used: `?type=video&sort_type=0&publish_time=7` and sort by likes yourself (最多点赞 + 一周内 starves results). Good: 风景, 治愈系风景, 雪景, 心邸咖啡 蓝调. Bad: 大风/大雾, 下雨天/初雪, 雨天, 银杏, 氛围感, 雨夜, 蓝调时刻 (both match a username; filler).
 - Detail JS: in page text find the line starting `发布时间` at i → likes t[i-5], comments t[i-4], saves t[i-3], shares t[i-2], caption t[i-6], author t[i+1], fans t[i+2]. Dims via video.videoWidth/Height.
 - Douyin/TikTok video ID >> 32 = post time (Unix seconds, UTC).
 - Saved scripts live in douyin.com localStorage (`__gsrc` grid sweep, `__sr` search list, `__rec2` details + recommended, `__fr2` frames at 480px, `__ov`/`__ovs` cover overlays). Overlay: append to document.documentElement, wait ~1.5 s, then screenshot.
