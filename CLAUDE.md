@@ -45,7 +45,7 @@ Vyx never reopens a finished session. Each new session starts from this file, MA
 | editor | Fold reports into MASTER.md under the cap, commit, push | either |
 
 ## Files
-`MASTER.md` current state · `docs/charm.md` aesthetic gate · `docs/methods.md` how-to · `reports/` the latest output of each agent (overwritten each run) · `research/` cloud analyses + data + scripts · `log.csv` every downloaded/posted clip · `library/` clip candidates + accounts · `tools/` PowerShell checks · `notes/project-notes.md` full history to 21 Oct (frozen; search it, don't load it whole).
+`MASTER.md` current state · `docs/charm.md` aesthetic gate · `docs/methods.md` how-to · `reports/` the latest output of each agent (overwritten each run) · `research/` cloud analyses + data + scripts · `log.csv` every downloaded/posted clip · `audio/<date>/` reference audio of the top new sounds (`research/scripts/download_audio.py`, ~200 KB each; add the sound in the TikTok app when posting) · `library/` clip candidates + accounts · `tools/` PowerShell checks · `notes/project-notes.md` full history to 21 Oct (frozen; search it, don't load it whole).
 
 ## Updating MASTER.md (the moving doc)
 1. **Pull first:** `git pull --rebase` before editing. Only one writer at a time.

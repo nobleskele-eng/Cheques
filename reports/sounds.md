@@ -1,9 +1,9 @@
 # New sounds in the niche, 2026-10-24 (trending_sounds.py, cloud)
 Coverage, pulled 2026-10-24 16:45 UTC: someplace505 146, elsewhere557 348, anywhere557 17, kadzoo55871 67, .aaapaathy 288, fang_w3 63, rvf5567 6 posts (last 42 d).
-New = no network post used the song before 2026-10-10 and @papercheques never used it. × = views / that account's median (posts ≥48 h old, last 42 d). Song names: Apple lookup unreachable (URLError), Spotify links only.
+New = no network post used the audio before 2026-10-10 and @papercheques never used it. × = views / that account's median (posts ≥48 h old, last 42 d). Names: Apple lookup unreachable (URLError), Spotify links only.
 
 ## A: spreading (2+ posts, median ≥1.5×, or 2+ accounts)
-| # | Song | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |
+| # | Audio | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |
 |---|---|---|---|---|---|---|---|---|
 | 1 | ive never loved anyone the way that i love you (upload by 1) | [sound](https://www.tiktok.com/music/x-7647678131909757727) | 2 (elsewhere557), 2 beat | 266,300 | 7.07× | 4.94× | 10-21 |  |
 | 2 | original sound by MarkedVFX | [sound](https://www.tiktok.com/music/x-7597847929831557910) | 2 (elsewhere557), 1 beat | 306,200 | 8.13× | 4.11× | 10-14 |  |
@@ -12,7 +12,7 @@ New = no network post used the song before 2026-10-10 and @papercheques never us
 | 5 | New Computers - Girlfriends | [sound](https://www.tiktok.com/music/x-7554861805249054721) · [Spotify](https://open.spotify.com/track/3UToybRiZWo1GoUJh01gwo) | 3 (elsewhere557), 2 beat | 267,100 | 7.09× | 1.59× | 10-16 |  |
 
 ## B: one big hit (best ≥3× or 1M+, not repeated: may be the clip, not the sound)
-| # | Song | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |
+| # | Audio | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |
 |---|---|---|---|---|---|---|---|---|
 | 1 | original sound by @someplace505 | [sound](https://www.tiktok.com/music/x-7695702245484940052) | 1 (someplace505), 1 beat | 2,700,000 | 137.76× | 137.76× | 10-12 |  |
 | 2 | original sound by @someplace505 | [sound](https://www.tiktok.com/music/x-7699728013478464264) | 1 (someplace505), 1 beat | 2,700,000 | 137.76× | 137.76× | 10-23 | accruing |

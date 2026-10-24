@@ -4,8 +4,10 @@
 #    Same public endpoints as pull_account.py. Never /video/<id> pages or files (rule 3).
 #    The first 403, challenge page, empty response or connection error stops all pulling (rule 4); the list is built from what came in.
 #    --offline re-reads the last pull from research/scratch/sounds/ instead (no network).
-# 2. Groups posts by song (TikTok's own song match, else the sound id). A song is "new" when no network post used it before the
-#    14-day window (this pull + every research/data/*_sounds.csv) and @papercheques never used it.
+# 2. Groups posts by audio: TikTok's own song match when it has one (re-uploads of one song merge), else the sound id
+#    (edits, voice-line mixes and other non-song audio stay as their own sound).
+#    A sound is "new" when no network post used it before the 14-day window (this pull + every research/data/*_sounds.csv)
+#    and @papercheques never used it.
 # 3. Writes research/data/sounds/new_sounds_<date>.csv (history) and overwrites reports/sounds.md.
 # Doesn't touch the rival CSVs. Song names come from the network's own library-track posts, else from Apple's public lookup
 # (skipped when the environment blocks itunes.apple.com).
@@ -158,10 +160,10 @@ def row(n, r):
             f"{r['best_views']:,} | {r['best_rel']}× | {r['median_rel']}× | {r['first_used'][5:]} | {', '.join(flags)} |")
 A, B = [r for r in out if r['tier'] == 'A'][:8], [r for r in out if r['tier'] == 'B'][:8]
 NONE = '| - | none this week | | | | | | | |'
-hdr = '| # | Song | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |\n|---|---|---|---|---|---|---|---|---|'
+hdr = '| # | Audio | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |\n|---|---|---|---|---|---|---|---|---|'
 L = [f"# New sounds in the niche, {now:%Y-%m-%d} (trending_sounds.py, cloud)",
      f"Coverage, pulled {now:%Y-%m-%d %H:%M} UTC: {', '.join(done)} posts (last {LOOKBACK} d)." + (f" **Stopped at {stopped['at']}**: {stopped['reason']}; not pulled: {', '.join(stopped['not_pulled']) or 'none'}." if stopped else ''),
-     f"New = no network post used the song before {day(w0)} and @papercheques never used it. × = views / that account's median (posts ≥{MATURE_H} h old, last {LOOKBACK} d). Song names: {lookup}.", '',
+     f"New = no network post used the audio before {day(w0)} and @papercheques never used it. × = views / that account's median (posts ≥{MATURE_H} h old, last {LOOKBACK} d). Names: {lookup}.", '',
      '## A: spreading (2+ posts, median ≥1.5×, or 2+ accounts)', hdr, *([row(i + 1, r) for i, r in enumerate(A)] or [NONE]), '',
      '## B: one big hit (best ≥3× or 1M+, not repeated: may be the clip, not the sound)', hdr, *([row(i + 1, r) for i, r in enumerate(B)] or [NONE]), '',
      '## How to use',
