@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 02:22 UTC by local session (v18: p80, p81 in from 梁同学, lite not run). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
+Updated 2026-10-24 02:25 UTC by local session (v19: p81 lite PASS + posted 23 Oct). Cap 8,000 bytes. Overwrite stale lines; old versions in git history. Tags: [L] local work, [C] cloud research, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 40 public posts, 3–22 Oct (cloud pull 22 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -21,7 +21,7 @@ Updated 2026-10-24 02:22 UTC by local session (v18: p80, p81 in from 梁同学, 
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **Ready for lite: p80, p81** (§6). Post 24 Oct 19:00–22:30 EDT, p80 first (bright, payoff in frame 1).
+- **p81 POSTED** 23 Oct (lite PASS, original). **p80 next:** lite, post 24 Oct 19:00–22:30 EDT.
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on, else p76 setup; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
@@ -41,7 +41,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 4. rvf5567 DM: which clips did they name?
 5. 韬 IFC: DM or skip? Drop 可爱到爆炸 (sells footage)?
 6. **p61:** still unused? (HOLD, lite never run.)
-7. **p81:** trim the dark first ~1.5 s? Which DM did 梁同学 get?
+7. **p81:** post time, sound, app or web, full 10.8 s in preview? 1 h views/likes.
 
 ## 6. Pipeline
 - Next file number: **p82**. Douyin: 13 of 20 loads used 24 Oct UTC; rest until 25 Oct.
@@ -50,9 +50,10 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
   - **POSTED p76** (韬 HK rain, **original**, dark, lite instant PASS) 22 Oct 20:36 EDT, direct, "Let Go". 50 min: 694 views, **4.2%**, 2 saves; 8 s, no cut. [C pull]
   - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct, flopped: 706–718 views, 3.9–5.0% (which post: §5). [V][L]
   - **POSTED p77** (鱼丸三三 Wuwei snow, original, 11.3 s, lite instant PASS) ~22:52 EDT 22 Oct, direct, "Let Go": 10 min: 19 likes; views pending [V].
+  - **POSTED p81** (梁同学 rain bridge tilt-up, original, uncut, lite PASS) by 22:23 EDT 23 Oct. Rest: §5.
 - **Used up: p50–p79** [V 23 Oct]: lite rejects in §2.1, the rest posted (one unclear).
 - HOLD p61 (lite never run; §5). Never: p54, p63 (re-uploaded shoots), p55–p57 (baked signatures).
-- **IN p80** (梁同学 dusk car window, bright, no reveal) + **p81** (rain bridge tilt-up, dark start, payoff ~3 s). Permission [V 23 Oct], Option B, precheck OK; lite not run.
+- **IN p80** (梁同学 dusk car window, bright, no reveal; precheck OK; lite not run).
 - Seasonal lead: Yunnan 冬樱花, mid-Nov to Dec [est].
 - Snow posts 0 for 4; no theme has beaten ~700. [C data]
 
@@ -61,4 +62,4 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - `reports/self.md` 22 Oct (local, 21 Oct csv): 9 of 12 clips cut; scheduled vs direct; hour split.
 - `reports/scout.md` 24 Oct: 2 picks; stopped at load 10.
 - `reports/gate.md` 22 Oct: p65–p72 checks.
-- `reports/watch.md` (every 6 h until 5 Nov): rvf5567 live tracker.
+- `reports/watch.md` (6-hourly to 5 Nov): rvf5567 tracker.
