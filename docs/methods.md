@@ -35,7 +35,7 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
   - **Dark interiors** (e.g. a train window): `hqdn3d=3:2.5:3:3,curves=all='0/0 0.12/0.19 0.5/0.56 1/1'` lifts the shadows without blowing out the window. YAVG 45→53.
   - Check that the frame count and length match the original, then look at a before/after pair.
 - **Precheck quirk:** an edit always shows "same footage" as its original plus "no permission found". That's expected, since permission lives on the original's row.
-- **Clips Vyx downloads:** when our pane is bounced, Vyx sometimes downloads clips themselves. They land in `C:\Users\Yichen\Downloads` as `SaveTik.co_<douyin id>-hd.mp4` (1080p, 1.3–1.9 Mbps, below Option B's 1440p–4K). Copy them, don't move them, into inbox\ as the next pNN, and match by the id in the filename.
+- **Clips Vyx downloads:** when our pane is bounced, Vyx sometimes downloads clips themselves. They land in `C:\Users\Yichen\Downloads` as `SaveTik.co_<douyin id>-hd.mp4` (1080p H.264, 1.0–3.3 Mbps, below Option B's 1440p–4K HEVC). Use Option B when the pane is up: SaveTik files passed lite 1 of 4 (p73, p78, p79 failed) vs Option B 4 of 6 (23 Oct, weak lead). Never re-download a lite-failed clip to retry it (hard rule 1). Copy them, don't move them, into inbox\ as the next pNN, and match by the id in the filename.
 
 ## 4. Posting gate
 - **TikTok Studio web upload → "Content check lite"** (~10 min). PASS → no FYP flag 3/3 (p60, p64, p67). ERROR → p54 (not posted), p58 (flagged). Post only on a PASS (n small, keep scoring it).
