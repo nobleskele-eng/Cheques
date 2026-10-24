@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 by editor (v21: rivals+self 24 Oct, recipe n=3). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-24 by main (v22: new sounds, Monday routine). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -9,7 +9,7 @@ Updated 2026-10-24 by editor (v21: rivals+self 24 Oct, recipe n=3). Cap 8,000 by
 
 ## 2. What we know (strongest first)
 1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78, p79 (12–30 days old). Passed: p74–p77, so age/shares don't explain it. Weak lead (n=10): SaveTik H.264 passed 1 of 4, Douyin HEVC 4 of 6. [V][L ffprobe]
-2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 8.1× over 8 uses (was 11.6× over 6). 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
+2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 8.1× over 8 uses. someplace505: own uploads 7.6× vs library tracks 0.8× (n=28/95; may be clip choice). 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
 3. **Served quality:** 0/43 of ours have a 1080p version (best 720p/1568k on p77, else 576p; views unchanged); the network gets 1080p on 81–99%, flops included. Our files are 1080p+, so the untested lever is the upload path: we use Studio web, peers likely the app with Upload HD [C 23 Oct, inference]. Brightness doesn't track views (p60, p64, p67). [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from the ground or a railing). The 3 of ours checked are mostly static. n=8+3. [C]
 5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 7–11 s, and 11–14 s+ did 1.1–2.0× (small n). [C] **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, 1.3–9.5 s shorter (median −3.0 s). Network lengths match their files. Full vs cut: no difference yet (certain n=3 vs 9: median 798 vs 709). [L ffprobe + csv]
@@ -20,14 +20,14 @@ Updated 2026-10-24 by editor (v21: rivals+self 24 Oct, recipe n=3). Cap 8,000 by
 10. **Model** (`research/success-model.md`): 100K+ AUC 0.69, 1M+ 0.52. [C]
 
 ## 3. Recommendation now: change the recipe, then test it
-Single-variable tests need dozens of posts at ~700 views, so run the likely levers together as a new baseline for ~10 posts, compare with the old 39, then remove levers one at a time if it works. [est]
-- **p81 POSTED** 23 Oct (lite PASS, original). **p80 next:** lite, post 24 Oct 19:00–22:30 EDT.
+Single-variable tests need dozens of posts at ~700 views, so run the likely levers together for ~10 posts, compare with the old 39, then remove levers one at a time. [est]
+- **p80 next:** lite, post 24 Oct 19:00–22:30 EDT.
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on, else p76 setup; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.**
 - **Recipe test [C 24 Oct]:** 3 scoreable (p74, p76, p77): median 730 views (old 39: 716), likes 3.9% (old 5.1%). Verdict too early; go to ~10. p81 (first upward reveal) still collecting.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
-- **Sound** (`research/data/proven_sounds.csv`): Air 31.6× (3 uses, last 18 Sep, stale), oscncs 19.2×, yuji 8.7×, Let Go 8.1×; Cherry dropped. Give each 2+ tries. Let Go: p74, p76, p77, p81; oscncs next. Skip likely paid promos (CIGARETTES, gambling).
+- **Sound** (`research/data/proven_sounds.csv`): Air 31.6× (stale), oscncs 19.2×, yuji 8.7×, Let Go 8.1×. Give each 2+ tries. Let Go: p74, p76, p77, p81; oscncs next. Skip likely paid promos (CIGARETTES, gambling). New sounds: `reports/sounds.md`.
 - **Upload:** TikTok Studio web as drafts, "Upload HD" if offered, Content check lite must PASS. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by the 抖音号 on their profile.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 - **First milestone:** any post ≥10–15% likes/view (network flop range). [est]
@@ -63,3 +63,4 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - `reports/scout.md` 24 Oct: 2 picks; stopped at load 10.
 - `reports/gate.md` 22 Oct: p65–p72 checks.
 - `reports/watch.md` (6-hourly to 5 Nov): rvf5567 tracker.
+- `reports/sounds.md` 24 Oct (Mondays): unused new sounds + links.
