@@ -26,6 +26,7 @@
   const TAKE = /拿了留痕|随便拿|可以拿|原创素材/;
   const SELL = /素材|教学|课程|预设|接单|商用|LUT/i;
   const AI = /可灵|AI生成|AIGC|即梦|AI创作|ai视频|#ai(?![a-z])/i;
+  const SLOW = /慢放|慢动作|慢镜头|放慢|慢速|倍速/;
   const KEEP = /search|related|aweme\/post|aweme\/detail|feed|profile/;
   const load = k => { try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch (e) { return {}; } };
   const dy = window.__dy = window.__dy || {};
@@ -59,6 +60,7 @@
     if (TAKE.test(desc)) flags.push('take');
     if (SELL.test(desc)) flags.push('sell?');
     if (AI.test(desc)) flags.push('AI');
+    if (SLOW.test(desc)) flags.push('slow?');
     if (a.images && a.images.length) flags.push('album');
     if (a.is_ads) flags.push('ad');
     if ((st.share_count || 0) > (st.digg_count || 0)) flags.push('shr>lk');

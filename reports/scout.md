@@ -1,11 +1,11 @@
 # Scout report (NATURE run, first with dyhook.js)
-Run 2026-10-25 16:20-16:55 UTC. Douyin: 1 page load + ~18 in-page actions (searches, filters, clip modals, TA的作品 tabs). No stop signal: every captured response returned status 0. Screened from `tools/dyhook.js` data (272 clips); screenshots only for covers, frames, edges.
+Run 2026-10-25 16:20-16:38 UTC. Douyin: 1 page load + ~18 in-page actions (searches, filters, clip modals, TA的作品 tabs). No stop signal: every captured response returned status 0. Screened from `tools/dyhook.js` data (272 clips); screenshots only for covers, frames, edges.
 
 ## Flag: p82 (READY, lite PASS)
 The source creator 盐放多会咸 (1.2万 fans, 571 posts) uploaded this 虎跳峡 hike **3 times**: 7698960132067567481 (21 Oct, p82's source), 7699328997604443365 (22 Oct, 9.6 s, same spot and light) and 7700027963747860089 (24 Oct, 9.0 s, **same caption and same cover as p82** = a re-upload). The same week they posted from Iceland (19 Oct), Bangkok (13/15 Oct) and Dali (16 Oct), and they reuse captions across clips. So p82 fails the one-upload-per-shoot rule (the p54/p63 category), and it's unclear they shot it. Vyx decides: hold it, or post it and watch for an unoriginal flag.
 
 ## Picks (batch 2026-10-25; TikTok collision check not done)
-1. **A · owo · 7696867651759378368** · 3.9万 likes / 1,666 saves / 1.4万 shares · 11.4 s · 1080x1920 (top 1080P, 6.1 Mbps) · 15 Oct 12:17 UTC. Heavy snowfall at night over amber-lit flats in Urumqi, streetlamp and trees at the bottom, slow pan. Snow visible from 0.1 s (payoff in frame 1, no tilt-up). Luma 70-80. **City snow, not nature.**
+1. **REJECTED by Vyx 25 Oct (no reveal, no subject, poor quality, slowed-down trend clip). owo · 7696867651759378368** · 3.9万 likes / 1,666 saves / 1.4万 shares · 11.4 s · 1080x1920 (top 1080P, 6.1 Mbps) · 15 Oct 12:17 UTC. Heavy snowfall at night over amber-lit flats in Urumqi, streetlamp and trees at the bottom, slow pan. Snow visible from 0.1 s (payoff in frame 1, no tilt-up). Luma 70-80. **City snow, not nature.**
    Creator: personal account (226 fans, 41 posts of dance practice and daily life); this is their one viral clip and the only upload of that snowfall. Signature: edgecheck clear (0) at 1080p, edges checked by eye at full res.
    Risks: shares 37% of likes and 10 days old, so it may already be on TikTok. Only 1080p. Caption is near 桑榆's p64 (same day, a local trend line; different footage).
 

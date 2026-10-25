@@ -12,7 +12,7 @@ Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §3 and §6 (the current 
 3. **Seed** from the A-tier accounts in `library/accounts.csv`, a 推荐视频 list of a clip that passes the charm gate, or the seasonal leads in MASTER §6. Keyword search last.
 4. **Screen each candidate** in this order, and drop it at the first fail:
    - charm gate;
-   - MASTER §3 selection: an upward reveal or the payoff in the first second, 8–13 s long, and bright enough to read at 540p after an exposure lift;
+   - MASTER §3 selection: an upward reveal or the payoff in the first second, a clear subject, 8–13 s long, 2K/4K top quality, not slowed down (compare two frames 0.2 s apart; Douyin's slow-mo trend), and bright enough to read at 540p after an exposure lift;
    - sourcing rules v4 (`docs/methods.md` §2): fresh, a small self-shooting creator, one upload per shoot, shares not above likes, vertical, not AI;
    - **signature check, every candidate** (`docs/methods.md` §2.5): top quality on, run `tools/edgecheck.js` (`await __edge({show: true})`), screenshot the overlay. SIGNATURE = reject. LOOK = read the crop. Then look at all four edges of one full-resolution frame for small white text, usually cursive. Never judge from 480 px frames: p83 passed that way with 韬's "Tao" in every frame (p76, same creator, likely too).
 5. **Record survivors** in `library/library.csv` (status `to contact - batch <YYYY-MM-DD>`, all stats columns, and `edgecheck <verdict> <score> at <stream res>` in `risks`). Save each cover to `library/covers/<id>.jpg`. Rebuild the page with `tools/render_library.ps1` and the link list (`library/links.md`) with `tools/list_links.ps1`; run the link list again after downloads.

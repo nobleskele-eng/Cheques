@@ -15,7 +15,8 @@ Core genre = Chinese "city mood": vertical POV of a city in rain/fog or at blue 
 ## Vyx's verdicts
 - Own posts with charm: p14 chongqing train tunnel, p27 arasaka tower, p47 bubbles. p50–p52 = "better, closer".
 - Picks Vyx liked: 弋丹 snowy city street at night, _青 blizzard at night. Charm account: 可爱到爆炸.
-- **Rejected:** saturated autumn-gold roads/ginkgo, aerial/drone, sky-only sunsets, flower fields, person-focused (couples/girls as subject), landscape or sideways clips, plain daytime, comedy, AI clips (#可灵AI).
+- **Rejected:** saturated autumn-gold roads/ginkgo, aerial/drone, sky-only sunsets, flower fields, person-focused (couples/girls as subject), landscape or sideways clips, plain daytime, comedy, AI clips (#可灵AI), **slowed-down clips** (a Douyin trend: the clip is slowed so the snowfall or waves become the subject; caption tags 慢放/慢动作 are not always there, so compare two frames 0.2 s apart).
+- **Needs a reveal, a subject and quality** (Vyx 25 Oct, rejecting owo's Urumqi snow: payoff in frame 1 but nothing to look at except falling snow over flats, 1080p, slowed down). Prefer 2K/4K top quality.
 
 ## Reference hits (Douyin likes)
 韬 pink-dusk HK harbour 783.1万 · Hana. Chongqing towers in mist 344.7万 · 谢景行 Nanjing plane-tree road at night 287.6万 · 白川井 Shibuya night sakura 282.7万 · Hua. golden bridge 225.1万 · Iuk wet HK streets 113–124万.

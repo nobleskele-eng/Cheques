@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-25 by local session (v28: p82 flag, owo pick). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-25 by local session (v29: city pivot, owo rejected). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -25,7 +25,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Signature check [V 24 Oct]:** p83 has 韬's tiny white cursive "Tao" (bottom-centre), missed at 480 px. Scout runs `tools/edgecheck.js` before DMs; precheck flags it (red = never post; methods §2.5).
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
-- **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.** **Nature test [V 24 Oct]:** gorge/lake/snowy-forest POV; clear daytime OK.
+- **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
 - **Recipe test [C 24 Oct]:** 3 scoreable (p74, p76, p77): median 730 views (old 39: 716), likes 3.9% (old 5.1%). Verdict too early; go to ~10. p81 (first upward reveal) still collecting.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
 - **Sound** (`research/data/proven_sounds.csv`): Air 31.6× (stale), oscncs 19.2×, yuji 8.7×, Let Go 8.1×. Give each 2+ tries. Let Go: p74, p76, p77, p81; oscncs next. Skip likely paid promos (CIGARETTES, gambling). New sounds: `reports/sounds.md`.
@@ -50,7 +50,6 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 6. Pipeline
 - Next file number: **p85**. Douyin OK 25 Oct 16:20 UTC. Scout: `tools/dyhook.js` (methods §1).
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
-- **To contact (25 Oct):** owo Urumqi night snow, 11.4 s 1080p, 3.9万♥, A (city).
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut, lite PASS) 23 Oct 22:22 EDT, 11 h: 773, 5.2%, still collecting [C].
 - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
 - **Used up: p50–p79** [V 23 Oct].
