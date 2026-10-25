@@ -8,14 +8,19 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 - **Keyword search is weak** (songs, news, filler after ~2–4 searches). If used: `?type=video&sort_type=0&publish_time=7` and sort by likes yourself (最多点赞 + 一周内 starves results). Good: 风景, 治愈系风景, 雪景, 心邸咖啡 蓝调. Bad: 大风/大雾, 下雨天/初雪, 雨天, 银杏, 氛围感, 雨夜, 蓝调时刻, 禾木 初雪 (username matches; filler), 虎跳峡 (mostly 47 s+ vlogs; 1 of 7 usable, then seed from its 推荐视频).
 - Detail JS: in page text find the line starting `发布时间` at i → likes t[i-5], comments t[i-4], saves t[i-3], shares t[i-2], caption t[i-6], author t[i+1], fans t[i+2]. Dims via video.videoWidth/Height.
 - Douyin/TikTok video ID >> 32 = post time (Unix seconds, UTC).
-- Saved scripts live in douyin.com localStorage (`__gsrc` grid sweep, `__sr` search list, `__rec2` details + recommended, `__fr2` frames at 480px, `__ov`/`__ovs` cover overlays, `__band` middle-band frame). Overlay: append to document.documentElement, wait ~1.5 s, then screenshot. Pane hidden: zoom times out, a plain screenshot works about every 2nd try; luma via canvas (crossOrigin anonymous).
+- Saved scripts live in douyin.com localStorage (`__gsrc` grid sweep, `__sr` search list, `__rec2` details + recommended, `__fr2` frames at 480px (too small for signatures, see §2.5), `__ov`/`__ovs` cover overlays, `__band` middle-band frame). The signature check is a repo file, `tools/edgecheck.js`. Overlay: append to document.documentElement, wait ~1.5 s, then screenshot. Pane hidden: zoom times out, a plain screenshot works about every 2nd try; luma via canvas (crossOrigin anonymous).
 
 ## 2. Screening a clip before asking for it (sourcing rules v4)
 1. Charm gate (`docs/charm.md`).
 2. **Fresh:** this season's footage. Skip 反季 last-winter reposts.
 3. **Small personal creators** who shoot their own footage. Skip footage-selling/sharing accounts (素材/教学 bios, 拿了留痕 captions) and aggregators (3+ posts/day from all over China).
 4. **One upload per shoot:** sort the creator's grid by date; if the same spot/light/weather was uploaded more than once, skip (p53/p58 were flagged this way).
-5. **No baked-in signature/text:** check frames at 1/4/8 s and the end at ≥480–540 px wide (Iuk, 7na. bake a cursive name at right-middle; contact sheets miss it). A clear umbrella with a real leaf is not an overlay.
+5. **No baked-in signature/text:** creators sign in small white cursive near an edge: 韬 "Tao" at bottom-centre (~3% of the width, ~98% down), Iuk and 7na. at right-middle. At 480–540 px a signature is ~15 px wide and gets missed: p76 and p83 both passed a 480 px check, and Vyx found "Tao" on p83 (24 Oct). So:
+   - On the video page, pick the top quality in the 智能 menu, paste `tools/edgecheck.js` with javascript_tool, run `await __edge({show: true})`. **SIGNATURE = reject.** LOOK = read the overlay crop (static shots land here because lit windows stay put too). Record the verdict and score in library.csv `risks`.
+   - It takes the darkest value of each pixel across 24 frames: the scene moves and goes dark, a signature stays white. Tested 24 Oct on local files: caught p55, p57 and p83 (scores 96–193), p80–p84 clear (0–8). Not yet run on a live Douyin page (needs the CDN to allow canvas reads; Douyin's own player sets crossOrigin=anonymous, so it should). If the stream is below 1080 px wide, say so: the score is less reliable.
+   - It only sees marks that stay for the whole clip and are brighter than what's behind them. Also look at all four edges of one full-resolution frame yourself.
+   - After download, `precheck.ps1` runs the same check and flags it again.
+   - A clear umbrella with a real leaf is not an overlay.
 6. **Shares > likes** = already passed around → backup only.
 7. Vertical, not sideways (check the video page dims). Exclude #可灵AI / AI生成.
    Also look at frames from 0.1 s: some clips open on a 0.05–0.1 s creator cover still.
@@ -25,7 +30,7 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 - Vyx DMs the creator (text below). Statuses in `library/library.csv`.
 - **Download (Option B; yt-dlp gets 403 "Fresh cookies needed"):** open the video in the logged-in pane → pick the top quality in the player's 智能 menu (default may be 576x1024) → read `video.currentSrc` (zjcdn.com) → `curl.exe -L -H "Referer: https://www.douyin.com/" -o "D:\cheques\inbox\pNN <content>.mp4" "<src>"`. Files are HEVC + AAC, no watermark.
 - **Name:** `pNN <content>.mp4`, next number after the highest in D:\cheques. Add a `log.csv` row (UTF-8 with BOM; in Excel save as "CSV UTF-8").
-- **Pre-post check:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1` → `checks\report.html` (duration/res/audio, first-second sheet, <5 s flag, frame-hash duplicate vs posted\, permission vs log.csv).
+- **Pre-post check:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1` → `checks\report.html` (duration/res/audio, first-second sheet, <5 s flag, frame-hash duplicate vs posted\, permission vs log.csv, creator signature near the edges with a crop). A red signature flag = never post.
 - **Library page:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\render_library.ps1` → `library\library.html` (phone-friendly).
 - DM text (from 21 Oct; covers colour correction and trims): 你好！很喜欢你这条视频，想问一下可以发到我的TikTok（海外）账号吗？可能会稍微调色或剪短一点，不加字，文案里会注明你的抖音号。方便的话能发一下原片就更好了，谢谢！
   (Roughly: "May I post it on my overseas TikTok? I may lightly colour-correct or shorten it, no added text, and I'll credit your Douyin ID. The original file would be great.")

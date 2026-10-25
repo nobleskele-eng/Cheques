@@ -8,6 +8,11 @@
         under 5 seconds
         same footage as something in posted\ (or another inbox clip)
         no permission found (no reuse word in the file name, and no permission in log.csv)
+        creator signature: small white text baked in near the edges (e.g. 韬 "Tao" bottom-centre,
+          Iuk / 7na. right-middle). It takes the darkest value of each pixel over 24 frames: the
+          scene moves and goes dark, a signature stays put and stays white. Flagged clips get a crop
+          (left: what stays fixed, right: the real frame at full resolution). Same method as
+          tools\edgecheck.js, which the scout runs on Douyin before asking.
 
   Run it:
     powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1
@@ -28,6 +33,9 @@ $MinSeconds      = 5      # shorter than this gets flagged
 $MaxDistance     = 10     # how different two frames can be (0-64) and still count as the same shot
 $SameFootage     = 0.25   # share of frames that match -> "same footage" (tested: real reuse 29-100%, unrelated clips 0-15%)
 $MaybeSame       = 0.12   # share of frames that match -> "check by eye"
+$SigRed          = 80     # signature: thin fixed white strokes in one spot near the edges (known signatures 96-317,
+$SigLook         = 25     #   clean moving shots 0-13; static shots also score, because lit windows stay put too)
+$SigSpot         = 0.4    # share of all fixed strokes in the frame that sit in that spot (signatures 0.47-1.0; static shots mostly <0.4)
 $PermissionWords = '拿了留痕', '随便拿', '可以拿', '原创素材'
 $VideoExt        = '.mp4', '.mov', '.m4v', '.mkv', '.webm'
 # -----------------------------------------------------------------------------
@@ -130,6 +138,50 @@ public class FrameHash {
 '@
 }
 
+# Signature check. raw = n grey frames of w x h. m = darkest value of each pixel across them.
+# A stroke pixel is white-ish (>=120) and >=40 brighter than the pixels 4 px away on both sides,
+# across or up-down: thin lines like handwriting, not the edge of a bright area.
+# Score = most stroke pixels in any 80x80 spot inside the edge band (outer 15% left/right, 12% top/bottom).
+if (-not ('SigCheck' -as [type])) {
+Add-Type -TypeDefinition @'
+public class SigCheck {
+    public static byte[] Min(byte[] raw, int w, int h) {
+        int n = w * h, frames = raw.Length / n;
+        var m = new byte[n];
+        for (int i = 0; i < n; i++) m[i] = 255;
+        for (int f = 0; f < frames; f++) {
+            int o = f * n;
+            for (int i = 0; i < n; i++) if (raw[o + i] < m[i]) m[i] = raw[o + i];
+        }
+        return m;
+    }
+
+    // returns { score, stroke pixels in the whole frame, spot centre x, spot centre y }
+    public static int[] Score(byte[] m, int w, int h) {
+        const int d = 4, t = 40, bright = 120, cell = 40;
+        int cw = (w + cell - 1) / cell, ch = (h + cell - 1) / cell;
+        var cells = new int[cw * ch];
+        int x0 = (int)(w * 0.15), x1 = (int)(w * 0.85), y0 = (int)(h * 0.12), y1 = (int)(h * 0.88), all = 0;
+        for (int y = d; y < h - d; y++) for (int x = d; x < w - d; x++) {
+            int v = m[y * w + x]; if (v < bright) continue;
+            bool across = v - m[y * w + x - d] >= t && v - m[y * w + x + d] >= t;
+            bool updown = v - m[(y - d) * w + x] >= t && v - m[(y + d) * w + x] >= t;
+            if (!across && !updown) continue;
+            all++;
+            if (x >= x0 && x < x1 && y >= y0 && y < y1) continue;
+            cells[(y / cell) * cw + x / cell]++;
+        }
+        int top = 0, tx = 0, ty = 0;
+        for (int cy = 0; cy < ch - 1; cy++) for (int cx = 0; cx < cw - 1; cx++) {
+            int s = cells[cy * cw + cx] + cells[cy * cw + cx + 1] + cells[(cy + 1) * cw + cx] + cells[(cy + 1) * cw + cx + 1];
+            if (s > top) { top = s; tx = (cx + 1) * cell; ty = (cy + 1) * cell; }
+        }
+        return new int[] { top, all, tx, ty };
+    }
+}
+'@
+}
+
 function Get-Videos([string[]]$Items, [switch]$Recurse) {
     foreach ($i in $Items) {
         if (Test-Path -LiteralPath $i -PathType Container) {
@@ -190,6 +242,62 @@ function New-Sheet($File, $Info, [string]$Path) {
     return ($LASTEXITCODE -eq 0) -and (Test-Path -LiteralPath $Path)
 }
 
+$sigCacheFile = Join-Path $Out 'signature-cache.txt'
+$sigCache = @{}
+$sigDirty = $false
+$markDir = Join-Path $Out 'marks'
+$inv = [Globalization.CultureInfo]::InvariantCulture
+
+# Signature check (see SigCheck above). Clips that score SigLook or more also get a crop in checks\marks\.
+function Get-Signature($File, $Info) {
+    $key = '{0}|{1}|{2}' -f $File.Name, $File.Length, $File.LastWriteTimeUtc.Ticks
+    $id = [BitConverter]::ToString([Security.Cryptography.MD5]::Create().ComputeHash([Text.Encoding]::UTF8.GetBytes($key))).Replace('-', '').Substring(0, 12)
+    $img = Join-Path $markDir "$id.jpg"
+    if ($sigCache.ContainsKey($key)) {
+        $v = $sigCache[$key] -split ','
+        $sig = [pscustomobject]@{ Score = [int]$v[0]; All = [int]$v[1]; X = [int]$v[2] / 1000; Y = [int]$v[3] / 1000; Image = $null }
+        if ($sig.Score -lt $SigLook) { return $sig }
+        if (Test-Path -LiteralPath $img) { $sig.Image = "marks/$id.jpg"; return $sig }
+    }
+    if ($Info.Seconds -lt 0.5) { return $null }
+
+    # 24 frames spread over the clip, short side 1080 (never upscaled)
+    $k = [math]::Min(1.0, 1080.0 / [math]::Min($Info.Width, $Info.Height))
+    $w = 2 * [int][math]::Round($Info.Width * $k / 2); $h = 2 * [int][math]::Round($Info.Height * $k / 2)
+    $rate = (24 / $Info.Seconds).ToString('0.####', $inv)
+    $tmp = Join-Path $env:TEMP ('precheck_' + [guid]::NewGuid().ToString('N') + '.raw')
+    & ffmpeg -v error -nostdin -y -i $File.FullName -an -vf "fps=$rate,scale=${w}:${h}:flags=area,format=gray" -f rawvideo -pix_fmt gray $tmp
+    if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $tmp)) { return $null }
+    $m = [SigCheck]::Min([IO.File]::ReadAllBytes($tmp), $w, $h)
+    $r = [SigCheck]::Score($m, $w, $h)
+    $sig = [pscustomobject]@{ Score = $r[0]; All = $r[1]; X = $r[2] / $w; Y = $r[3] / $h; Image = $null }
+
+    if ($sig.Score -ge $SigLook) {
+        # crop of the spot, 30% x 14% of the short side: fixed pixels (left) next to the real middle frame (right)
+        New-Item -ItemType Directory -Force -Path $markDir | Out-Null
+        [IO.File]::WriteAllBytes($tmp, $m)
+        $S = [math]::Min($Info.Width, $Info.Height)
+        $cw = 2 * [int]($S * 0.15); $ch = 2 * [int]($S * 0.071)
+        $cx = [int][math]::Max(0, [math]::Min($Info.Width - $cw, $sig.X * $Info.Width - $cw / 2))
+        $cy = [int][math]::Max(0, [math]::Min($Info.Height - $ch, $sig.Y * $Info.Height - $ch / 2))
+        $crop = "crop=${cw}:${ch}:${cx}:${cy},format=yuv420p"
+        $mid = ($Info.Seconds / 2).ToString('0.###', $inv)
+        & ffmpeg -v error -nostdin -y -f rawvideo -pix_fmt gray -s "${w}x${h}" -i $tmp -ss $mid -i $File.FullName `
+            -filter_complex "[0:v]scale=$($Info.Width):$($Info.Height),$crop[a];[1:v]$crop[b];[a][b]hstack" -frames:v 1 -q:v 3 $img
+        if (($LASTEXITCODE -eq 0) -and (Test-Path -LiteralPath $img)) { $sig.Image = "marks/$id.jpg" }
+    }
+    Remove-Item -LiteralPath $tmp -ErrorAction SilentlyContinue
+    $sigCache[$key] = '{0},{1},{2},{3}' -f $sig.Score, $sig.All, [int](1000 * $sig.X), [int](1000 * $sig.Y)
+    $script:sigDirty = $true
+    return $sig
+}
+
+function Get-Where($X, $Y) {
+    $v = if ($Y -lt 0.33) { 'top' } elseif ($Y -gt 0.67) { 'bottom' } else { 'middle' }
+    $h = if ($X -lt 0.33) { 'left' } elseif ($X -gt 0.67) { 'right' } else { 'centre' }
+    "$v-$h"
+}
+
 # ---- go ----------------------------------------------------------------------
 $inboxFiles  = @(Get-Videos $Inbox)
 $inboxPaths  = $inboxFiles | ForEach-Object { $_.FullName }
@@ -203,6 +311,12 @@ if (Test-Path -LiteralPath $cacheFile) {
     foreach ($line in [IO.File]::ReadAllLines($cacheFile, [Text.Encoding]::UTF8)) {
         $parts = $line -split "`t"
         if ($parts.Count -eq 2) { $cache[$parts[0]] = $parts[1] }
+    }
+}
+if (Test-Path -LiteralPath $sigCacheFile) {
+    foreach ($line in [IO.File]::ReadAllLines($sigCacheFile, [Text.Encoding]::UTF8)) {
+        $parts = $line -split "`t"
+        if ($parts.Count -eq 2) { $sigCache[$parts[0]] = $parts[1] }
     }
 }
 
@@ -229,7 +343,8 @@ foreach ($f in $inboxFiles) {
     $info = Get-Info $f
     $sheetName = 'sheet_{0:d3}.jpg' -f $n
     $hasSheet = $info -and (New-Sheet $f $info (Join-Path $sheetDir $sheetName))
-    $results += [pscustomobject]@{ File = $f; Info = $info; Sheet = $(if ($hasSheet) { "sheets/$sheetName" }); Hash = (Get-FrameHash $f); Flags = @(); Matches = @() }
+    $sig = if ($info) { Get-Signature $f $info }
+    $results += [pscustomobject]@{ File = $f; Info = $info; Sheet = $(if ($hasSheet) { "sheets/$sheetName" }); Hash = (Get-FrameHash $f); Sig = $sig; Flags = @(); Matches = @() }
 }
 Write-Progress -Activity 'Checking inbox' -Completed
 
@@ -255,6 +370,13 @@ foreach ($r in $results) {
         if ($m.Score -ge $SameFootage) { $flags += [pscustomobject]@{ Level = 'red';   Text = "same footage as $($m.Where)\$($m.Name) ($pct% of frames match)" } }
         else                           { $flags += [pscustomobject]@{ Level = 'amber'; Text = "maybe same footage as $($m.Where)\$($m.Name) ($pct%) - check by eye" } }
     }
+    if ($r.Sig) {
+        $s = $r.Sig; $where = Get-Where $s.X $s.Y
+        $spot = if ($s.All -gt 0) { $s.Score / $s.All } else { 0 }
+        if ($s.Score -ge $SigRed -and $spot -ge $SigSpot) { $flags += [pscustomobject]@{ Level = 'red'; Text = "creator signature likely at $where (score $($s.Score)) - check the crop; never post a baked-in name" } }
+        elseif ($s.Score -ge $SigLook) { $flags += [pscustomobject]@{ Level = 'amber'; Text = "fixed white detail at $where (score $($s.Score)$(if ($spot -lt $SigSpot) { ', static shot' })) - check the crop for a signature" } }
+        else { $flags += [pscustomobject]@{ Level = 'ok'; Text = "no signature found (score $($s.Score))" } }
+    } elseif ($r.Info) { $flags += [pscustomobject]@{ Level = 'amber'; Text = 'signature check failed - check the edges by eye' } }
     $word = $PermissionWords | Where-Object { $r.File.Name.Contains($_) } | Select-Object -First 1
     $logged = $logRows | Where-Object { $_.file -eq $r.File.Name -and $_.permission } | Select-Object -First 1
     if ($logged)    { $flags += [pscustomobject]@{ Level = 'ok'; Text = "permission: $($logged.permission)" } }
@@ -286,6 +408,9 @@ foreach ($r in $results) {
     foreach ($fl in $r.Flags) { [void]$sb.Append("<span class='flag $($fl.Level)'>$(ConvertTo-Html5 $fl.Text)</span>") }
     [void]$sb.Append('</div>')
     if ($r.Sheet) { [void]$sb.Append("<img src='$($r.Sheet)' alt='first second'>") }
+    if ($r.Sig -and $r.Sig.Image) {
+        [void]$sb.Append("<p class='note'>Signature check: left = what stays fixed across the clip, right = the real middle frame at full resolution</p><img src='$($r.Sig.Image)' alt='signature check'>")
+    }
     [void]$sb.Append('</div>')
 }
 [void]$sb.Append('</body></html>')
@@ -296,6 +421,10 @@ $pairs | Sort-Object score -Descending | Export-Csv -LiteralPath (Join-Path $Out
 if ($cacheDirty) {
     $lines = $cache.GetEnumerator() | ForEach-Object { "$($_.Key)`t$($_.Value)" }
     [IO.File]::WriteAllLines($cacheFile, [string[]]$lines, (New-Object Text.UTF8Encoding $false))
+}
+if ($sigDirty) {
+    $lines = $sigCache.GetEnumerator() | ForEach-Object { "$($_.Key)`t$($_.Value)" }
+    [IO.File]::WriteAllLines($sigCacheFile, [string[]]$lines, (New-Object Text.UTF8Encoding $false))
 }
 
 # ---- console summary ---------------------------------------------------------

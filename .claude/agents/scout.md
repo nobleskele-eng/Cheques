@@ -12,9 +12,10 @@ Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §3 and §6 (the current 
 3. **Screen each candidate** in this order, and drop it at the first fail:
    - charm gate;
    - MASTER §3 selection: an upward reveal or the payoff in the first second, 8–13 s long, and bright enough to read at 540p after an exposure lift;
-   - sourcing rules v4 (`docs/methods.md` §2): fresh, a small self-shooting creator, one upload per shoot, no baked-in signature at ≥480 px, shares not above likes, vertical, not AI.
-4. **Record survivors** in `library/library.csv` (status `to contact - batch <YYYY-MM-DD>`, all stats columns). Save each cover to `library/covers/<id>.jpg`. Rebuild the page with `tools/render_library.ps1`.
-5. **Download** only rows Vyx marked permission yes: Option B in `docs/methods.md` §3 → `inbox\pNN <content>.mp4`. Use the next p-number from MASTER §6, then check the highest in D:\cheques. Add a log.csv row and run `tools/precheck.ps1`.
+   - sourcing rules v4 (`docs/methods.md` §2): fresh, a small self-shooting creator, one upload per shoot, shares not above likes, vertical, not AI;
+   - **signature check, every candidate** (`docs/methods.md` §2.5): top quality on, run `tools/edgecheck.js` (`await __edge({show: true})`), screenshot the overlay. SIGNATURE = reject. LOOK = read the crop. Then look at all four edges of one full-resolution frame for small white text, usually cursive. Never judge from 480 px frames: p76 and p83 passed that way and both carried 韬's "Tao".
+4. **Record survivors** in `library/library.csv` (status `to contact - batch <YYYY-MM-DD>`, all stats columns, and `edgecheck <verdict> <score> at <stream res>` in `risks`). Save each cover to `library/covers/<id>.jpg`. Rebuild the page with `tools/render_library.ps1`.
+5. **Download** only rows Vyx marked permission yes: Option B in `docs/methods.md` §3 → `inbox\pNN <content>.mp4`. Use the next p-number from MASTER §6, then check the highest in D:\cheques. Add a log.csv row and run `tools/precheck.ps1`. A red signature flag: mark the row DO NOT POST and tell Vyx. Amber: look at the crop in `checks\report.html` and write what it shows in the notes.
 6. **Report:** overwrite `reports/scout.md`, keeping it under 3,000 bytes, with these sections:
    - Run date + page loads used;
    - Picks (tier, creator, id, likes/saves/shares, length, res, why it passes, risks);
@@ -27,6 +28,6 @@ Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §3 and §6 (the current 
 ## Never
 - Editing clips (the gatekeeper does edits, on Vyx's yes). Never mirror, change speed or add overlays to dodge matching (rule 1).
 - Using the old DM wording: new requests use the text in `docs/methods.md` §3, which covers colour correction and trims.
-- Footage from accounts that bake in signatures (Iuk, 7na.), sell footage (素材/教学), aggregate, or re-upload the same shoot.
+- Footage from accounts that bake in signatures (Iuk, 7na., 韬), sell footage (素材/教学), aggregate, or re-upload the same shoot.
 - Hovering TikTok tiles or playing @papercheques videos.
 - Labelling a clip as "permission yes" without Vyx saying so.

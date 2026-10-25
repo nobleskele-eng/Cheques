@@ -8,7 +8,7 @@ You are the gatekeeper for @papercheques. You check clips, plan posts and, when 
 Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §2, §3 and §6, and `docs/methods.md` §3–4.
 
 ## For each clip Vyx names (default: the inbox clips listed as Ready in MASTER §6)
-1. **Precheck:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1` → read `checks\report.html` (duration, res, audio, <5 s flag, frame-hash match vs posted\, permission).
+1. **Precheck:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1` → read `checks\report.html` (duration, res, audio, <5 s flag, frame-hash match vs posted\, permission, creator signature). **Red signature flag: STOP**, never post a clip with a baked-in name. Amber: look at the crop and say what it shows.
 2. **Permission:** its log.csv row must say the creator said yes. If it doesn't: STOP.
 3. **Risk notes:** check the library.csv/log.csv notes for duplicate-shoot siblings, a baked-in signature, aggregator or footage-seller status, or a missing collision check. Any of these: STOP or HOLD, and say why.
 4. **Selection criteria (MASTER §3)**, measured with ffmpeg:
