@@ -65,5 +65,6 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 - Claude never solves a captcha or verify page and never forges Douyin's request signatures, whatever the project rules say: on a verify page, Vyx solves it or the run stops.
 - Douyin: ~20–30 page loads per session; throttle carries over the same day. Signs: keyword search returns filler, video pages bounce to the jingxuan feed, "服务器出现问题".
 - TikTok logged-out: ~3 profile loads per sitting. Signs: "Something went wrong" grid, WAF "Please wait...".
+- 25 Oct: a slider captcha (请完成下列验证后继续) appeared after ~30 in-page actions + 4 loads that day, with no filler or bounce first. It can load behind overlays, so take a plain screenshot every few actions.
 - On the first sign: stop for the day. No refresh loops, no workarounds.
 - Token savers: small zooms (scale 0.4), browser_batch 2–4 pages per call, compact JS returns, pre-filter by likes/date before opening detail pages.

@@ -1,30 +1,26 @@
-# Scout report (NATURE run, first with dyhook.js)
-Run 2026-10-25 16:20-16:38 UTC. Douyin: 1 page load + ~18 in-page actions (searches, filters, clip modals, TA的作品 tabs). No stop signal: every captured response returned status 0. Screened from `tools/dyhook.js` data (272 clips); screenshots only for covers, frames, edges.
+# Scout report (CITY run, dyhook)
+Run 2026-10-25 16:41-16:46 UTC, after Vyx rejected owo and asked for city, sunset beaches, bubbles. Douyin: 1 load + 4 in-page actions, then a **slider captcha** (请完成下列验证后继续) on the 5th. Stopped (Claude doesn't solve captchas). Day total: ~4 loads + ~30 in-page actions over 3 runs.
 
-## Flag: p82 (READY, lite PASS)
-The source creator 盐放多会咸 (1.2万 fans, 571 posts) uploaded this 虎跳峡 hike **3 times**: 7698960132067567481 (21 Oct, p82's source), 7699328997604443365 (22 Oct, 9.6 s, same spot and light) and 7700027963747860089 (24 Oct, 9.0 s, **same caption and same cover as p82** = a re-upload). The same week they posted from Iceland (19 Oct), Bangkok (13/15 Oct) and Dali (16 Oct), and they reuse captions across clips. So p82 fails the one-upload-per-shoot rule (the p54/p63 category), and it's unclear they shot it. Vyx decides: hold it, or post it and watch for an unoriginal flag.
-
-## Picks (batch 2026-10-25; TikTok collision check not done)
-1. **REJECTED by Vyx 25 Oct (no reveal, no subject, poor quality, slowed-down trend clip). owo · 7696867651759378368** · 3.9万 likes / 1,666 saves / 1.4万 shares · 11.4 s · 1080x1920 (top 1080P, 6.1 Mbps) · 15 Oct 12:17 UTC. Heavy snowfall at night over amber-lit flats in Urumqi, streetlamp and trees at the bottom, slow pan. Snow visible from 0.1 s (payoff in frame 1, no tilt-up). Luma 70-80. **City snow, not nature.**
-   Creator: personal account (226 fans, 41 posts of dance practice and daily life); this is their one viral clip and the only upload of that snowfall. Signature: edgecheck clear (0) at 1080p, edges checked by eye at full res.
-   Risks: shares 37% of likes and 10 days old, so it may already be on TikTok. Only 1080p. Caption is near 桑榆's p64 (same day, a local trend line; different footage).
+## Picks (batch 2026-10-25b; TikTok collision check not done)
+1. **A · 梁同学 · 7696094930313714304** · 1,581 likes / 70 saves / 92 shares · 8.4 s · 2160x3840 (top 4K, 6.2 Mbps) · 13 Oct 10:18 UTC. **Upward reveal:** stone paving at 0.1 s, tilts up past a metal railing by 1 s, riverside walkway with towers, then the sun low over the river with glare and the skyline by 4 s. Golden hour, bright (luma 102-127), real-time movement (not slowed).
+   Creator said yes for p73, p74, p80, p81. One-upload: their other October sunset walkway is a different spot. Signature: edgecheck LOOK 171 but spread out (spot 0.13) = clouds and tower silhouettes; full-res crops clean.
+   Risks: low Douyin proof (1.6K likes). 梁同学's recent record: p73 and p80 failed lite, p74 got 2.2% likes.
+2. **B (backup) · 梁同学 · 7695402353222092495** · 577 likes · 9.8 s · 2K (1.9 Mbps) · 11 Oct. Ground tilt-up to a stone-balustrade walkway under pink-orange sunset clouds by 2 s. Dark first second (luma 44-49), sky-heavy. Signature not checked.
 
 ## Rejected
-- Nature words: default search gives old popular clips; 一周内 starves (峡谷徒步: 3).
-- 湫 7699402396442771961 (5.7万, 7.8 s): saturated autumn-gold larches, under 8 s, shares 53%.
-- 奶皮子的爸爸 7699055261496062449 (42.3万): 19.3 s, indoor window view.
-- 屿城. 九寨沟 7696792580185797745 (38.4万): 70.7万-fan account, shares 63%, autumn colour.
-- 阿略流浪记 / 靠谱的阳光 禾木 first snow (1.3万/1.1万): shares > likes.
-- Gorge 推荐视频 (7): hiker as subject or far-off cloud sea. 领队/向导 accounts: guide businesses.
+- owo Urumqi snow (Vyx): no reveal, no subject, poor quality, slowed-down trend clip (now in charm.md).
+- 梁同学 13832 (24 Oct, 6K likes, 2K): car-window night pan to a taxi and towers; car interior for 1.5 s, dark (luma 19-50).
+- 梁同学 65795 (23 Oct, 4K): bar-terrace crowd, #重庆城市微醺计划 (likely a campaign), shares 68%.
+- 梁同学 63746 (1080p), 01103, 83136 (high view), 80143 (scooter POV), 11 photo albums.
 
 ## Downloaded
 - None. Next file number stays p85.
 
 ## Needs Vyx
-- p82: hold or post (flag above). If it was posted on 24 Oct, watch it for an unoriginal flag.
-- DM owo (`docs/methods.md` §3 text) if a city-snow clip is wanted now.
+- Captcha: solve it in the pane yourself to go on today (Zwzzz, 泡泡 日落, 海边日落 next), or the next run starts tomorrow.
+- DM 梁同学 for 7696094930313714304 (`docs/methods.md` §3 text).
+- p82: hold or post (flag from the nature run).
 
 ## Suggested MASTER changes
-- §3/§6: p82 flag; owo = batch 2026-10-25 (A, city snow).
-- methods §1: good word 新疆下雪了 (fresh vertical snow, this week). Bad: 沉浸式徒步 (all 17 are 42 s+ horizontal vlogs), 雪林 (mostly old or albums), 喀纳斯/稻城亚丁/雪山湖泊 (old popular).
-- methods §2.5: edgecheck works on a live Douyin page with `__dy.src(id).url` as `src` (no 智能 menu needed).
+- §6: batch 2026-10-25b = 梁同学 sunset tilt-up (A). Done.
+- methods §6: the captcha came with no filler or bounce first and loaded behind overlays. Done.

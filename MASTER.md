@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-25 by local session (v29: city pivot, owo rejected). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-25 by local session (v30: city run). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -48,8 +48,9 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
 9. **p82:** posted? Time + sound.
 ## 6. Pipeline
-- Next file number: **p85**. Douyin OK 25 Oct 16:20 UTC. Scout: `tools/dyhook.js` (methods §1).
+- Next file number: **p85**. Douyin: captcha 25 Oct 16:46 UTC. Scout: `tools/dyhook.js` (methods §1).
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
+- **To contact:** 梁同学 sunset tilt-up, 4K 8.4 s (A, 25 Oct).
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut, lite PASS) 23 Oct 22:22 EDT, 11 h: 773, 5.2%, still collecting [C].
 - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
 - **Used up: p50–p79** [V 23 Oct].
@@ -58,5 +59,5 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 ## 7. Latest agent reports
 - `reports/rivals.md` 24 Oct: Let Go 8.1×, network flat/decaying.
 - `reports/self.md` 24 Oct: recipe n=3 flat; 21 Oct posts unmapped.
-- `reports/scout.md` 25 Oct: 0 nature picks, 1 city snow, p82 flag.
+- `reports/scout.md` 25 Oct: city run, 1 pick, stopped by captcha.
 - `reports/sounds.md` 24 Oct (Mondays): unused new sounds + links.
