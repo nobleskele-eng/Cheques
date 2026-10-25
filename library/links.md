@@ -1,6 +1,6 @@
 # Clip links
 
-Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **90 clips, 39 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
+Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **91 clips, 39 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
 
 ## Downloaded (39)
 
@@ -46,11 +46,12 @@ Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | inbox file, no pNN |  | [7685767113781748634](https://www.douyin.com/video/7685767113781748634) |  |  |
 | inbox file, no pNN |  | [7689769865779968165](https://www.douyin.com/video/7689769865779968165) |  |  |
 
-## Not downloaded (51)
+## Not downloaded (52)
 
 | Creator | Douyin link | Status | What |
 |---|---|---|---|
 | 梁同学 | [7695402353222092495](https://www.douyin.com/video/7695402353222092495) | backup - batch 2026-10-25b | Upward reveal: opens on the walkway ground (feet) at 0.1 s, tilts up to a stone-balustrade riverside walkway with lamp posts under pink-orange sunset clouds by 2 s (Chongqing) |
+| 博 | [7697528477076005478](https://www.douyin.com/video/7697528477076005478) | backup - batch 2026-10-25c (creator check not done) | Window reveal from inside a tower observation deck: people at the glass for the first second, pans to the window, city and river at golden dusk from high up by 2 s (Shanghai?). Found in the logged-in account's liked list |
 | 7na. | [7691906272699149243](https://www.douyin.com/video/7691906272699149243) | charm reference only (signature watermark in source) | Wet empty road at night under lamps |
 | Iuk | [7682814813113858478](https://www.douyin.com/video/7682814813113858478) | charm reference only (signature watermark in source) | Rainy night arcade/sidewalk with shop neon, wet ground |
 | Iuk | [7688999051862537582](https://www.douyin.com/video/7688999051862537582) | charm reference only (signature watermark in source) | Rainy night city street, neon and wet road |
@@ -66,15 +67,15 @@ Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | Niu | [7674317564545182117](https://www.douyin.com/video/7674317564545182117) | to contact | Warm-lit snowy street at night, tyre tracks |
 | Onlrainy | [7665646173835865585](https://www.douyin.com/video/7665646173835865585) | to contact | Sepia sandstorm/storm over trees and a light pole |
 | Rely | [7667194603417905855](https://www.douyin.com/video/7667194603417905855) | to contact | Person walking away into heavy snow at night |
-| 可爱到爆炸 | [7690820138623308262](https://www.douyin.com/video/7690820138623308262) | to contact | Looking down onto a Nanjing plane-tree avenue from a bridge |
-| 可爱到爆炸 | [7687124239174105067](https://www.douyin.com/video/7687124239174105067) | to contact | Leaves blowing across a wet crosswalk at night |
-| 可爱到爆炸 | [7695312376228414067](https://www.douyin.com/video/7695312376228414067) | to contact | Leafy walkway POV, tilts up (Nanjing) |
 | 可爱到爆炸 | [7679708492278970267](https://www.douyin.com/video/7679708492278970267) | to contact | Leaf-covered walkway, tilts up to the avenue (pinned hit) |
+| 可爱到爆炸 | [7690820138623308262](https://www.douyin.com/video/7690820138623308262) | to contact | Looking down onto a Nanjing plane-tree avenue from a bridge |
+| 可爱到爆炸 | [7695312376228414067](https://www.douyin.com/video/7695312376228414067) | to contact | Leafy walkway POV, tilts up (Nanjing) |
+| 可爱到爆炸 | [7687124239174105067](https://www.douyin.com/video/7687124239174105067) | to contact | Leaves blowing across a wet crosswalk at night |
 | 桃桃原创素材 | [7670968304416830309](https://www.douyin.com/video/7670968304416830309) | to contact | Night rain on wet leaves under a streetlight |
 | 歪啊呸吱 | [7687262917783214501](https://www.douyin.com/video/7687262917783214501) | to contact | Couple holding hands in snow under a streetlight at night |
 | 气焰嚣张女士 | [7691524101274183295](https://www.douyin.com/video/7691524101274183295) | to contact | Looking up a stone stairway in the rain (enclosed to open) |
-| 用户1529 | [7693544569174409454](https://www.douyin.com/video/7693544569174409454) | to contact | Rainy night street, warm light, distant umbrellas |
 | 用户1529 | [7696732852838461298](https://www.douyin.com/video/7696732852838461298) | to contact | Rainy night street under a big tree, warm lamp |
+| 用户1529 | [7693544569174409454](https://www.douyin.com/video/7693544569174409454) | to contact | Rainy night street, warm light, distant umbrellas |
 | 用户1529 | [7697479465103265242](https://www.douyin.com/video/7697479465103265242) | to contact | Rainy night street under a big tree, warm lamp (same series) |
 | 芮. | [7682467792311146917](https://www.douyin.com/video/7682467792311146917) | to contact | Woman in a snowy village at night, warm cabin lights |
 | 花海 | [7695461368795121913](https://www.douyin.com/video/7695461368795121913) | to contact | City street at night in snowfall, umbrellas, streetlights |

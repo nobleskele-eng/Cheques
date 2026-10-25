@@ -19,6 +19,9 @@
 //     author (name, handle or sec_uid), all (include earlier runs), wide (include horizontal clips)
 //   __dy.lib(['<id>', ...])  -> library.csv rows (tier, status, type, ownership, risks left blank)
 //   __dy.src('<id>')  -> top-quality file URL + size (download only with a permission yes; URLs expire)
+//   await __dy.frames('<id>', [0.1, 0.5, 1, 2, 4, 8])  -> strip of frames (top-left overlay) + luma per frame
+//     + mean change between frames (near 0 = static or slowed). __dy.frames.clear() removes it. Clips seen
+//     only in a 推荐视频 list carry a low-bitrate preview URL that won't load: open the clip first.
 //   __dy.log  -> last responses (path, items, status). A non-zero status or empty body = stop signal.
 // Rows are kept in localStorage (__dyrows, newest 800) so a reload doesn't lose them. __dy.clear() empties it.
 (function main() {
@@ -157,6 +160,43 @@
     if (!r) return id + ': not captured';
     return { url: r.url, res: r.w + 'x' + r.h + ' ' + tier(r.w, r.h), mb: Math.round(r.size / 1e5) / 10, cover: r.cover, age_min: Math.round((Date.now() - r.at) / 6e4) };
   };
+
+  dy.frames = async function (id, ts, w) {
+    w = w || 58;
+    const v = document.createElement('video');
+    v.crossOrigin = 'anonymous'; v.muted = true; v.preload = 'auto'; v.src = (rows[id] || {}).url || '';
+    await new Promise((ok, no) => { v.onloadedmetadata = ok; v.onerror = () => no(new Error('load failed (preview URL? open the clip first)')); });
+    const seek = t => new Promise(ok => { v.onseeked = ok; v.currentTime = Math.min(t, v.duration - 0.05); });
+    let box = document.getElementById('__dyfr');
+    if (!box) {
+      box = document.createElement('div'); box.id = '__dyfr';
+      box.style.cssText = 'position:fixed;left:0;top:0;z-index:2147483647;background:#000;padding:2px;display:flex;flex-direction:column;gap:2px';
+      document.documentElement.appendChild(box);
+    }
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex;gap:2px;font:11px sans-serif;color:#fff';
+    row.innerHTML = '<div style="width:34px">' + id.slice(-5) + '</div>';
+    box.appendChild(row);
+    const lum = [], diffs = [];
+    let prev = null;
+    for (const t of ts) {
+      await seek(t);
+      // luma and change from the previous frame, on a 90x160 copy
+      const c = document.createElement('canvas'); c.width = 90; c.height = 160;
+      const g = c.getContext('2d'); g.drawImage(v, 0, 0, 90, 160);
+      const d = g.getImageData(0, 0, 90, 160).data, cur = new Uint8Array(d.length / 4);
+      let y = 0, df = 0;
+      for (let i = 0, j = 0; i < d.length; i += 4, j++) { cur[j] = (d[i] * 77 + d[i + 1] * 150 + d[i + 2] * 29) >> 8; y += cur[j]; if (prev) df += Math.abs(cur[j] - prev[j]); }
+      lum.push(Math.round(y / cur.length)); if (prev) diffs.push(+(df / cur.length).toFixed(1)); prev = cur;
+      const f = document.createElement('canvas'); f.width = w * 2; f.height = Math.round(w * 2 * v.videoHeight / v.videoWidth);
+      f.getContext('2d').drawImage(v, 0, 0, f.width, f.height); f.style.width = w + 'px';
+      const cell = document.createElement('div'); cell.textContent = t + 's'; cell.appendChild(f); row.appendChild(cell);
+    }
+    const res = v.videoWidth + 'x' + v.videoHeight;
+    v.removeAttribute('src'); v.load();
+    return { id, res, lum, diffs };
+  };
+  dy.frames.clear = () => document.getElementById('__dyfr')?.remove();
 
   dy.clear = function () { for (const k in rows) delete rows[k]; for (const k in users) delete users[k]; dy.log.length = 0; dy.save(); return 'cleared'; };
 
