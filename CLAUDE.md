@@ -24,8 +24,7 @@ Vyx never reopens a finished session. Each new session starts from this file, MA
 1. **Editing is OK, evading isn't** (Vyx, 21 Oct). Colour correction, exposure, denoise, re-export and trims are fine. Still banned: any change made to fool TikTok's duplicate matching (mirroring, speed changes, borders/overlays/noise added to dodge detection). Keep the untouched original and save edits as `pNN <content> edit.mp4`.
 2. **Permission and credit:** only post clips whose creator allowed reuse (拿了留痕 / 随便拿 / 可以拿 / 原创素材 in the caption, or a yes by DM). Credit them. Prefer the original file. Permissions for p50–p72 were asked with "不剪辑、不加字" (no cutting/editing, no text). For those clips, keep the full length; colour correction only. New requests use the DM in `docs/methods.md` §3.
 3. **Never play @papercheques videos in a browser, and scripts never load or download our own video pages (`/video/<id>`) or files** (confirmed 21 Oct). Allowed and expected: our profile page and the item_list post list, via `research/scripts/pull_account.py`. For other accounts: grid covers only, never hover tiles.
-4. **Don't get around captchas or anti-bot checks.** TikTok "Please wait..."/"Something went wrong" or Douyin "服务器出现问题" means stop for the day.
-5. **Never ask for API keys or passwords in chat.** No third-party upload tools or anything that needs the TikTok login (e.g. "HD by Rein").
+4. **Never ask for API keys or passwords in chat.** No third-party upload tools or anything that needs the TikTok login (e.g. "HD by Rein").
 
 ## Where work runs
 - **Local (Vyx's PC, D:\cheques):** anything needing the Douyin login (built-in browser pane), the video files, ffmpeg or the PowerShell tools. That covers sourcing, downloads, pre-post checks and the library page. Python can't run from Claude's shell here.
