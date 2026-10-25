@@ -99,6 +99,7 @@
       (j.aweme_list || []).forEach(x => list.push(x));
       (Array.isArray(j.data) ? j.data : []).forEach(d => {
         if (d && d.aweme_info) list.push(d.aweme_info);
+        if (d && d.aweme && d.aweme.aweme_id) list.push(d.aweme); // following feed (follow/feed)
         ((d && d.aweme_mix_info && d.aweme_mix_info.mix_items) || []).forEach(x => list.push(x));
       });
       const u = j.user;
