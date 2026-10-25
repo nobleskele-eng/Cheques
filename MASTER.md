@@ -48,9 +48,9 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
 9. **p82:** posted? Time + sound.
 ## 6. Pipeline
-- Next file number: **p85**. Douyin: captcha 25 Oct 16:46 UTC (Vyx solved). Scout: `tools/dyhook.js` (methods §1).
+- Next file number: **p86**. Douyin: captcha 25 Oct 16:46 UTC (Vyx solved). Scout: `tools/dyhook.js` (methods §1).
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
-- **Approved [V 25 Oct]:** 梁同学 sunset tilt-up, 4K 8.4 s → p85.
+- **p85 in [25 Oct]:** 梁同学 sunset tilt-up, 4K 8.4 s, precheck OK. Lite not run.
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut, lite PASS) 23 Oct 22:22 EDT, 11 h: 773, 5.2%, still collecting [C].
 - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
 - **Used up: p50–p79** [V 23 Oct].
