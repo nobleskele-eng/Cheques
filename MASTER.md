@@ -1,14 +1,14 @@
 # MASTER: @papercheques current state
-Updated 2026-10-24 by local session (v25: p83 signature; new check). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-24 by local session (v26: only p82 passed lite). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
 - Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K): 8–11% likes, 0.6–1.1% shares; breakouts (100K+): 21–25% likes, 2–4% shares. [C] [L csv]
 - Sourcing is good enough [V]: permissioned Douyin clips, and big accounts got millions from clips Vyx posted first. **Bottleneck = test-audience engagement.**
-- FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct]. Raw reposts resumed, only after a Content check lite PASS.
+- FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct].
 
 ## 2. What we know (strongest first)
-1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78, p79 (12–30 days old). Passed: p74–p77, so age/shares don't explain it. Weak lead (n=10): SaveTik H.264 passed 1 of 4, Douyin HEVC 4 of 6. [V][L ffprobe]
+1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78, p79, p80, p84 (6–30 days old). Passed: p74–p77, p81, p82, so age/shares don't explain it. SaveTik H.264 passed 1 of 4; Douyin HEVC fails too (p80, p84), so format is a weak lead. [V][L ffprobe]
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 8.1× over 8 uses. someplace505: own uploads 7.6× vs library tracks 0.8× (n=28/95; may be clip choice). 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
 3. **Served quality:** 0/43 of ours have a 1080p version (best 720p, p77); the network gets 1080p on 81–99%, flops included. Our files are 1080p+, so the untested lever is the upload path: we use Studio web, peers likely the app with Upload HD [C 23 Oct, inference]. [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from the ground or a railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 since 21 Oct: 4 nature posts median ~206K (62.6K–2.8M; 2.8M = 虎跳峡 gorge path, clear day) vs 4 city ~42K; holds with sound fixed. n=4+4 (`research/someplace505-nature-2026-10-24.md`). [L grid]
@@ -21,7 +21,7 @@ Updated 2026-10-24 by local session (v25: p83 signature; new check). Cap 8,000 b
 
 ## 3. Recommendation now: change the recipe, then test it
 Single-variable tests need dozens of posts at ~700 views, so run the likely levers together for ~10 posts, compare with the old 39, then remove levers one at a time. [est]
-- **Tonight:** lite p82 (nature test, best recipe fit), then p80; post 19:00–22:30 EDT, 40+ min apart.
+- **Tonight:** only p82 passed lite (p80, p84 failed): post it by 22:30 EDT. Nothing else ready (§6).
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Signature check [V 24 Oct]:** p83 has 韬's tiny white cursive "Tao" (bottom-centre), missed at 480 px. Scout runs `tools/edgecheck.js` before DMs; precheck flags it (red = never post; methods §2.5).
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
@@ -46,9 +46,11 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 6. **p61:** still unused? (HOLD, lite never run.)
 7. **p81:** app or web? Full 10.8 s in preview? 1 h views/likes.
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
+9. **p82:** posted? Time + sound.
 ## 6. Pipeline
 - Next file number: **p85**. Douyin: 25 Oct UTC load 1 bounced (stop); next 26 Oct 00:00 UTC (20:00 EDT).
-- **IN p80** (梁同学 dusk car window, bright, no reveal). **p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p, bright; same spot as someplace505's 2.8M, different footage). **p84** (雾必野 bus windscreen, sunny street, 7.0 s, dark; weak). Precheck + signature OK; lite not run.
+- **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p, bright; same spot as someplace505's 2.8M): lite PASS 24 Oct. Lite FAILED 24 Oct: p80, p84.
+- **Backlog:** library "to contact" rows are stale (old snow, 6–7 s, low res). Needs a fresh scout run.
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut, lite PASS) 23 Oct 22:22 EDT, 11 h: 773, 5.2%, still collecting [C].
 - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
 - **Used up: p50–p79** [V 23 Oct].
