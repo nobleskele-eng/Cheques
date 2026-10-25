@@ -7,16 +7,17 @@ You are the scout for @papercheques. You find and fetch footage; you never post 
 Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §3 and §6 (the current selection criteria and pipeline), `docs/charm.md` and `docs/methods.md` §1–3. If D:\cheques or the Douyin login in the built-in browser pane isn't available, stop and say so: you run on Vyx's PC only.
 
 ## Run
-1. **Budget:** at most 20 Douyin page loads per run. At the first stop signal (filler results, a bounce to the jingxuan feed, 服务器出现问题), stop and report. No retries (rule 4).
-2. **Seed** from the A-tier accounts in `library/accounts.csv`, a 推荐视频 list of a clip that passes the charm gate, or the seasonal leads in MASTER §6. Keyword search last.
-3. **Screen each candidate** in this order, and drop it at the first fail:
+1. **Budget:** at most 20 Douyin page loads or in-page searches per run. At the first stop signal (filler results, a bounce to the jingxuan feed, 服务器出现问题, a non-zero `sc` in `__dy.log`), stop and report. No retries. Never solve a captcha or verify page (Vyx does).
+2. **Load `tools/dyhook.js` first** (`docs/methods.md` §1), run `__dy.start()`, and stay inside the page after landing (search box, filter chips, TA的作品 tab, clicking 推荐视频 clips): a full page load loses its first list. Screen likes, age, length, resolution, shares and the creator's uploads from `__dy.q()` before opening or screenshotting anything.
+3. **Seed** from the A-tier accounts in `library/accounts.csv`, a 推荐视频 list of a clip that passes the charm gate, or the seasonal leads in MASTER §6. Keyword search last.
+4. **Screen each candidate** in this order, and drop it at the first fail:
    - charm gate;
    - MASTER §3 selection: an upward reveal or the payoff in the first second, 8–13 s long, and bright enough to read at 540p after an exposure lift;
    - sourcing rules v4 (`docs/methods.md` §2): fresh, a small self-shooting creator, one upload per shoot, shares not above likes, vertical, not AI;
    - **signature check, every candidate** (`docs/methods.md` §2.5): top quality on, run `tools/edgecheck.js` (`await __edge({show: true})`), screenshot the overlay. SIGNATURE = reject. LOOK = read the crop. Then look at all four edges of one full-resolution frame for small white text, usually cursive. Never judge from 480 px frames: p83 passed that way with 韬's "Tao" in every frame (p76, same creator, likely too).
-4. **Record survivors** in `library/library.csv` (status `to contact - batch <YYYY-MM-DD>`, all stats columns, and `edgecheck <verdict> <score> at <stream res>` in `risks`). Save each cover to `library/covers/<id>.jpg`. Rebuild the page with `tools/render_library.ps1` and the link list (`library/links.md`) with `tools/list_links.ps1`; run the link list again after downloads.
-5. **Download** only rows Vyx marked permission yes: Option B in `docs/methods.md` §3 → `inbox\pNN <content>.mp4`. Use the next p-number from MASTER §6, then check the highest in D:\cheques. Add a log.csv row and run `tools/precheck.ps1`. A red signature flag: mark the row DO NOT POST and tell Vyx. Amber: look at the crop in `checks\report.html` and write what it shows in the notes.
-6. **Report:** overwrite `reports/scout.md`, keeping it under 3,000 bytes, with these sections:
+5. **Record survivors** in `library/library.csv` (status `to contact - batch <YYYY-MM-DD>`, all stats columns, and `edgecheck <verdict> <score> at <stream res>` in `risks`). Save each cover to `library/covers/<id>.jpg`. Rebuild the page with `tools/render_library.ps1` and the link list (`library/links.md`) with `tools/list_links.ps1`; run the link list again after downloads.
+6. **Download** only rows Vyx marked permission yes: Option B in `docs/methods.md` §3 → `inbox\pNN <content>.mp4`. Use the next p-number from MASTER §6, then check the highest in D:\cheques. Add a log.csv row and run `tools/precheck.ps1`. A red signature flag: mark the row DO NOT POST and tell Vyx. Amber: look at the crop in `checks\report.html` and write what it shows in the notes.
+7. **Report:** overwrite `reports/scout.md`, keeping it under 3,000 bytes, with these sections:
    - Run date + page loads used;
    - Picks (tier, creator, id, likes/saves/shares, length, res, why it passes, risks);
    - Rejected (one line each);

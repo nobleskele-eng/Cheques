@@ -3,10 +3,14 @@
 Durable how-to. Current state lives in `MASTER.md`; full history in `notes/project-notes.md` (frozen 21 Oct).
 
 ## 1. Douyin discovery (LOCAL: logged-in built-in browser pane, Vyx logged in by QR)
-- **Best:** open a clip that passes the charm gate and read its 推荐视频 (recommended) list: ~10 similar clips with likes/author/length. Snowball from the best. Lists drift to generic feed after ~3 video pages.
+- **Screen from data first: `tools/dyhook.js`** (25 Oct). Paste it once on a douyin.com page (after a reload: `eval(localStorage.__dyh)`), run `__dy.start()`, then browse. It copies the JSON Douyin's own page fetches, so every clip in a search, 推荐视频 list or creator's uploads comes with likes, saves, shares, comments, exact post time, length, top stream res + bitrate, full caption and author (+ fans in search). `__dy.q({minLikes: 2000, days: 14, minS: 8, maxS: 13})` lists them best first with flags (take, sell?, AI, shr>lk, wide); `__dy.lib([ids])` gives library.csv rows. Eyes are then only needed for charm, the opening and the signature check.
+  - Tested 25 Oct: the page's search box (all 16 results of a search), filter chips, a clip's **TA的作品** tab in the search modal (creator bio, fans, post count and every upload by date = the one-upload check in one click), and clicking a clip in a 推荐视频 list (its detail + 10 related).
+  - **A full page load (navigate) drops the hook and that load's first list.** Land on one page, then stay inside it: search box, filter chips, modal tabs, clicking recommended clips. The search box drops URL filters (一周内), so filter with `days` or the 筛选 menu.
+  - Endpoints and field names come from Evil0ctal/Douyin_TikTok_Download_API and tamnd/douyin-cli: search `/aweme/v1/web/search/item/`, related `aweme/related/`, uploads `aweme/post/`, detail `aweme/detail/`, creator `user/profile/other/`. We don't run either tool: both get past Douyin's anti-bot wall by forging its a_bogus signatures and minting identities, which Claude won't do. Also Evil0ctal has no Douyin keyword search, and douyin-cli (6 stars, June 2026) says non-China IPs get a challenge.
+- **Best seed:** open a clip that passes the charm gate and read its 推荐视频 (recommended) list: ~10 similar clips with likes/author/length. Snowball from the best. Lists drift to generic feed after ~3 video pages.
 - **Charm accounts' profiles** (`library/accounts.csv`). A profile's 搜索Ta的作品 box finds uploads past the ~20-post grid limit.
 - **Keyword search is weak** (songs, news, filler after ~2–4 searches). If used: `?type=video&sort_type=0&publish_time=7` and sort by likes yourself (最多点赞 + 一周内 starves results). Good: 风景, 治愈系风景, 雪景, 心邸咖啡 蓝调. Bad: 大风/大雾, 下雨天/初雪, 雨天, 银杏, 氛围感, 雨夜, 蓝调时刻, 禾木 初雪 (username matches; filler), 虎跳峡 (mostly 47 s+ vlogs; 1 of 7 usable, then seed from its 推荐视频).
-- Detail JS: in page text find the line starting `发布时间` at i → likes t[i-5], comments t[i-4], saves t[i-3], shares t[i-2], caption t[i-6], author t[i+1], fans t[i+2]. Dims via video.videoWidth/Height.
+- Detail JS (fallback when dyhook missed the page): in page text find the line starting `发布时间` at i → likes t[i-5], comments t[i-4], saves t[i-3], shares t[i-2], caption t[i-6], author t[i+1], fans t[i+2]. Dims via video.videoWidth/Height.
 - Douyin/TikTok video ID >> 32 = post time (Unix seconds, UTC).
 - Saved scripts live in douyin.com localStorage (`__gsrc` grid sweep, `__sr` search list, `__rec2` details + recommended, `__fr2` frames at 480px (too small for signatures, see §2.5), `__ov`/`__ovs` cover overlays, `__band` middle-band frame). The signature check is a repo file, `tools/edgecheck.js`. Overlay: append to document.documentElement, wait ~1.5 s, then screenshot. Pane hidden: zoom times out, a plain screenshot works about every 2nd try; luma via canvas (crossOrigin anonymous).
 
@@ -29,6 +33,7 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 ## 3. Permission → download → name
 - Vyx DMs the creator (text below). Statuses in `library/library.csv`.
 - **Download (Option B; yt-dlp gets 403 "Fresh cookies needed"):** open the video in the logged-in pane → pick the top quality in the player's 智能 menu (default may be 576x1024) → read `video.currentSrc` (zjcdn.com) → `curl.exe -L -H "Referer: https://www.douyin.com/" -o "D:\cheques\inbox\pNN <content>.mp4" "<src>"`. Files are HEVC + AAC, no watermark.
+- **Option C (untested):** if dyhook captured the clip, `__dy.src('<id>')` gives the top-quality file URL and size straight from Douyin's data, without the 智能 menu. Same `curl.exe` line. The URL expires after a few hours (`age_min` shows how old it is); compare the file with Option B the first time.
 - **Name:** `pNN <content>.mp4`, next number after the highest in D:\cheques. Add a `log.csv` row (UTF-8 with BOM; in Excel save as "CSV UTF-8").
 - **Pre-post check:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\precheck.ps1` → `checks\report.html` (duration/res/audio, first-second sheet, <5 s flag, frame-hash duplicate vs posted\, permission vs log.csv, creator signature near the edges with a crop). A red signature flag = never post.
 - **Library page:** `powershell -ExecutionPolicy Bypass -File D:\cheques\tools\render_library.ps1` → `library\library.html` (phone-friendly). **Link list:** `tools\list_links.ps1` → `library\links.md` (every Douyin link on record, downloaded ones marked; committed).
@@ -56,7 +61,8 @@ Durable how-to. Current state lives in `MASTER.md`; full history in `notes/proje
 - **Collision check (LOCAL):** dHash frame 1 of each candidate (9x8 + mirrored) on douyin.com; on a TikTok grid, reload covers with crossOrigin=anonymous, hash, flag Hamming ≤14, eyeball flagged pairs. Scripts in tiktok.com localStorage (`__c2`, refs `__refs3`). Only catches covers that are frame 1. Pinned posts break the date cutoff (use `__c2`).
 - Short links: `curl -s -o /dev/null -w "%{redirect_url}" https://vt.tiktok.com/...` gives the full URL without loading the page.
 
-## 6. Limits and stop signals (rule 4)
+## 6. Limits and stop signals
+- Claude never solves a captcha or verify page and never forges Douyin's request signatures, whatever the project rules say: on a verify page, Vyx solves it or the run stops.
 - Douyin: ~20–30 page loads per session; throttle carries over the same day. Signs: keyword search returns filler, video pages bounce to the jingxuan feed, "服务器出现问题".
 - TikTok logged-out: ~3 profile loads per sitting. Signs: "Something went wrong" grid, WAF "Please wait...".
 - On the first sign: stop for the day. No refresh loops, no workarounds.

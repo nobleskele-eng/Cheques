@@ -11,7 +11,7 @@ Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §1–3, the previous `re
    - **Vyx authorised this (21 Oct).** Fetching our profile page (tiktok.com/@papercheques, once, for the secUid) and the item_list endpoint is allowed and expected.
    - **Off-limits under rule 3:** only individual video pages (`/video/<id>`) and video files. Never play or download those.
    - Don't hand-roll curl or fetch commands for this; use the script.
-   - It stops at the first block. Don't re-run it (rule 4).
+   - It stops at the first block. Don't re-run it.
    - Locally (no Python), skip the pull and use log.csv plus the numbers Vyx gives.
 2. **Match** posts to p-numbers. Use log.csv `tiktok_link` first. Otherwise match by post time against log.csv date/time and duration. List any post you can't match, for Vyx to fill in.
 3. **Per post:** views, likes/view, shares/view, saves/view, length, sound (and whether it's on the proven list), and best served tier/bitrate.
