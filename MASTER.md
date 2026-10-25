@@ -51,7 +51,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - Next file **p86**. Scout: `tools/dyhook.js`, seed order in scout.md.
 - **DM:** 谢景行 Beijing dusk tilt-up, 黑色泡沫 Xinjiang snow (20 s, trim).
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
-- **p85 in:** 梁同学 sunset tilt-up 4K 8.4 s; precheck OK, lite next.
+- **p85 in:** 梁同学 sunset tilt-up 4K 8.4 s; precheck OK.
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut) 23 Oct 22:22 EDT, 11 h: 773, 5.2% [C].
 - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
 - **Used up: p50–p79** [V 23 Oct].
