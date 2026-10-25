@@ -19,6 +19,10 @@
 //     author (name, handle or sec_uid), all (include earlier runs), wide (include horizontal clips)
 //   __dy.lib(['<id>', ...])  -> library.csv rows (tier, status, type, ownership, risks left blank)
 //   __dy.src('<id>')  -> top-quality file URL + size (download only with a permission yes; URLs expire)
+//   __dy.scan(ids)  -> measures camera movement in the first 4 s of each clip in the background (~10 s a clip);
+//     poll __dy.scanned. Each row gets .mot {kind: tilt-up | pan | static | other, tiltUp, pan, still}; __dy.q()
+//     then shows it. Calibrated 25 Oct on 8 clips judged by eye: tilt-ups 0.76-1.28 frame heights, pans and
+//     statics <= 0.21. It can't tell a slowed clip from a slow camera: check snow/rain/people by eye.
 //   await __dy.frames('<id>', [0.1, 0.5, 1, 2, 4, 8])  -> strip of frames (top-left overlay) + luma per frame
 //     + mean change between frames (near 0 = static or slowed). __dy.frames.clear() removes it. Clips seen
 //     only in a 推荐视频 list carry a low-bitrate preview URL that won't load: open the clip first.
@@ -130,6 +134,7 @@
       (!o.days || now - r.t <= o.days * 86400) && (!o.minS || r.s >= o.minS) && (!o.maxS || r.s <= o.maxS) &&
       (o.wide || r.flags.indexOf('wide') < 0) && r.flags.indexOf('album') < 0 && r.flags.indexOf('ad') < 0 &&
       (!o.via || r.via === o.via) && (!by || r.author.indexOf(by) >= 0 || r.uid === by || r.sec === by) &&
+      (!o.kind || (r.mot && r.mot.kind === o.kind)) &&
       skip.indexOf(r.id) < 0);
     const key = o.sort || 'likes';
     list.sort((a, b) => b[key] - a[key]);
@@ -138,7 +143,8 @@
       total: Object.keys(rows).length, matched: list.length,
       rows: list.slice(0, o.n || 30).map(r => [r.id, ((now - r.t) / 86400).toFixed(1) + 'd', r.s + 's',
         r.w + 'x' + r.h, wan(r.likes) + '♥', wan(r.saves) + '★', wan(r.shares) + '↗',
-        r.author + (fans(r) ? ' ' + wan(fans(r)) : ''), r.flags.join(','), r.desc.slice(0, 40)].join(' | '))
+        r.author + (fans(r) ? ' ' + wan(fans(r)) : ''), r.flags.join(','),
+        r.mot ? r.mot.kind + ' ' + r.mot.tiltUp : '', r.desc.slice(0, 40)].join(' | '))
     };
   };
 
@@ -197,6 +203,68 @@
     return { id, res, lum, diffs };
   };
   dy.frames.clear = () => document.getElementById('__dyfr')?.remove();
+
+  // Camera movement from row/column luma profiles of 90x160 frames 0.1 s apart: the best vertical shift
+  // between two frames is how far the picture slid. Content sliding down = the camera tilting up.
+  dy.motion = async function (id, span) {
+    span = span || 4;
+    const W = 90, H = 160, STEP = 0.1;
+    const v = document.createElement('video');
+    v.crossOrigin = 'anonymous'; v.muted = true; v.preload = 'auto'; v.src = (rows[id] || {}).url || '';
+    await new Promise((ok, no) => { v.onloadedmetadata = ok; v.onerror = () => no(new Error('load failed')); });
+    const seek = t => new Promise(ok => { v.onseeked = ok; v.currentTime = t; });
+    const c = document.createElement('canvas'); c.width = W; c.height = H;
+    const g = c.getContext('2d', { willReadFrequently: true });
+    const grab = async t => {
+      await seek(t); g.drawImage(v, 0, 0, W, H);
+      const d = g.getImageData(0, 0, W, H).data, L = new Float32Array(W * H);
+      for (let i = 0, j = 0; i < d.length; i += 4, j++) L[j] = (d[i] * 77 + d[i + 1] * 150 + d[i + 2] * 29) >> 8;
+      return L;
+    };
+    const prof = (L, byRow) => {
+      const n = byRow ? H : W, m = byRow ? W : H, p = new Float32Array(n);
+      for (let a = 0; a < n; a++) { let s = 0; for (let b = 0; b < m; b++) s += byRow ? L[a * W + b] : L[b * W + a]; p[a] = s / m; }
+      return p;
+    };
+    const shift = (p1, p2, R) => {
+      let bs = 0, be = 1e9;
+      for (let s = -R; s <= R; s++) {
+        let e = 0, k = 0;
+        for (let a = Math.max(0, -s); a < Math.min(p1.length, p1.length - s); a++) { e += Math.abs(p1[a] - p2[a + s]); k++; }
+        if (e / k < be) { be = e / k; bs = s; }
+      }
+      return bs;
+    };
+    const end = Math.min(span, v.duration - 0.05);
+    let prev = await grab(0.05), up = 0, down = 0, px = 0, still = 0, steps = 0, change = 0;
+    for (let t = 0.05 + STEP; t <= end; t += STEP) {
+      const cur = await grab(t);
+      const sy = shift(prof(prev, true), prof(cur, true), 24), sx = shift(prof(prev, false), prof(cur, false), 16);
+      let df = 0;
+      for (let i = 0; i < cur.length; i++) df += Math.abs(cur[i] - prev[i]);
+      df /= cur.length; change += df;
+      if (sy > 0) up += sy; else down -= sy;
+      px += sx;
+      if (Math.abs(sy) <= 1 && Math.abs(sx) <= 1 && df < 3) still++;
+      steps++; prev = cur;
+    }
+    v.removeAttribute('src'); v.load();
+    const m = { tiltUp: +(up / H).toFixed(2), tiltDown: +(down / H).toFixed(2), pan: +(px / W).toFixed(2), still: +(still / steps).toFixed(2), change: +(change / steps).toFixed(1) };
+    m.kind = m.tiltUp >= 0.5 ? 'tilt-up' : m.still >= 0.5 ? 'static' : Math.abs(m.pan) >= 0.5 ? 'pan' : 'other';
+    return m;
+  };
+
+  dy.scan = function (ids) {
+    dy.scanned = { done: 0, of: ids.length, errors: 0, finished: false };
+    (async () => {
+      for (const id of ids) {
+        try { if (rows[id]) rows[id].mot = await dy.motion(id); } catch (e) { dy.scanned.errors++; }
+        dy.scanned.done++;
+      }
+      dy.scanned.finished = true; dy.save();
+    })();
+    return 'scanning ' + ids.length + ' clips; poll __dy.scanned';
+  };
 
   dy.clear = function () { for (const k in rows) delete rows[k]; for (const k in users) delete users[k]; dy.log.length = 0; dy.save(); return 'cleared'; };
 

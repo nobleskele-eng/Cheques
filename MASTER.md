@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-25 by local session (v31). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-25 by local session (v32). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -25,7 +25,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Signature check [V 24 Oct]:** p83 has 韬's tiny white cursive "Tao" (bottom-centre), missed at 480 px. Scout runs `tools/edgecheck.js` before DMs; precheck flags it (red = never post; methods §2.5).
 - **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
-- **Clip selection:** upward reveal, payoff in the first second, 8–13 s. **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
+- **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
 - **Recipe test [C 24 Oct]:** 3 scoreable (p74, p76, p77): median 730 views (old 39: 716), likes 3.9% (old 5.1%). Verdict too early; go to ~10. p81 (first upward reveal) still collecting.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
 - **Sound** (`research/data/proven_sounds.csv`): Air 31.6× (stale), oscncs 19.2×, yuji 8.7×, Let Go 8.1×. Give each 2+ tries. Let Go: p74, p76, p77, p81; oscncs next. Skip likely paid promos (CIGARETTES, gambling). New sounds: `reports/sounds.md`.
@@ -39,7 +39,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 - **Rivals data caveat:** item_list returns only the newest ~196; the pull script overwrites, so it needs a fix. [C]
 ## 5. Waiting on Vyx
 1. **p77:** full link. p74: edit or original?
-2. **Who shortens clips:** you, or TikTok when the sound is added? Post at full length either way.
+2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three. Third lite reject: unknown.
 4. rvf5567 DM: which clips did they name?
 5. Drop 可爱到爆炸 (sells footage)?

@@ -13,7 +13,7 @@ Start by reading `CLAUDE.md` (hard rules), `MASTER.md` §2, §3 and §6, and `do
 3. **Risk notes:** check the library.csv/log.csv notes for duplicate-shoot siblings, a baked-in signature, aggregator or footage-seller status, or a missing collision check. Any of these: STOP or HOLD, and say why.
 4. **Selection criteria (MASTER §3)**, measured with ffmpeg:
    - **Opening:** frames at 0, 0.5, 1 and 2 s (`ffmpeg -ss T -i f -frames:v 1 -vf scale=360:-1 out.jpg`). Look at them: is it an upward reveal, or is the payoff in frame 1?
-   - **Length:** 8–13 s preferred. Shorter or longer = note it, don't fail it. Always tell Vyx to post the full length, because TikTok's upload flow has been cutting our clips to 6–9 s (MASTER §2.5).
+   - **Length:** 8–13 s preferred. 14.5–20 s source: trim to the reveal + ~12 s (save as `pNN <content> edit.mp4`, keep the original; Vyx 25 Oct). Shorter = note it, don't fail it. Always tell Vyx to post the full length, because TikTok's upload flow has been cutting our clips to 6–9 s (MASTER §2.5).
    - **Brightness:** mean luma with `ffmpeg -i f -vf signalstats,metadata=print:key=lavfi.signalstats.YAVG -f null -`, averaged. Report the number and the share of the frame that is near-black. There's no fixed threshold yet: compare it with the clips already posted.
    - **Source quality:** resolution and bitrate. Below ~3 Mbps → suggest asking the creator for the original.
    - **Edit for 540p (only when Vyx says yes):**
