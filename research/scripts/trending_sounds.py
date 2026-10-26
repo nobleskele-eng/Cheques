@@ -9,8 +9,8 @@
 #    A sound is "new" when no network post used it before the 14-day window (this pull + every research/data/*_sounds.csv)
 #    and @papercheques never used it.
 # 3. Writes research/data/sounds/new_sounds_<date>.csv (history) and overwrites reports/sounds.md.
-# Doesn't touch the rival CSVs. Song names come from the network's own library-track posts, else from Apple's public lookup
-# (skipped when the environment blocks itunes.apple.com).
+# Doesn't touch the rival CSVs. Song names come only from TikTok's own library-track metadata: no outside lookup to identify audio.
+# Sounds without a published song link (original sounds, uploads) stay in the list; the Spotify link shows only when TikTok supplies one.
 import csv, glob, json, os, re, sys, time, statistics as st, datetime as dt, urllib.request, urllib.parse
 from collections import defaultdict
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -50,7 +50,7 @@ def pull(handle):
                 sound_id=mu.get('id', ''), title=mu.get('title', ''), author=mu.get('authorName', ''), library=not mu.get('original'),
                 own=mu.get('authorName') == user['nickname'], usable=(it.get('item_control') or {}).get('can_music_redirect', True),
                 song=next((x.get('meta_song_id') for x in dsp.values() if x.get('meta_song_id')), ''),
-                spotify=(dsp.get(3) or {}).get('song_id', ''), apple=(dsp.get(1) or {}).get('song_id', ''))
+                spotify=(dsp.get(3) or {}).get('song_id', ''))
         if not batch or not j.get('hasMorePrevious') or min(int(it['createTime']) for it in batch) < stop: break
         nc = min(int(it['createTime']) for it in batch) * 1000 + 999
         if cursor and nc >= cursor: break
@@ -101,23 +101,12 @@ for p in posts:
 names = {}  # song key -> (title, artist) from a library-track post of the same song
 for p in posts:
     if p['library'] and not blank(p['title']): names.setdefault(p['key'], (p['title'], p['author']))
-apple_ids = {p['apple'] for u in songs.values() for p in u if p['apple'] and p['key'] not in names}
-apple, lookup = {}, 'not needed'
-if apple_ids:
-    try:
-        ids = sorted(apple_ids)
-        for k in range(0, len(ids), 100):
-            for r in json.loads(get('https://itunes.apple.com/lookup?id=' + ','.join(ids[k:k + 100])))['results']:
-                apple[str(r.get('trackId'))] = (r.get('trackName', ''), r.get('artistName', ''))
-        lookup = f'{len(apple)}/{len(apple_ids)} named'
-    except Exception as e: lookup = f'Apple lookup unreachable ({type(e).__name__}), Spotify links only'
-
 out = []
 for key, u in songs.items():
     if key in old_keys or any(p['sound_id'] in old_sounds or p['spotify'] in old_spotify for p in u): continue
     scored = [p for p in u if p['rel'] is not None]
     best = max(u, key=lambda p: (p['rel'] or 0, p['views']))
-    nm = names.get(key) or next((apple[p['apple']] for p in u if p['apple'] in apple), None)
+    nm = names.get(key)
     if nm: title, artist = nm
     elif best['library']: title, artist = best['title'], best['author']
     elif blank(best['title']) or GENERIC.match(best['title']): title, artist = '', ''
@@ -163,13 +152,12 @@ NONE = '| - | none this week | | | | | | | |'
 hdr = '| # | Audio | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |\n|---|---|---|---|---|---|---|---|---|'
 L = [f"# New sounds in the niche, {now:%Y-%m-%d} (trending_sounds.py, cloud)",
      f"Coverage, pulled {now:%Y-%m-%d %H:%M} UTC: {', '.join(done)} posts (last {LOOKBACK} d)." + (f" **Stopped at {stopped['at']}**: {stopped['reason']}; not pulled: {', '.join(stopped['not_pulled']) or 'none'}." if stopped else ''),
-     f"New = no network post used the audio before {day(w0)} and @papercheques never used it. × = views / that account's median (posts ≥{MATURE_H} h old, last {LOOKBACK} d). Names: {lookup}.", '',
+     f"New = no network post used the audio before {day(w0)} and @papercheques never used it. × = views / that account's median (posts ≥{MATURE_H} h old, last {LOOKBACK} d).", '',
      '## A: spreading (2+ posts, median ≥1.5×, or 2+ accounts)', hdr, *([row(i + 1, r) for i, r in enumerate(A)] or [NONE]), '',
      '## B: one big hit (best ≥3× or 1M+, not repeated: may be the clip, not the sound)', hdr, *([row(i + 1, r) for i, r in enumerate(B)] or [NONE]), '',
      '## How to use',
      '- Open "sound" on your phone, then "Use this sound". An upload by another account is its "original sound".',
-     '- If the sound page says unavailable, play the Spotify link and search that song in the TikTok sound library instead.',
      '- accruing = best post under 48 h old, × still rising. repeat = also on last week\'s list. Full table: ' + os.path.relpath(snap, R) + '.',
      f"- Skipped as likely paid promo (library track, 5+ uses, median <1×): {', '.join(label(r) for r in out if r['tier'] == 'promo?') or 'none'}."]
 open(REPORT, 'w', encoding='utf-8').write('\n'.join(L) + '\n')
-print(json.dumps({'done': done, 'stopped': stopped, 'new_songs': len(out), 'A': len(A), 'B': len(B), 'names': lookup, 'csv': os.path.relpath(snap, R)}))
+print(json.dumps({'done': done, 'stopped': stopped, 'new_songs': len(out), 'A': len(A), 'B': len(B), 'csv': os.path.relpath(snap, R)}))
