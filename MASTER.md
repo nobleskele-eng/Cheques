@@ -1,10 +1,10 @@
 # MASTER: @papercheques current state
-Updated 2026-10-25 by local session (v35). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-26 by local session (v36). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
 - Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K): 8–11% likes, 0.6–1.1% shares; breakouts (100K+): 21–25% likes, 2–4% shares. [C] [L csv]
-- Sourcing is good enough [V]: permissioned Douyin clips, and big accounts got millions from clips Vyx posted first. **Bottleneck = test-audience engagement.**
+- Sourcing is good enough [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct].
 
 ## 2. What we know (strongest first)
@@ -35,7 +35,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
-- **rvf5567 DM'd us 22 Oct:** "all your videos are reposted". Likely a course-funnel opener [est]; reply: ask which clips. [V]
+- **rvf5567 DM 22 Oct** ("all your videos are reposted"): likely a course funnel [est]; §5.4.
 - **Rivals data caveat:** item_list returns only the newest ~196; the pull script overwrites, so it needs a fix. [C]
 ## 5. Waiting on Vyx
 1. **p77:** full link. p74: edit or original?
@@ -48,16 +48,12 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
 9. **p82:** posted? Time + sound.
 ## 6. Pipeline
-- Next file **p88**. Scout: `tools/dyhook.js`.
-- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR.
+- Next file **p94**. (dyhook). All 28 "to contact" library clips approved [V 26 Oct]; 22 unused.
+- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR. · p88 可爱到爆炸 leafy tilt-up 8.6 s · p89 可爱到爆炸 leaves crosswalk 7 s · p90 用户1529 rain tree 6.8 s · p92 轻轻 Seoul snow 8 s · p93 長樂 snow towers 8.6 s (p88/p92/p93 odd fps: eye-check for slow-mo).
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut) 23 Oct 22:22 EDT, 11 h: 773, 5.2% [C].
-- **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
-- **Used up: p50–p79** [V 23 Oct].
-- HOLD p61 (lite never run; §5). Never: p54, p63 (re-uploaded shoots), p55–p57, p83 (baked signatures).
+- Used up: p50–p79 [V 23 Oct].
+- HOLD p61 (lite never run; §5). Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/rivals.md` 24 Oct: Let Go 8.1×, network flat/decaying.
-- `reports/self.md` 24 Oct: recipe n=3 flat; 21 Oct posts unmapped.
-- `reports/scout.md` 25 Oct: likes/FYP run, 2 A + 2 B.
-- `reports/sounds.md` 24 Oct (Mondays): unused new sounds + links.
+- `reports/`: rivals 24 Oct (Let Go 8.1×, network decaying) · self 24 Oct (recipe n=3 flat) · scout 25 Oct (2 A + 2 B) · sounds 24 Oct (Mondays).
