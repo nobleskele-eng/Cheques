@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-25 by local session (v34). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-25 by local session (v35). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
@@ -49,7 +49,7 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 9. **p82:** posted? Time + sound.
 ## 6. Pipeline
 - Next file **p88**. Scout: `tools/dyhook.js`.
-- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow 20 s (trim?).
+- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut) 23 Oct 22:22 EDT, 11 h: 773, 5.2% [C].
 - **POSTED p75** (谢景行 Dali lane) ~20–21 Oct: 706–718 views (§5.3). [V][L]
