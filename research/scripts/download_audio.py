@@ -12,7 +12,7 @@ UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 INVIS = ''.join(map(chr, (0x3164, 0x2800, 0xFFF4, 0xFFFC, 0x200D, 0xFE0E)))
 src = sys.argv[1] if len(sys.argv) > 1 else sorted(glob.glob(f'{R}/research/data/sounds/new_sounds_*.csv'))[-1]
 N = int(sys.argv[2]) if len(sys.argv) > 2 else 5
-rows = [r for r in csv.DictReader(open(src, encoding='utf-8')) if r['tier'] == 'A'][:N]
+rows = [r for r in csv.DictReader(open(src, encoding='utf-8')) if r['tier'] in ('A','B')][:N]
 date = re.search(r'(\d{4}-\d{2}-\d{2})', os.path.basename(src)).group(1)
 OUT = f'{R}/audio/{date}'
 os.makedirs(OUT, exist_ok=True)
