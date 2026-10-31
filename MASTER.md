@@ -1,42 +1,42 @@
 # MASTER: @papercheques current state
-Updated 2026-10-26 by local session (v36). Cap 8,000 bytes. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-31 by weekly routine, cloud (v37: rivals+self 31 Oct folded; 4 unmatched posts, pull failure). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~55 followers. 43 public posts, 3–24 Oct (cloud pull 24 Oct). Every post gets ~700 views (median 712, most 450–1,100): TikTok tests each one, but the test audience doesn't react. Best: 2,207 (10 Oct, waterfront walk-up reveal). [C]
-- Our medians: 5.2% likes/view, 0.00% shares, 0.28% saves; like rate falling 6.3% (3–10 Oct) → 5.1% (11–16) → 4.2% (18–21). Network flops (<10K): 8–11% likes, 0.6–1.1% shares; breakouts (100K+): 21–25% likes, 2–4% shares. [C] [L csv]
+- ~55 followers. 47 public posts, 3 Oct–30 Oct (cloud pull 31 Oct). Median 722 views, 5.1% likes/view; most 450–1,100: TikTok tests each one, test audience doesn't react. Best: 4,565 (10 Oct 01:42 UTC, 10 s, 225 likes). No post >1,010 since. [C]
+- Our medians: 0.00% shares, 0.28% saves; like rate fell 6.3% (3–10 Oct) → 4.2% (18–21). Last 4 posts (24 Oct–30 Oct) 4.3–8.0%, median 6.95%, best since 10 Oct. Flops (<10K): 8–11% likes; breakouts (100K+): 21–25% likes, 2–4% shares. [C]
 - Sourcing is good enough [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62. Account in good standing [V 19 Oct].
 
 ## 2. What we know (strongest first)
-1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78, p79, p80, p84 (6–30 days old). Passed: p74–p77, p81, p82, so age/shares don't explain it. SaveTik H.264 passed 1 of 4; Douyin HEVC fails too (p80, p84), so format is a weak lead. [V][L ffprobe]
-2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views), but official "Let Go" (Ark Patrol) is elsewhere557's live hit: 8.1× over 8 uses. someplace505: own uploads 7.6× vs library tracks 0.8× (n=28/95; may be clip choice). 37/39 of ours use an account's sound, only 1 of 22 "proven" ones; n=3–8 per sound. [C]
-3. **Served quality:** 0/43 of ours have a 1080p version (best 720p, p77); the network gets 1080p on 81–99%, flops included. Our files are 1080p+, so the untested lever is the upload path: we use Studio web, peers likely the app with Upload HD [C 23 Oct, inference]. [C] [L gate]
-4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from the ground or a railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 since 21 Oct: 4 nature posts median ~206K (62.6K–2.8M; 2.8M = 虎跳峡 gorge path, clear day) vs 4 city ~42K; holds with sound fixed. n=4+4 (`research/someplace505-nature-2026-10-24.md`). [L grid]
-5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 7–11 s, and 11–14 s+ did 1.1–2.0× (small n). [C] **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, 1.3–9.5 s shorter (median −3.0 s). Network lengths match their files. Full vs cut: no difference yet (n=3 vs 9). [L ffprobe + csv]
-6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
+1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78, p79, p80, p84. Passed: p74–p77, p81, p82, so age/shares don't explain it. SaveTik H.264 passed 1 of 4; Douyin HEVC fails too (p80, p84): format weak lead. [V][L ffprobe]
+2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). Official "Let Go" faded: 8.1× → 2.1× (10 uses, 70% beat, last 27 Oct). Now: oscncs 13.9× (3 uses), yuji 8.4× (5), 𝙈𝙃𝘾 6.8× (3), blank-name "original sound" 5.7× (4 uses; someplace505's own upload). someplace505's 2.1M (28 Oct) used official "hold the line" (5 uses, 1.74×, unproven). n=3–10 per sound; may ride the clip. [C]
+3. **Served quality:** 0/43 of ours had 1080p (best 720p, p77); the latest 3 posts have no tier data, 24 Oct post 540p. Network gets 1080p on 81–99%, flops included. Untested lever: upload path (we use Studio web, peers likely app + Upload HD; inference). [C] [L gate]
+4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4, 21–24 Oct; `research/someplace505-nature-2026-10-24.md`). [L grid]
+5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 8–13 s. **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, median −3.0 s. Full vs cut: no difference yet (n=3 vs 9). [L ffprobe + csv]
+6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). someplace505 now ~4/day, 7-day median 19.8K (n27). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
-8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, holds the top 4. 02:30–05:00 UTC n=19: median 687 (lows mostly scheduled/stacked). A test, not a rule. [L csv]
-9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. Hot phase ~1–3 weeks, then decay: elsewhere557 weekly median 102K (wk 28 Sep) → 23.2K; kadzoo 6 posts/wk. someplace505 rising (§2.4). [C]
-10. **Model** (`research/success-model.md`): 100K+ AUC 0.69, 1M+ 0.52. [C]
+8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, top 4. 02:30–05:00 UTC n=19: median 687. [L csv]
+9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. Decay: elsewhere557 weekly median 117K → 13.7K (n38; best 1.6M 27 Oct); kadzoo restarted, 6 posts, median 7.7K (was 179K); anywhere557 silent since 22 Oct. someplace505 steady ~20K with a 2.1M. [C]
+10. **Model** (`research/success-model.md`): beat-median AUC 0.66, 100K+ 0.68, 1M+ 0.45 (chance). [C]
 
 ## 3. Recommendation now: change the recipe, then test it
-Single-variable tests need dozens of posts at ~700 views, so run the likely levers together for ~10 posts, compare with the old 39, then remove levers one at a time. [est]
-- **p82 flag [L 25 Oct]:** creator uploaded the hike 3× (24 Oct = same caption + cover), posts Iceland/Bangkok too: fails one-upload. Vyx decides.
+Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
+- **Recipe test [C 31 Oct]:** matched p74, p76, p77, p81, n=4: median 743 views (old 712), likes 4.0% (old 5.2%), shares 0.07%. Too early; go to ~10. Four later posts use the blank-name sound (median 762, likes 6.95%) but are unmapped (§5). Milestone ≥10–15% likes/view: not hit (best 8.0%).
+- **p82 flag [L 25 Oct]:** creator uploaded the hike 3×, fails one-upload. Vyx decides.
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
-- **Signature check [V 24 Oct]:** p83 has 韬's tiny white cursive "Tao" (bottom-centre), missed at 480 px. Scout runs `tools/edgecheck.js` before DMs; precheck flags it (red = never post; methods §2.5).
-- **Check length before Post:** the TikTok editor preview must show the file's full length. If it's shorter, stop and note the step.
+- **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs (p83 had a tiny "Tao"); red = never post (methods §2.5).
+- **Check length before Post:** editor preview must show the full length; if shorter, stop and note the step.
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
-- **Recipe test [C 24 Oct]:** 3 scoreable (p74, p76, p77): median 730 views (old 39: 716), likes 3.9% (old 5.1%). Verdict too early; go to ~10. p81 (first upward reveal) still collecting.
-- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.3% vs p76 original 4.2%, n=1 each).
-- **Sound** (`research/data/proven_sounds.csv`): Air 31.6× (stale), oscncs 19.2×, yuji 8.7×, Let Go 8.1×. Give each 2+ tries. Let Go: p74, p76, p77, p81; oscncs next. Skip likely paid promos (CIGARETTES, gambling). New sounds: `reports/sounds.md`.
-- **Upload:** TikTok Studio web as drafts, "Upload HD" if offered, Content check lite must PASS. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by the 抖音号 on their profile.
+- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.2% vs p76 original 4.0%, n=1 each).
+- **Sound** (`research/data/proven_sounds.csv`): try oscncs, yuji, blank-name original, 2+ tries each. Let Go fading. Skip likely paid promos (list in `reports/rivals.md`). New sounds: `reports/sounds.md`.
+- **Upload:** TikTok Studio web as drafts, "Upload HD" if offered, lite must PASS. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by 抖音号.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
-- **First milestone:** any post ≥10–15% likes/view (network flop range). [est]
 
 ## 4. Open conflicts / unknowns
-- **Dark charm vs compression:** charm v3 wants a dark muted grade, but at 540p / 0.5 Mbps dark footage turns to mush. Lifted-but-muted edits (e.g. YAVG 93→104) are untested on a live post. [L]
-- **rvf5567 DM 22 Oct** ("all your videos are reposted"): likely a course funnel [est]; §5.4.
-- **Rivals data caveat:** item_list returns only the newest ~196; the pull script overwrites, so it needs a fix. [C]
+- **Dark charm vs compression:** dark grade turns to mush at 540p; lifted edits untested live. [L]
+- **rvf5567 DM 22 Oct** ("all your videos are reposted"): likely course funnel [est]; §5.4.
+- **Pull failure [C 31 Oct]:** `pull_account.py` died at .aaapaathy (`KeyError: 'userInfo'`, profile had no user data). .aaapaathy, fang_w3, rvf5567 not refreshed (data from 27 Oct). Needs a fix; item_list returns only the newest ~196.
+- **Watch routine silent** since 27 Oct (no `watch:` entry in `reports/watch.md`).
 ## 5. Waiting on Vyx
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
@@ -47,13 +47,13 @@ Single-variable tests need dozens of posts at ~700 views, so run the likely leve
 7. **p81:** app or web? Full 10.8 s in preview? 1 h views/likes.
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
 9. **p82:** posted? Time + sound.
+10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48; 735/789/699/1,005 views, all blank-name original): which p-numbers (p82, p85–p93?) and which upload path (was 30 Oct app + Upload HD?). No links in log.csv.
 ## 6. Pipeline
-- Next file **p94**. (dyhook). All 28 "to contact" library clips approved [V 26 Oct]; 22 unused.
-- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR. · p88 可爱到爆炸 leafy tilt-up 8.6 s · p89 可爱到爆炸 leaves crosswalk 7 s · p90 用户1529 rain tree 6.8 s · p92 轻轻 Seoul snow 8 s · p93 長樂 snow towers 8.6 s (p88/p92/p93 odd fps: eye-check for slow-mo).
-- **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p; same spot as someplace505's 2.8M): lite PASS 24 Oct, flagged (§3). Lite FAILED 24 Oct: p80, p84.
-- **POSTED, new recipe [V 22 Oct], all "Let Go", direct:** p74 (梁同学 train door, lifted edit, 8 s, ~1 s cut) 21 Oct 713 views, **2.2%** · p76 (韬 HK rain, original, dark) 22 Oct 730, **4.1%** · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 22 Oct 737, 3.9% · p81 (梁同学 rain bridge tilt-up, original, uncut) 23 Oct 22:22 EDT, 11 h: 773, 5.2% [C].
-- Used up: p50–p79 [V 23 Oct].
-- HOLD p61 (lite never run; §5). Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
+- Next file **p94** (dyhook). All 28 "to contact" library clips approved [V 26 Oct]; 22 unused.
+- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR · p88 可爱到爆炸 leafy tilt-up 8.6 s · p89 可爱到爆炸 leaves crosswalk 7 s · p90 用户1529 rain tree 6.8 s · p92 轻轻 Seoul snow 8 s · p93 長樂 snow towers 8.6 s (p88/p92/p93 odd fps: check slow-mo).
+- **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct, flagged (§3). Lite FAILED: p80, p84.
+- **POSTED, new recipe [V 22 Oct], all "Let Go", direct** [C 31 Oct]: p74 (梁同学 train door, lifted edit, 8 s) 22 Oct UTC 717 views, 2.2% · p76 (韬 HK rain, original, dark) 741, 4.0% · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 745, 3.9% · p81 (梁同学 rain bridge tilt-up, uncut) 802, 5.2%.
+- Used up: p50–p79 [V 23 Oct]. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 24 Oct (Let Go 8.1×, network decaying) · self 24 Oct (recipe n=3 flat) · scout 25 Oct (2 A + 2 B) · sounds 24 Oct (Mondays).
+- `reports/`: rivals 31 Oct (4/7 pulled; elsewhere557 collapse, Let Go 2.1×) · self 31 Oct (47 posts, recipe n=4 flat, 4 unmapped) · scout 25 Oct · sounds 24 Oct (Mondays) · watch 27 Oct (silent since).
