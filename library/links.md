@@ -1,8 +1,8 @@
 # Clip links
 
-Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **95 clips, 42 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
+Rebuilt 2026-10-30 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **100 clips, 48 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
 
-## Downloaded (42)
+## Downloaded (48)
 
 | File | Creator | Douyin link | Status | What |
 |---|---|---|---|---|
@@ -46,10 +46,16 @@ Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | p85 | 梁同学 | [7696094930313714304](https://www.douyin.com/video/7696094930313714304) | permission yes 2026-10-25 (Vyx, DM text docs/methods.md §3 assumed) - downloaded as p85 (25 Oct, Option C 4K) | UPWARD REVEAL at golden-hour sunset: opens on stone paving at 0.1 s, tilts up past a metal railing by 1 s to a riverside walkway with towers, then the sun low over the river with glare on the water and the skyline by 4 s (Chongqing) |
 | p86 | 谢景行 | [7700641925070632034](https://www.douyin.com/video/7700641925070632034) | permission yes 2026-10-25 (Vyx; DM text docs/methods.md §3) - downloaded as p86 (25 Oct, Option C 4K) - batch 2026-10-25d | UPWARD REVEAL at blue hour: opens on a pedestrian-overpass railing (dark) at 0.1 s, tilts up over it by 1 s to a multi-lane Beijing road with traffic and towers under a dusk glow. Camera settles at ~3 s; cars move at real speed (frames 3.0 vs 3.2 s). |
 | p87 | 黑色泡沫 | [7700247545843068330](https://www.douyin.com/video/7700247545843068330) | permission yes 2026-10-25 (Vyx; DM text docs/methods.md §3, covers trims) - downloaded as p87 (25 Oct, Option C 2K) - batch 2026-10-25d | Heavy night snowfall on a city street (Xinjiang, first snow 24 Oct): snow-laden trees, street lamps, a lit domed building, people walking, scooters under snow. Payoff in frame 1, slow pan, bright (luma 130-145), real speed (frames 5.0 vs 5.2 s change 35). |
+| p88 | 可爱到爆炸 | [7695312376228414067](https://www.douyin.com/video/7695312376228414067) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) - downloaded as p88 (26 Oct) | Leafy walkway POV, tilts up (Nanjing) |
+| p89 | 可爱到爆炸 | [7687124239174105067](https://www.douyin.com/video/7687124239174105067) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) - downloaded as p89 (26 Oct) | Leaves blowing across a wet crosswalk at night |
+| p90 | 用户1529 | [7696732852838461298](https://www.douyin.com/video/7696732852838461298) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) - downloaded as p90 (26 Oct) | Rainy night street under a big tree, warm lamp |
+| p91 | Anne | [7670144027459406223](https://www.douyin.com/video/7670144027459406223) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) - downloaded as p91 - DO NOT POST, Anne signature baked in (26 Oct) | Rainy narrow street at night, wet reflections |
+| p92 | 轻轻 | [7673905949530640357](https://www.douyin.com/video/7673905949530640357) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) - downloaded as p92 (26 Oct) | Seoul street corner in heavy snow at night, lamp post, blue signs |
+| p93 | 長樂 | [7678957143115128571](https://www.douyin.com/video/7678957143115128571) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) - downloaded as p93 (26 Oct) | Heavy snow falling past office towers, looking up (daytime) |
 | inbox file, no pNN |  | [7685767113781748634](https://www.douyin.com/video/7685767113781748634) |  |  |
 | inbox file, no pNN |  | [7689769865779968165](https://www.douyin.com/video/7689769865779968165) |  |  |
 
-## Not downloaded (53)
+## Not downloaded (52)
 
 | Creator | Douyin link | Status | What |
 |---|---|---|---|
@@ -57,40 +63,39 @@ Rebuilt 2026-10-25 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | 博 | [7697528477076005478](https://www.douyin.com/video/7697528477076005478) | backup - batch 2026-10-25c (creator check not done) | Window reveal from inside a tower observation deck: people at the glass for the first second, pans to the window, city and river at golden dusk from high up by 2 s (Shanghai?). Found in the logged-in account's liked list |
 | 雾必野 | [7686411617718911114](https://www.douyin.com/video/7686411617718911114) | backup - batch 2026-10-25d (Vyx's favourites) | Metro-window reveal: opens on the train's blue info panel at 0.1 s, turns to the window by 0.5 s: red steel bridge girders and the Chongqing skyline at golden hour (like p14), train moving. Scan: mostly a pan (pan 1.04, tilt 0.76). |
 | Hua. | [7686125655775580069](https://www.douyin.com/video/7686125655775580069) | backup - batch 2026-10-25d (Vyx's liked list) | Beijing at dusk from high up: traffic light trails on an interchange at 0.1 s, tilts up to the CBD towers (China Zun) under a dusk sky by 2 s. |
+| Hua. | [7701669746937204325](https://www.douyin.com/video/7701669746937204325) | backup - batch 2026-10-30 | NATURE, UPWARD REVEAL: a mountain road through fir forest with a motorcyclist at 0.1 s, tilts up by 1-2 s to snow-capped peaks under a clear blue sky. Real speed (rider moves). Bright (luma 73-92). |
+| 雾必野 | [7701880399286939302](https://www.douyin.com/video/7701880399286939302) | backup - batch 2026-10-30 | MISTY RAIN DUSK, UPWARD REVEAL: opens on a road arrow at 0.1 s, tilts up by 1 s to a wide Chongqing intersection at dusk in rain: lights on, towers fading into fog, people crossing with umbrellas. Real speed. Luma 65-76. |
+| 雾必野 | [7700077213852666470](https://www.douyin.com/video/7700077213852666470) | backup - batch 2026-10-30 | DUSK SKYLINE, UPWARD REVEAL: opens on a lit glass railing (venue text on the glass) at 0.1 s, tilts up over it by 0.5 s to the Chongqing skyline at dusk: orange horizon, river, towers with lights coming on (Westin sign). Bright (luma 69-85). |
 | 7na. | [7691906272699149243](https://www.douyin.com/video/7691906272699149243) | charm reference only (signature watermark in source) | Wet empty road at night under lamps |
 | Iuk | [7682814813113858478](https://www.douyin.com/video/7682814813113858478) | charm reference only (signature watermark in source) | Rainy night arcade/sidewalk with shop neon, wet ground |
 | Iuk | [7688999051862537582](https://www.douyin.com/video/7688999051862537582) | charm reference only (signature watermark in source) | Rainy night city street, neon and wet road |
 | Iuk | [7681700940705600486](https://www.douyin.com/video/7681700940705600486) | charm reference only (signature watermark in source) | Under an umbrella on a wet cobbled street, warm lights |
 | 南澳岛.小困 | [7673440472811350629](https://www.douyin.com/video/7673440472811350629) | permission yes (Vyx 20 Oct) - fresh day 7698312564291755705 downloaded as p70 | Sea-view room at golden sunset (same format as kadzoo 19.7M) - ask for a FRESH day, not this one |
+| @嘉 | [7692654644523488421](https://www.douyin.com/video/7692654644523488421) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Night downpour splashing under a light |
+| Anne | [7675715389146082978](https://www.douyin.com/video/7675715389146082978) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Rainy crosswalk at night under a streetlight, wet reflections |
+| Dou | [7672410268849270473](https://www.douyin.com/video/7672410268849270473) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Heavy snow past a streetlight between apartment blocks at night |
+| Dou | [7677283323660388233](https://www.douyin.com/video/7677283323660388233) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Dark snowy street at night, power lines, parked cars |
+| Human nature | [7669018685970151141](https://www.douyin.com/video/7669018685970151141) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Dark room, rain on the window, storm clouds outside |
+| Niu | [7674317564545182117](https://www.douyin.com/video/7674317564545182117) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Warm-lit snowy street at night, tyre tracks |
+| Onlrainy | [7665646173835865585](https://www.douyin.com/video/7665646173835865585) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Sepia sandstorm/storm over trees and a light pole |
+| Rely | [7667194603417905855](https://www.douyin.com/video/7667194603417905855) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Person walking away into heavy snow at night |
+| 可爱到爆炸 | [7690820138623308262](https://www.douyin.com/video/7690820138623308262) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Looking down onto a Nanjing plane-tree avenue from a bridge |
+| 可爱到爆炸 | [7679708492278970267](https://www.douyin.com/video/7679708492278970267) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Leaf-covered walkway, tilts up to the avenue (pinned hit) |
+| 桃桃原创素材 | [7670968304416830309](https://www.douyin.com/video/7670968304416830309) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Night rain on wet leaves under a streetlight |
+| 歪啊呸吱 | [7687262917783214501](https://www.douyin.com/video/7687262917783214501) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Couple holding hands in snow under a streetlight at night |
+| 气焰嚣张女士 | [7691524101274183295](https://www.douyin.com/video/7691524101274183295) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Looking up a stone stairway in the rain (enclosed to open) |
+| 用户1529 | [7693544569174409454](https://www.douyin.com/video/7693544569174409454) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Rainy night street, warm light, distant umbrellas |
+| 用户1529 | [7697479465103265242](https://www.douyin.com/video/7697479465103265242) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Rainy night street under a big tree, warm lamp (same series) |
+| 芮. | [7682467792311146917](https://www.douyin.com/video/7682467792311146917) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Woman in a snowy village at night, warm cabin lights |
+| 花海 | [7695461368795121913](https://www.douyin.com/video/7695461368795121913) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | City street at night in snowfall, umbrellas, streetlights |
+| 花花^^ | [7675946934833515830](https://www.douyin.com/video/7675946934833515830) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Woman snowboarding at night, city lights below |
+| 解夫 | [7693001287424809457](https://www.douyin.com/video/7693001287424809457) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Red iron door opens onto a white snowfield (reveal) |
+| 谢景行 | [7687638814063603298](https://www.douyin.com/video/7687638814063603298) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Nanjing square at night in snowfall, wet road, umbrellas |
+| 超人（挣钱买车版） | [7673877511521299054](https://www.douyin.com/video/7673877511521299054) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Snowy road at night in headlights, power lines |
+| 雾必野 | [7686928531062649929](https://www.douyin.com/video/7686928531062649929) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Sun-dappled city street under trees (daytime) |
 | owo | [7696867651759378368](https://www.douyin.com/video/7696867651759378368) | rejected (Vyx 25 Oct): no reveal, no subject, poor quality, slowed-down trend clip | Heavy snowfall at night over amber-lit apartment blocks in Urumqi, a streetlamp and trees at the bottom, slow pan. Snow visible from 0.1 s (payoff in frame 1, no tilt-up). CITY snow, not nature (found on the nature run via 新疆下雪了) |
-| @嘉 | [7692654644523488421](https://www.douyin.com/video/7692654644523488421) | to contact | Night downpour splashing under a light |
-| Anne | [7670144027459406223](https://www.douyin.com/video/7670144027459406223) | to contact | Rainy narrow street at night, wet reflections |
-| Anne | [7675715389146082978](https://www.douyin.com/video/7675715389146082978) | to contact | Rainy crosswalk at night under a streetlight, wet reflections |
-| Dou | [7672410268849270473](https://www.douyin.com/video/7672410268849270473) | to contact | Heavy snow past a streetlight between apartment blocks at night |
-| Dou | [7677283323660388233](https://www.douyin.com/video/7677283323660388233) | to contact | Dark snowy street at night, power lines, parked cars |
-| Human nature | [7669018685970151141](https://www.douyin.com/video/7669018685970151141) | to contact | Dark room, rain on the window, storm clouds outside |
-| Niu | [7674317564545182117](https://www.douyin.com/video/7674317564545182117) | to contact | Warm-lit snowy street at night, tyre tracks |
-| Onlrainy | [7665646173835865585](https://www.douyin.com/video/7665646173835865585) | to contact | Sepia sandstorm/storm over trees and a light pole |
-| Rely | [7667194603417905855](https://www.douyin.com/video/7667194603417905855) | to contact | Person walking away into heavy snow at night |
-| 可爱到爆炸 | [7679708492278970267](https://www.douyin.com/video/7679708492278970267) | to contact | Leaf-covered walkway, tilts up to the avenue (pinned hit) |
-| 可爱到爆炸 | [7695312376228414067](https://www.douyin.com/video/7695312376228414067) | to contact | Leafy walkway POV, tilts up (Nanjing) |
-| 可爱到爆炸 | [7687124239174105067](https://www.douyin.com/video/7687124239174105067) | to contact | Leaves blowing across a wet crosswalk at night |
-| 可爱到爆炸 | [7690820138623308262](https://www.douyin.com/video/7690820138623308262) | to contact | Looking down onto a Nanjing plane-tree avenue from a bridge |
-| 桃桃原创素材 | [7670968304416830309](https://www.douyin.com/video/7670968304416830309) | to contact | Night rain on wet leaves under a streetlight |
-| 歪啊呸吱 | [7687262917783214501](https://www.douyin.com/video/7687262917783214501) | to contact | Couple holding hands in snow under a streetlight at night |
-| 气焰嚣张女士 | [7691524101274183295](https://www.douyin.com/video/7691524101274183295) | to contact | Looking up a stone stairway in the rain (enclosed to open) |
-| 用户1529 | [7693544569174409454](https://www.douyin.com/video/7693544569174409454) | to contact | Rainy night street, warm light, distant umbrellas |
-| 用户1529 | [7697479465103265242](https://www.douyin.com/video/7697479465103265242) | to contact | Rainy night street under a big tree, warm lamp (same series) |
-| 用户1529 | [7696732852838461298](https://www.douyin.com/video/7696732852838461298) | to contact | Rainy night street under a big tree, warm lamp |
-| 芮. | [7682467792311146917](https://www.douyin.com/video/7682467792311146917) | to contact | Woman in a snowy village at night, warm cabin lights |
-| 花海 | [7695461368795121913](https://www.douyin.com/video/7695461368795121913) | to contact | City street at night in snowfall, umbrellas, streetlights |
-| 花花^^ | [7675946934833515830](https://www.douyin.com/video/7675946934833515830) | to contact | Woman snowboarding at night, city lights below |
-| 解夫 | [7693001287424809457](https://www.douyin.com/video/7693001287424809457) | to contact | Red iron door opens onto a white snowfield (reveal) |
-| 谢景行 | [7687638814063603298](https://www.douyin.com/video/7687638814063603298) | to contact | Nanjing square at night in snowfall, wet road, umbrellas |
-| 超人（挣钱买车版） | [7673877511521299054](https://www.douyin.com/video/7673877511521299054) | to contact | Snowy road at night in headlights, power lines |
-| 轻轻 | [7673905949530640357](https://www.douyin.com/video/7673905949530640357) | to contact | Seoul street corner in heavy snow at night, lamp post, blue signs |
-| 長樂 | [7678957143115128571](https://www.douyin.com/video/7678957143115128571) | to contact | Heavy snow falling past office towers, looking up (daytime) |
-| 雾必野 | [7686928531062649929](https://www.douyin.com/video/7686928531062649929) | to contact | Sun-dappled city street under trees (daytime) |
+| Hua. | [7700940448236646243](https://www.douyin.com/video/7700940448236646243) | to contact - batch 2026-10-30 | SUNSET BEACH, UPWARD REVEAL: opens on a stone pier with waves swirling below at 0.1 s, tilts up by 1 s to a seaside chain railing, lamp posts and an orange-to-blue sunset over the sea at Weihai; a wave breaks over the railing; wet promenade reflects the sky. Real speed (water and camera move fast 0.1-0.3 s). Bright (luma 107-140). Scan: tilt-up 0.67. |
+| 雾必野 | [7701336651449396874](https://www.douyin.com/video/7701336651449396874) | to contact - batch 2026-10-30 | RAINY NIGHT STREET, UPWARD REVEAL: opens on a wet crosswalk in the rain at 0.1 s, tilts up by 1 s under a clear umbrella to a Chongqing street at night: red tail lights on wet asphalt, street lamps, towers fading into mist and rain. Walking forward at real speed (crosswalk and scooter move between frames 0.2 s apart; rain streaks visible). Luma 53-56 (needs a lift). |
 | Dreamboat | [7696524545084137699](https://www.douyin.com/video/7696524545084137699) | Vyx: not good enough | Ginkgo tree shedding leaves in sun |
 | Tata | [7684122337486746341](https://www.douyin.com/video/7684122337486746341) | Vyx: not good enough | Top-down field of red flowers |
 | 大远疆行纪 | [7689862592257897579](https://www.douyin.com/video/7689862592257897579) | Vyx: not good enough | Xinjiang autumn (possibly a photo montage) |

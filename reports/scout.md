@@ -1,28 +1,29 @@
-# Scout report (likes + FYP run, dyhook)
-Run 2026-10-25 23:30-23:46 UTC. New seeds (Vyx 25 Oct): the account's 喜欢 and 收藏 lists and its on-theme 推荐 feed, then the following feed. Douyin: 3 page loads + 11 in-page fetches, no stop signal. 82 clips → 27 pass data checks (vertical, ≤45 d, 8-20 s, 2K+) → 25 movement-scanned, 13 tilt-ups → 2 A + 2 B. Signature check on 8 (control: 7na. scored SIGNATURE 122).
+# Scout report (likes + following run, dyhook)
+Run 2026-10-31 03:03-03:35 UTC (30 Oct 23:03 EDT). Douyin: 1 page load (user/self) + ~22 in-page moves (喜欢/收藏 tabs, 8 wheel fetches, 关注 + 4 creators, 3 推荐 fetches), 0 searches, no stop signal (all sc 0). 259 clips → 103 pass data checks → 77 movement-scanned, 43 tilt-ups → 2 A + 3 B. Signature check (edgecheck + all four edges at full res) on all 5.
 
-## Picks (TikTok collision check not done)
-1. **A · 谢景行 · 7700641925070632034** (batch 25d) · 355 likes (7 h old) · 8.6 s · 4K · following feed. Overpass railing at 0.1 s, tilts up by 1 s to a multi-lane Beijing road and towers at dusk; traffic at real speed. Edges clean. He said yes for p75. Risks: no Douyin proof yet; dark first 0.5 s.
-2. **A · 黑色泡沫 · 7700247545843068330** (25d) · 7,444 likes · 20 s · 1900x3378 · 1 d · liked list. Heavy night snowfall on a Xinjiang street, people walking, a lit dome; payoff in frame 1, real speed, bright. 138 fans, 19 posts, Nikon shooter; only upload of this street. Risk: a pan, no reveal; trim to ~12 s on your go.
-3. **B · 雾必野 · 7686411617718911114** · 38.8万 · 10.3 s · 4K · 39 d · 收藏. Metro window onto red bridge girders and the Chongqing skyline at golden hour (like p14). Yes-creator. Risk: big hit (9.2万 shares), likely already on TikTok.
-4. **B · Hua. · 7686125655775580069** · 38.7万 · 10.1 s · 4K · 39 d · liked list. Interchange light trails, tilts up to the Beijing CBD at dusk. Yes-creator. Risks: far view from a building, dark opening, big hit.
+## Picks (TikTok collision check not done; all low-share)
+1. **A · Hua. · 7700940448236646243** · 82/8/3 · 8.9 s · 4K · 26 Oct. Weihai pier: waves below at 0.1 s, tilts up by 1 s to a chain railing and an orange sunset over the sea, wave breaks over the railing. Sunset-beach pivot, bright, real speed. Edgecheck LOOK 53 = posts in the water. Risk: no Douyin proof.
+2. **A · 雾必野 · 7701336651449396874** · 707/40/106 · 8.0 s · 4K · 27 Oct. Wet crosswalk in rain at 0.1 s, tilts up under a clear umbrella by 1 s to a Chongqing night street: red tail lights, lamps, towers in mist. Walking, real speed. Clear 0. Risks: dark-ish (luma 55), 8.0 s, his p84 failed lite.
+3. B · 雾必野 · 7700077213852666470 · 633/43/61 · 8.0 s · 4K. Deck railing tilts up by 0.5 s to the skyline at orange dusk. LOOK 276 = static city lights. Risk: high deck view, not street level.
+4. B · 雾必野 · 7701880399286939302 · 922/89/95 · 8.5 s · 4K. Road arrow → misty rainy intersection at dusk by 1 s. Clear 0. Same rainy spell as #2: take one.
+5. B · Hua. · 7701669746937204325 · 88/6/3 · 9.7 s · 2K. Mountain road → snow peaks, clear day. Clear 0. Nature test (§2.4); charm v3 rejects plain daytime.
 
 ## Rejected
-- 啊刘 (HK Central night tilt-up, 4K): bio links @教学/音推/素材; copies trend captions (methods §2.3).
-- 江樂 x2 (Beijing CCTV tower in snow): snow posted 4 and 18 Oct = last winter; same shoot twice.
-- 谢景行 57923 + 1Soove. 21899: Nanjing snow posted Sep/Oct (last winter). 谢景行 05792: Dali daytime, same trip as p75. 42848: daytime + person. 79523/63074: autumn-gold daytime. 88936/48872: dark Nanjing (C).
-- halo 60593 (Tianjin blue hour): black for the first 0.5 s.
-- 望岭. 08777 (golden hills, 53万, 33% shares): nature, edge LOOK 52 not read.
-- 白川井 61125 (dark Tokyo street, out-of-season history), zy_1 (13 s pan), Dawn + Hana. 51653 (static), 飞鱼 (pan, trend caption).
-- 7na./韬 (signatures), 晚安. (seller), 丢 47706 + 白川井 50203 (rejected before). 推荐 feed: 15 of 19 horizontal.
+- 梁同学 34208 (31 Oct sunset promenade tilt-up): same spot and move as p85.
+- Dark openings: 梁同学 45344/70024/72962/89775, Hua. 76965, 雾必野 60562/95058/17074, 古溪月 71481.
+- Plain daytime: 你好重庆 14875, 梁同学 61568/01103, 雾必野 15273, Hua. 99611.
+- 雾必野 27098 car window (p80/p84 lite fails); 38002 diners, shares 71%; 49641 static 洪崖洞.
+- 可爱到爆炸 82971/07850: autumn gold. 梁同学 65795: bar. 大大怪, 弦弦子~: static.
+- 顾_ HK harbour: pan, crowd, 27% shares. 文/拾一/海风/暮/桃桃原创素材: trend captions.
+- 1080p: Jhan, 用户116511, kazzzzz, 桑云, 闪闪Rosemary, slowyu. 25 Oct rejects skipped. 推荐: 10/14 horizontal.
 
 ## Downloaded
-- None. Next file stays p86.
+- None. The 22 unused permission-yes rows all fail §3. Next file stays p94 (highest in D:\cheques: p93).
 
 ## Needs Vyx
-- DM 谢景行 for 7700641925070632034 and 黑色泡沫 for 7700247545843068330 (methods §3 text; it covers a trim).
-- 博 7697528477076005478 (B, 25c): 博 shares a caption with 啊刘's circle; check the bio before a DM.
-- 雾必野 / Hua.: collision check before asking.
+- DM Hua. (7700940448236646243) and 雾必野 (7701336651449396874), methods §3 text. Backups #3-5 if you want more.
 
 ## Suggested MASTER changes
-- §6: to contact 谢景行 Beijing dusk tilt-up (A) + 黑色泡沫 Xinjiang night snow (A, trim). §7: this report.
+- §6: to contact Hua. Weihai sunset tilt-up (A) + 雾必野 rain-night crossing (A); 3 B. §7: this report.
+- methods §2.3: 梁同学/谢景行/雾必野/Hua. share song-lyric captions daily, so a shared caption alone isn't the circle; check the bio.
+- methods §1: hidden pane: mouse clicks on tabs/关注 list fail; JS element.click() works.
