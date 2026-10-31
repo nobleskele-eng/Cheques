@@ -1,4 +1,4 @@
-# Self report, run 2026-10-31 (self-analyst, cloud)
+# Self report, run 2026-10-31 13:00 UTC re-run (self-analyst, cloud; no new posts since the morning run)
 Pull OK: 47 public posts (research/data/papercheques_videos.csv; was 43 on 24 Oct). Median views all posts 722, median likes/view 5.1%. Of the last 12, one was scheduled (21 Oct 06:00, ~2 h ahead; id-time check), the rest direct. Nothing posted <24 h before this run (latest 30 Oct 01:48 UTC, ~36 h).
 
 | post | UTC | views | like% | share% | save% | s | sound | tier |
