@@ -1,10 +1,10 @@
-# Rival report, run 2026-10-31 (rival-analyst, cloud)
-**Coverage** (research/data/*_videos.csv rows): someplace505 207, elsewhere557 624, anywhere557 174, kadzoo55871 153. **FAILED:** the pull stopped at .aaapaathy (`KeyError: 'userInfo'`, profile page had no user data); .aaapaathy, fang_w3 and rvf5567 NOT refreshed (files are from 27 Oct). Stop rule: not re-run. reports/watch.md has no entry after 27 Oct.
+# Rival report, run 2026-10-31 (rival-analyst, cloud; weekly re-run 13:00 UTC)
+**Coverage** (research/data/*_videos.csv rows): someplace505 208, elsewhere557 624, anywhere557 174, kadzoo55871 151. **FAILED:** the pull stopped at .aaapaathy (pull_music.py SSL EOF; earlier run: `KeyError: 'userInfo'`); .aaapaathy, fang_w3 and rvf5567 NOT refreshed (files are from 27 Oct). Stop rule: not re-run. reports/watch.md has no entry after 27 Oct.
 
 ## Headline changes (7 days to 31 Oct 13:00 UTC; recent posts still climbing)
-- **someplace505:** 7-day median 19.8K (n27) vs 24.0K prior week; one 2.1M (28 Oct, 8 s, official "hold the line" by drifting.). That sound: 5 uses, 1.74x median, 80% beat, last 30 Oct (proven_sounds.csv; not proven yet). Output up to ~4 posts/day.
-- **elsewhere557 down hard:** median 13.7K (n38) vs 117.4K prior week. Best 1.6M (27 Oct, 13 s, original sound), 683K (29 Oct, 9 s).
-- **kadzoo55871 restarted but weak:** 6 posts, median 7.7K (prev 179K), best 41.6K "lovers rock". anywhere557: 0 posts in 7 days (last 22 Oct).
+- **someplace505:** 7-day median 19.4K (n28) vs 24.1K prior week; one 2.3M (28 Oct, 8 s, official "hold the line" by drifting.). That sound: 5 uses, 1.74x median, 80% beat, last 30 Oct (proven_sounds.csv; not proven yet). Output up to ~4 posts/day.
+- **elsewhere557 down hard:** median 14.9K (n38) vs 119.9K prior week. Best 1.7M (27 Oct, 13 s, original sound), 683K (29 Oct, 9 s).
+- **kadzoo55871 restarted but weak:** 4 posts in 7 days, median 22K (prev 180K), best 44.8K "lovers rock". anywhere557: 0 posts in 7 days (last 22 Oct).
 - Hits: 8-13 s. Opening not checked (no vidIQ).
 - **Model** (research/success-model.md): AUC beat-median 0.66, 100K+ 0.68, 1M+ 0.45 (chance). Correlation only.
 
