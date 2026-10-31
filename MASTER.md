@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-10-31 by weekly routine, cloud (v37: rivals+self 31 Oct folded; 4 unmatched posts, pull failure). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-10-31 13:00 UTC by weekly routine, cloud (v38: re-run, same 47 posts; .aaapaathy pull failed again). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 47 public posts, 3 Oct–30 Oct (cloud pull 31 Oct). Median 722 views, 5.1% likes/view; most 450–1,100: TikTok tests each one, test audience doesn't react. Best: 4,565 (10 Oct 01:42 UTC, 10 s, 225 likes). No post >1,010 since. [C]
@@ -13,10 +13,10 @@ Updated 2026-10-31 by weekly routine, cloud (v37: rivals+self 31 Oct folded; 4 u
 3. **Served quality:** 0/43 of ours had 1080p (best 720p, p77); the latest 3 posts have no tier data, 24 Oct post 540p. Network gets 1080p on 81–99%, flops included. Untested lever: upload path (we use Studio web, peers likely app + Upload HD; inference). [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4, 21–24 Oct; `research/someplace505-nature-2026-10-24.md`). [L grid]
 5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 8–13 s. **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, median −3.0 s. Full vs cut: no difference yet (n=3 vs 9). [L ffprobe + csv]
-6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). someplace505 now ~4/day, 7-day median 19.8K (n27). [C]
+6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). someplace505 now ~4/day, 7-day median 19.4K (n28). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
 8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, top 4. 02:30–05:00 UTC n=19: median 687. [L csv]
-9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. Decay: elsewhere557 weekly median 117K → 13.7K (n38; best 1.6M 27 Oct); kadzoo restarted, 6 posts, median 7.7K (was 179K); anywhere557 silent since 22 Oct. someplace505 steady ~20K with a 2.1M. [C]
+9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. Decay: elsewhere557 weekly median 120K → 14.9K (n38; best 1.7M 27 Oct); kadzoo restarted, 4 posts, median 22K (was 180K); anywhere557 silent since 22 Oct. someplace505 steady ~20K with a 2.1M. [C]
 10. **Model** (`research/success-model.md`): beat-median AUC 0.66, 100K+ 0.68, 1M+ 0.45 (chance). [C]
 
 ## 3. Recommendation now: change the recipe, then test it
