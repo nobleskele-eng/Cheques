@@ -1,28 +1,28 @@
-# Self report, run 2026-10-31 13:00 UTC re-run (self-analyst, cloud; no new posts since the morning run)
-Pull OK: 47 public posts (research/data/papercheques_videos.csv; was 43 on 24 Oct). Median views all posts 722, median likes/view 5.1%. Of the last 12, one was scheduled (21 Oct 06:00, ~2 h ahead; id-time check), the rest direct. Nothing posted <24 h before this run (latest 30 Oct 01:48 UTC, ~36 h).
+# Self report, run 2026-11-07 (self-analyst, cloud)
+Pull OK: 47 public posts (was 47 on 31 Oct), so no new posts since 30 Oct 01:48 UTC (8 days). Median views 726, median likes/view 5.2%, best 4,645 (10 Oct). Nothing is "still collecting". Counts have crept up slightly (e.g. 30 Oct post 1,005 to 1,067).
 
-| post | UTC | views | like% | share% | save% | s | sound | tier |
-|---|---|---|---|---|---|---|---|---|
-| p74 | 22 Oct 03:25 | 717 | 2.2 | 0.14 | 0.14 | 8 | Let Go | n/a |
-| p76 | 23 Oct 00:36 | 741 | 4.0 | 0.00 | 0.27 | 8 | Let Go | n/a |
-| p77 | 23 Oct 02:51 | 745 | 3.9 | 0.00 | 0.13 | 11 | Let Go | n/a |
-| p81 | 24 Oct 02:23 | 802 | 5.2 | 0.37 | 0.25 | 10 | Let Go | n/a |
-| ? | 24 Oct 22:35 | 735 | 7.6 | 0.27 | 0.14 | 9 | blank-name original | 540p |
-| ? | 25 Oct 23:34 | 789 | 8.0 | 0.13 | 0.38 | 8 | same | none |
-| ? | 27 Oct 01:51 | 699 | 4.3 | 0.00 | 0.00 | 8 | same | none |
-| ? | 30 Oct 01:48 | 1,005 | 6.3 | 0.10 | 0.40 | 8 | same | none |
-(p-number matches: p74, p76, p77, p81 by time + log.csv; tiers from papercheques_encoding.csv.)
+| post | UTC | views | like% | share% | save% | s | sound | sched? | tier |
+|---|---|---|---|---|---|---|---|---|---|
+| p74 | 22 Oct 03:25 | 717 | 2.2 | 0.14 | 0.14 | 8 | Let Go | no | 576p 336k |
+| p76 | 23 Oct 00:36 | 742 | 4.0 | 0.00 | 0.27 | 8 | Let Go | no | 576p 617k |
+| p77 | 23 Oct 02:51 | 746 | 3.9 | 0.00 | 0.13 | 11 | Let Go | no | 720p 1568k |
+| p81 | 24 Oct 02:23 | 807 | 5.2 | 0.50 | 0.25 | 10 | Let Go | no | 576p 505k |
+| ? | 24 Oct 22:35 | 737 | 7.6 | 0.27 | 0.14 | 9 | blank-name orig. | no | 576p 950k |
+| ? | 25 Oct 23:34 | 793 | 7.9 | 0.13 | 0.38 | 8 | same | no | none |
+| ? | 27 Oct 01:51 | 700 | 4.3 | 0.00 | 0.00 | 8 | same | no | none |
+| ? | 30 Oct 01:48 | 1,067 | 6.1 | 0.09 | 0.37 | 8 | same | no | none |
+(Matches by log.csv time/duration; tiers from papercheques_encoding.csv; sched? = video-ID time vs post time.)
 
-## Recipe test (MASTER §3)
-- **Matched recipe posts (p74, p76, p77, p81), n=4:** median 743 views (range 717-802) vs old baseline 712; likes/view median 4.0% (2.2-5.2) vs 5.2%; shares 0.07% vs 0.00%. **Too early (n<10).** Direction: views +4% (inside the 700 ± 300 noise), likes slightly lower.
-- **4 unmatched posts since 24 Oct** (all use the blank-name "original sound", the sound someplace505 uses): median 762 views, likes 6.95% (4.3-8.0%), i.e. the best like rates since the 10 Oct post, and the 30 Oct post (1,005) is the 4th-highest ever. Not scored as recipe posts until Vyx maps them (n=4, could be noise).
-- **Milestone (≥10-15% likes/view): not hit.** Best 8.0%.
-- Ceiling: no post above ~1,000 views since 10 Oct (best ever 4,565 per this pull; MASTER says 2,207, check). No 1080p tier on any new post (the three latest have no tier data at all). No FYP-flag info in log.csv for these.
+## Recipe test (MASTER section 3)
+- Matched p74, p76, p77, p81, n=4: median views 744 (717-807) vs old 712; likes/view 4.0% (2.2-5.2) vs 5.2%; shares 0.07% vs 0.00%. **Too early (n<10).** Direction: views +4% (inside 700 +/- 300 noise), likes slightly lower, shares flat.
+- 4 unmapped blank-name-sound posts: median 765 views, likes 7.0% (4.3-7.9). Not scored as recipe posts until mapped. Combined n=8 would still be flat on views (~750) with likes ~5.6%; direction only.
+- Milestone (10-15% likes/view): not hit, best 7.9%.
+- Ceiling: nothing above 1,067 since 10 Oct. No 1080p tier on any post (0 of the encoding file). No FYP-flag data for these in log.csv; no flag after a lite PASS seen.
 
 ## Unmatched, for Vyx
-24 Oct 22:35, 25 Oct 23:34, 27 Oct 01:51, 30 Oct 01:48 UTC: which p-numbers (p82? p85-p93)? log.csv has no link for any of them. Was the 30 Oct one posted from the TikTok app with Upload HD (upload-path test)?
+24 Oct 22:35, 25 Oct 23:34, 27 Oct 01:51, 30 Oct 01:48 UTC: which p-numbers, which upload path (app + Upload HD?). No posts for 8 days: is the pipeline (p85-p93) waiting on lite checks?
 
 ## Suggested MASTER changes
-- §1: 47 posts, median 722; latest 4 posts like 4.3-8.0%, one at 1,005 views.
-- §3 recipe test: n=4 matched, 743 views, 4.0% likes; 4 more unmatched at 6.95%.
-- §5: add the 4 unmatched posts; ask which sound/upload path they used.
+- Section 1: 47 posts, median 726; no posts since 30 Oct.
+- Section 3: recipe n=4 matched, 744 views, 4.0% likes; unchanged verdict, too early.
+- Section 5: note the 8-day posting gap; ask what blocks p85-p93.
