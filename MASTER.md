@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-11-07 by weekly routine, cloud (v39: no new posts since 30 Oct; hold the line proven, Let Go not; pull stopped at kadzoo). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-08 by local session (v40: scout 8 Nov; no posts since 30 Oct [V]). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~55 followers. 47 public posts, 3 Oct–30 Oct (cloud pull 7 Nov); **no post for 8 days**. Median 726 views, 5.2% likes/view; most 450–1,100: TikTok tests each one, test audience doesn't react. Best: 4,645 (10 Oct 01:42 UTC, 10 s). No post >1,067 since. [C]
+- ~55 followers. 47 public posts, 3 Oct–30 Oct (cloud pull 7 Nov); **no post since 30 Oct [V 8 Nov]**. Median 726 views, 5.2% likes/view; most 450–1,100: TikTok tests each one, test audience doesn't react. Best: 4,645 (10 Oct 01:42 UTC, 10 s). No post >1,067 since. [C]
 - Our medians: 0.00% shares, 0.28% saves; like rate fell 6.3% (3–10 Oct) → 4.2% (18–21). Last 4 posts (24–30 Oct) 4.3–7.9%, median 7.0%, best since 10 Oct. Flops (<10K): 8–11% likes; breakouts (100K+): 21–25% likes, 2–4% shares. [C]
 - Sourcing is good enough [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.**
 - FYP "unoriginal" flags: p53, p58, p59, p62.
@@ -22,7 +22,6 @@ Updated 2026-11-07 by weekly routine, cloud (v39: no new posts since 30 Oct; hol
 ## 3. Recommendation now: change the recipe, then test it
 Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
 - **Recipe test [C 7 Nov]:** matched p74, p76, p77, p81, n=4: median 744 views (old 712), likes 4.0% (old 5.2%), shares 0.07%. Too early; go to ~10. Four later posts use the blank-name sound (median 765, likes 7.0%) but are unmapped (§5). Milestone ≥10–15% likes/view: not hit (best 7.9%).
-- **p82 flag [L 25 Oct]:** creator uploaded the hike 3×, fails one-upload. Vyx decides.
 - **Upload-path test** on the next lite PASS: post from the TikTok app, Upload HD on; check served tier in the next cloud pull (`research/replication-levers-and-encoding.md` §5).
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs (p83 had a tiny "Tao"); red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
@@ -37,7 +36,7 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 - **Pull fragile [C 7 Nov]:** `pull_account.py` stopped at kadzoo55871 (RemoteDisconnected; 31 Oct: .aaapaathy `KeyError: 'userInfo'`). kadzoo, .aaapaathy, fang_w3, rvf5567 not refreshed (data 27 Oct or older). Needs retry/fix; item_list returns only the newest ~196.
 - **Watch routine silent** since 27 Oct (11 days).
 ## 5. Waiting on Vyx
-0. **No posts for 8 days:** what blocks p85–p93 (lite checks?)
+0. What blocks p85–p93 (lite checks?)
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
@@ -49,11 +48,11 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48; 735/789/699/1,005 views, all blank-name original): which p-numbers (p82, p85–p93?) and which upload path (was 30 Oct app + Upload HD?). No links in log.csv.
 ## 6. Pipeline
-- Next file **p94** (dyhook). All 28 "to contact" library clips approved [V 26 Oct]; 22 unused.
+- Next file **p94**. 22 approved library clips unused (fail §3). **To contact:** scout 8 Nov A 雾必野 fog towers, 古溪月 night crossing, 梁同学 sunset bridge, 谢景行 Nanjing snow (+3 B); 30 Oct Hua. Weihai sunset, 雾必野 rain crossing.
 - **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR · p88 可爱到爆炸 leafy tilt-up 8.6 s · p89 可爱到爆炸 leaves crosswalk 7 s · p90 用户1529 rain tree 6.8 s · p92 轻轻 Seoul snow 8 s · p93 長樂 snow towers 8.6 s.
-- **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct, flagged (§3). Lite FAILED: p80, p84.
+- **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
 - **POSTED, new recipe [V 22 Oct], all "Let Go", direct** [C 7 Nov]: p74 (梁同学 train door, lifted edit, 8 s) 22 Oct UTC 717 views, 2.2% · p76 (韬 HK rain, original, dark) 741, 4.0% · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 745, 3.9% · p81 (梁同学 rain bridge tilt-up, uncut) 802, 5.2%.
 - Used up: p50–p79 [V 23 Oct]. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 7 Nov (3/7 pulled; hold the line 2.0× proven, Let Go not) · self 7 Nov (47 posts, 8-day gap, recipe n=4 flat, 4 unmapped) · scout 25 Oct · sounds 24 Oct (Mondays) · watch 27 Oct (silent since).
+- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts, recipe n=4 flat) · scout 8 Nov (4 A + 3 B; Gexian, ginkgo 0) · sounds 2 Nov (Mondays) · watch 27 Oct (silent since).
