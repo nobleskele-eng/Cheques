@@ -12,7 +12,7 @@ Updated 2026-11-09 by local session (v41: p94–p101 downloaded; watch routine g
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) now proven: 2.0×, 67% beat, 15 uses, last 6 Nov. Others (stale 3–5 wk): oscncs 14.2× (3 uses), yuji 8.1× (5), 𝙈𝙃𝘾 6.8× (3), blank-name "original sound" 5.7× (4 uses; someplace505's own upload). n=3–15 per sound. [C]
 3. **Served quality:** 0/43 of ours had 1080p (best 720p, p77); the latest 3 posts have no tier data, 24 Oct post 540p. Network gets 1080p on 81–99%, flops included. Untested lever: upload path (we use Studio web, peers likely app + Upload HD; inference). [C] [L gate]
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4, 21–24 Oct; `research/someplace505-nature-2026-10-24.md`). [L grid]
-5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 6–13 s (elsewhere557 2.2M on 5 Nov was 7 s: not a rule). **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, median −3.0 s. Full vs cut: no difference yet (n=3 vs 9). [L ffprobe + csv]
+5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 6–13 s (elsewhere557's 2.2M, 5 Nov: 7 s). **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, median −3.0 s. Full vs cut: no difference yet (n=3 vs 9). [L ffprobe + csv]
 6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). someplace505 ~4/day, 7-day median 13.3K (n33) vs 24.7K prior. [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
 8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, top 4. 02:30–05:00 UTC n=19: median 687. [L csv]
@@ -32,13 +32,13 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** dark grade turns to mush at 540p; lifted edits untested live. [L]
-- **rvf5567 DM 22 Oct** ("all your videos are reposted"): likely course funnel [est]; §5.4.
+- **Audio blocked [L 8 Nov]:** TikTok challenge at profile 1, 0 fetched. Next day: `node research/scripts/download_audio.mjs research/data/sounds/audio_list_2026-11-08.csv ABX`.
 - **Pull fragile [C 7 Nov]:** `pull_account.py` stopped at kadzoo55871 (RemoteDisconnected; 31 Oct: .aaapaathy `KeyError: 'userInfo'`). kadzoo, .aaapaathy, fang_w3, rvf5567 not refreshed (data 27 Oct or older). Needs retry/fix (item_list: newest ~196 only).
 ## 5. Waiting on Vyx
 0. What blocks p85–p101 (lite checks?)1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
-4. rvf5567 DM: which clips did they name?
+4. rvf5567 DM 22 Oct (likely course funnel [est]): which clips?
 5. Drop 可爱到爆炸 (sells footage)?
 6. **p61:** still unused? (HOLD, lite never run.)
 7. **p81:** app or web? Full 10.8 s in preview? 1 h views/likes.
