@@ -1,6 +1,6 @@
 # Clip links
 
-Rebuilt 2026-10-30 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **100 clips, 48 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
+Rebuilt 2026-11-08 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **107 clips, 48 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
 
 ## Downloaded (48)
 
@@ -55,7 +55,7 @@ Rebuilt 2026-10-30 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | inbox file, no pNN |  | [7685767113781748634](https://www.douyin.com/video/7685767113781748634) |  |  |
 | inbox file, no pNN |  | [7689769865779968165](https://www.douyin.com/video/7689769865779968165) |  |  |
 
-## Not downloaded (52)
+## Not downloaded (59)
 
 | Creator | Douyin link | Status | What |
 |---|---|---|---|
@@ -64,8 +64,11 @@ Rebuilt 2026-10-30 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | 雾必野 | [7686411617718911114](https://www.douyin.com/video/7686411617718911114) | backup - batch 2026-10-25d (Vyx's favourites) | Metro-window reveal: opens on the train's blue info panel at 0.1 s, turns to the window by 0.5 s: red steel bridge girders and the Chongqing skyline at golden hour (like p14), train moving. Scan: mostly a pan (pan 1.04, tilt 0.76). |
 | Hua. | [7686125655775580069](https://www.douyin.com/video/7686125655775580069) | backup - batch 2026-10-25d (Vyx's liked list) | Beijing at dusk from high up: traffic light trails on an interchange at 0.1 s, tilts up to the CBD towers (China Zun) under a dusk sky by 2 s. |
 | Hua. | [7701669746937204325](https://www.douyin.com/video/7701669746937204325) | backup - batch 2026-10-30 | NATURE, UPWARD REVEAL: a mountain road through fir forest with a motorcyclist at 0.1 s, tilts up by 1-2 s to snow-capped peaks under a clear blue sky. Real speed (rider moves). Bright (luma 73-92). |
-| 雾必野 | [7701880399286939302](https://www.douyin.com/video/7701880399286939302) | backup - batch 2026-10-30 | MISTY RAIN DUSK, UPWARD REVEAL: opens on a road arrow at 0.1 s, tilts up by 1 s to a wide Chongqing intersection at dusk in rain: lights on, towers fading into fog, people crossing with umbrellas. Real speed. Luma 65-76. |
 | 雾必野 | [7700077213852666470](https://www.douyin.com/video/7700077213852666470) | backup - batch 2026-10-30 | DUSK SKYLINE, UPWARD REVEAL: opens on a lit glass railing (venue text on the glass) at 0.1 s, tilts up over it by 0.5 s to the Chongqing skyline at dusk: orange horizon, river, towers with lights coming on (Westin sign). Bright (luma 69-85). |
+| 雾必野 | [7701880399286939302](https://www.douyin.com/video/7701880399286939302) | backup - batch 2026-10-30 | MISTY RAIN DUSK, UPWARD REVEAL: opens on a road arrow at 0.1 s, tilts up by 1 s to a wide Chongqing intersection at dusk in rain: lights on, towers fading into fog, people crossing with umbrellas. Real speed. Luma 65-76. |
+| 1Soove. | [7701260020009713380](https://www.douyin.com/video/7701260020009713380) | backup - batch 2026-11-08 | SUNSET SEA + GULLS, UPWARD REVEAL: ferry rope net at 0.1 s, tilts up by 2 s to a gold sunset sea with an island and gulls flying past the camera. Real speed (gull wings blur). Heavy amber grade. Luma 82-123. |
+| Hua. | [7704268985373755057](https://www.douyin.com/video/7704268985373755057) | backup - batch 2026-11-08 | RAINY NIGHT STREET, UPWARD REVEAL: road arrow on wet asphalt at 0.1 s, tilts up by 1 s to a Chongqing night street with umbrellas and traffic, then a maple leaf on a clear umbrella in the foreground. Real speed. Luma 76-82. |
+| 雾必野 | [7705484799322112947](https://www.douyin.com/video/7705484799322112947) | backup - batch 2026-11-08 | RAIN WALK, PAYOFF IN FRAME 1: under a clear umbrella on a wet bridge walkway at dusk, misty towers and a cable-stay pylon ahead, people walking. No tilt (walks forward). Luma 58-81. |
 | 7na. | [7691906272699149243](https://www.douyin.com/video/7691906272699149243) | charm reference only (signature watermark in source) | Wet empty road at night under lamps |
 | Iuk | [7682814813113858478](https://www.douyin.com/video/7682814813113858478) | charm reference only (signature watermark in source) | Rainy night arcade/sidewalk with shop neon, wet ground |
 | Iuk | [7688999051862537582](https://www.douyin.com/video/7688999051862537582) | charm reference only (signature watermark in source) | Rainy night city street, neon and wet road |
@@ -96,6 +99,10 @@ Rebuilt 2026-10-30 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | owo | [7696867651759378368](https://www.douyin.com/video/7696867651759378368) | rejected (Vyx 25 Oct): no reveal, no subject, poor quality, slowed-down trend clip | Heavy snowfall at night over amber-lit apartment blocks in Urumqi, a streetlamp and trees at the bottom, slow pan. Snow visible from 0.1 s (payoff in frame 1, no tilt-up). CITY snow, not nature (found on the nature run via 新疆下雪了) |
 | Hua. | [7700940448236646243](https://www.douyin.com/video/7700940448236646243) | to contact - batch 2026-10-30 | SUNSET BEACH, UPWARD REVEAL: opens on a stone pier with waves swirling below at 0.1 s, tilts up by 1 s to a seaside chain railing, lamp posts and an orange-to-blue sunset over the sea at Weihai; a wave breaks over the railing; wet promenade reflects the sky. Real speed (water and camera move fast 0.1-0.3 s). Bright (luma 107-140). Scan: tilt-up 0.67. |
 | 雾必野 | [7701336651449396874](https://www.douyin.com/video/7701336651449396874) | to contact - batch 2026-10-30 | RAINY NIGHT STREET, UPWARD REVEAL: opens on a wet crosswalk in the rain at 0.1 s, tilts up by 1 s under a clear umbrella to a Chongqing street at night: red tail lights on wet asphalt, street lamps, towers fading into mist and rain. Walking forward at real speed (crosswalk and scooter move between frames 0.2 s apart; rain streaks visible). Luma 53-56 (needs a lift). |
+| 古溪月 | [7704297853762641649](https://www.douyin.com/video/7704297853762641649) | to contact - batch 2026-11-08 | NIGHT CITY, UPWARD REVEAL: zebra crossing at 0.1 s, tilts up by 1 s to a Chongqing night junction: yellow taxi, red light, lit towers under a navy sky. Real speed (taxi moves). Luma 73-90. |
+| 梁同学 | [7704525884791002319](https://www.douyin.com/video/7704525884791002319) | to contact - batch 2026-11-08 | DUSK RIVERSIDE, UPWARD REVEAL: road surface at 0.1 s, tilts up by 1-2 s to a riverside road at sunset: orange sky, towers, cable-stayed bridge, red tail lights. Real speed. Luma 64-110. |
+| 谢景行 | [7705095006394611008](https://www.douyin.com/video/7705095006394611008) | to contact - batch 2026-11-08 | FIRST SNOW AT NIGHT, UPWARD REVEAL: wet paving with lamp reflections at 0.1 s, tilts up by 1-2 s to lit towers and a shopfront in falling snow (Nanjing, 立冬 night). Real speed (snow streaks move between frames 0.2 s apart). Dark: luma 49-82. |
+| 雾必野 | [7702682997896380297](https://www.douyin.com/video/7702682997896380297) | to contact - batch 2026-11-08 | MIST CITY, UPWARD REVEAL: dark railing at 0.1 s, tilts up over it by 0.5 s to the Chongqing river and Raffles City towers in fog at dusk, lit boats on the water; muted teal-grey, shot past a wet railing/window. Real speed (camera keeps moving, boats move). Luma 29 at 0.1 s, then 67-101. |
 | Dreamboat | [7696524545084137699](https://www.douyin.com/video/7696524545084137699) | Vyx: not good enough | Ginkgo tree shedding leaves in sun |
 | Tata | [7684122337486746341](https://www.douyin.com/video/7684122337486746341) | Vyx: not good enough | Top-down field of red flowers |
 | 大远疆行纪 | [7689862592257897579](https://www.douyin.com/video/7689862592257897579) | Vyx: not good enough | Xinjiang autumn (possibly a photo montage) |

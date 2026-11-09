@@ -1,29 +1,34 @@
-# Scout report (likes + following run, dyhook)
-Run 2026-10-31 03:03-03:35 UTC (30 Oct 23:03 EDT). Douyin: 1 page load (user/self) + ~22 in-page moves (喜欢/收藏 tabs, 8 wheel fetches, 关注 + 4 creators, 3 推荐 fetches), 0 searches, no stop signal (all sc 0). 259 clips → 103 pass data checks → 77 movement-scanned, 43 tilt-ups → 2 A + 3 B. Signature check (edgecheck + all four edges at full res) on all 5.
+# Scout report (likes, following, 2 places)
+Run 2026-11-09 01:29-01:52 UTC (8 Nov EST). Douyin: 1 page load + 5 in-page searches = 6 of 20; in-page also 喜欢/收藏, ~12 wheel fetches, 10 关注 creators. No 推荐 feed/推荐视频. No stop signal (all sc 0). 538 clips → 82 pass data (≤14 d) → 60 scanned, 33 tilt-ups → 4 A + 3 B, all edgechecked + four edges at full res.
 
-## Picks (TikTok collision check not done; all low-share)
-1. **A · Hua. · 7700940448236646243** · 82/8/3 · 8.9 s · 4K · 26 Oct. Weihai pier: waves below at 0.1 s, tilts up by 1 s to a chain railing and an orange sunset over the sea, wave breaks over the railing. Sunset-beach pivot, bright, real speed. Edgecheck LOOK 53 = posts in the water. Risk: no Douyin proof.
-2. **A · 雾必野 · 7701336651449396874** · 707/40/106 · 8.0 s · 4K · 27 Oct. Wet crosswalk in rain at 0.1 s, tilts up under a clear umbrella by 1 s to a Chongqing night street: red tail lights, lamps, towers in mist. Walking, real speed. Clear 0. Risks: dark-ish (luma 55), 8.0 s, his p84 failed lite.
-3. B · 雾必野 · 7700077213852666470 · 633/43/61 · 8.0 s · 4K. Deck railing tilts up by 0.5 s to the skyline at orange dusk. LOOK 276 = static city lights. Risk: high deck view, not street level.
-4. B · 雾必野 · 7701880399286939302 · 922/89/95 · 8.5 s · 4K. Road arrow → misty rainy intersection at dusk by 1 s. Clear 0. Same rainy spell as #2: take one.
-5. B · Hua. · 7701669746937204325 · 88/6/3 · 9.7 s · 2K. Mountain road → snow peaks, clear day. Clear 0. Nature test (§2.4); charm v3 rejects plain daytime.
+## Picks (no TikTok collision check)
+1. **A · 雾必野 · 7702682997896380297** · 2192/153/160 · 8.1 s · 4K · 31 Oct. Dark railing → Chongqing towers in fog over the river by 0.5 s, lit boats, muted teal. Clear 16. Risk: 2.8 Mbps.
+2. **A · 古溪月 · 7704297853762641649** · 858/133/219 · 8.5 s · 1900x3378 · 4 Nov. Zebra crossing → night junction by 1 s, yellow taxi, lit towers. Clear 5. New creator (2.9万). Shares 26%.
+3. **A · 梁同学 · 7704525884791002319** · 1939/97/161 · 10.8 s · 2K · 5 Nov. Road → riverside road at sunset by 1-2 s, cable bridge. Clear 0.
+4. **A · 谢景行 · 7705095006394611008** · 689/44/84 · 9.3 s · 2K · 6 Nov. Wet paving → lit towers in falling snow (Nanjing, 立冬 night), real speed. Clear 0. Dark: needs a lift.
+5. B · 1Soove. · 7701260020009713380 · 369/12/52 · 9.4 s · 4K. Ferry net → amber sunset sea, gulls, by 2 s. Clear 15.
+6. B · 雾必野 · 7705484799322112947 · 8.1万/4540/1.4万 · 8.3 s · 4K. Umbrella walk on a rainy bridge at dusk, payoff frame 1, no tilt. Clear 6. May be slowed.
+7. B · Hua. · 7704268985373755057 · 141/7/8 · 9.8 s · 4K. Road arrow → rainy night street + maple leaf. Clear 0.
 
 ## Rejected
-- 梁同学 34208 (31 Oct sunset promenade tilt-up): same spot and move as p85.
-- Dark openings: 梁同学 45344/70024/72962/89775, Hua. 76965, 雾必野 60562/95058/17074, 古溪月 71481.
-- Plain daytime: 你好重庆 14875, 梁同学 61568/01103, 雾必野 15273, Hua. 99611.
-- 雾必野 27098 car window (p80/p84 lite fails); 38002 diners, shares 71%; 49641 static 洪崖洞.
-- 可爱到爆炸 82971/07850: autumn gold. 梁同学 65795: bar. 大大怪, 弦弦子~: static.
-- 顾_ HK harbour: pan, crowd, 27% shares. 文/拾一/海风/暮/桃桃原创素材: trend captions.
-- 1080p: Jhan, 用户116511, kazzzzz, 桑云, 闪闪Rosemary, slowyu. 25 Oct rejects skipped. 推荐: 10/14 horizontal.
+- Daytime: 梁同学 07011, 雾必野 89274, 宗月 11862, 7uili Pamir, 辞安 Daocheng.
+- Gold/autumn: 谢景行 31618, 可爱到爆炸 32809, 1Soove. 65747.
+- Dark: Hua. 55386, 谢景行 19151, 古溪月 43770/88721/02746, 宗月 20249.
+- People/food/crowd: 梁同学 32579/23298, 宗月 32235, 1Soove. 01323/98217.
+- 白川井 snow: likely last winter. 雾必野 91962: same spell as #6.
+- Data/trend: Grace 7 s, 晚安. 1080p, 顾_, _07, 桃桃.
+
+## Gexian / ginkgo
+- **葛仙村: stop.** 3 searches (葛仙村, 夜景, 雨): 62 clips, 8 pass data, 0 survive. Fresh short clips are the resort's in-character accounts (杂役弟子): machine fog, hanfu, payoff at 4 s. Rest: vlogs, lantern crowds, a drone-like overlook. Hits are rain + plum (Feb-Mar); retry then.
+- **古观音禅寺 ginkgo: stop.** 2 searches: 32 clips (≤9 d), 3 pass data, none at the temple, 0 survive. Temple clips: 15 s+ vlogs, queues, 1080p; rest static sunny gold.
 
 ## Downloaded
-- None. The 22 unused permission-yes rows all fail §3. Next file stays p94 (highest in D:\cheques: p93).
+- None (no new permission yes). Next: p94.
 
 ## Needs Vyx
-- DM Hua. (7700940448236646243) and 雾必野 (7701336651449396874), methods §3 text. Backups #3-5 if you want more.
+- DM (methods §3): 雾必野 #1, 古溪月 #2, 梁同学 #3, 谢景行 #4; backups #5-7.
+- Open since 30 Oct: Hua. 7700940448236646243, 雾必野 7701336651449396874.
 
 ## Suggested MASTER changes
-- §6: to contact Hua. Weihai sunset tilt-up (A) + 雾必野 rain-night crossing (A); 3 B. §7: this report.
-- methods §2.3: 梁同学/谢景行/雾必野/Hua. share song-lyric captions daily, so a shared caption alone isn't the circle; check the bio.
-- methods §1: hidden pane: mouse clicks on tabs/关注 list fail; JS element.click() works.
+- §6: to contact 4 A + 3 B (2026-11-08). §7: scout 8 Nov.
+- methods §1: bad words 葛仙村, 古观音禅寺 银杏. Hidden pane: screenshot twice after an overlay; scan ~20 s/clip.
