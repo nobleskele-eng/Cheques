@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-08 by local session (v40: scout 8 Nov; no posts since 30 Oct [V]). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-09 by local session (v41: p94–p101 downloaded; watch routine gone). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~55 followers. 47 public posts, 3 Oct–30 Oct (cloud pull 7 Nov); **no post since 30 Oct [V 8 Nov]**. Median 726 views, 5.2% likes/view; most 450–1,100: TikTok tests each one, test audience doesn't react. Best: 4,645 (10 Oct 01:42 UTC, 10 s). No post >1,067 since. [C]
@@ -33,10 +33,9 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** dark grade turns to mush at 540p; lifted edits untested live. [L]
 - **rvf5567 DM 22 Oct** ("all your videos are reposted"): likely course funnel [est]; §5.4.
-- **Pull fragile [C 7 Nov]:** `pull_account.py` stopped at kadzoo55871 (RemoteDisconnected; 31 Oct: .aaapaathy `KeyError: 'userInfo'`). kadzoo, .aaapaathy, fang_w3, rvf5567 not refreshed (data 27 Oct or older). Needs retry/fix; item_list returns only the newest ~196.
-- **Watch routine silent** since 27 Oct (11 days).
+- **Pull fragile [C 7 Nov]:** `pull_account.py` stopped at kadzoo55871 (RemoteDisconnected; 31 Oct: .aaapaathy `KeyError: 'userInfo'`). kadzoo, .aaapaathy, fang_w3, rvf5567 not refreshed (data 27 Oct or older). Needs retry/fix (item_list: newest ~196 only).
 ## 5. Waiting on Vyx
-0. What blocks p85–p93 (lite checks?)
+0. What blocks p85–p101 (lite checks?) DM'd 古溪月 (p95) + 1Soove. (p98)? Never contacted before.
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
@@ -46,13 +45,13 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 7. **p81:** app or web? Full 10.8 s in preview? 1 h views/likes.
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
 9. **p82:** posted? Time + sound.
-10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48; 735/789/699/1,005 views, all blank-name original): which p-numbers (p82, p85–p93?) and which upload path (was 30 Oct app + Upload HD?). No links in log.csv.
+10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): which p-numbers and upload path? (`reports/self.md`)
 ## 6. Pipeline
-- Next file **p94**. 22 approved library clips unused (fail §3). **To contact:** scout 8 Nov A 雾必野 fog towers, 古溪月 night crossing, 梁同学 sunset bridge, 谢景行 Nanjing snow (+3 B); 30 Oct Hua. Weihai sunset, 雾必野 rain crossing.
-- **In, precheck OK, lite next:** p85 梁同学 sunset tilt-up 4K 8.4 s · p86 谢景行 Beijing dusk tilt-up 4K 8.6 s · p87 黑色泡沫 Xinjiang snow edit 12.5 s, HDR · p88 可爱到爆炸 leafy tilt-up 8.6 s · p89 可爱到爆炸 leaves crosswalk 7 s · p90 用户1529 rain tree 6.8 s · p92 轻轻 Seoul snow 8 s · p93 長樂 snow towers 8.6 s.
+- Next file **p102**. 22 older approved clips fail §3. **Direction [V 8 Nov]:** consider non-city settings too. To contact: 谢景行 Lijiang snow-mountain tilt-up (non-city B). Hua. Weihai: yes, not downloaded (stop signal; maybe deleted).
+- **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark · p98 1Soove. sunset sea gulls 4K 9.4 s (non-city; reveal ~2 s) · p99 雾必野 rainy bridge 8.2 s (check slow-mo once) · p100 Hua. rain street 9.8 s · p101 雾必野 rain crossing 8.0 s. Older: p85 sunset tilt-up · p86 Beijing dusk tilt-up · p87 Xinjiang snow edit (HDR) · p88 leafy tilt-up · p89 leaves crosswalk 7 s · p90 rain tree 6.8 s · p92 Seoul snow · p93 snow towers.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
-- **POSTED, new recipe [V 22 Oct], all "Let Go", direct** [C 7 Nov]: p74 (梁同学 train door, lifted edit, 8 s) 22 Oct UTC 717 views, 2.2% · p76 (韬 HK rain, original, dark) 741, 4.0% · p77 (鱼丸三三 Wuwei snow, original, 11.3 s) 745, 3.9% · p81 (梁同学 rain bridge tilt-up, uncut) 802, 5.2%.
+- **POSTED, new recipe, "Let Go", direct** [C 7 Nov; detail log.csv]: p74 (lifted edit) 717 views, 2.2% · p76 741, 4.0% · p77 745, 3.9% · p81 802, 5.2%.
 - Used up: p50–p79 [V 23 Oct]. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts, recipe n=4 flat) · scout 8 Nov (4 A + 3 B; Gexian, ginkgo 0) · sounds 2 Nov (Mondays) · watch 27 Oct (silent since).
+- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts, recipe n=4 flat) · scout 8 Nov (p94–p101 in; Gexian, ginkgo 0; stop signal) · sounds 2 Nov (Mondays) · watch 27 Oct (ended).
