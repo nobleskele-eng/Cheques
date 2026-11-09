@@ -35,8 +35,7 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 - **rvf5567 DM 22 Oct** ("all your videos are reposted"): likely course funnel [est]; §5.4.
 - **Pull fragile [C 7 Nov]:** `pull_account.py` stopped at kadzoo55871 (RemoteDisconnected; 31 Oct: .aaapaathy `KeyError: 'userInfo'`). kadzoo, .aaapaathy, fang_w3, rvf5567 not refreshed (data 27 Oct or older). Needs retry/fix (item_list: newest ~196 only).
 ## 5. Waiting on Vyx
-0. What blocks p85–p101 (lite checks?) DM'd 古溪月 (p95) + 1Soove. (p98)? Never contacted before.
-1. **p77:** full link. p74: edit or original?
+0. What blocks p85–p101 (lite checks?)1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
 4. rvf5567 DM: which clips did they name?
