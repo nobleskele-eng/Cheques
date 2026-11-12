@@ -1,10 +1,10 @@
 # MASTER: @papercheques current state
-Updated 2026-11-11 by local session (v42: 51 posts, still ~700 cap; own-footage test proposed). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-11 by local session (v42: 51 posts, still ~700 cap; app-upload test next). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,682 (10 Oct). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
-- Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Never varied: footage source (all 51 = others' Douyin clips). [L]
+- Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
 - FYP "unoriginal" flags: p53, p58, p59, p62.
 
 ## 2. What we know (strongest first)
@@ -22,7 +22,7 @@ Updated 2026-11-11 by local session (v42: 51 posts, still ~700 cap; own-footage 
 ## 3. Recommendation now: change the recipe, then test it
 Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
-- **Own-footage test (proposed L 11 Nov, Vyx decides):** Vyx shoots 2–3 clips (night/rain, street level, tilt-up in 1st s, 8–10 s), posts from the app with Upload HD on, 40+ min apart, caption = place + mood. Any ≥1,500 views [est] → footage source is the cap.
+- **App-upload test [L 11 Nov]:** next 3 lite-PASS clips from the TikTok app, Upload HD on, place + mood caption, 40+ min apart; local session checks for a 1080p version same day. Any ≥1,500 views [est] = lever. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Captions:** #fyp #viral #views say nothing about topic. Use place + mood words (only 2 topical ever: 4,682 and 978, both 10 Oct; n=2).
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
@@ -36,7 +36,7 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 - **Audio blocked [L 8 Nov]:** TikTok challenge at profile 1, 0 fetched. Next day: `node research/scripts/download_audio.mjs research/data/sounds/audio_list_2026-11-08.csv ABX`.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **4 new posts** (UTC 9 Nov 02:50 · 10 Nov 04:18 · 12 Nov 02:54, 02:57): p-numbers, app or web? Studio: % For You, avg watch time, % watched full. Account status: any notice? Own-footage test: yes/no?
+0. **4 new posts** (UTC 9 Nov 02:50 · 10 Nov 04:18 · 12 Nov 02:54, 02:57): p-numbers, app or web? Studio: % For You, avg watch time, % watched full. Account status: any notice?
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.

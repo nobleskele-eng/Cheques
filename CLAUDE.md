@@ -9,6 +9,7 @@ Current state, findings and next steps: @MASTER.md
 - Never claim something works unless it was checked.
 - Label every number as sourced (say where) or estimate.
 - Don't move or reorganise files without a yes. Don't bring up swimming.
+- **Content = permissioned Douyin clips only.** Never propose Vyx films footage, or creator outtakes, own multi-clip edits or stock ("mysterious aura", Vyx 19 Oct; repeated 11 Nov).
 - **Check status first:** Vyx posts and runs Content check lite on their own, so log.csv lags behind. Before planning posts, confirm what was already posted or rejected, then record it.
 
 ## Sessions: one-shot, GitHub is the memory
