@@ -23,7 +23,7 @@ Updated 2026-11-12 by local session (v50: US test account @sylvanism_, first pos
 ## 3. Recommendation now: change the recipe, then test it
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
-- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (San Francisco location; public, 0 posts [L]); can't follow yet, likes/saves/reposts OK [V]. First post ~21:00 EST 12 Nov. Never-posted clips only; rule 3 applies to it. Note §8. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF location; public, 0 posts [L]); can't follow yet, likes/saves/reposts OK [V]. First post ~21:00 EST 12 Nov. Never-posted clips only; rule 3 applies to it. Note §8. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
