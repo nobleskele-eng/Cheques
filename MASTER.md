@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-11-12 by local session (v46: p27's 4,688 = Search, not For You; search captions next). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-12 by local session (v47: search captions withdrawn; p27 search tail = Edgerunners 2 hype). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search. **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
+- ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
 - Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
 - **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block. **No post has ever had a 2nd For You batch.**
@@ -23,7 +23,7 @@ Updated 2026-11-12 by local session (v46: p27's 4,688 = Search, not For You; sea
 ## 3. Recommendation now: change the recipe, then test it
 Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
-- **Next = search captions [L 12 Nov]:** p27 "arasaka tower #cyberpunk" = ~1,050 For You + ~3,160 Search (Studio). Name place/landmark + weather, 3–5 specific tags (no #fyp #viral #views), end with credit. Drafts: `research/seed-cap-2026-11-11.md` §6. Measure views at 3 h vs day 7. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Next data: Studio Viewers tab of p98/p99 (who the test batch is). Note §7. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
