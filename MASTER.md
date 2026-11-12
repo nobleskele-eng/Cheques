@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-12 by local session (v48: test batch ~96% Canada; US-location test proposed). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-12 by local session (v49: US test account exists, first post tonight). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -21,10 +21,9 @@ Updated 2026-11-12 by local session (v48: test batch ~96% Canada; US-location te
 10. **Model** (`research/success-model.md`): AUC 0.66 beat-median, 1M+ at chance. [C]
 
 ## 3. Recommendation now: change the recipe, then test it
-Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
-- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. Vyx idea: US-location account. Proposed first: 2 fresh clips from @papercheques with a US VPN, check Viewers tab. Note §8. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account exists [V 12 Nov]** (San Francisco location; handle?); first post tonight, restriction unchecked. Never-posted clips only; rule 3 applies to it. Note §8. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
@@ -36,7 +35,7 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 - **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`. 8 Nov: 11 unfetched.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app? 10 Nov change = H.264 re-export? [est]
+0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? (new account must not repeat them) 3 newest have no sound object: audio plays in the app? 10 Nov change = H.264 re-export? [est]
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
