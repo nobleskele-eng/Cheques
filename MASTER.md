@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-11 by local session (v43: 51 posts, still ~700 cap; web now serves our original 4K file, no lift). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-12 by local session (v44: 9 Nov sounds in; 51 posts, ~700 cap; web serves our 4K original, no lift). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,682 (10 Oct). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -33,7 +33,7 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 
 ## 4. Open conflicts / unknowns
 - **Dark charm vs compression:** moot while web serves the original file. [L]
-- **Audio blocked [L 8 Nov]:** TikTok challenge at profile 1, 0 fetched. Next day: `node research/scripts/download_audio.mjs research/data/sounds/audio_list_2026-11-08.csv ABX`.
+- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`. 8 Nov: 11 unfetched.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
 0. **4 new posts** (UTC 9 Nov 02:50 · 10 Nov 04:18 · 12 Nov 02:54, 02:57): p-numbers, app or web? Studio: % For You, avg watch time, % watched full. Account status: any notice? 3 newest have no sound object: audio plays in the app? What changed on 10 Nov?
