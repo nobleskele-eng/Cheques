@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-11 by local session (v42: 51 posts, still ~700 cap; app-upload test next). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-11 by local session (v43: 51 posts, still ~700 cap; web now serves our original 4K file, no lift). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,682 (10 Oct). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -9,11 +9,11 @@ Updated 2026-11-11 by local session (v42: 51 posts, still ~700 cap; app-upload t
 
 ## 2. What we know (strongest first)
 1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78–p80, p84. Passed: p74–p77, p81, p82. Format: weak lead. [V][L ffprobe]
-2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) now proven: 2.0×, 67% beat, 15 uses, last 6 Nov. Others (stale 3–5 wk): oscncs 14.2× (3 uses), yuji 8.1× (5), 𝙈𝙃𝘾 6.8× (3), blank-name "original sound" 5.7× (4 uses; someplace505's own upload). n=3–15 per sound. [C]
-3. **Served quality:** 0/51 of ours have a 1080p version (best 720p); network 81–99%, flops included. Upload path (app + Upload HD) still untested. [C][L]
+2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) now proven: 2.0×, 67% beat, 15 uses, last 6 Nov. Others (stale 3–5 wk): oscncs 14.2× (3 uses), yuji 8.1× (5), 𝙈𝙃𝘾 6.8× (3), blank-name "original sound" 5.7× (4 uses; someplace505's own upload). n=3–15 per sound. [C] Ours since 24 Oct 22:35 UTC: own audio (new sound per upload, named after our blank nickname). [L]
+3. **Served quality: fixed, no lift [L 12 Nov].** 6 of 8 posts since 25 Oct served as the original file; 3 newest 4K H.264 ~45 Mbps (was 540p, 0.5–0.95 Mbps). Views: median 778 (n=6). someplace505 original file alone: 0.81× (n=17). Not the cap.
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4, 21–24 Oct; `research/someplace505-nature-2026-10-24.md`). [L grid]
-5. **Length and cuts:** 23/39 of ours run 6–7 s; network hits 6–13 s. **Our clips get cut short between file and post:** 9 of 12 mapped posts since 5 Oct ended 6–9 s, median −3.0 s. Full vs cut: no difference yet (n=3 vs 9). [L ffprobe + csv]
-6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). someplace505 ~4/day, 7-day median 13.3K (n33) vs 24.7K prior. [C]
+5. **Length and cuts:** network hits 6–13 s. 9 of 12 mapped posts since 5 Oct were cut short between file and post (median −3.0 s); full vs cut: no difference (n=3 vs 9). [L]
+6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
 8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, top 4. 02:30–05:00 UTC n=19: median 687. [L csv]
 9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. elsewhere557 median 24.6K (best 2.2M, 5 Nov, 7 s); someplace505 13.3K. Detail: `reports/rivals.md`. [C]
@@ -22,21 +22,21 @@ Updated 2026-11-11 by local session (v42: 51 posts, still ~700 cap; app-upload t
 ## 3. Recommendation now: change the recipe, then test it
 Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
-- **App-upload test [L 11 Nov]:** next 3 lite-PASS clips from the TikTok app, Upload HD on, place + mood caption, 40+ min apart; local session checks for a 1080p version same day. Any ≥1,500 views [est] = lever. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Next:** Studio watch-time numbers decide the next lever (swipe-away vs no reaction). App-upload test dropped: web already serves the original. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Captions:** #fyp #viral #views say nothing about topic. Use place + mood words (only 2 topical ever: 4,682 and 978, both 10 Oct; n=2).
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
-- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS. Edits unproven (p74 edit 2.2% vs p76 original 4.0%, n=1 each).
+- **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
 - **Sound** (`research/data/proven_sounds.csv`): try hold the line, oscncs, yuji, blank-name original, 2+ tries each. Let Go no longer proven. Skip likely paid promos (list in `reports/rivals.md`). New sounds: `reports/sounds.md`.
 - **Upload:** lite must PASS. "Upload HD" on. Post directly, never scheduled, 1–3/day, 40+ min apart (12 Nov pair: 2.4 min). Credit the creator by 抖音号.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 
 ## 4. Open conflicts / unknowns
-- **Dark charm vs compression:** dark grade turns to mush at 540p; lifted edits untested live. [L]
+- **Dark charm vs compression:** moot while web serves the original file. [L]
 - **Audio blocked [L 8 Nov]:** TikTok challenge at profile 1, 0 fetched. Next day: `node research/scripts/download_audio.mjs research/data/sounds/audio_list_2026-11-08.csv ABX`.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **4 new posts** (UTC 9 Nov 02:50 · 10 Nov 04:18 · 12 Nov 02:54, 02:57): p-numbers, app or web? Studio: % For You, avg watch time, % watched full. Account status: any notice?
+0. **4 new posts** (UTC 9 Nov 02:50 · 10 Nov 04:18 · 12 Nov 02:54, 02:57): p-numbers, app or web? Studio: % For You, avg watch time, % watched full. Account status: any notice? 3 newest have no sound object: audio plays in the app? What changed on 10 Nov?
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
