@@ -1,11 +1,11 @@
 # MASTER: @papercheques current state
-Updated 2026-11-12 by local session (v45: first Studio watch numbers p98/p99; ~700 = For You test batch). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-12 by local session (v46: p27's 4,688 = Search, not For You; search captions next). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,682 (10 Oct). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
+- ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search. **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
 - Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
-- **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block.
+- **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block. **No post has ever had a 2nd For You batch.**
 - FYP "unoriginal" flags: p53, p58, p59, p62.
 
 ## 2. What we know (strongest first)
@@ -16,15 +16,14 @@ Updated 2026-11-12 by local session (v45: first Studio watch numbers p98/p99; ~7
 5. **Length and cuts:** network hits 6–13 s. 9 of 12 mapped posts since 5 Oct were cut short between file and post (median −3.0 s); full vs cut: no difference (n=3 vs 9). [L]
 6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
-8. **Hour (confounded):** 23:00–02:30 UTC (19:00–22:30 EDT) n=10: median 792, none <650, top 4. 02:30–05:00 UTC n=19: median 687. [L csv]
+8. **Hour (confounded):** 23:00–02:30 UTC n=10: median 792; 02:30–05:00 UTC n=19: 687. [L csv]
 9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. elsewhere557 median 24.6K (best 2.2M, 5 Nov, 7 s); someplace505 13.3K. Detail: `reports/rivals.md`. [C]
 10. **Model** (`research/success-model.md`): beat-median AUC 0.66, 100K+ 0.71, 1M+ 0.51 (chance). [C]
 
 ## 3. Recommendation now: change the recipe, then test it
 Run the likely levers together for ~10 posts, compare with the old 39, then remove one at a time. [est]
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
-- **Next:** Studio screen of the 10 Oct arasaka post (4,682, only 2nd batch ever) vs p98/p99, + Viewers tab. App-upload test dropped. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
-- **Captions:** #fyp #viral #views say nothing about topic. Use place + mood words (only 2 topical ever: 4,682 and 978, both 10 Oct; n=2).
+- **Next = search captions [L 12 Nov]:** p27 "arasaka tower #cyberpunk" = ~1,050 For You + ~3,160 Search (Studio). Name place/landmark + weather, 3–5 specific tags (no #fyp #viral #views), end with credit. Drafts: `research/seed-cap-2026-11-11.md` §6. Measure views at 3 h vs day 7. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
@@ -33,11 +32,10 @@ Run the likely levers together for ~10 posts, compare with the old 39, then remo
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 
 ## 4. Open conflicts / unknowns
-- **Dark charm vs compression:** moot while web serves the original file. [L]
 - **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`. 8 Nov: 11 unfetched.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **Studio:** 10 Oct arasaka post (avg watch, % full, traffic) + Viewers tab of p98/p99. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app? 10 Nov change = H.264 re-export? [est]
+0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. Studio Search % of the 10 Oct cat post (978)? 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app? 10 Nov change = H.264 re-export? [est]
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
