@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v56: p105–p116 in). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-13 by local session (v57: gate plan p105+). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~59 followers. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
+- 58 followers [L 13 Nov]. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
 - Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
 - **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block. **No post has ever had a 2nd For You batch.**
@@ -45,7 +45,7 @@ Updated 2026-11-13 by local session (v56: p105–p116 in). Tags: [L] local, [C] 
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
 ## 6. Pipeline
-- **In, precheck no red, lite next [L 13 Nov, permission V 13 Nov]:** p105–p116, 12 nature. A p105 谢景行 Erhai tilt-up 4K; C p111–p116. p107–p116: creator check + 抖音号 before posting.
+- **In, precheck no red, lite next [L 13 Nov, permission V 13 Nov]:** p105–p116, 12 nature. Plan `reports/gate.md`: p105, p102, p110, p106, p107. p107–p116: creator check + 抖音号 before posting.
 - Next file **p117**. Douyin pane blocked (服务异常, 13 Nov). **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K, edit 11.1 s [V trim] · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
 - **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark. Older city: p85–p90, p92, p93.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
