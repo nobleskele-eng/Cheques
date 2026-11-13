@@ -12,6 +12,8 @@ Vyx's taste, calibrated from the big TikTok accounts' Popular tabs and 16 Douyin
 
 Core genre = Chinese "city mood": vertical POV of a city in rain/fog or at blue hour + sad-lyric caption + song. Each top account repeats ONE recipe.
 
+**Pivot 12 Nov 2026 [V]: nature over city.** No Chongqing, little or no cityscape. Themes: shooting stars, mountain trails, oceanside, beach-villa window views, night beach, fireworks, similar. Wanted: **one striking feature** in frame 1 (Vyx's examples: lanterns floating on water, bubbles at sunset). 4K 60 fps preferred. Sky clips OK for meteors and fireworks only. The checklist above still applies otherwise.
+
 ## Vyx's verdicts
 - Own posts with charm: p14 chongqing train tunnel, p27 arasaka tower, p47 bubbles. p50–p52 = "better, closer".
 - Picks Vyx liked: 弋丹 snowy city street at night, _青 blizzard at night. Charm account: 可爱到爆炸.

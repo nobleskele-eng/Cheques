@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v51: @sylvanism_ post 1 up 00:04 UTC 13 Nov). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-13 by local session (v52: nature pivot). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -25,7 +25,7 @@ Updated 2026-11-13 by local session (v51: @sylvanism_ post 1 up 00:04 UTC 13 Nov
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
 - **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF location); AdsPower + paid US ISP proxy, web only, never phone [V]; can't follow yet. **Post 1** 13 Nov 00:04 UTC, 10 s (p?), 4K original, no sound object, no credit; 0 views at 6 min [L]. Never-posted clips only; rule 3 applies to it. Note §8. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
-- **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 25 Oct]:** city, sunset beaches, bubbles. Never slowed-down clips; needs a subject; 2K+.
+- **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
 - **Sound** (`research/data/proven_sounds.csv`): try hold the line, oscncs, yuji, blank-name original, 2+ tries each. Let Go no longer proven. Skip likely paid promos (list in `reports/rivals.md`). New sounds: `reports/sounds.md`.
 - **Upload:** lite must PASS. "Upload HD" on. Post directly, never scheduled, 1–3/day, 40+ min apart (12 Nov pair: 2.4 min). Credit the creator by 抖音号.
@@ -47,11 +47,11 @@ Updated 2026-11-13 by local session (v51: @sylvanism_ post 1 up 00:04 UTC 13 Nov
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
 ## 6. Pipeline
-- Next file **p102**. 22 older approved clips fail §3. **Direction [V 8 Nov]:** consider non-city settings too. To contact: 谢景行 Lijiang snow-mountain tilt-up (non-city B).
+- Next file **p102**. 22 older approved clips fail §3. To DM (B): 楽しくない Gexian sky lanterns 14.5 s · 凌羽 Erhai dusk · 谢景行 Lijiang snow.
 - **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark · p100 Hua. rain street 9.8 s · p101 雾必野 rain crossing 8.0 s. Older: p85 sunset tilt-up · p86 Beijing dusk tilt-up · p87 Xinjiang snow edit (HDR) · p88 leafy tilt-up · p89 leaves crosswalk 7 s · p90 rain tree 6.8 s · p92 Seoul snow · p93 snow towers.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
 - **POSTED** (detail log.csv): p74 717 · p76 741 · p77 745 · p81 802 (Let Go) · p98 746 · p99 780 (12 Nov).
 - Used up: p50–p79 [V 23 Oct]. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 8 Nov (p94–p101 in; Gexian, ginkgo 0; stop signal) · sounds 2 Nov (Mondays) · watch 27 Oct (ended).
+- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 12 Nov (nature: 2 B; meteors, villa windows 0) · sounds 2 Nov (Mondays).
