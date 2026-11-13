@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-13 by local session (v55: scout 13 Nov, 12 picks). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -24,7 +24,6 @@ Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] 
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
 - **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone; can't follow) [V]. **p100 [est] 00:04 + p101 01:39 UTC 13 Nov: no test batch** (1 view at 1 h 37 m; ours ~700 by 38 min) [L]. Post penalty fields = our normal posts → account-level hold [est]. No more posts there; read both at 24 h (<20 = drop it). Never-posted clips only; rule 3 applies. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
-- **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
 - **Sound** (`research/data/proven_sounds.csv`): try hold the line, oscncs, yuji, blank-name original, 2+ tries each. Let Go no longer proven. Skip likely paid promos (list in `reports/rivals.md`). New sounds: `reports/sounds.md`.
@@ -35,8 +34,7 @@ Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] 
 - **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`. 8 Nov: 11 unfetched.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app? @sylvanism_ post 1 = p100?
-1. **p77:** full link. p74: edit or original?
+0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app?1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
 4. rvf5567 DM 22 Oct (likely course funnel [est]): which clips?
@@ -47,6 +45,7 @@ Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] 
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
 ## 6. Pipeline
+- **To DM, batch 13 Nov [L scout]:** 12 nature picks from Vyx's 收藏/喜欢 (1 A 谢景行 Erhai tilt-up, 5 B, 6 C near miss); 10 creators' uploads unchecked. `reports/scout.md`.
 - Next file **p105**. 22 older approved clips fail §3. **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K, edit 11.1 s [V trim] · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
 - **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark. Older (city, detail log.csv): p85–p90, p92, p93.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
@@ -54,4 +53,4 @@ Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] 
 - Used up: p50–p79 [V 23 Oct]; p100 [est], p101 on @sylvanism_. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 12 Nov (nature: 2 B; meteors, villa windows 0) · sounds 2 Nov (Mondays).
+- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 13 Nov (captcha stop) · sounds 2 Nov (Mondays).
