@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-13 by cloud session (v55: @sylvanism_ p101 got 74 views). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -23,7 +23,7 @@ Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] 
 ## 3. Recommendation now: change the recipe, then test it
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
-- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone; can't follow) [V]. **p100 [est] 00:04 + p101 01:39 UTC 13 Nov: no test batch** (1 view at 1 h 37 m; ours ~700 by 38 min) [L]. Post penalty fields = our normal posts → account-level hold [est]. No more posts there; read both at 24 h (<20 = drop it). Never-posted clips only; rule 3 applies. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone; can't follow) [V]. **13 Nov [C 03:42 UTC]: p100 [est] (00:04) 1 view; p101 (01:39) 74 views, 2 likes, 1 save at 2 h** (ours ~700 by 38 min). Small batch, not a full hold [est]. No more posts; read both at 24 h + Studio % US. Never-posted clips only; rule 3 applies. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
