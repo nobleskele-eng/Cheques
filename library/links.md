@@ -1,8 +1,8 @@
 # Clip links
 
-Rebuilt 2026-11-12 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **111 clips, 56 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
+Rebuilt 2026-11-12 by `tools/list_links.ps1` from `library/library.csv`, `log.csv` and the file names in inbox\ and posted\. **111 clips, 59 downloaded.** log.csv starts at p48, so earlier posts only show up if they are in the library. "posted" = a TikTok link or POSTED in the log.csv notes; our TikTok posts are not linked here (hard rule 3).
 
-## Downloaded (56)
+## Downloaded (59)
 
 | File | Creator | Douyin link | Status | What |
 |---|---|---|---|---|
@@ -60,10 +60,13 @@ Rebuilt 2026-11-12 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | p99 | 雾必野 | [7705484799322112947](https://www.douyin.com/video/7705484799322112947) | posted / permission yes 2026-11-08 (Vyx) - downloaded p99 | RAIN WALK, PAYOFF IN FRAME 1: under a clear umbrella on a wet bridge walkway at dusk, misty towers and a cable-stay pylon ahead, people walking. No tilt (walks forward). Luma 58-81. |
 | p100 | Hua. | [7704268985373755057](https://www.douyin.com/video/7704268985373755057) | permission yes 2026-11-08 (Vyx) - downloaded p100 | RAINY NIGHT STREET, UPWARD REVEAL: road arrow on wet asphalt at 0.1 s, tilts up by 1 s to a Chongqing night street with umbrellas and traffic, then a maple leaf on a clear umbrella in the foreground. Real speed. Luma 76-82. |
 | p101 | 雾必野 | [7701336651449396874](https://www.douyin.com/video/7701336651449396874) | permission yes 2026-11-08 (Vyx) - downloaded p101 | RAINY NIGHT STREET, UPWARD REVEAL: opens on a wet crosswalk in the rain at 0.1 s, tilts up by 1 s under a clear umbrella to a Chongqing street at night: red tail lights on wet asphalt, street lamps, towers fading into mist and rain. Walking forward at real speed (crosswalk and scooter move between frames 0.2 s apart; rain streaks visible). Luma 53-56 (needs a lift). |
+| p102 | 楽しくない | [7696900692749759145](https://www.douyin.com/video/7696900692749759145) | permission yes (Vyx 12 Nov) - downloaded as p102 | STRIKING FEATURE, SKY LANTERNS: opens at 0.1 s on hands releasing lit paper sky lanterns (handwritten wishes) in a night crowd at 葛仙村 (Gexian village, Jiangxi mountain resort); hundreds of amber lanterns rise with fireworks by 4 s. Payoff in frame 1; the camera follows the lanterns up (not a clean tilt-up). Real speed (frame change 23.9 between frames 0.2 s apart). Warm amber glow. |
+| p103 | 凌羽 | [7699575767713654227](https://www.douyin.com/video/7699575767713654227) | permission yes (Vyx 12 Nov) - downloaded as p103 | LAKESIDE VILLAGE AT DUSK, PAN REVEAL: opens at 0.1 s on a lit lakeside inn at dusk on the Erhai shore road (Dali), pans by ~2 s onto Erhai under a dramatic cloud deck with the low sun glinting on the water; a person stands at the shore near the end. Real speed (frame change 21-23 between frames 0.2 s apart). Muted blue-grey with gold glints; luma 79-100. |
+| p104 | 谢景行 | [7704709641250995368](https://www.douyin.com/video/7704709641250995368) | permission yes (Vyx 12 Nov) - downloaded as p104 | NON-CITY, MOUNTAIN GLOW, UPWARD REVEAL: dark road with traffic cones at 0.1-0.5 s, tilts up by 1 s to Jade Dragon Snow Mountain lit pink-orange at dawn/dusk over a Lijiang village street (old-town roofs, road sign). Real speed (camera and walkers move). Luma 52-86. |
 | inbox file, no pNN |  | [7685767113781748634](https://www.douyin.com/video/7685767113781748634) |  |  |
 | inbox file, no pNN |  | [7689769865779968165](https://www.douyin.com/video/7689769865779968165) |  |  |
 
-## Not downloaded (55)
+## Not downloaded (52)
 
 | Creator | Douyin link | Status | What |
 |---|---|---|---|
@@ -82,8 +85,8 @@ Rebuilt 2026-11-12 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | 南澳岛.小困 | [7673440472811350629](https://www.douyin.com/video/7673440472811350629) | permission yes (Vyx 20 Oct) - fresh day 7698312564291755705 downloaded as p70 | Sea-view room at golden sunset (same format as kadzoo 19.7M) - ask for a FRESH day, not this one |
 | @嘉 | [7692654644523488421](https://www.douyin.com/video/7692654644523488421) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Night downpour splashing under a light |
 | Anne | [7675715389146082978](https://www.douyin.com/video/7675715389146082978) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Rainy crosswalk at night under a streetlight, wet reflections |
-| Dou | [7672410268849270473](https://www.douyin.com/video/7672410268849270473) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Heavy snow past a streetlight between apartment blocks at night |
 | Dou | [7677283323660388233](https://www.douyin.com/video/7677283323660388233) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Dark snowy street at night, power lines, parked cars |
+| Dou | [7672410268849270473](https://www.douyin.com/video/7672410268849270473) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Heavy snow past a streetlight between apartment blocks at night |
 | Human nature | [7669018685970151141](https://www.douyin.com/video/7669018685970151141) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Dark room, rain on the window, storm clouds outside |
 | Niu | [7674317564545182117](https://www.douyin.com/video/7674317564545182117) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Warm-lit snowy street at night, tyre tracks |
 | Onlrainy | [7665646173835865585](https://www.douyin.com/video/7665646173835865585) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Sepia sandstorm/storm over trees and a light pole |
@@ -104,9 +107,6 @@ Rebuilt 2026-11-12 by `tools/list_links.ps1` from `library/library.csv`, `log.cs
 | 雾必野 | [7686928531062649929](https://www.douyin.com/video/7686928531062649929) | permission yes 2026-10-25 (Vyx; all 28 approved in one batch) | Sun-dappled city street under trees (daytime) |
 | Hua. | [7700940448236646243](https://www.douyin.com/video/7700940448236646243) | permission yes 2026-11-08 (Vyx) - NOT downloaded: missing from Hua. uploads on 9 Nov and the video page showed 服务器出现问题 (deleted or private?) | SUNSET BEACH, UPWARD REVEAL: opens on a stone pier with waves swirling below at 0.1 s, tilts up by 1 s to a seaside chain railing, lamp posts and an orange-to-blue sunset over the sea at Weihai; a wave breaks over the railing; wet promenade reflects the sky. Real speed (water and camera move fast 0.1-0.3 s). Bright (luma 107-140). Scan: tilt-up 0.67. |
 | owo | [7696867651759378368](https://www.douyin.com/video/7696867651759378368) | rejected (Vyx 25 Oct): no reveal, no subject, poor quality, slowed-down trend clip | Heavy snowfall at night over amber-lit apartment blocks in Urumqi, a streetlamp and trees at the bottom, slow pan. Snow visible from 0.1 s (payoff in frame 1, no tilt-up). CITY snow, not nature (found on the nature run via 新疆下雪了) |
-| 谢景行 | [7704709641250995368](https://www.douyin.com/video/7704709641250995368) | to contact - batch 2026-11-08 non-city | NON-CITY, MOUNTAIN GLOW, UPWARD REVEAL: dark road with traffic cones at 0.1-0.5 s, tilts up by 1 s to Jade Dragon Snow Mountain lit pink-orange at dawn/dusk over a Lijiang village street (old-town roofs, road sign). Real speed (camera and walkers move). Luma 52-86. |
-| 凌羽 | [7699575767713654227](https://www.douyin.com/video/7699575767713654227) | to contact - batch 2026-11-12 nature | LAKESIDE VILLAGE AT DUSK, PAN REVEAL: opens at 0.1 s on a lit lakeside inn at dusk on the Erhai shore road (Dali), pans by ~2 s onto Erhai under a dramatic cloud deck with the low sun glinting on the water; a person stands at the shore near the end. Real speed (frame change 21-23 between frames 0.2 s apart). Muted blue-grey with gold glints; luma 79-100. |
-| 楽しくない | [7696900692749759145](https://www.douyin.com/video/7696900692749759145) | to contact - batch 2026-11-12 nature | STRIKING FEATURE, SKY LANTERNS: opens at 0.1 s on hands releasing lit paper sky lanterns (handwritten wishes) in a night crowd at 葛仙村 (Gexian village, Jiangxi mountain resort); hundreds of amber lanterns rise with fireworks by 4 s. Payoff in frame 1; the camera follows the lanterns up (not a clean tilt-up). Real speed (frame change 23.9 between frames 0.2 s apart). Warm amber glow. |
 | Dreamboat | [7696524545084137699](https://www.douyin.com/video/7696524545084137699) | Vyx: not good enough | Ginkgo tree shedding leaves in sun |
 | Tata | [7684122337486746341](https://www.douyin.com/video/7684122337486746341) | Vyx: not good enough | Top-down field of red flowers |
 | 大远疆行纪 | [7689862592257897579](https://www.douyin.com/video/7689862592257897579) | Vyx: not good enough | Xinjiang autumn (possibly a photo montage) |
