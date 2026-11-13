@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v53: p102–p104 in). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- ~59 followers. 51 public posts, 3 Oct–12 Nov (local pull 12 Nov 03:30 UTC). Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
+- ~59 followers. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
 - Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
 - **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block. **No post has ever had a 2nd For You batch.**
@@ -11,7 +11,7 @@ Updated 2026-11-13 by local session (v53: p102–p104 in). Tags: [L] local, [C] 
 ## 2. What we know (strongest first)
 1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78–p80, p84. Passed: p74–p77, p81, p82. Format: weak lead. [V][L ffprobe]
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) now proven: 2.0×, 67% beat, 15 uses, last 6 Nov. Others (stale 3–5 wk): oscncs 14.2× (3 uses), yuji 8.1× (5), 𝙈𝙃𝘾 6.8× (3), blank-name "original sound" 5.7× (4 uses; someplace505's own upload). n=3–15 per sound. [C] Ours since 24 Oct 22:35 UTC: own audio (new sound per upload, named after our blank nickname). [L]
-3. **Served quality: fixed, no lift [L 12 Nov].** 6 of 8 posts since 25 Oct served as the original file; 3 newest 4K H.264 ~45 Mbps (was 540p, 0.5–0.95 Mbps). Views: median 778 (n=6). someplace505 original file alone: 0.81× (n=17). Not the cap.
+3. **Served quality: fixed, no lift [L 12 Nov].** 6 of 8 posts since 25 Oct served as the original file; 3 newest 4K H.264 ~45 Mbps, Vyx re-exports (was 540p, 0.5–0.95 Mbps). Views: median 778 (n=6). someplace505 original file alone: 0.81× (n=17). Not the cap.
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4). [L grid]
 5. **Length and cuts:** network hits 6–13 s. 9 of 12 mapped posts since 5 Oct were cut short between file and post (median −3.0 s); full vs cut: no difference (n=3 vs 9). [L]
 6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
@@ -23,7 +23,7 @@ Updated 2026-11-13 by local session (v53: p102–p104 in). Tags: [L] local, [C] 
 ## 3. Recommendation now: change the recipe, then test it
 - **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
-- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF location); AdsPower + paid US ISP proxy, web only, never phone [V]; can't follow yet. **Post 1** 13 Nov 00:04 UTC, 10 s (p?), 4K original, no sound object, no credit; 0 views at 6 min [L]. Never-posted clips only; rule 3 applies to it. Note §8. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone; can't follow) [V]. **p100 [est] 00:04 + p101 01:39 UTC 13 Nov: no test batch** (1 view at 1 h 37 m; ours ~700 by 38 min) [L]. Post penalty fields = our normal posts → account-level hold [est]. No more posts there; read both at 24 h (<20 = drop it). Never-posted clips only; rule 3 applies. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Signature check [V 24 Oct]:** scout runs `tools/edgecheck.js` before DMs; red = never post (methods §2.5).
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
@@ -35,7 +35,7 @@ Updated 2026-11-13 by local session (v53: p102–p104 in). Tags: [L] local, [C] 
 - **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`. 8 Nov: 11 unfetched.
 - **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app? 10 Nov change = H.264 re-export? [est]
+0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app? @sylvanism_ post 1 = p100?
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
@@ -48,10 +48,10 @@ Updated 2026-11-13 by local session (v53: p102–p104 in). Tags: [L] local, [C] 
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
 ## 6. Pipeline
 - Next file **p105**. 22 older approved clips fail §3. **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K 14.4 s (trim?) · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
-- **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark · p100 Hua. rain street 9.8 s · p101 雾必野 rain crossing 8.0 s. Older (city, detail log.csv): p85–p90, p92, p93.
+- **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark. Older (city, detail log.csv): p85–p90, p92, p93.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
 - **POSTED** (detail log.csv): p74 717 · p76 741 · p77 745 · p81 802 (Let Go) · p98 746 · p99 780 (12 Nov).
-- Used up: p50–p79 [V 23 Oct]. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
+- Used up: p50–p79 [V 23 Oct]; p100 [est], p101 on @sylvanism_. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
 - `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 12 Nov (nature: 2 B; meteors, villa windows 0) · sounds 2 Nov (Mondays).
