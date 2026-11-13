@@ -1,5 +1,5 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v55: scout 13 Nov, 12 picks). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-13 by local session (v56: p105–p116 in). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - ~59 followers. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -31,10 +31,10 @@ Updated 2026-11-13 by local session (v55: scout 13 Nov, 12 picks). Tags: [L] loc
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 
 ## 4. Open conflicts / unknowns
-- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`. 8 Nov: 11 unfetched.
-- **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
+- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`.- **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app?1. **p77:** full link. p74: edit or original?
+0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app?
+1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
 4. rvf5567 DM 22 Oct (likely course funnel [est]): which clips?
@@ -45,12 +45,12 @@ Updated 2026-11-13 by local session (v55: scout 13 Nov, 12 picks). Tags: [L] loc
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
 ## 6. Pipeline
-- **To DM, batch 13 Nov [L scout]:** 12 nature picks from Vyx's 收藏/喜欢 (1 A 谢景行 Erhai tilt-up, 5 B, 6 C near miss); 10 creators' uploads unchecked. `reports/scout.md`.
-- Next file **p105**. 22 older approved clips fail §3. **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K, edit 11.1 s [V trim] · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
-- **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark. Older (city, detail log.csv): p85–p90, p92, p93.
+- **In, precheck no red, lite next [L 13 Nov, permission V 13 Nov]:** p105–p116, 12 nature. A p105 谢景行 Erhai tilt-up 4K; C p111–p116. p107–p116: creator check + 抖音号 before posting.
+- Next file **p117**. Douyin pane blocked (服务异常, 13 Nov). **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K, edit 11.1 s [V trim] · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
+- **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark. Older city: p85–p90, p92, p93.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
 - **POSTED** (detail log.csv): p74 717 · p76 741 · p77 745 · p81 802 (Let Go) · p98 746 · p99 780 (12 Nov).
 - Used up: p50–p79 [V 23 Oct]; p100 [est], p101 on @sylvanism_. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 13 Nov (captcha stop) · sounds 2 Nov (Mondays).
+- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 13 Nov (block stop) · sounds 2 Nov (Mondays).
