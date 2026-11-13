@@ -47,7 +47,7 @@ Updated 2026-11-13 by local session (v54: @sylvanism_ no test batch). Tags: [L] 
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
 ## 6. Pipeline
-- Next file **p105**. 22 older approved clips fail §3. **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K 14.4 s (trim?) · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
+- Next file **p105**. 22 older approved clips fail §3. **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p102 Gexian sky lanterns 4K, edit 11.1 s [V trim] · p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
 - **In, precheck OK, lite next [L 8 Nov, permission V 8 Nov]:** p94 雾必野 fog river towers 4K 8.1 s · p95 古溪月 night crossing 8.4 s · p96 梁同学 sunset bridge 2K 10.7 s · p97 谢景行 Nanjing snow 2K 9.3 s, dark. Older (city, detail log.csv): p85–p90, p92, p93.
 - **READY p82** (盐放多会咸 虎跳峡 tilt-up, nature, 9.6 s 1080p): lite PASS 24 Oct; flagged: hike uploaded 3×, Vyx decides. Lite FAILED: p80, p84.
 - **POSTED** (detail log.csv): p74 717 · p76 741 · p77 745 · p81 802 (Let Go) · p98 746 · p99 780 (12 Nov).
