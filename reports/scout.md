@@ -1,39 +1,33 @@
-# Scout report (nature brief + Vyx's 收藏)
-Run 13 Nov 00:21-00:45 UTC. Douyin 20/20 (9 loads, 8 searches, 3 filter re-runs) + in-page clicks. No stop signal. No downloads.
+# Scout report (Vyx's 收藏 + 喜欢, nature brief)
+Run 13 Nov 14:52-15:14 UTC. 2 page loads + ~55 in-page clicks/wheel ticks. **Stopped: slider captcha** (请完成下列验证后继续) at 15:14, while the TA的作品 panel loaded creators' uploads. Not solved; pane then closed (PC shutdown). No Douyin since. No downloads.
 
-## Picks (all need a DM; edgecheck + 4 edges at full res)
-0. **Vyx's lantern clip: fails rules.** C 予初 (1.7万) https://www.douyin.com/video/7688325027276210289 · 26.9万/1.2万/6.9万 · 7.0 s · 4K 60 fps · 22 Sep. Erhai covered in 渔灯, payoff in frame 1. Clear 24. Fails: 7.0 s, 52 d, aggregator (2-4 posts/day all over China), ~40-person crowd, sky looks replaced (Milky Way over a lit blue-hour scene). Its 推荐视频: 10 渔灯 clips, horizontal or 34-73 d.
-1. B 楽しくない (279) https://www.douyin.com/video/7696900692749759145 · sky lanterns, Gexian · 43.6万/2.8万/8.2万 · 14.5 s · 4K 58 fps · 15 Oct. Frame 1: hands release lanterns, hundreds rise with fireworks. Clear 0. 7 posts, one upload. Risks: viral (19% shares), crowd, resort venue, trim to ~12 s.
-2. B 凌羽 (4.8万) https://www.douyin.com/video/7699575767713654227 · Erhai lakeside dusk · 578/36/62 · 10.7 s · 4K 59 fps · 22 Oct. Lit inn at dusk, pans to the lake, storm clouds, sun glints by 2 s. Clear 0. Travel creator. Risks: pan not tilt, building first, 2nd Dali upload 10 d later.
-3. Carry-over B 谢景行 (13.6万) https://www.douyin.com/video/7704709641250995368 · Lijiang snow mountain, tilt-up · 1522/44/91 today · 8.6 s · 2K.
+## Picks (12 rows, library batch 2026-11-13; links in library/links.md)
+- A 谢景行 …105792 Dali wind + Erhai tilt-up · 61.4万/2.3万/12.9万 · 8.3 s 4K60. Yes-creator. Viral: collision-check.
+- B 谢景行 …742848 Daocheng lakes, hiker · 9.1万 · 10.9 s 2K60. 2nd Daocheng upload 28 d later.
+- B 沐风📸 …839973 Jiuzhaigou turquoise · 3.7万 · 8.3 s 4K60.
+- B YUHUB …371625 door opens on lawn + peaks · 99.7万 · 9.4 s 4K. Golf resort, likely promo.
+- B 南澳岛旺仔 …058277 sea-view bed, sunset · 25 · 8.2 s 4K60. Maybe homestay.
+- B 境遇 …936191 temple pillars over cloud sea · 13.0万 · 8.7 s 4K60. Tourists.
+- C (7.0-7.7 s): 370 …782963 storm karst window (dark); 向晚. …715129 alpenglow (static); 向晚. …914609 Erhai sun rays; 🍚🦌 …685455 Jiuzhaigou first snow.
+- C (1080p30): _8 …604608 Erhai sunset bubbles (crowd); 南巷诗行 …544384 Laojunshan night snow (may be last winter).
+All edgecheck clear/LOOK-read. **Only the 谢景行 rows had the creator check**; 4 C rows lack the 4-edge look.
 
-## Striking feature
-- #1 sky lanterns + fireworks. #0 lanterns on water (fails). #2 none.
+## Rejected (收藏 49 screened, 5 skipped as known)
+- Footage-sharing: 风声 ×2 bubbles (bio 大理原创素材), 雾漫川, 予初.
+- Caption circle: _青 ×3, 夕颜., 海风, 江樂; zzzzzzzz + 周末不在家 (same caption, same bar, minutes apart).
+- City/Chongqing/HK: 14. Over 45 d: 6 (incl. 阿森 49 d). Iuk signature.
+- Charm: 大哼 flowers, 晚风- gold, 海屿 magenta. Late reveal: 树. Also album, 720p, last-winter snow, 辞安 composite.
+- 喜欢: 124 new, 57 pass data, 8 opened, 6 picked; 阿森 …095650 saturated gold, 7uili/泽宇/我本就向自由 late reveal.
 
-## Yield per theme (seen / pass data / survive)
-| Theme | Seen | Pass | Live |
-|---|---|---|---|
-| Meteors 流星雨 | ~60 | 0 | 0 |
-| Mountain (云海, 日照金山, Lijiang 推荐) | ~76 | 3 | 0 |
-| Ocean (海边 第一视角, 海浪, sea 推荐) | ~63 | 2 | 0 |
-| Window villa 海景房 落地窗 | 36 | 0 | 0 |
-| Snow/aurora 阿勒泰 下雪 | 19 | 9 | 0 |
-| Lanterns (放河灯, 渔灯 推荐) | 28 | 2 | 1 |
-| Vyx 收藏 (31) + new likes | ~90 | 8 | 1 |
-Not searched: fireworks, night beach, 雾凇.
-
-## Rejected
-- 辞安 aurora 7706471474064278521: composite (aurora + sunlit peak + balloon).
-- Altay snow/aurora (_青, 夕颜., 沈楠., Transpar): caption circle, re-uploads.
-- L玲 老君山 snow-stair tilt-up 7705048079285067667: aggregator (76 fans, HK/Henan/Altay in days), hiker central, maybe slowed.
-- YUHUB 云南 window 7701720109791371625: plain daylight, 24% shares, creator unchecked.
-- Selfie (武功山), gold 日照金山, tourism-account waves, hotel ads, daylight Lijiang.
+## Downloaded
+None (no new permission yes).
 
 ## Needs Vyx
-- DM 楽しくない, 凌羽, 谢景行. Decide 予初's lantern clip.
+- Solve the Douyin captcha in the pane before the next run. I turned the player's 连播 off; turn it back on if wanted.
+- Before DMs: check creators of the 10 unchecked rows (uploads, re-uploads).
+- DM 谢景行 (Dali, Daocheng): best odds.
 
 ## Suggested MASTER changes
-- §6: nature batch 12 Nov to contact: 楽しくない lanterns, 凌羽 Erhai, 谢景行 Lijiang.
-- methods §1 bad words: 海景房 落地窗 (ads), 海边 第一视角, 日照金山 (horizontal), 流星雨 before an event; 阿勒泰 下雪 = circle.
-- Retry meteors after the Leonids (17-18 Nov) and 水灯节 later in Nov [est].
-- dyhook: store fps (in-page patch only).
+- Bubbles at Erhai = 心邸咖啡's show (mornings now); the main uploader 风声 shares 素材.
+- TA的作品 panel stepping (3 creators in 20 s) preceded today's captcha: one creator per minute.
+- dyhook misses the 喜欢 list's first page; read it from the page's React props.
