@@ -1,8 +1,8 @@
 # MASTER: @papercheques current state
-Updated 2026-11-13 by local session (v57: gate plan p105+). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+Updated 2026-11-14 by weekly routine (v58: rivals 6/7, self n=12). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- 58 followers [L 13 Nov]. 51 public posts, 3 Oct–12 Nov. Median 739 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
+- 58 followers [L 13 Nov]. 51 public posts, 3 Oct–12 Nov. Median 743 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
 - Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
 - **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block. **No post has ever had a 2nd For You batch.**
@@ -10,18 +10,18 @@ Updated 2026-11-13 by local session (v57: gate plan p105+). Tags: [L] local, [C]
 
 ## 2. What we know (strongest first)
 1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78–p80, p84. Passed: p74–p77, p81, p82. Format: weak lead. [V][L ffprobe]
-2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) now proven: 2.0×, 67% beat, 15 uses, last 6 Nov. Others (stale 3–5 wk): oscncs 14.2× (3 uses), yuji 8.1× (5), 𝙈𝙃𝘾 6.8× (3), blank-name "original sound" 5.7× (4 uses; someplace505's own upload). n=3–15 per sound. [C] Ours since 24 Oct 22:35 UTC: own audio (new sound per upload, named after our blank nickname). [L]
+2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) proven: 3.8×, 69% beat, 16 uses, last 9 Nov; "Originalton" 7dievgssn 4.7×, 100%, 6 uses, 12 Nov [C 14 Nov]. Stale 3–6 wk: oscncs 14×, yuji 8×, 𝙈𝙃𝘾 7×, blank-name 5.6× (n=3–5). [C] Ours since 24 Oct 22:35 UTC: own audio (new sound per upload, named after our blank nickname). [L]
 3. **Served quality: fixed, no lift [L 12 Nov].** 6 of 8 posts since 25 Oct served as the original file; 3 newest 4K H.264 ~45 Mbps, Vyx re-exports (was 540p, 0.5–0.95 Mbps). Views: median 778 (n=6). someplace505 original file alone: 0.81× (n=17). Not the cap.
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4). [L grid]
 5. **Length and cuts:** network hits 6–13 s. 9 of 12 mapped posts since 5 Oct were cut short between file and post (median −3.0 s); full vs cut: no difference (n=3 vs 9). [L]
 6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
 8. **Hour (confounded):** 23:00–02:30 UTC n=10: median 792; 02:30–05:00 UTC n=19: 687. [L csv]
-9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. elsewhere557 median 24.6K (best 2.2M, 5 Nov, 7 s); someplace505 13.3K. Detail: `reports/rivals.md`. [C]
-10. **Model** (`research/success-model.md`): AUC 0.66 beat-median, 1M+ at chance. [C]
+9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. elsewhere557 median 12.9K (7 d, unripe; best 2.2M 5 Nov); someplace505 10.9K; .aaapaathy 8.6M hit 7 Nov, fang_w3 993K 10 Nov [C 14 Nov]. [C]
+10. **Model** (`research/success-model.md`): AUC 0.64 beat-median, 1M+ at chance. [C]
 
 ## 3. Recommendation now: change the recipe, then test it
-- **Recipe test, 12 posts since 22 Oct** (p74–p81 + 8 unmapped, incl. 9–12 Nov): 700–1,092 views, likes 2.2–7.9%. Verdict [L 11 Nov]: recipe levers don't move the ~700 band.
+- **Recipe test, 12 posts since 22 Oct:** median 780 vs 721 baseline, 705–1,097 views, likes 5.3% vs 5.2%, max 7.9% [C 14 Nov]. Levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
 - **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone; can't follow) [V]. **p100 [est] 00:04 + p101 01:39 UTC 13 Nov: no test batch** (1 view at 1 h 37 m; ours ~700 by 38 min) [L]. Post penalty fields = our normal posts → account-level hold [est]. No more posts there; read both at 24 h (<20 = drop it). Never-posted clips only; rule 3 applies. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
@@ -31,7 +31,7 @@ Updated 2026-11-13 by local session (v57: gate plan p105+). Tags: [L] local, [C]
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 
 ## 4. Open conflicts / unknowns
-- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`.- **Pull fragile:** [C 7 Nov] stopped at kadzoo55871; kadzoo, .aaapaathy, fang_w3, rvf5567 data 27 Oct or older. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
+- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`.- **Pull [C 14 Nov]:** 6/7 OK (~25 min); rvf5567 failed (profile gone?), data 21 Oct. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
 0. **Credit missing** on all captions (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers? 3 newest have no sound object: audio plays in the app?
 1. **p77:** full link. p74: edit or original?
@@ -53,4 +53,4 @@ Updated 2026-11-13 by local session (v57: gate plan p105+). Tags: [L] local, [C]
 - Used up: p50–p79 [V 23 Oct]; p100 [est], p101 on @sylvanism_. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 7 Nov (3/7 pulled) · self 7 Nov (47 posts) · scout 13 Nov (block stop) · sounds 2 Nov (Mondays).
+- `reports/`: rivals 14 Nov (6/7 pulled) · self 14 Nov (51 posts) · scout 13 Nov (block stop) · sounds 2 Nov (Mondays).
