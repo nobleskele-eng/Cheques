@@ -13,6 +13,7 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 - **Niche [V 16 Nov]:** "jugg" and "tiktok style" edits, mostly romance and/or thirst traps of popular characters. Both aim to feel sensual, intimate or personal to the viewer.
   - **sasa jugg** (@smokinsasa7, @.sadaqatt): R&B song + soft shakes and blur transitions, focused on a character's look or a relationship (almost always a couple).
   - **tiktok style** (@zrivvn): 1080×1080 edit of one character, slow transitions, soft blur flicker.
+  - **Not these [V 16 Nov]:** *impact* edits (impact frames, strong shakes, harsh rap such as osamason) and *manga animation* (animated manga panels). **Tags can't tell styles apart**: #jugg / #juggedit get used as keyword spam. Only watching can, so Vyx judges style (Claude's 16 Nov picks: 0/3).
 - **Audience [V 16 Nov]:** every post over 100K views on either anime account had a majority-female audience, so Vyx plays the shoujo / romance / thirst-trap card hard.
 - **Warning on @stayvyxed:** a 300K post was removed ~6 months after posting for "hate speech" (censored n-word in on-screen lyric text). Not appealed. TikTok: strikes expire after 90 days; hitting the limit means 90 days out of For You; deleting a post doesn't remove its strike [web].
 - **Posting:** almost all from the phone app; Studio web did no better. Vyx runs scripts that change file metadata to reduce TikTok compression.
@@ -21,12 +22,12 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 ## 2. What we know (strongest first)
 1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. Every post at ≥5.9 s got 8.8K–657K views; every post at ≤4.2 s got under 1K (n=9). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
 2. **@chequethetime did best with popular characters of an airing show** [vidIQ, all 16 posts]. 12–15 Feb, during JJK S3: 5 edits of that season's side characters (Shoko, Hakari, Choso, Kirara, Megumi) with fan-voice captions ("Hakari is so tuff in the new jjk episode"). Median 4.9K, likes 12.5–19.7%. Sep–Nov: 9 lyric-caption edits across 8 shows, none airing. Median 434, likes 4.8–13.7%.
-3. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5%. Black Clover got close on reactions but averaged 4.16 s, so no second batch.
+3. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5% (Black Clover matched those but averaged 4.16 s: no second batch).
 4. **Hits keep earning:** peak on days 2–3, then Search (10–23%) and profile visits (17–31%). Tunnel to Summer and Choso got ~2/3 of their views after day 7 [est]. Flops are ~97% For You and stop within hours.
 5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 6. **Timing:** both JJK runs (@stayvyxed 657K on 15 Jan, @chequethetime in Feb) landed while JJK S3 aired (from 8 Jan) [web].
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **This month** (`research/trends-2026-11-16.md`): the circle runs #loopvember26 (loops mean more rewatches). Airing romance has the most breakouts (Firefly Wedding, Apothecary S3), many from accounts with <3.5K followers. "senju in the new episode 7" (Tokyo Revengers, 81K) shows the episode-reaction format working now.
+8. **This month** (`research/trends-2026-11-16.md`): #loopvember26 loops. Airing romance breaks out most (Firefly Wedding, Apothecary S3), often on accounts with <3.5K followers.
 9. **Reference yields** (`research/character-yield-2026-11-15.md`): romance steady, shonen mostly under 1×.
 
 ## 3. Recommendation now
@@ -34,7 +35,7 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 - **Inside the niche** (§1), the Feb data adds: popular characters from a show people are watching now, with a fan-voice caption. Before picking a show, check Vyx's own history with it (AOT: last 3 posts below median [V]).
 - **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, including animation, that sexualises minors [web], and @stayvyxed already has one violation.
 - **Tracked editors:** @smokinsasa7, @.sadaqatt, @zrivvn. `anime/refs.md` lists their posts weekly (Saturday routine).
-- **Next @chequethetime edit:** Firefly Wedding (ep 7 Fri 20 Nov), Shinpei × Satoko, a moment from the latest episode, the "my only loooveeee" audio (ac @crvz), fan-voice caption, looped. It also tests romance when it's topical (its romance edits so far weren't on airing shows).
+- **Next @chequethetime edit:** Firefly Wedding (ep 7 Fri 20 Nov), Shinpei × Satoko, a moment from the latest episode, the "my only loooveeee" audio (ac @crvz), fan-voice caption, looped.
 - **First second:** motion or the subject in frame 1. No typed text over black (Ao Haru Ride: 1.96 s).
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Keep the metadata scripts off it until they're tested on @chequethetime.
 
@@ -45,5 +46,5 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows use Vyx's local date; pull rows use UTC.
-- **Public lists:** the Saturday routine (from 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; **5 left on 16 Nov**, resets 14 Dec). vidIQ can't see frame shape or pace except through its 10-credit watch tool. AniList API is free but needs a User-Agent header.
+- **Public lists:** the Saturday routine (from 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; **5 left on 16 Nov**, resets 14 Dec). These are Vyx's plan credits: ask before spending. AniList API is free but needs a User-Agent header.
 - **Browser pane:** signed in as @papercheques. Profile headers load; grids and follow lists don't. No scripted pulls. Never hover or play.
