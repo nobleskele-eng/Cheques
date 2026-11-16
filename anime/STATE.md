@@ -35,9 +35,9 @@ Updated 2026-11-16 by local session (v1: Vyx's briefing + 6 Studio screenshots).
 ## 4. Waiting on Vyx
 1. **Account status** on @stayvyxed (app: Settings and privacy → Account → Account status): any active strike, or "not recommended"?
 2. Slur rule: make it a hard rule?
-3. OK to add @stayvyxed, @chequethetime and @sylvanism_ to the Saturday cloud pull?
+3. Studio screenshots for each new post (`accounts.md` lists them every Saturday).
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots (Overview, Traffic source, Search queries) → `anime/log.csv`.
-- **Public post lists:** cloud `research/scripts/pull_account.py <handle>` (not yet tried on these accounts). Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 80 left on 15 Nov, resets 14 Dec).
+- **Public post lists:** the Saturday routine pulls both accounts (Vyx OK'd 16 Nov; first run 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 80 left on 15 Nov, resets 14 Dec).
 - **Browser pane:** it's signed in to a TikTok account, so profile-header reads only. No scripted pulls (an in-page script was blocked 15 Nov). Never hover or play.
