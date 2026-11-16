@@ -27,7 +27,7 @@ Updated 2026-11-16 by local session (v1: Vyx's briefing + 6 Studio screenshots).
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est threshold, n=9]. Read it with likes, shares, % For You and top searches, and log each post in `anime/log.csv`.
-- **Next @chequethetime edit (pick 16 Nov):** AOT, Mikasa → Eren, the "my only loooveeee" audio (ac @crvz), seamless loop of 14–18 s, #loopvember26.
+- **Next @chequethetime edit (pick 16 Nov, revised):** Firefly Wedding, Shinpei × Satoko, the "my only loooveeee" audio (ac @crvz), looped. AOT was dropped: Vyx's last 3 AOT posts across all accounts were below median [V]. Before picking a show, check Vyx's own history with it.
 - **@chequethetime = the test lab** (hours per edit): 2–3 edits a week, one big change at a time. Carry what works into @stayvyxed.
 - **First second:** motion or the subject in frame 1. No typed text over black (Ao Haru Ride: 1.96 s) [n=1].
 - **Pick what people want now:** shows airing or premiering this week, seasonal fits, and songs people search with "edit". Tools: AniList API (to build); Creator Search Insights in the app.
@@ -41,5 +41,5 @@ Updated 2026-11-16 by local session (v1: Vyx's briefing + 6 Studio screenshots).
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots (Overview, Traffic source, Search queries) → `anime/log.csv`.
-- **Public post lists:** the Saturday routine pulls both accounts (Vyx OK'd 16 Nov; first run 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 65 left on 16 Nov, resets 14 Dec). AniList API is free, but needs a User-Agent header.
+- **Public post lists:** the Saturday routine pulls both accounts (Vyx OK'd 16 Nov; first run 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 60 left on 16 Nov, resets 14 Dec). AniList API is free, but needs a User-Agent header.
 - **Browser pane:** it's signed in to a TikTok account, so profile-header reads only. No scripted pulls (an in-page script was blocked 15 Nov). Never hover or play.
