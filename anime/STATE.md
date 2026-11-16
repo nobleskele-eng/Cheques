@@ -45,5 +45,5 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows use Vyx's local date; pull rows use UTC.
-- **Public lists:** the Saturday routine (from 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 50 left on 16 Nov, resets 14 Dec). AniList API is free but needs a User-Agent header.
-- **Browser pane:** signed in to a TikTok account, so profile-header reads only. No scripted pulls. Never hover or play.
+- **Public lists:** the Saturday routine (from 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; **5 left on 16 Nov**, resets 14 Dec). vidIQ can't see frame shape or pace except through its 10-credit watch tool. AniList API is free but needs a User-Agent header.
+- **Browser pane:** signed in as @papercheques. Profile headers load; grids and follow lists don't. No scripted pulls. Never hover or play.
