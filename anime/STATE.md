@@ -23,7 +23,7 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 2. **@chequethetime did best with popular characters of an airing show** [vidIQ, all 16 posts]. 12–15 Feb, during JJK S3: 5 edits of that season's side characters (Shoko, Hakari, Choso, Kirara, Megumi) with fan-voice captions ("Hakari is so tuff in the new jjk episode"). Median 4.9K, likes 12.5–19.7%. Sep–Nov: 9 lyric-caption edits across 8 shows, none airing. Median 434, likes 4.8–13.7%.
 3. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5%. Black Clover got close on reactions but averaged 4.16 s, so no second batch.
 4. **Hits keep earning:** peak on days 2–3, then Search (10–23%) and profile visits (17–31%). Tunnel to Summer and Choso got ~2/3 of their views after day 7 [est]. Flops are ~97% For You and stop within hours.
-5. **Search comes from song, show and character names, not hashtags** (JJK: Bryson Tiller queries; Choso: "choso edit PATD" 41%; AOT: "attack on titan edit").
+5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 6. **Timing:** both JJK runs (@stayvyxed 657K on 15 Jan, @chequethetime in Feb) landed while JJK S3 aired (from 8 Jan) [web].
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
 8. **This month** (`research/trends-2026-11-16.md`): the circle runs #loopvember26 (loops mean more rewatches). Airing romance has the most breakouts (Firefly Wedding, Apothecary S3), many from accounts with <3.5K followers. "senju in the new episode 7" (Tokyo Revengers, 81K) shows the episode-reaction format working now.
