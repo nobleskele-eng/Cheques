@@ -40,7 +40,7 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Keep the metadata scripts off it until they're tested on @chequethetime.
 
 ## 4. Waiting on Vyx
-1. **Account status** on @stayvyxed (Settings and privacy → Account → Account status): any active strike?
+1. **Account status** on @stayvyxed (app: Account → Account status): any active strike?
 2. Slur rule: make it a hard rule?
 3. Studio screenshots for each new post (`accounts.md` lists them every Saturday).
 
