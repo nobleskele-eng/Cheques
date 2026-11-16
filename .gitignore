@@ -14,3 +14,6 @@ library/library.html
 # Scratch output from research scripts.
 research/scratch/
 __pycache__/
+
+# Vyx's private note: never commit.
+ignore when pushing.txt

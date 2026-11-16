@@ -4,7 +4,7 @@ Current state, findings and next steps: @MASTER.md
 
 ## Who / how to work
 - Vyx (they/them) runs @papercheques, a faceless scenery/mood TikTok. The goal is clout (views/followers), not money. Vyx has limited coding: Vyx directs, Claude builds.
-- Lead with the answer. Use step lists. Explain syntax/errors, not plan logic.
+- **Answer line first (Vyx, 16 Nov):** every reply opens with one bold line that answers the question outright: yes/no, a number, or the pick. Several questions → one answer line per question, at the top of its section. Then step lists. Explain syntax/errors, not plan logic.
 - Challenge weak ideas before building. Give one recommendation.
 - Never claim something works unless it was checked.
 - Label every number as sourced (say where) or estimate.
