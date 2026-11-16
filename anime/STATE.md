@@ -17,7 +17,7 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 - **Audience [V 16 Nov]:** every post over 100K views on either anime account had a majority-female audience, so Vyx plays the shoujo / romance / thirst-trap card hard.
 - **Warning on @stayvyxed:** a 300K post was removed ~6 months after posting for "hate speech" (censored n-word in on-screen lyric text). Not appealed. TikTok: strikes expire after 90 days; hitting the limit means 90 days out of For You; deleting a post doesn't remove its strike [web].
 - **Posting:** almost all from the phone app; Studio web did no better. Vyx runs scripts that change file metadata to reduce TikTok compression.
-- **Credit:** tag the audio/inspiration creator in the caption ("ib/rm @…", "ac @…"). Edits and AE projects stay on D:\, out of git.
+- **Credit:** tag the audio/inspiration creator in the caption ("ib/rm @…", "ac @…").
 
 ## 2. What we know (strongest first)
 1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. Every post at ≥5.9 s got 8.8K–657K views; every post at ≤4.2 s got under 1K (n=9). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
