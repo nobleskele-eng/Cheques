@@ -27,15 +27,14 @@ Updated 2026-11-16 by local session (v3: Vyx's niche + definitions; 3 tracked ed
 5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 6. **Timing:** both JJK runs (@stayvyxed 657K on 15 Jan, @chequethetime in Feb) landed while JJK S3 aired (from 8 Jan) [web].
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **This month** (`research/trends-2026-11-16.md`): #loopvember26 loops. Airing romance breaks out most (Firefly Wedding, Apothecary S3), often on accounts with <3.5K followers.
-9. **Reference yields** (`research/character-yield-2026-11-15.md`): romance steady, shonen mostly under 1×.
+8. **Reference yields** (`research/character-yield-2026-11-15.md`; mixes styles, includes @luhisaaaa): romance steady, shonen mostly under 1×. This month's generic trend scan: `research/trends-2026-11-16.md`.
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=9]. Log each post in `anime/log.csv`.
-- **Inside the niche** (§1), the Feb data adds: popular characters from a show people are watching now, with a fan-voice caption. Before picking a show, check Vyx's own history with it (AOT: last 3 posts below median [V]).
+- **Where show/audio leads come from (16 Nov):** only the tracked editors' results (`refs.md`) and Vyx's own data. Generic outlier searches mix in other styles (impact etc.). Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx makes the final call on fit.
 - **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, including animation, that sexualises minors [web], and @stayvyxed already has one violation.
 - **Tracked editors:** @smokinsasa7, @.sadaqatt, @zrivvn. `anime/refs.md` lists their posts weekly (Saturday routine).
-- **Next @chequethetime edit:** Firefly Wedding (ep 7 Fri 20 Nov), Shinpei × Satoko, a moment from the latest episode, the "my only loooveeee" audio (ac @crvz), fan-voice caption, looped.
+- **Next @chequethetime edit (show = weak lead from a generic search; audio from @.sadaqatt = in niche):** Firefly Wedding (ep 7 Fri 20 Nov), Shinpei × Satoko, a moment from the latest episode, the "my only loooveeee" audio (ac @crvz), fan-voice caption, looped.
 - **First second:** motion or the subject in frame 1. No typed text over black (Ao Haru Ride: 1.96 s).
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Keep the metadata scripts off it until they're tested on @chequethetime.
 
