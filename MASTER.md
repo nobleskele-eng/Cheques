@@ -1,5 +1,5 @@
-# MASTER: @papercheques current state
-Updated 2026-11-16 by local session (v59: @sylvanism_ hold lifted; 15 Nov posts). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+# MASTER: scenery accounts current state
+Updated 2026-11-16 by local session (v60: 4-account repo; anime in anime/). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - 57 followers, 53 posts [L 16 Nov]. To 12 Nov (51): median 743 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
@@ -23,11 +23,11 @@ Updated 2026-11-16 by local session (v59: @sylvanism_ hold lifted; 15 Nov posts)
 ## 3. Recommendation now: change the recipe, then test it
 - **Recipe test, 12 posts since 22 Oct:** median 780 vs 721 baseline, 705–1,097 views, likes 5.3% vs 5.2%, max 7.9% [C 14 Nov]. Levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
-- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone). **Hold lifted, not a shadowban [L 16 Nov]:** p101 166 views, 15 Nov post 256, likes 8.4–9.0% (ours 3.6–5.2%) [n=2]; p100 3; p106 49 at 2 h. Batches < ours. **Studio: >70% US [V 16 Nov]**: batch region follows the account. 1–2/day there. Never-posted clips only; rule 3. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone); **may replace @papercheques [V 16 Nov]**. **Hold lifted, not a shadowban [L 16 Nov]:** p101 166 views, 15 Nov post 256, likes 8.4–9.0% (ours 3.6–5.2%) [n=2]; p100 3; p106 49 at 2 h. Batches < ours. **Studio: >70% US [V 16 Nov]**: batch region follows the account. 1–2/day there. Never-posted clips only; rule 3. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
 - **Sound** (`research/data/proven_sounds.csv`): try hold the line, oscncs, yuji, blank-name original, 2+ tries each. Let Go no longer proven. Skip likely paid promos (list in `reports/rivals.md`). New sounds: `reports/sounds.md`.
-- **Upload:** lite must PASS. "Upload HD" on. Post directly, never scheduled, 1–3/day, 40+ min apart (12 Nov pair: 2.4 min). Credit the creator by 抖音号.
+- **Upload:** lite must PASS. "Upload HD" on. Post directly, never scheduled, 1–3/day, 40+ min apart. Credit the creator by 抖音号.
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 
 ## 4. Open conflicts / unknowns
@@ -56,4 +56,4 @@ Updated 2026-11-16 by local session (v59: @sylvanism_ hold lifted; 15 Nov posts)
 - Used up: p50–p79 [V 23 Oct]; p100 [est], p101, p106, p107, +1 on @sylvanism_. HOLD p61. Never: p54, p63 (re-uploaded shoots), p55–p57, p83, p91 Anne (baked signatures).
 
 ## 7. Latest agent reports
-- `reports/`: rivals 14 Nov (6/7 pulled) · self 14 Nov (51 posts) · scout 13 Nov (block stop) · sounds 2 Nov (Mondays).
+- `reports/`: rivals 14 Nov (6/7 pulled) · self 14 Nov (51 posts) · scout 13 Nov (block stop) · sounds 16 Nov.

@@ -1,30 +1,39 @@
-# @papercheques: read first (loaded in every local and cloud session)
+# Vyx's TikTok accounts: read first (loaded in every local and cloud session)
 
-Current state, findings and next steps: @MASTER.md
+Scenery accounts (@papercheques, @sylvanism_): current state, findings and next steps in @MASTER.md. Anime accounts (@stayvyxed, @chequethetime): read `anime/STATE.md` before working on them. All four at a glance: `accounts.md`.
 
 ## Who / how to work
-- Vyx (they/them) runs @papercheques, a faceless scenery/mood TikTok. The goal is clout (views/followers), not money. Vyx has limited coding: Vyx directs, Claude builds.
+- Vyx (they/them) runs four TikTok accounts (see Accounts). The goal is clout (views/followers), not money. Vyx has limited coding: Vyx directs, Claude builds.
 - **Answer line first (Vyx, 16 Nov):** every reply opens with one bold line that answers the question outright: yes/no, a number, or the pick. Several questions → one answer line per question, at the top of its section. Then step lists. Explain syntax/errors, not plan logic.
 - Challenge weak ideas before building. Give one recommendation.
 - Never claim something works unless it was checked.
 - Label every number as sourced (say where) or estimate.
 - Don't move or reorganise files without a yes. Don't bring up swimming.
-- **Content = permissioned Douyin clips only.** Never propose Vyx films footage, or creator outtakes, own multi-clip edits or stock ("mysterious aura", Vyx 19 Oct; repeated 11 Nov).
+- **Scenery accounts: content = permissioned Douyin clips only.** Never propose Vyx films footage, or creator outtakes, own multi-clip edits or stock ("mysterious aura", Vyx 19 Oct; repeated 11 Nov).
 - **Check status first:** Vyx posts and runs Content check lite on their own, so log.csv lags behind. Before planning posts, confirm what was already posted or rejected, then record it.
+
+## Accounts (Vyx, 16 Nov)
+| Account | What | Notes live in | Hard rules |
+|---|---|---|---|
+| @papercheques | scenery (Douyin clips), Canada | MASTER.md | 1–4 |
+| @sylvanism_ | scenery, US; AdsPower only; may replace @papercheques | MASTER.md §3, seed-cap §9 | 1–4 |
+| @stayvyxed | anime edits (Vyx in AE), oldest/largest; has a hate-speech warning | `anime/` | 1, 3, 4 |
+| @chequethetime | anime edits, simpler; the test lab | `anime/` | 1, 3, 4 |
+Dropped: @starzarchive1. A clip goes on one account only (duplicate matching).
 
 ## Sessions: one-shot, GitHub is the memory
 Vyx never reopens a finished session. Each new session starts from this file, MASTER.md and `git log -15 --stat --invert-grep --grep='^watch:'` (this hides the watch routine's data commits). Never rely on an earlier chat.
 - **During a session:** push after every change of state (a clip in, a post made, a check result, a decision).
 - **When Vyx says "end session":**
   1. `git pull --rebase`.
-  2. Write every new fact, decision and open question into the file that owns it: MASTER.md (under the cap), log.csv, library/, docs/ or reports/.
+  2. Write every new fact, decision and open question into the file that owns it: MASTER.md (under the cap), log.csv, `anime/`, `accounts.md`, library/, docs/ or reports/.
   3. Commit and push to main. Check that `git ls-remote origin main` matches `git rev-parse HEAD`.
   4. Reply with a summary of 3–5 lines and the commit hash. If something couldn't be saved, say what.
 
 ## Hard rules (never break, whoever asks)
-1. **Editing is OK, evading isn't** (Vyx, 21 Oct). Colour correction, exposure, denoise, re-export and trims are fine. Still banned: any change made to fool TikTok's duplicate matching (mirroring, speed changes, borders/overlays/noise added to dodge detection). Keep the untouched original and save edits as `pNN <content> edit.mp4`.
-2. **Permission and credit:** only post clips whose creator allowed reuse (拿了留痕 / 随便拿 / 可以拿 / 原创素材 in the caption, or a yes by DM). Credit them. Prefer the original file. Permissions for p50–p72 were asked with "不剪辑、不加字" (no cutting/editing, no text). For those clips, keep the full length; colour correction only. New requests use the DM in `docs/methods.md` §3.
-3. **Never play @papercheques videos in a browser, and scripts never load or download our own video pages (`/video/<id>`) or files** (confirmed 21 Oct). Allowed and expected: our profile page and the item_list post list, via `research/scripts/pull_account.py`. For other accounts: grid covers only, never hover tiles.
+1. **Editing is OK, evading isn't** (Vyx, 21 Oct). Colour correction, exposure, denoise, re-export and trims are fine. Still banned: any change made to fool TikTok's duplicate matching (mirroring, speed changes, borders/overlays/noise added to dodge detection). Keep the untouched original and save edits as `pNN <content> edit.mp4`. In anime edits, speed ramps and overlays are craft, not evasion; the ban is on changes made to dodge detection.
+2. **Permission and credit (scenery accounts):** only post clips whose creator allowed reuse (拿了留痕 / 随便拿 / 可以拿 / 原创素材 in the caption, or a yes by DM). Credit them. Prefer the original file. Permissions for p50–p72 were asked with "不剪辑、不加字" (no cutting/editing, no text). For those clips, keep the full length; colour correction only. New requests use the DM in `docs/methods.md` §3.
+3. **Never play our videos (any of our accounts) in a browser, and scripts never load or download our own video pages (`/video/<id>`) or files** (confirmed 21 Oct; all accounts since 16 Nov). Allowed and expected: our profile pages and the item_list post list, via `research/scripts/pull_account.py`. For other accounts: grid covers only, never hover tiles.
 4. **Never ask for API keys or passwords in chat.** No third-party upload tools or anything that needs the TikTok login (e.g. "HD by Rein"). Only exception (Vyx, 12 Nov): the US test account @sylvanism_ may run in AdsPower (anti-detect browser, holds its login). @papercheques never goes into AdsPower.
 
 ## Where work runs
@@ -45,7 +54,7 @@ Vyx never reopens a finished session. Each new session starts from this file, MA
 | editor | Fold reports into MASTER.md under the cap, commit, push | either |
 
 ## Files
-`MASTER.md` current state · `docs/charm.md` aesthetic gate · `docs/methods.md` how-to · `reports/` the latest output of each agent (overwritten each run) · `research/` cloud analyses + data + scripts · `log.csv` every downloaded/posted clip · `audio/<date>/` reference audio of the top new sounds (`research/scripts/download_audio.py`, ~200 KB each; add the sound in the TikTok app when posting) · `library/` clip candidates + accounts · `tools/` PowerShell checks · `notes/project-notes.md` full history to 21 Oct (frozen; search it, don't load it whole).
+`MASTER.md` scenery state · `accounts.md` all four accounts at a glance · `anime/` @stayvyxed + @chequethetime (STATE.md, log.csv with Studio numbers, references.csv, research/) · `docs/charm.md` aesthetic gate · `docs/methods.md` how-to · `reports/` the latest output of each agent (overwritten each run) · `research/` cloud analyses + data + scripts · `log.csv` every downloaded/posted clip · `audio/<date>/` reference audio of the top new sounds (`research/scripts/download_audio.py`, ~200 KB each; add the sound in the TikTok app when posting) · `library/` clip candidates + accounts · `tools/` PowerShell checks · `notes/project-notes.md` full history to 21 Oct (frozen; search it, don't load it whole).
 
 ## Updating MASTER.md (the moving doc)
 1. **Pull first:** `git pull --rebase` before editing. Only one writer at a time.
