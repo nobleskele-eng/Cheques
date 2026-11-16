@@ -22,10 +22,12 @@ Updated 2026-11-16 by local session (v1: Vyx's briefing + 6 Studio screenshots).
 4. **Search comes from song and show names, not hashtags.** JJK: all 5 top queries were Bryson Tiller ("are you listening bryson tiller" 11.8%). Choso: "choso edit PATD" 41%. AOT: "attack on titan edit" 13.3%. Tunnel: "the tunnel to summer" 13%.
 5. **Timing:** the JJK hit went up a week after Season 3 premiered (8 Jan 2026) [web]. Tunnel to Summer, a summer film, went up in August [est]. Black Clover was live ("best episode this year") but lost viewers fast, so timing only helps when the edit holds.
 6. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more followers: ~350K views at Choso's rate, or 1–1.5M at hit rates [est].
-7. **Reference yields** (`research/character-yield-2026-11-15.md`): romance steady (Ao Haru Ride 3.8×), shonen mostly under 1× (JJK 0.66×). Our data disagrees: JJK and AOT are our 2026 hits, and Ao Haru Ride flopped (n=1). The edit and the timing beat a show's average [est].
+7. **This month** (`research/trends-2026-11-16.md`, vidIQ): the circle runs #loopvember26 (looped edits, which means more rewatches). Ao Haru Ride works for the refs right now (82.8K in 2 days), so our 434 was the edit, not the show [est]. Small accounts break out: outliers from 276–3.4K-follower accounts, up to 2.5M.
+8. **Reference yields** (`research/character-yield-2026-11-15.md`): romance steady (Ao Haru Ride 3.8×), shonen mostly under 1× (JJK 0.66×). Our data disagrees: JJK and AOT are our 2026 hits, and Ao Haru Ride flopped (n=1). The edit and the timing beat a show's average [est].
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est threshold, n=9]. Read it with likes, shares, % For You and top searches, and log each post in `anime/log.csv`.
+- **Next @chequethetime edit (pick 16 Nov):** AOT, Mikasa → Eren, the "my only loooveeee" audio (ac @crvz), seamless loop of 14–18 s, #loopvember26.
 - **@chequethetime = the test lab** (hours per edit): 2–3 edits a week, one big change at a time. Carry what works into @stayvyxed.
 - **First second:** motion or the subject in frame 1. No typed text over black (Ao Haru Ride: 1.96 s) [n=1].
 - **Pick what people want now:** shows airing or premiering this week, seasonal fits, and songs people search with "edit". Tools: AniList API (to build); Creator Search Insights in the app.
@@ -39,5 +41,5 @@ Updated 2026-11-16 by local session (v1: Vyx's briefing + 6 Studio screenshots).
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots (Overview, Traffic source, Search queries) → `anime/log.csv`.
-- **Public post lists:** the Saturday routine pulls both accounts (Vyx OK'd 16 Nov; first run 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 80 left on 15 Nov, resets 14 Dec).
+- **Public post lists:** the Saturday routine pulls both accounts (Vyx OK'd 16 Nov; first run 21 Nov) → `research/data/<handle>_videos.csv` + `accounts.md`. Or vidIQ `vidiq_tiktok_profile_videos` (5 credits a page; 65 left on 16 Nov, resets 14 Dec). AniList API is free, but needs a User-Agent header.
 - **Browser pane:** it's signed in to a TikTok account, so profile-header reads only. No scripted pulls (an in-page script was blocked 15 Nov). Never hover or play.
