@@ -11,19 +11,19 @@ Updated 2026-11-16 by local session (v59: @sylvanism_ hold lifted; 15 Nov posts)
 ## 2. What we know (strongest first)
 1. **Content check lite** (TikTok Studio web upload) predicts flags: PASS → no flag 3/3 (p60, p64, p67). ERROR → p58 flagged, p54 never posted. Rejected: p65, p69, p73, p78–p80, p84. Passed: p74–p77, p81, p82. Format: weak lead. [V][L ffprobe]
 2. **Sound:** another account's sound mostly beats official tracks (1.24–1.53× vs 0.36–0.80× same-week views). "Let Go" faded to 1.5× (11 uses, 55% beat): no longer proven. "hold the line" (drifting., official) proven: 3.8×, 69% beat, 16 uses, last 9 Nov; "Originalton" 7dievgssn 4.7×, 100%, 6 uses, 12 Nov [C 14 Nov]. Stale 3–6 wk: oscncs 14×, yuji 8×, 𝙈𝙃𝘾 7×, blank-name 5.6× (n=3–5). [C] Ours since 24 Oct 22:35 UTC: own audio (new sound per upload, named after our blank nickname). [L]
-3. **Served quality: no lift [L].** Original-file posts: median 778 (n=6); someplace505 original alone 0.81× (n=17). Not the cap. 15 Nov posts: 576p re-encodes again.
+3. **Served quality: no lift [L].** Original-file posts median 778 (n=6); someplace505 original alone 0.81× (n=17). Not the cap. 15 Nov: 576p re-encodes again.
 4. **Openings:** all top 5 of the network's hit batch open on an upward reveal (tilt up from ground/railing). The 3 of ours checked are mostly static. n=8+3. [C] **Theme:** someplace505 nature posts ~206K median vs city ~42K (n=4+4). [L grid]
 5. **Length and cuts:** network hits 6–13 s. 9 of 12 mapped posts since 5 Oct were cut short between file and post (median −3.0 s); full vs cut: no difference (n=3 vs 9). [L]
 6. **Volume:** views per post drop past ~3/day (someplace505) or ~6/day (elsewhere557). [C]
 7. **Posting mode:** scheduled median 353 vs direct 716 (n=3 vs 36; 12 h ahead → 31 views). Post directly, 40+ min apart. [L csv + decode]
 8. **Hour (confounded):** 23:00–02:30 UTC n=10: median 792; 02:30–05:00 UTC n=19: 687. [L csv]
-9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. elsewhere557 median 12.9K (7 d, unripe; best 2.2M 5 Nov); someplace505 10.9K; .aaapaathy 8.6M hit 7 Nov, fang_w3 993K 10 Nov [C 14 Nov]. [C]
+9. **The network is a business** (sound promo, €54.99 course). kadzoo55871 + elsewhere557 (+ anywhere557, rvf5567 likely) = one operator; someplace505 separate. elsewhere557 median 12.9K (7 d, unripe; best 2.2M 5 Nov); someplace505 10.9K; .aaapaathy 8.6M hit 7 Nov, fang_w3 993K 10 Nov [C 14 Nov].
 10. **Model** (`research/success-model.md`): AUC 0.64 beat-median, 1M+ at chance. [C]
 
 ## 3. Recommendation now: change the recipe, then test it
 - **Recipe test, 12 posts since 22 Oct:** median 780 vs 721 baseline, 705–1,097 views, likes 5.3% vs 5.2%, max 7.9% [C 14 Nov]. Levers don't move the ~700 band.
 - **Search captions: withdrawn [V 12 Nov].** p27's search tail was a trend spike (Edgerunners 2) with 4.9% likes and 3 followers; no place names in captions (they drive "where?" comments). Keep the credit line. Note §7.
-- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone). **Hold lifted, not a shadowban [L 16 Nov]:** p101 166 views, 15 Nov post 256, likes 8.4–9.0% (ours 3.6–5.2%) [n=2]; p100 3; p106 47 at 1.7 h. Batches smaller than ours. Next: Studio Viewers on the 256 post (US For You?). 1–2/day there. Never-posted clips only; rule 3. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
+- **Test batch = ~96% Canada [V Studio 12 Nov]** (p98/p99); p27 61% US, via search. **US test account @sylvanism_ [V 12 Nov]** (SF; AdsPower + US ISP proxy, web only, never phone). **Hold lifted, not a shadowban [L 16 Nov]:** p101 166 views, 15 Nov post 256, likes 8.4–9.0% (ours 3.6–5.2%) [n=2]; p100 3; p106 49 at 2 h. Batches < ours. **Studio: >70% US [V 16 Nov]**: batch region follows the account. 1–2/day there. Never-posted clips only; rule 3. Note §9. **No self-shot, outtakes, own edits or stock [V 19 Oct, 11 Nov].**
 - **Clip selection:** upward reveal, payoff in the first second, 8–13 s (14.5–20 s: trimmed [V 25 Oct]). **Post at full length.** **Pivot [V 12 Nov]:** nature, little/no city, never Chongqing; one striking feature (lanterns, bubbles); 4K60 preferred. Never slowed-down clips; needs a subject; 2K+.
 - **p76 setup = default [V 22 Oct]:** original file, no edit, uncut, posted right after lite PASS.
 - **Sound** (`research/data/proven_sounds.csv`): try hold the line, oscncs, yuji, blank-name original, 2+ tries each. Let Go no longer proven. Skip likely paid promos (list in `reports/rivals.md`). New sounds: `reports/sounds.md`.
@@ -31,10 +31,10 @@ Updated 2026-11-16 by local session (v59: @sylvanism_ hold lifted; 15 Nov posts)
 - **Log every post** in log.csv: tiktok_link, 1 h and 24 h views/likes, shares, saves, % For You, % watched to end.
 
 ## 4. Open conflicts / unknowns
-- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Script still challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`.
+- **Audio [L 12 Nov]:** 9 Nov list (15) in `audio/2026-11-09`. Challenged: links via browser pane, then `download_audio.mjs <csv> AB <urls.json>`.
 - **Pull [C 14 Nov]:** 6/7 OK (~25 min); rvf5567 failed (profile gone?), data 21 Oct. [L 12 Nov] Python runs locally but TikTok challenges it; in-page item_list via the browser pane works.
 ## 5. Waiting on Vyx
-0. **Credit missing** on all captions, both accounts, still on 15–16 Nov (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers?
+0. **Credit missing** on all captions, both accounts, to 16 Nov (rule 2; DM promised it): add 抖音号. 9 Nov + 10 Nov posts: p-numbers?
 1. **p77:** full link. p74: edit or original?
 2. **Who shortens clips:** you, or TikTok when the sound is added?
 3. Map the 4 posts of 20–21 Oct (EDT 22:42, 23:24, 00:06, 02:00 sched.); p75 is one of the first three.
@@ -45,7 +45,8 @@ Updated 2026-11-16 by local session (v59: @sylvanism_ hold lifted; 15 Nov posts)
 8. **p76:** "Tao" mark at bottom centre? (韬, like p83)
 9. **p82:** posted? Time + sound.
 10. **4 unmatched posts** (UTC 24 Oct 22:35 · 25 Oct 23:34 · 27 Oct 01:51 · 30 Oct 01:48): p-numbers + upload path?
-11. **15 Nov:** "test" (20 views: why?) + #ocean = p105? @sylvanism_ 02:37 = p96 or p103? Its Studio Viewers: % US, % For You.
+11. **15 Nov:** "test" (20 views: why?) + #ocean = p105? @sylvanism_ 02:37 = p96 or p103? Its % For You?
+12. **Next 6 clips to @sylvanism_?** See seed-cap §9.
 ## 6. Pipeline
 - **In, precheck no red, lite next [L 13 Nov, permission V 13 Nov]:** p105–p116, 12 nature. Plan `reports/gate.md`: p110 left (p102, p105 [est] posted; p106, p107 on @sylvanism_). p108–p116: creator check + 抖音号 before posting.
 - Next file **p117**. Douyin pane blocked (服务异常, 13 Nov). **Nature, in, precheck OK, lite next [L 13 Nov, permission V 12 Nov]:** p103 Erhai dusk pan 4K 10.7 s · p104 Lijiang snow mountain 2K 8.6 s.
