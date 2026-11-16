@@ -13,6 +13,8 @@ def w(name, cols, rows):
         c = csv.writer(f, lineterminator='\n'); c.writerow(cols); c.writerows(rows)
 w('videos', ['video_id','posted_utc','views','likes','comments','shares','saves','duration_s','sound_title','sound_is_original'],
   [[i['id'],T(i['createTime']),i['views'],i['likes'],i['comments'],i['shares'],i['saves'],i['duration'],i['music_title'],i['music_original']] for i in items])
+# Captions in their own file (added 16 Nov) so the videos CSV keeps its columns for older readers.
+w('captions', ['video_id','posted_utc','caption'], [[i['id'],T(i['createTime']),' '.join((i.get('desc') or '').split())] for i in items])
 def origin(x):
     own = x['music_author'] == nick; d = x['createTime'] - (int(x['music_id']) >> 32)
     if own and abs(d) <= 3600: return 'new sound created by this upload'

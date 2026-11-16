@@ -28,7 +28,7 @@ def posts(h):
                 continue
     return sorted(rows)
 
-for h in sys.argv[1:]:
+def stats(h):
     out = {'handle': h, **profile(h)}
     try:
         rows = posts(h)
@@ -49,4 +49,8 @@ for h in sys.argv[1:]:
             'posts_last_7d': [{'posted_utc': day(t), 'views': v, 'still_collecting': (now - t).total_seconds() < 86400}
                               for t, v, _ in rows if (now - t).total_seconds() < 7 * 86400],
         })
-    print(json.dumps(out, ensure_ascii=False))
+    return out
+
+if __name__ == '__main__':  # refs_report.py imports profile() and posts() from here
+    for h in sys.argv[1:]:
+        print(json.dumps(stats(h), ensure_ascii=False))
