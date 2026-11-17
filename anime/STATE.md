@@ -27,16 +27,16 @@ Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [
 5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 6. **Timing:** both JJK runs (657K on 15 Jan; @chequethetime in Feb) landed while JJK S3 aired [web].
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **Our edits flop where the show works [C 17 Nov, n=2]:** Ao Haru Ride 1.96 s, Firefly Wedding 2.5 s (490); both shows broke out on small accounts (`trends-2026-11-16.md`). Firefly's batch was on target (67% female), gone in ~2 s: it's the opening [est]. Not aspect/quality (hits were 4:3; Firefly ran 12.6 Mbps).
+8. **Our edits flop where the show works [C 17 Nov, n=2]:** Ao Haru Ride 1.96 s, Firefly Wedding 2.5 s (490); both shows broke out on small accounts (`trends-2026-11-16.md`). On-target batch (67% female) gone in ~2 s: it's the opening [est]. Not aspect/quality (hits 4:3 too; Firefly 12.6 Mbps).
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10]. Log each post in `anime/log.csv`.
 - **Where show/audio leads come from (16 Nov):** only the tracked editors' results (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles. Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx judges fit.
-- **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, including animation, that sexualises minors [web], and @stayvyxed already has one violation.
-- **Next @chequethetime edit [C 17 Nov]:** Firefly Wedding again, ep 7 footage (Fri 20 Nov), same audio. Change only the opening, like the show's breakouts: couple close-up moving in frame 1 + a trope/fan-voice line, not a lyric.
-- **First second:** motion or the subject in frame 1; no typed text over black (Ao Haru Ride).
+- **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
+- **Next @chequethetime edit [C 17 Nov]:** Firefly Wedding again, ep 7 footage (Fri 20 Nov), same audio, fan-voice caption; change only the opening (below).
+- **First second:** subject in frame 1 isn't enough (Firefly: his bloody face, hers hidden, no text → 2.5 s). Open on both faces, moving, trope line in the empty top bar (like the breakouts). No text over black.
 - **No 4K upscaling [16 Nov]:** TikTok caps re-encodes at 1080×1920 (0/748 network videos higher [C]); ~4K original-file posts gave no lift [L]. Export 1080; upscale only crops under 1080 px. After 21 Nov: `research/data/<h>_encoding.csv` vs views.
-- **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Keep the metadata scripts off it until they're tested on @chequethetime.
+- **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it until tested on @chequethetime.
 
 ## 4. Waiting on Vyx
 1. **Account status** on @stayvyxed (app: Account → Account status): any active strike?
