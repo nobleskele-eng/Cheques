@@ -28,14 +28,14 @@ Updated 2026-11-17 by cloud session (v5: Firefly flop). Tags: [V] Vyx, [L] local
 5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 6. **Timing:** both JJK runs (657K on 15 Jan; @chequethetime in Feb) landed while JJK S3 aired [web].
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **Our edits flop where the show works [C 17 Nov, n=2]:** Ao Haru Ride 1.96 s, Firefly Wedding 2.5 s (490); both shows broke out on small accounts (`trends-2026-11-16.md`). On-target batch (67% female) gone in ~2 s: it's the opening [est]. Not aspect/quality (hits 4:3 too; Firefly 12.6 Mbps).
+8. **Same show, audio, format, caption style; still flops [C 17 Nov]:** our Ao Haru Ride ×2 (416, 443) and Firefly (490, .sadaqatt's audio) vs sasa AHR 313K, .sadaqatt 95.6K: all 1440×1080, lyric captions; both blows open on black. Left: the edit (Vyx) and reach: 52.6K / 15.2K followers vs 90; their worst of the last 12: 11.2K / 5.6K. Feb (1–8.8K): not capped at ~450.
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10]. Log each post in `anime/log.csv`.
 - **Show/audio leads (16 Nov):** only the tracked editors (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles. Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx judges fit.
 - **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
-- **Next @chequethetime edit:** Firefly Wedding again, ep 7 footage (Fri 20 Nov), same audio; change only the opening (below).
-- **First second:** subject in frame 1 isn't enough (Firefly → 2.5 s). Vyx picks the opener; compare our first 2 s to the same-audio ref (.sadaqatt Ao Haru Ride, 82.8K). No text over black.
+- **Next [proposed 17 Nov, Vyx decides]:** a lab/collab part with a circle editor: tests reach, no style call by Claude. Their lab/collab posts: 5.6K–11.2K; followers it brings a contributor: no number.
+- **Frame 1 isn't the gate [V 17 Nov]:** both blows open on black. "Subject in frame 1" and "no text over black" retracted.
 - **No 4K upscaling [16 Nov]:** TikTok caps re-encodes at 1080×1920 (0/748 network videos higher [C]); ~4K original-file posts gave no lift [L]. Export 1080; upscale only crops under 1080 px. After 21 Nov: `research/data/<h>_encoding.csv` vs views.
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it until tested on @chequethetime.
 
@@ -43,7 +43,6 @@ Updated 2026-11-17 by cloud session (v5: Firefly flop). Tags: [V] Vyx, [L] local
 1. **Account status** on @stayvyxed (app: Account → Account status): any active strike?
 2. Slur rule: make it a hard rule?
 3. Studio screenshots for each new post (`accounts.md` lists them Saturdays).
-4. Does aloofness rule out fan-voice captions (Feb hits had them) or only on-screen text?
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows use Vyx's local date; pull rows use UTC.
