@@ -34,7 +34,7 @@ Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [
 - **Where show/audio leads come from (16 Nov):** only the tracked editors' results (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles. Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx judges fit.
 - **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
 - **Next @chequethetime edit [C 17 Nov]:** Firefly Wedding again, ep 7 footage (Fri 20 Nov), same audio, fan-voice caption; change only the opening (below).
-- **First second:** subject in frame 1 isn't enough (Firefly: his bloody face, hers hidden, no text → 2.5 s). Open on both faces, moving, trope line in the empty top bar (like the breakouts). No text over black.
+- **First second:** subject in frame 1 isn't enough (Firefly: his bloody face, hers hidden, no text → 2.5 s). Open on both faces, moving, trope line in the empty top bar (as breakouts do). No text over black.
 - **No 4K upscaling [16 Nov]:** TikTok caps re-encodes at 1080×1920 (0/748 network videos higher [C]); ~4K original-file posts gave no lift [L]. Export 1080; upscale only crops under 1080 px. After 21 Nov: `research/data/<h>_encoding.csv` vs views.
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it until tested on @chequethetime.
 
