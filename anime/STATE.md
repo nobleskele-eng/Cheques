@@ -1,5 +1,5 @@
 # ANIME: @stayvyxed + @chequethetime current state
-Updated 2026-11-16 by local session (v4: no 4K upscaling). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
+Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |
@@ -7,35 +7,35 @@ Updated 2026-11-16 by local session (v4: no 4K upscaling). Tags: [V] Vyx, [L] lo
 | Role | oldest, largest; formal cinematic edits | jugg + "tiktok style" edits: romance and/or thirst traps of popular characters [V 16 Nov] |
 | Effort | month(s) per edit, months between posts | hour(s) per edit |
 | Goal | keep growing; never get shadowbanned | 1K followers by summer 2027, or drop it |
-| Followers [L profile 16 Nov] | 7,499 (1.5M likes) | 91 (4,617 likes); 16 posts, median 872 [vidIQ] |
+| Followers [C pull 17 Nov] | 7,495 (1.45M likes) | 90 (4,669 likes); 17 posts, median 886 |
 | Best 2026 | JJK 657K (15 Jan) | Choso 8.8K (14 Feb) |
-| Latest | Black Clover 945 (9 Nov) | Ao Haru Ride 434 (16 Nov) |
+| Latest | Black Clover 945 (9 Nov) | Firefly Wedding 490 (16 Nov) |
 - **Niche [V 16 Nov]:** "jugg" and "tiktok style" edits, mostly romance and/or thirst traps of popular characters. Both aim to feel sensual, intimate or personal to the viewer.
   - **sasa jugg** (@smokinsasa7, @.sadaqatt): R&B song + soft shakes and blur transitions, focused on a character's look or a relationship (almost always a couple).
   - **tiktok style** (@zrivvn): 1080×1080 edit of one character, slow transitions, soft blur flicker.
   - **Not these [V 16 Nov]:** *impact* edits (impact frames, strong shakes, harsh rap such as osamason) and *manga animation* (animated manga panels). **Tags can't tell styles apart**: #jugg / #juggedit get used as keyword spam. Only watching can, so Vyx judges style (Claude's 16 Nov picks: 0/3).
 - **Audience [V 16 Nov]:** every post over 100K views on either anime account had a majority-female audience, so Vyx plays the shoujo / romance / thirst-trap card hard.
 - **Warning on @stayvyxed:** a 300K post was removed ~6 months after posting for "hate speech" (censored n-word in on-screen lyric text). TikTok: strikes expire after 90 days; hitting the limit means 90 days out of For You; deleting a post doesn't remove its strike [web].
-- **Posting:** almost all from the phone app; Studio web did no better. Vyx's metadata scripts aim to cut TikTok compression.
+- **Posting:** almost all from the phone app (Studio web did no better). Vyx's metadata scripts aim to cut compression.
 - **Credit:** tag the audio/inspiration creator in the caption ("ib/rm @…", "ac @…").
 
 ## 2. What we know (strongest first)
-1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. Every post at ≥5.9 s got 8.8K–657K views; every post at ≤4.2 s got under 1K (n=9). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
+1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. Posts at ≥5.9 s got 8.8K–657K views; posts at ≤4.2 s got under 1K (n=10). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
 2. **@chequethetime did best with popular characters of an airing show** [vidIQ, all 16 posts]. 12–15 Feb, during JJK S3: 5 edits of that season's side characters (Shoko, Hakari, Choso, Kirara, Megumi) with fan-voice captions ("Hakari is so tuff…"). Median 4.9K, likes 12.5–19.7%. Sep–Nov: 9 lyric-caption edits across 8 shows, none airing. Median 434, likes 4.8–13.7%.
 3. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5% (Black Clover matched those but averaged 4.16 s: no second batch).
 4. **Hits keep earning:** peak on days 2–3, then Search (10–23%) and profile visits (17–31%). Tunnel to Summer and Choso got ~2/3 of their views after day 7 [est]. Flops are ~97% For You and stop within hours.
 5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
-6. **Timing:** both JJK runs (@stayvyxed 657K on 15 Jan, @chequethetime in Feb) landed while JJK S3 aired (from 8 Jan) [web].
+6. **Timing:** both JJK runs (657K on 15 Jan; @chequethetime in Feb) landed while JJK S3 aired [web].
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **Reference yields** (`research/character-yield-2026-11-15.md`, `trends-2026-11-16.md`; mixed styles): romance steady, shonen mostly under 1×.
+8. **Our edits flop where the show works [C 17 Nov, n=2]:** Ao Haru Ride 1.96 s, Firefly Wedding 2.5 s (490); both shows broke out on small accounts (`trends-2026-11-16.md`). Firefly's batch was on target (67% female), gone in ~2 s: it's the opening [est]. Not aspect/quality (hits were 4:3; Firefly ran 12.6 Mbps).
 
 ## 3. Recommendation now
-- **Target: average watch ≥6 s** in Studio at 24 h [est, n=9]. Log each post in `anime/log.csv`.
-- **Where show/audio leads come from (16 Nov):** only the tracked editors' results (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles (impact etc.). Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx makes the final call on fit.
+- **Target: average watch ≥6 s** in Studio at 24 h [est, n=10]. Log each post in `anime/log.csv`.
+- **Where show/audio leads come from (16 Nov):** only the tracked editors' results (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles. Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx judges fit.
 - **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, including animation, that sexualises minors [web], and @stayvyxed already has one violation.
-- **Next @chequethetime edit (show = weak lead from a generic search; audio from @.sadaqatt = in niche):** Firefly Wedding (ep 7 Fri 20 Nov), Shinpei × Satoko, a moment from the latest episode, the "my only loooveeee" audio (ac @crvz), fan-voice caption, looped.
-- **First second:** motion or the subject in frame 1. No typed text over black (Ao Haru Ride: 1.96 s).
-- **No 4K upscaling [16 Nov]:** TikTok re-encodes cap at 1080×1920 (0/748 network videos higher [C]); 6 @papercheques posts served as the ~4K original: median 778 vs 743 [L]. Export 1080; upscale only crops under 1080 px (9:16 of 1080p = 608 px). After 21 Nov: `research/data/<h>_encoding.csv` vs views.
+- **Next @chequethetime edit [C 17 Nov]:** Firefly Wedding again, ep 7 footage (Fri 20 Nov), same audio. Change only the opening, like the show's breakouts: couple close-up moving in frame 1 + a trope/fan-voice line, not a lyric.
+- **First second:** motion or the subject in frame 1; no typed text over black (Ao Haru Ride).
+- **No 4K upscaling [16 Nov]:** TikTok caps re-encodes at 1080×1920 (0/748 network videos higher [C]); ~4K original-file posts gave no lift [L]. Export 1080; upscale only crops under 1080 px. After 21 Nov: `research/data/<h>_encoding.csv` vs views.
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Keep the metadata scripts off it until they're tested on @chequethetime.
 
 ## 4. Waiting on Vyx
