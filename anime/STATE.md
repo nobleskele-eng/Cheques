@@ -1,5 +1,5 @@
 # ANIME: @stayvyxed + @chequethetime current state
-Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
+Updated 2026-11-17 by cloud session (v5: Firefly flop). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |
@@ -13,7 +13,7 @@ Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [
 - **Niche [V 16 Nov]:** "jugg" and "tiktok style" edits, mostly romance and/or thirst traps of popular characters. Both aim to feel sensual, intimate or personal to the viewer.
   - **sasa jugg** (@smokinsasa7, @.sadaqatt): R&B song + soft shakes and blur transitions, focused on a character's look or a relationship (almost always a couple).
   - **tiktok style** (@zrivvn): 1080×1080 edit of one character, slow transitions, soft blur flicker.
-  - **Not these [V 16 Nov]:** *impact* edits (impact frames, hard shakes, harsh rap like osamason), *manga animation*. **Tags can't tell styles apart** (#jugg is keyword spam); only watching can, so Vyx judges style (Claude's picks: 0/4).
+  - **Not these [V 16 Nov]:** *impact* edits (impact frames, hard shakes, harsh rap like osamason), *manga animation*. **Tags can't tell styles apart** (#jugg is keyword spam); only watching can, so Vyx judges style (Claude: 0/4).
   - **Aloof [V 17 Nov]:** no POV, no "when ___" lines, no on-screen text except lyrics.
 - **Audience [V 16 Nov]:** every post over 100K views on either anime account had a majority-female audience, so Vyx plays the shoujo / romance / thirst-trap card hard.
 - **Warning on @stayvyxed:** a 300K post was removed ~6 months after posting for "hate speech" (censored n-word in on-screen lyric text). TikTok: strikes expire after 90 days; hitting the limit means 90 days out of For You; deleting a post doesn't remove its strike [web].
@@ -35,7 +35,7 @@ Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [
 - **Show/audio leads (16 Nov):** only the tracked editors (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles. Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx judges fit.
 - **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
 - **Next @chequethetime edit:** Firefly Wedding again, ep 7 footage (Fri 20 Nov), same audio; change only the opening (below).
-- **First second:** subject in frame 1 isn't enough (Firefly → 2.5 s). Vyx picks the opener; compare our first 2 s with the same-audio ref (.sadaqatt Ao Haru Ride, 82.8K). No text over black.
+- **First second:** subject in frame 1 isn't enough (Firefly → 2.5 s). Vyx picks the opener; compare our first 2 s to the same-audio ref (.sadaqatt Ao Haru Ride, 82.8K). No text over black.
 - **No 4K upscaling [16 Nov]:** TikTok caps re-encodes at 1080×1920 (0/748 network videos higher [C]); ~4K original-file posts gave no lift [L]. Export 1080; upscale only crops under 1080 px. After 21 Nov: `research/data/<h>_encoding.csv` vs views.
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it until tested on @chequethetime.
 
@@ -43,7 +43,7 @@ Updated 2026-11-17 by cloud session (v5: Firefly Wedding flop). Tags: [V] Vyx, [
 1. **Account status** on @stayvyxed (app: Account → Account status): any active strike?
 2. Slur rule: make it a hard rule?
 3. Studio screenshots for each new post (`accounts.md` lists them Saturdays).
-4. Does aloofness rule out fan-voice captions (Feb hits used them) or only on-screen text?
+4. Does aloofness rule out fan-voice captions (Feb hits had them) or only on-screen text?
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows use Vyx's local date; pull rows use UTC.
