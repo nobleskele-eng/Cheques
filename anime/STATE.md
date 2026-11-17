@@ -1,5 +1,5 @@
 # ANIME: @stayvyxed + @chequethetime current state
-Updated 2026-11-17 by cloud session (v5: Firefly flop). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
+Updated 2026-11-17 by cloud session (v6: caption voice, mechanics ruled out). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |
@@ -16,31 +16,34 @@ Updated 2026-11-17 by cloud session (v5: Firefly flop). Tags: [V] Vyx, [L] local
   - **Not these [V 16 Nov]:** *impact* edits (impact frames, hard shakes, harsh rap like osamason), *manga animation*. **Tags can't tell styles apart** (#jugg is keyword spam); only watching can, so Vyx judges style (Claude: 0/4).
   - **Aloof [V 17 Nov]:** no POV, no "when ___" lines, no on-screen text except lyrics.
 - **Audience [V 16 Nov]:** every post over 100K views on either anime account had a majority-female audience, so Vyx plays the shoujo / romance / thirst-trap card hard.
-- **Warning on @stayvyxed:** a 300K post was removed ~6 months after posting for "hate speech" (censored n-word in on-screen lyric text). TikTok: strikes expire after 90 days; hitting the limit means 90 days out of For You; deleting a post doesn't remove its strike [web].
-- **Posting:** almost all from the phone app (Studio web did no better). Vyx's metadata scripts aim to cut compression.
+- **Warning on @stayvyxed:** a 300K post was removed ~6 months after posting for "hate speech" (censored n-word in on-screen lyric text). Strikes expire after 90 days; hitting the limit = 90 days out of For You; deleting doesn't remove a strike [web].
+- **Posting:** phone app (Studio web did no better); Vyx's metadata scripts aim to cut compression.
 - **Credit:** tag the audio/inspiration creator in the caption ("ib/rm @…", "ac @…").
 
 ## 2. What we know (strongest first)
-1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. Posts at ≥5.9 s got 8.8K–657K views; posts at ≤4.2 s got under 1K (n=10). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
-2. **@chequethetime did best with popular characters of an airing show** [vidIQ, all 16 posts]. 12–15 Feb, during JJK S3: 5 edits of that season's side characters (Shoko, Hakari, Choso, Kirara, Megumi) with fan-voice captions ("Hakari is so tuff…"). Median 4.9K, likes 12.5–19.7%. Sep–Nov: 9 lyric-caption edits across 8 shows, none airing. Median 434, likes 4.8–13.7%.
-3. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5% (Black Clover matched those but averaged 4.16 s: no second batch).
-4. **Hits keep earning:** peak on days 2–3, then Search (10–23%) and profile visits (17–31%). Tunnel to Summer and Choso got ~2/3 of views after day 7 [est]. Flops are ~97% For You and stop within hours.
-5. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
-6. **Timing:** both JJK runs (657K on 15 Jan; @chequethetime in Feb) landed while JJK S3 aired [web].
+1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. ≥5.9 s: 8.8K–657K views; ≤4.2 s: under 1K (n=10). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
+2. **Fan-voice captions beat lyrics on Vyx's accounts** [C 17 Nov, Claude's labels, `research/levers-2026-11-17.md`]. @stayvyxed: fan voice median 2.1× its running median (8/18 ≥3×), lyric 0.42× (1/29); without Jan 2026 1.4× vs 0.39×. @chequethetime: Feb fan voice median 4.9K; since Sep 1 in 10 posts ≥1K. Per-view likes/shares/comments equal: the gap is reach (search 10–25% vs 0.4–6.3% [V]). Tangled with content (romance ↔ lyrics).
+3. **Mechanics don't move views** [C 17 Nov, 438 posts, 3 accounts]: loudness, TikTok quality score, length, hour, gap, posts/24 h, hashtags: all |ρ| < 0.2 within accounts.
+4. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5% (Black Clover matched, but 4.16 s: no 2nd batch).
+5. **Hits keep earning:** peak on days 2–3, then Search (10–23%) and profile visits (17–31%); ~2/3 of Tunnel's and Choso's views after day 7 [est]. Flops are ~97% For You and stop within hours.
+6. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **Same show, audio, format, caption style; still flops [C 17 Nov]:** our Ao Haru Ride ×2 (416, 443) and Firefly (490, .sadaqatt's audio) vs sasa AHR 313K, .sadaqatt 95.6K: all 1440×1080, lyric captions; both blows open on black. Left: the edit (Vyx) and reach: 52.6K / 15.2K followers vs 90; their worst of the last 12: 11.2K / 5.6K. Feb (1–8.8K): not capped at ~450.
+8. **Same show, audio, format as the blows; still flops [C 17 Nov]:** Ao Haru Ride ×2 (416, 443), Firefly (490) vs sasa AHR 313K, .sadaqatt 95.6K (52.6K / 15.2K followers vs 90).
+9. **Oct–Nov dip niche-wide:** .sadaqatt's non-blow posts 5.6–9.4K (earlier medians 29–71K); @stayvyxed Nov median 1.0K. Judge posts against the circle's same week (`refs.md`).
+10. Solo popular character > couple on @chequethetime: 1.7K vs 466 (weak, tangled with JJK).
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10]. Log each post in `anime/log.csv`.
-- **Show/audio leads (16 Nov):** only the tracked editors (`refs.md`, weekly) and Vyx's own data. Generic outlier searches mix in other styles. Check Vyx's history with a show first (AOT: last 3 below median [V]). Vyx judges fit.
-- **Thirst traps: adult characters only.** Romance edits of teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
-- **Next [proposed 17 Nov, Vyx decides]:** a lab/collab part with a circle editor: tests reach, no style call by Claude. Their lab/collab posts: 5.6K–11.2K; followers it brings a contributor: no number.
-- **Frame 1 isn't the gate [V 17 Nov]:** both blows open on black. "Subject in frame 1" and "no text over black" retracted.
-- **No 4K upscaling [16 Nov]:** TikTok caps re-encodes at 1080×1920 (0/748 network videos higher [C]); ~4K original-file posts gave no lift [L]. Export 1080; upscale only crops under 1080 px. After 21 Nov: `research/data/<h>_encoding.csv` vs views.
-- **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it until tested on @chequethetime.
+- **Next 3 @chequethetime posts [proposed 17 Nov, Vyx decides]:** edit as Vyx makes it (aloof); only the caption changes, to Vyx's fan voice about the show/character. 2 of 3 at ≥1K by day 7 = it matters (~3–5% by luck); 0–1 = drop it.
+- **Show/audio leads:** only the tracked editors (`refs.md`) and Vyx's own data; generic searches mix styles. Vyx judges fit.
+- **Thirst traps: adult characters only.** Teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
+- **Frame 1 isn't the gate [V 17 Nov]:** both blows open on black.
+- **Export 1080, no 4K upscaling:** re-encodes cap at 1080×1920 (0/748 network videos higher [C]); quality/metadata tweaks don't move views (§2.3).
+- **Parked [V 17 Nov]:** collabs (tagging friends on @stayvyxed hasn't moved much; separate topic).
+- **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it.
 
 ## 4. Waiting on Vyx
-1. **Account status** on @stayvyxed (app: Account → Account status): any active strike?
+1. **Account status** on both accounts (app: Account → Account status): any strike or For You limit?
 2. Slur rule: make it a hard rule?
 3. Studio screenshots for each new post (`accounts.md` lists them Saturdays).
 
