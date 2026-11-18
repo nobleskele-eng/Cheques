@@ -29,7 +29,7 @@ Updated 2026-11-18 by cloud session (v8: first-batch theory; Feb replay test). T
 5. **Hits keep earning:** peak days 2–3, then Search (10–23%) and profile (17–31%); ~2/3 of Choso's views after day 7 [est]. Flops: ~97% For You, dead within hours.
 6. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
 7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
-8. **First batch [est]:** theirs includes fans (52.6K / 15.2K followers), so black opens and lyric captions work; ours is 99% strangers. Feb beat it via JJK S3 airing (Choso 22.5% search) or the account's debut week (no number). Firefly (airing, small show, lyric): 490.
+8. **First batch [est]:** theirs includes fans (52.6K / 15.2K followers), so black opens and lyric captions work; ours is 99% strangers. Feb beat it via JJK S3 airing (Choso 22.5% search) or the debut week (no number). Firefly (airing, small show, lyric): 490.
 9. **Oct–Nov dip niche-wide:** .sadaqatt's non-blow posts 5.6–9.4K (earlier medians 29–71K). Judge posts against the circle's same week (`refs.md`).
 
 ## 3. Recommendation now
