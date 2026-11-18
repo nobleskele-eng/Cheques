@@ -1,5 +1,5 @@
 # ANIME: @stayvyxed + @chequethetime current state
-Updated 2026-11-18 by cloud session (v8: first-batch theory; Feb replay test). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
+Updated 2026-11-18 by cloud session (v9: Maomao × Jinshi audio). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |
@@ -25,26 +25,27 @@ Updated 2026-11-18 by cloud session (v8: first-batch theory; Feb replay test). T
 1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. ≥5.9 s: 8.8K–657K views; ≤4.2 s: under 1K (n=10). Most viewers leave at 0:01 even on hits; hits keep more of the rest.
 2. **Our frame-by-frame remake flopped** [V 18 Nov]: same timing/effects as a sasa edit, new footage: 416. Gap = footage + account, not craft. Remakes multiply reach, don't create it: .sadaqatt "rm" posts 1.75× vs 0.92× (n=21, p≈0.01), on our ~450 ≈ 790. Labs/collabs 0.88×. `research/levers-2026-11-17.md`.
 3. **Mechanics don't move views** [C 17 Nov, 438 posts; circle alone too]: loudness, TikTok quality score, length, hour, gap, posts/24 h, hashtags: all |ρ| < 0.2 within accounts.
-4. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5% (Black Clover matched, but 4.16 s: no 2nd batch).
+4. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5%.
 5. **Hits keep earning:** peak days 2–3, then Search (10–23%) and profile (17–31%); ~2/3 of Choso's views after day 7 [est]. Flops: ~97% For You, dead within hours.
 6. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%).
-7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts. @chequethetime needs ~910 more: ~350K views at Choso's rate [est].
+7. **Followers per view:** 0.06–0.09% on hits, 0.2–0.27% on small posts; 910 more ≈ 350K views at Choso's rate [est].
 8. **First batch [est]:** theirs includes fans (52.6K / 15.2K followers), so black opens and lyric captions work; ours is 99% strangers. Feb beat it via JJK S3 airing (Choso 22.5% search) or the debut week (no number). Firefly (airing, small show, lyric): 490.
 9. **Oct–Nov dip niche-wide:** .sadaqatt's non-blow posts 5.6–9.4K (earlier medians 29–71K). Judge posts against the circle's same week (`refs.md`).
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10]. Log each post in `anime/log.csv`.
-- **Next [proposed 18 Nov, Vyx decides]: replay Feb.** Biggest airing show Vyx would edit; 3 edits of characters from its new episode within 2–3 days; aloof edits; caption names character + episode in Vyx's voice. 2 of 3 at ≥2K by day 7 = repeat weekly (since Sep 0/10; ~3% by luck); 0–1 = it was the debut, look at the account.
-- **Show/audio leads:** only the tracked editors (`refs.md`) and Vyx's own data; generic searches mix styles. Vyx judges fit.
-- **Thirst traps: adult characters only.** Teen couples stay sweet, not sensual. TikTok removes content, animation included, that sexualises minors [web]; @stayvyxed already has a violation.
-- **Export 1080, no 4K upscaling** (re-encodes cap at 1080×1920 [C]); quality/metadata tweaks don't move views (§2.3).
-- **Parked [V 17 Nov]:** collabs (tagging friends on @stayvyxed hasn't moved much; separate topic).
+- **Next [18 Nov]: Maomao × Jinshi** (Vyx's best fit; TR also works). Audio: sasa's AHR "and when i hold you in my arms" (313K, 4.55×, unused by us); alt rag's "i'm still waiting here" (Maomao 2.39×); avoid rag's 17 Nov song. Feb replay (levers §9) needs S3's new ep, not S1. `research/audio-maomao-2026-11-18.md`.
+- **Show/audio leads:** tracked editors + their circle (`references.csv`) and Vyx's own data; generic searches mix styles. Vyx judges fit.
+- **Thirst traps: adult characters only.** Teen couples stay sweet, not sensual: Maomao is 17 in S1; TR's cast is 14–15 in 2005 (adults ~27 in 2017) [fan sources]. TikTok removes content, animation included, that sexualises minors [web].
+- **Export 1080, no 4K upscaling** (re-encodes cap at 1080×1920); quality tweaks don't move views (§2.3).
+- **Parked [V 17 Nov]:** collabs (tagging friends hasn't moved much).
 - **Protect @stayvyxed [proposed]:** no slurs in on-screen text or captions, even censored. Metadata scripts stay off it.
 
 ## 4. Waiting on Vyx
 1. **Account status** on @chequethetime (Account → Account status). @stayvyxed: strike confirmed [V 17 Nov].
 2. Slur rule: make it a hard rule?
 3. Studio screenshots for each new post (`accounts.md` lists them Saturdays).
+4. Recent Maomao flop: account, date, sound, views? TR refs: spend the last 5 vidIQ credits?
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows: local date; pull rows: UTC.
