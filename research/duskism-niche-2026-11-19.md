@@ -40,4 +40,5 @@ Cloud session, 19 Nov. Data: public creator item_list pulls of 13 accounts (`res
 ## How the pull ran (for next time)
 - Logged out on TikTok web from the cloud, hashtag pages show "Something went wrong" (#stretchtok and #animeedit alike), search errors and discover pages redirect to For You. So the hashtag's totals weren't read; accounts came from web search.
 - 19 Nov: Vyx's "Hi" environment got 7 TikTok hosts added (page scripts, security SDK, static files, cover images: lf16-tiktok-web, lf16-tiktok-common, lf16-cdn-tos, sf16-sg, mssdk.tiktokw.us, p16/p19-common-sign).
+- **drawrowfly/tiktok-scraper: not used** (Vyx linked it 19 Nov). Last npm release 1.4.36 was 14 Aug 2021; open issues from 2023–24 ask "is this still working?" with no answers. Its hashtag feed needs a logged-in session cookie (hard rule 4), and it works by faking TikTok's request signatures. To get #stretchtok's own numbers, Vyx screenshots the tag header and top grid on the phone; then pull the handles with scout_pull.py.
 - Re-run: `python3 -I research/scripts/scout_pull.py <outdir> 4 qwertyajhg kisukeurahara616 noxad yruggl_`
