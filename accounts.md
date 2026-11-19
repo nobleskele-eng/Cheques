@@ -1,5 +1,5 @@
 # Accounts: all five at a glance
-Updated 2026-11-18 by local session (@duskism created) [V briefing 16 Nov]. One line per account; detail lives in each state file. The Saturday routine refreshes the numbers (Vyx OK'd 16 Nov): `pull_account.py`, then `research/scripts/account_stats.py`.
+Updated 2026-11-19 by cloud session (@duskism niche numbers) [V briefing 16 Nov]. One line per account; detail lives in each state file. The Saturday routine refreshes the numbers (Vyx OK'd 16 Nov): `pull_account.py`, then `research/scripts/account_stats.py`.
 
 | Account | Niche | Role [V 16 Nov] | State file | Followers | Median views | Best 2026 | Latest |
 |---|---|---|---|---|---|---|---|
@@ -13,6 +13,7 @@ Updated 2026-11-18 by local session (@duskism created) [V briefing 16 Nov]. One 
 - **@duskism [V 18 Nov]:** stretched, aesthetic, chopped compilations of anime ("like the scenery stuff but with anime"). Why: scenery has too many factors out of our control. Hard rules 1, 3, 4 apply (the stretch is a style, not a detection dodge). Created 19 Nov 03:14 UTC (18 Nov 22:14 Toronto; `user.createTime`); pfp set, bio empty, 0 posts [L 18 Nov 22:30]. Handle picked from a 27-name check (backups were otherwhen_, raincheques, vyxtape; full list in commit ebc339e).
   - **Post 1 ready [V 18 Nov]:** Cyberpunk: Edgerunners compilation, 19.4 s, 1080x1920 24 fps H.264 15 Mbps, opens on a face already moving [L ffprobe + frames]. **Plan: post Fri 20 Nov or later**, caption names the show and the song; then Studio at 24 h into `anime/log.csv` (account column).
   - **Why wait [est, weak, n=3]:** time from account creation to first post vs that post's views: @sylvanism_ 9 h → 3, no test batch (AdsPower + US proxy is the likelier cause); @chequethetime 3.9 days (created 9 Feb 2026) → 6,246, its best week (JJK S3 airing); @papercheques ~10 months (created 1 Dec 2025) → 662. [createTime: profile pages, L 18 Nov; views: `research/data/*_videos.csv`, seed-cap §9]. Waiting costs nothing.
+  - **Niche numbers [cloud pull 19 Nov, `research/duskism-niche-2026-11-19.md`]:** "stretchtok" is mainly 16:9 anime stretched to 9:16 with relatable text on screen. Two lanes work: stretched, no text, one named character per post (@qwertyajhg: median 13.7K, 13% over 100K, 15 s) and stretched + text (@kisukeurahara616: 12.1K). Stretched no-text clips mixing shows or scenery: median 848 (@noxad, n=12). Survivorship bias: real medians for a new account are likely lower [est]. Post 1's frames are only on Vyx's PC; commit them so it can be compared.
   - Open: a 5th account, or does it replace the scenery pair? Add it to the Saturday pull once it has posts.
 - Dropped: @starzarchive1 (lyric edits; Vyx has no access) [V 16 Nov].
 - Shared rules: CLAUDE.md. Hard rules 1, 3 and 4 cover every account. Rule 2 (Douyin permission + credit) covers the scenery accounts.
