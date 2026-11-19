@@ -1,9 +1,9 @@
 # Vyx's TikTok accounts: read first (loaded in every local and cloud session)
 
-Scenery accounts (@papercheques, @sylvanism_): current state, findings and next steps in @MASTER.md. Anime accounts (@stayvyxed, @chequethetime): read `anime/STATE.md` before working on them. All four at a glance: `accounts.md`.
+Scenery accounts (@papercheques, @sylvanism_): current state, findings and next steps in @MASTER.md. Anime accounts (@stayvyxed, @chequethetime): read `anime/STATE.md` before working on them. @duskism (anime aesthetic compilations, new 18 Nov) and all five at a glance: `accounts.md`.
 
 ## Who / how to work
-- Vyx (they/them) runs four TikTok accounts (see Accounts). The goal is clout (views/followers), not money. Vyx has limited coding: Vyx directs, Claude builds.
+- Vyx (they/them) runs five TikTok accounts (see Accounts). The goal is clout (views/followers), not money. Vyx has limited coding: Vyx directs, Claude builds.
 - **Answer line first (Vyx, 16 Nov):** every reply opens with one bold line that answers the question outright: yes/no, a number, or the pick. Several questions → one answer line per question, at the top of its section. Then step lists. Explain syntax/errors, not plan logic.
 - Challenge weak ideas before building. Give one recommendation.
 - Never claim something works unless it was checked.
@@ -12,13 +12,14 @@ Scenery accounts (@papercheques, @sylvanism_): current state, findings and next 
 - **Scenery accounts: content = permissioned Douyin clips only.** Never propose Vyx films footage, or creator outtakes, own multi-clip edits or stock ("mysterious aura", Vyx 19 Oct; repeated 11 Nov).
 - **Check status first:** Vyx posts and runs Content check lite on their own, so log.csv lags behind. Before planning posts, confirm what was already posted or rejected, then record it.
 
-## Accounts (Vyx, 16 Nov)
+## Accounts (Vyx, 16 Nov; @duskism 18 Nov)
 | Account | What | Notes live in | Hard rules |
 |---|---|---|---|
 | @papercheques | scenery (Douyin clips), Canada | MASTER.md | 1–4 |
 | @sylvanism_ | scenery, US; AdsPower only; may replace @papercheques | MASTER.md §3, seed-cap §9 | 1–4 |
 | @stayvyxed | anime edits (Vyx in AE), oldest/largest; has a hate-speech warning | `anime/` | 1, 3, 4 |
 | @chequethetime | anime edits, simpler; the test lab | `anime/` | 1, 3, 4 |
+| @duskism | stretched, chopped aesthetic anime compilations; new 18 Nov, no posts yet | `accounts.md` | 1, 3, 4 |
 Dropped: @starzarchive1. A clip goes on one account only (duplicate matching).
 
 ## Sessions: one-shot, GitHub is the memory
