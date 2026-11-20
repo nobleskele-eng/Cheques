@@ -1,5 +1,5 @@
 # ANIME: @stayvyxed + @chequethetime current state
-Updated 2026-11-18 by cloud session (v9: Maomao × Jinshi audio). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
+Updated 2026-11-20 by cloud session (v10: 2nd show = Fruits Basket; TR dropped). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |
@@ -34,7 +34,7 @@ Updated 2026-11-18 by cloud session (v9: Maomao × Jinshi audio). Tags: [V] Vyx,
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10]. Log each post in `anime/log.csv`.
-- **Next [18 Nov]: Maomao × Jinshi** (Vyx's best fit). TR refs: `research/tokyo-revengers-refs-2026-11-18.md`. Audio: sasa's AHR "and when i hold you in my arms" (313K, 4.55×; unused by us); alt rag's "i'm still waiting here" (2.39×); avoid rag's 17 Nov song. Feb replay (levers §9) needs S3's new ep, not S1. `research/audio-maomao-2026-11-18.md`.
+- **Next [18 Nov]: Maomao × Jinshi** (Vyx's best fit). 2nd show: Fruits Basket (circle 3/3 ≥2×; alt Kamisama Kiss; `research/show-pick-2026-11-20.md`). TR dropped [V 20 Nov]. Audio: sasa's AHR "and when i hold you in my arms" (313K, 4.55×; unused by us); alt rag's "i'm still waiting here" (2.39×); avoid rag's 17 Nov song. Feb replay needs S3's new ep, not S1. `research/audio-maomao-2026-11-18.md`.
 - **Show/audio leads:** tracked editors + their circle (`references.csv`) and Vyx's own data; generic searches mix styles. Vyx judges fit.
 - **Thirst traps: adult characters only.** Teen couples stay sweet, not sensual: Maomao is 17 in S1; TR's cast is 14–15 in 2005 (adults ~27 in 2017) [fan sources]. TikTok removes content, animation included, that sexualises minors [web].
 - **Export 1080, no 4K upscaling** (re-encodes cap at 1080×1920); quality tweaks don't move views (§2.3).
