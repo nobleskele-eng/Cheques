@@ -2,7 +2,7 @@
 Updated 2026-11-21 by cloud weekly (v61: reports 21 Nov, rival pull 1/7). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
-- 57 followers [L 16 Nov], 53 posts, median 739 [C 21 Nov]. To 12 Nov (51): median 743 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** 12 Nov posts had 704/751 at 38 min; older posts +0 views 7→12 Nov. Detail: `research/seed-cap-2026-11-11.md`. [L]
+- 57 followers [L 16 Nov], 53 posts, median 739 [C 21 Nov]. To 12 Nov (51): median 743 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** Detail: `research/seed-cap-2026-11-11.md`. [L]
 - Our medians: 0.00% shares, 0.28% saves. Likes help a little (top-third like rate 790 views vs 707, ρ 0.37, n50) but our 2–8% is below network flops (8–11%) and breakouts (21–25%, 2–4% shares). [C][L]
 - Sourcing works [V]: permissioned Douyin clips. **Bottleneck = test-audience engagement.** Sound, length, reveal, timing, captions all changed; none moved the band. Fresh sources didn't help either (n=7; p81 0.6 d after its Douyin upload → 811). [L]
 - **Studio [V 12 Nov] p98/p99:** ~98% For You; avg watch 35–36% of length; 4.9–6.6% watched full; most leave at 0:01, reveal or not. vs elmo breakout: watch ~0.8×, likes ~0.3×, shares ~0.1×. No account block. **No post has ever had a 2nd For You batch.**
