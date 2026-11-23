@@ -23,7 +23,7 @@ Updated 2026-11-23 by cloud session (v12: Haikyuu remake read). Tags: [V] Vyx, [
 
 ## 2. What we know (strongest first)
 1. **Average watch time splits hits from flops** [V Studio; seed-cap §5]. ≥5.9 s: 8.8K–657K views (5 of 5); ≤4.2 s: under 1K (8 of 8; latest Haikyuu remake 3.6 s). Most viewers leave at 0:01–0:02 even on hits. Openings haven't separated flops (black fade, face, glitch, text on black: all 2–3.2 s) [L frames].
-2. **Remakes.** #1 (AHR footage on sasa's timing): 817 by day 7, then flat. #2 (22 Nov; sasa's 58.6K Atsumu edit frame for frame, same footage + audio): 644 at 14 h, best Nov day 1, only Nov 2nd batch, avg watch 3.6 s; likes 9.5%, saves 1.9% vs sasa's 18.1%, 4.3% [V/C 23 Nov]. Same edit, half the reactions: audience (fans vs strangers) or copy fatigue, not the edit [est, n=1]. .sadaqatt rm posts 1.75× (`research/levers-2026-11-17.md`).
+2. **Remakes.** #1 (AHR footage on sasa's timing): 817 by day 7, then flat. #2 (22 Nov; sasa's 58.6K Atsumu edit frame for frame, same footage + audio): 644 at 14 h, best Nov day 1, only Nov 2nd batch, avg watch 3.6 s, For You 89.6%, search 1.1%; likes 9.5%, saves 1.9% vs sasa's 18.1%, 4.3% [V/C 23 Nov]. Same edit, half the reactions: audience (fans vs strangers) or copy fatigue [est, n=1]. .sadaqatt rm posts 1.75× (`research/levers-2026-11-17.md`).
 3. **Mechanics don't move views** [C 17 Nov, 438 posts; circle alone too]: loudness, TikTok quality score, length, hour, gap, posts/24 h, hashtags: all |ρ| < 0.2 within accounts.
 4. **Hits react:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5%.
 5. **Hits keep earning:** peak days 2–3, then Search (10–23%) and profile (17–31%); ~2/3 of Choso's views after day 7 [est]. Flops: 90–97% For You, dead within hours (not the remake, §2.2).
@@ -44,7 +44,7 @@ Updated 2026-11-23 by cloud session (v12: Haikyuu remake read). Tags: [V] Vyx, [
 ## 4. Waiting on Vyx
 1. **Account status** on @chequethetime (Account → Account status). @stayvyxed: strike confirmed [V 17 Nov].
 2. Slur rule: make it a hard rule?
-3. Studio screenshots for each new post (`accounts.md` lists them Saturdays). Haikyuu remake: traffic sources + Engagement tab.
+3. Studio screenshots for each new post (`accounts.md` lists them Saturdays). Haikyuu remake: Engagement tab.
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows: local date; pull rows: UTC.
