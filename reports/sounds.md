@@ -1,31 +1,32 @@
-# New sounds in the niche, 2026-11-16 (trending_sounds.py, cloud)
-Coverage, pulled 2026-11-16 12:35 UTC: someplace505 163, elsewhere557 269, anywhere557 23, kadzoo55871 55, .aaapaathy 278, fang_w3 70, rvf5567 25 posts (last 42 d).
-New = no network post used the audio before 2026-11-02 and @papercheques never used it. × = views / that account's median (posts ≥48 h old, last 42 d).
+# New sounds in the niche, 2026-11-23 (trending_sounds.py, cloud)
+Coverage, pulled 2026-11-23 12:35 UTC: someplace505 155, elsewhere557 298, anywhere557 22, kadzoo55871 40, .aaapaathy 273, fang_w3 66, rvf5567 29 posts (last 42 d).
+New = no network post used the audio before 2026-11-09 and @papercheques never used it. × = views / that account's median (posts ≥48 h old, last 42 d).
 
 ## A: spreading (2+ posts, median ≥1.5×, or 2+ accounts)
 | # | Audio | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |
 |---|---|---|---|---|---|---|---|---|
-| 1 | where did u go? (Slowed) - Dj Samir & PHARAOH & Fyex | [sound](https://www.tiktok.com/music/x-7703900982714910726) | 4 (fang_w3), 4 beat | 6,500,000 | 546.22× | 29.65× | 11-04 | repeat |
-| 2 | original sound by . . | [sound](https://www.tiktok.com/music/x-7406054948640656159) · [Spotify](https://open.spotify.com/track/4BNT04XPD3HK3MOCIlvbtP) | 3 (elsewhere557), 2 beat | 730,200 | 24.22× | 16.07× | 11-07 | repeat |
-| 3 | original sound by Acey | [sound](https://www.tiktok.com/music/x-7688483606934653726) · [Spotify](https://open.spotify.com/track/4iVj0UxqLlgrFWNdOnCwFS) | 2 (elsewhere557), 1 beat | 141,400 | 4.69× | 2.37× | 11-11 | repeat |
-| 4 | оригинальный звук (upload by кровь по стенам) | [sound](https://www.tiktok.com/music/x-7363722176526027521) | 3 (elsewhere557+rvf5567), 2 beat | 50,800 | 3.68× | 2.32× | 11-05 | repeat |
-| 5 | original sound by 𖦹 | [sound](https://www.tiktok.com/music/x-7668499307327032085) · [Spotify](https://open.spotify.com/track/59gGJjHtHIiRZVxuXk789Y) | 2 (elsewhere557), 1 beat | 117,200 | 3.89× | 2.25× | 11-03 | repeat |
-| 6 | original sound by sjajddwjajsusudjdh | [sound](https://www.tiktok.com/music/x-7687814827091380999) · [Spotify](https://open.spotify.com/track/0qwCJJkALPGkM2L05HNNmD) | 3 (.aaapaathy+elsewhere557), 2 beat | 762,300 | 22.1× | 1.98× | 11-07 | repeat |
-| 7 | original sound by livvy 🪽 | [sound](https://www.tiktok.com/music/x-7627177502604397334) · [Spotify](https://open.spotify.com/track/0b6wDq1v37fcWN8NqwoNxK) | 3 (someplace505), 3 beat | 39,900 | 1.79× | 1.74× | 11-07 | repeat |
+| 1 | original sound by 1998 | [sound](https://www.tiktok.com/music/x-7643148954298338066) | 2 (someplace505), 2 beat | 1,600,000 | 68.09× | 36.91× | 11-13 | repeat |
+| 2 | original sound by grabniks | [sound](https://www.tiktok.com/music/x-7287704447982308138) · [Spotify](https://open.spotify.com/track/24TmaZWyrSHPJZ3AI9uZzO) | 2 (someplace505), 2 beat | 332,100 | 14.13× | 10.95× | 11-15 | repeat |
+| 3 | original sound by 𝓳𝓾𝓵 | [sound](https://www.tiktok.com/music/x-7524665130727082774) | 4 (elsewhere557), 3 beat | 598,400 | 30.07× | 10.66× | 11-16 |  |
+| 4 | original sound by Laot.mp3 | [sound](https://www.tiktok.com/music/x-7690440038210964244) · [Spotify](https://open.spotify.com/track/22PFNi0oVoAL0ipn1Kf7nV) | 2 (.aaapaathy), 1 beat | 197,100 | 6.69× | 3.54× | 11-18 |  |
+| 5 | original sound by jam | [sound](https://www.tiktok.com/music/x-7626557066610838285) | 3 (elsewhere557), 3 beat | 114,400 | 5.75× | 3.48× | 11-13 | repeat |
+| 6 | original sound by sofia | [sound](https://www.tiktok.com/music/x-7681368055418555169) | 3 (elsewhere557), 2 beat | 2,400,000 | 120.6× | 3.43× | 11-17 |  |
+| 7 | original sound by 愛 | [sound](https://www.tiktok.com/music/x-7664046349679135519) | 2 (.aaapaathy), 1 beat | 155,800 | 5.29× | 2.66× | 11-14 | repeat |
+| 8 | you - lasceremo | [sound](https://www.tiktok.com/music/x-7578387846566840321) · [Spotify](https://open.spotify.com/track/045qsMDTUU5EtrOkahq9EZ) | 2 (anywhere557), 2 beat | 3,912 | 2.03× | 1.85× | 11-14 | repeat |
 
 ## B: one big hit (best ≥3× or 1M+, not repeated: may be the clip, not the sound)
 | # | Audio | Links | Uses, beat median | Best views | Best × | Median × | First used | Flags |
 |---|---|---|---|---|---|---|---|---|
-| 1 | original sound by 1998 | [sound](https://www.tiktok.com/music/x-7643148954298338066) | 1 (someplace505), 1 beat | 1,100,000 | 49.33× | 49.33× | 11-13 |  |
-| 2 | original sound by PSLGOD | [sound](https://www.tiktok.com/music/x-7630466299825130261) | 1 (elsewhere557), 1 beat | 224,000 | 7.43× | 7.43× | 11-05 | repeat |
-| 3 | original sound by Sam★ | [sound](https://www.tiktok.com/music/x-7303305366099069729) | 3 (elsewhere557), 1 beat | 177,800 | 5.9× | 0.47× | 11-04 | repeat |
-| 4 | original sound by yurufilms | [sound](https://www.tiktok.com/music/x-7375924433821240096) | 1 (.aaapaathy), 1 beat | 186,300 | 5.4× | 5.4× | 11-10 |  |
-| 5 | original sound by к я α ʑ є є™ | [sound](https://www.tiktok.com/music/x-7657202796798757652) · [Spotify](https://open.spotify.com/track/1sSWeebrHxMLdixWRgs778) | 1 (.aaapaathy), 1 beat | 172,500 | 5.0× | 5.0× | 11-09 | repeat |
-| 6 | original sound by grabniks | [sound](https://www.tiktok.com/music/x-7287704447982308138) · [Spotify](https://open.spotify.com/track/24TmaZWyrSHPJZ3AI9uZzO) | 1 (someplace505), 1 beat | 91,200 | 4.09× | 4.09× | 11-15 | accruing |
-| 7 | original sound by 愛 | [sound](https://www.tiktok.com/music/x-7664046349679135519) | 1 (.aaapaathy), 1 beat | 121,600 | 3.52× | 3.52× | 11-14 | accruing |
-| 8 | original sound by a blank-name account | [sound](https://www.tiktok.com/music/x-7696479792447982356) | 1 (elsewhere557), 1 beat | 103,600 | 3.44× | 3.44× | 11-06 | repeat |
+| 1 | original sound by ❀ | [sound](https://www.tiktok.com/music/x-7242352903993985818) | 1 (someplace505), 1 beat | 1,500,000 | 63.83× | 63.83× | 11-21 | accruing |
+| 2 | original sound by wh1spy | [sound](https://www.tiktok.com/music/x-7644304979171674898) | 1 (someplace505), 1 beat | 1,400,000 | 59.57× | 59.57× | 11-22 | accruing |
+| 3 | original sound by exclusivity | [sound](https://www.tiktok.com/music/x-7604562894079920916) | 3 (elsewhere557), 1 beat | 446,600 | 22.44× | 0.21× | 11-18 |  |
+| 4 | original sound by jean | [sound](https://www.tiktok.com/music/x-7357487789091293957) | 1 (rvf5567), 1 beat | 312,300 | 10.38× | 10.38× | 11-20 |  |
+| 5 | original sound by Acey | [sound](https://www.tiktok.com/music/x-7688483606934653726) · [Spotify](https://open.spotify.com/track/4iVj0UxqLlgrFWNdOnCwFS) | 1 (elsewhere557), 1 beat | 198,700 | 9.98× | 9.98× | 11-11 | repeat |
+| 6 | original sound by @someplace505 | [sound](https://www.tiktok.com/music/x-7709523136521964295) · [Spotify](https://open.spotify.com/track/00J5MCe61BTKRL4YRBjdV7) | 1 (someplace505), 1 beat | 202,200 | 8.6× | 8.6× | 11-18 |  |
+| 7 | original sound by yurufilms | [sound](https://www.tiktok.com/music/x-7375924433821240096) | 1 (.aaapaathy), 1 beat | 199,500 | 6.77× | 6.77× | 11-10 | repeat |
+| 8 | original sound by 𝙈𝙃𝘾 | [sound](https://www.tiktok.com/music/x-7696268752391834390) | 1 (elsewhere557), 1 beat | 87,300 | 4.39× | 4.39× | 11-15 | repeat |
 
 ## How to use
 - Open "sound" on your phone, then "Use this sound". An upload by another account is its "original sound".
-- accruing = best post under 48 h old, × still rising. repeat = also on last week's list. Full table: research/data/sounds/new_sounds_2026-11-16.csv.
-- Skipped as likely paid promo (library track, 5+ uses, median <1×): PINNACLE - Slowed - SCHWVFTY, DESPRECIO - cvzxeov & hxyaka & NIGHTVANE, wherever you go - vinter.
+- accruing = best post under 48 h old, × still rising. repeat = also on last week's list. Full table: research/data/sounds/new_sounds_2026-11-23.csv.
+- Skipped as likely paid promo (library track, 5+ uses, median <1×): Ruina - Azrane, Gas - BICEP & Lauren Duffus & SOARR, wherever you go - vinter, 10,000 Flowers - Lyrah & Conrad..
