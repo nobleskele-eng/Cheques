@@ -19,19 +19,19 @@ Updated 2026-11-24 by cloud session (v19: KnT compression test). Tags: [V] Vyx, 
 - **@stayvyxed [V 17 Nov]:** strike active; ~1 more post in 2026, after it lifts. Unconventional: obscure audio (<5K monthly listeners) and long low-retention videos beat its median. Not evidence for @chequethetime.
 - **Warning on @stayvyxed:** a 300K post was removed ~6 months on for "hate speech" (censored n-word in lyric text). Strikes last 90 days; hitting the limit = 90 days off For You [web].
 - **Posting:** phone app; metadata scripts optional, §2.3.
-- **Credit:** tag the audio/inspiration creator in the caption ("ib/rm @…", "ac @…").
+- **Credit:** tag the audio/inspiration creator ("ib/rm @…", "ac @…").
 
 ## 2. What we know (strongest first)
-1. **Average watch time splits hits from flops, but read age muddies it** [V Studio; seed-cap §5]. ≥5.9 s: 8.8K–657K views (5 of 5, read months later); Shinji 5.4 s: 53.4K; ≤4.2 s: under 1K (8 of 8, read at 12–24 h). YLIA 3.15 s (20 h) → 11.1 s (62 h) on +109 views (loopers) [V/C 23 Nov]. No hit has a 24 h read. Most leave at 0:01–0:02, hits too. Openings don't separate flops [L frames].
-2. **Remakes.** #1 (AHR footage on sasa's timing): 817 by day 7 (§2.10). #2 (22 Nov; sasa's 58.6K Atsumu edit copied 1:1): 644 at 14 h, avg watch 3.6 s; likes 9.5%, saves 1.9% vs sasa's 18.1%, 4.3% [V/C 23 Nov]. Half the reactions; strangers gave KnT 21% (§2.4): not just audience [est]. .sadaqatt rm posts 1.75× (`research/levers-2026-11-17.md`).
+1. **Average watch time splits hits from flops, but read age muddies it** [V Studio; seed-cap §5]. ≥5.9 s: 8.8K–657K views (5 of 5, read months later); Shinji 5.4 s: 53.4K; ≤4.2 s: under 1K (8 of 8, read at 12–24 h). Seconds, not % of length. YLIA 3.15 s (20 h) → 11.1 s (62 h) on +109 views (loopers) [V/C 23 Nov]. No hit has a 24 h read. Most leave at 0:01–0:02, hits too. Openings don't separate flops [L frames].
+2. **Remakes.** #1 (AHR on sasa's timing): 817 by day 7. #2 (22 Nov; sasa's 58.6K Atsumu edit copied 1:1): 644 at 14 h, avg watch 3.6 s; likes 9.5%, saves 1.9% vs sasa's 18.1%, 4.3% [V/C 23 Nov]. Half the reactions; strangers gave KnT 21% (§2.4): not just audience [est]. .sadaqatt rm posts 1.75× (`research/levers-2026-11-17.md`).
 3. **Mechanics don't move views** [C 17 Nov, 438 posts]: loudness, quality score, length, hour, gap, posts/24 h, hashtags: |ρ| < 0.2. **Compression too** [V 24 Nov]: unoptimized KnT (253 kbps) got the top like rate; Feb's best 3 served 540–720p.
-4. **Hits react; reactions alone don't lift:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5%. KnT beat that (likes 21.2%) at 3.6 s avg watch [V, 9 h]; Black Clover 14.5%, 4.16 s → 945.
+4. **Hits react; reactions alone don't lift:** likes 17.5–20.7%, shares 1.5–2.6%, saves 3.2–5.5%. KnT beat that (likes 21.2%) at 3.6 s avg watch [V, 9 h]; Black Clover 14.5%, 4.16 s → 945; Shinji 12.0% → 53.4K.
 5. **Hits: big within hours, then a tail** [V Insights 23 Nov]: JJK, Maki 11–12K on posting day. Moderate Shinji 53.4K: ~3K on day 1 (flops ~0.5K), then 0.5–1.3K/day: 79% after day 13, fed by search 36.8% (his name) + profile 22.2%; US 38%, Canada 8%. `research/daily-views-2026-11-23.md`.
 6. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%; YLIA show 44%, lyric 8% [V 23 Nov]).
 7. **Followers per view:** 0.06–0.09% on hits, 0.04% on Shinji (search tail), 0.2–0.27% on small posts; 910 more ≈ 350K views at Choso's rate [est].
 8. **First batch [est]:** theirs includes fans (52.6K / 15.2K followers); ours is 99% strangers, 71–83% Canada on 17–20 h Toronto posts (KnT 22:30: 38%). Jan–Feb hits rode JJK S3 airing.
 9. **Oct–Nov dip niche-wide:** .sadaqatt's non-blow posts 5.6–9.4K (was 29–71K). Compare same-week circle posts (`refs.md`).
-10. **Late For You batches** [V/C 23 Nov]: AHR remake 417 → 812 (days 3–6); Firefly 589 → 960 in ~4 h on day 7, ~83% outside Canada, avg watch ~2.9 s. 24 h reads can miss half a flop's views.
+10. **Late For You batches** [V/C 23 Nov]: AHR remake 417 → 812 (days 3–6); Firefly 589 → 960 in ~4 h on day 7, ~83% outside Canada. 24 h reads can miss half a flop's views.
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10; caveat §2.1].
