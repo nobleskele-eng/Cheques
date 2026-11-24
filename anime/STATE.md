@@ -18,7 +18,7 @@ Updated 2026-11-24 by cloud session (v19: KnT compression test). Tags: [V] Vyx, 
 - **Audience [V 16 Nov]:** every 100K+ post had a majority-female audience, so Vyx plays shoujo / romance / thirst traps hard.
 - **@stayvyxed [V 17 Nov]:** strike active; ~1 more post in 2026, after it lifts. Unconventional: obscure audio (<5K monthly listeners) and long low-retention videos beat its median. Not evidence for @chequethetime.
 - **Warning on @stayvyxed:** a 300K post was removed ~6 months on for "hate speech" (censored n-word in lyric text). Strikes last 90 days; hitting the limit = 90 days off For You [web].
-- **Posting:** phone app; metadata scripts optional (§2.3).
+- **Posting:** phone app; metadata scripts optional, §2.3.
 - **Credit:** tag the audio/inspiration creator in the caption ("ib/rm @…", "ac @…").
 
 ## 2. What we know (strongest first)
@@ -29,7 +29,7 @@ Updated 2026-11-24 by cloud session (v19: KnT compression test). Tags: [V] Vyx, 
 5. **Hits: big within hours, then a tail** [V Insights 23 Nov]: JJK, Maki 11–12K on posting day. Moderate Shinji 53.4K: ~3K on day 1 (flops ~0.5K), then 0.5–1.3K/day: 79% after day 13, fed by search 36.8% (his name) + profile 22.2%; US 38%, Canada 8%. `research/daily-views-2026-11-23.md`.
 6. **Search comes from song, show and character names, not hashtags** (Choso: "choso edit PATD" 41%; YLIA show 44%, lyric 8% [V 23 Nov]).
 7. **Followers per view:** 0.06–0.09% on hits, 0.04% on Shinji (search tail), 0.2–0.27% on small posts; 910 more ≈ 350K views at Choso's rate [est].
-8. **First batch [est]:** theirs includes fans (52.6K / 15.2K followers); ours is 99% strangers, 71–83% Canada on 17–20 h Toronto posts (KnT, 22:30: 38%). Jan–Feb hits rode JJK S3 airing.
+8. **First batch [est]:** theirs includes fans (52.6K / 15.2K followers); ours is 99% strangers, 71–83% Canada on 17–20 h Toronto posts (KnT 22:30: 38%). Jan–Feb hits rode JJK S3 airing.
 9. **Oct–Nov dip niche-wide:** .sadaqatt's non-blow posts 5.6–9.4K (was 29–71K). Compare same-week circle posts (`refs.md`).
 10. **Late For You batches** [V/C 23 Nov]: AHR remake 417 → 812 (days 3–6); Firefly 589 → 960 in ~4 h on day 7, ~83% outside Canada, avg watch ~2.9 s. 24 h reads can miss half a flop's views.
 
