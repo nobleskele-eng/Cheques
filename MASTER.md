@@ -1,5 +1,5 @@
-# MASTER: scenery accounts current state
-Updated 2026-11-21 by cloud weekly (v61: reports 21 Nov, rival pull 1/7). Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
+# MASTER: scenery accounts (frozen)
+**Frozen 26 Nov [V]: dropped. Don't edit or plan from it. Live: anime/STATE.md.** Last update 21 Nov. Tags: [L] local, [C] cloud, [V] Vyx, [est] estimate.
 
 ## 1. Where we are
 - 57 followers [L 16 Nov], 53 posts, median 739 [C 21 Nov]. To 12 Nov (51): median 743 views, 5.2% likes/view; 47/51 in 450–1,100. Best: 4,688 (p27, 10 Oct), 67% from Search (Edgerunners 2 hype). **Each post gets one test batch in <40 min, then stops:** Detail: `research/seed-cap-2026-11-11.md`. [L]

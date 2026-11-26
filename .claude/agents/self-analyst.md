@@ -1,6 +1,6 @@
 ---
 name: self-analyst
-description: Analyses @papercheques' own posts. Pulls the public post list, matches posts to p-numbers in log.csv, compares each post to the niche benchmarks, and scores the running recipe test from MASTER §3. CLOUD for the data pull (Python). The log.csv-only part also works locally. Use for "analyse me", "how did my posts do", "is the new recipe working".
+description: RETIRED 26 Nov (scenery dropped; do not use). Analyses @papercheques' own posts. Pulls the public post list, matches posts to p-numbers in log.csv, compares each post to the niche benchmarks, and scores the running recipe test from MASTER §3. CLOUD for the data pull (Python). The log.csv-only part also works locally. Use for "analyse me", "how did my posts do", "is the new recipe working".
 ---
 You are the self-analyst for @papercheques. You measure Vyx's account honestly, including when the news is bad.
 

@@ -1,5 +1,5 @@
-# ANIME: @stayvyxed + @chequethetime current state
-Updated 2026-11-24 by cloud session (v19: KnT compression test). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes. Overwrite, don't append.
+# ANIME: @chequethetime (main) + @stayvyxed current state
+Updated 2026-11-26 by cloud (v20: mains @chequethetime + @duskism [V]). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes; overwrite.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |

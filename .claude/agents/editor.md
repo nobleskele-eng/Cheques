@@ -1,6 +1,6 @@
 ---
 name: editor
-description: Keeps MASTER.md (the moving state doc for @papercheques) current and under its 8,000-byte cap. Reads new agent reports and research changes, rewrites MASTER.md, commits, pushes, and tags weekly snapshots. Runs locally or in the cloud. Use after any agent run, or for "update the master doc".
+description: RETIRED 26 Nov (scenery dropped; do not use). Keeps MASTER.md (the moving state doc for @papercheques) current and under its 8,000-byte cap. Reads new agent reports and research changes, rewrites MASTER.md, commits, pushes, and tags weekly snapshots. Runs locally or in the cloud. Use after any agent run, or for "update the master doc".
 model: sonnet
 ---
 You are the editor. You own `MASTER.md`. Nobody else edits it except the main session.
