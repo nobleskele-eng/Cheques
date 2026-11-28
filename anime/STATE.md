@@ -1,5 +1,5 @@
 # ANIME: @chequethetime (main) + @stayvyxed current state
-Updated 2026-11-28 by cloud (v21). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes; overwrite.
+Updated 2026-11-28 by cloud (v22: FB read). Tags: [V] Vyx, [L] local, [C] cloud, [est] estimate. Cap 6,000 bytes; overwrite.
 
 ## 1. Accounts [V 16 Nov unless tagged]
 | | @stayvyxed | @chequethetime |
@@ -9,7 +9,7 @@ Updated 2026-11-28 by cloud (v21). Tags: [V] Vyx, [L] local, [C] cloud, [est] es
 | Goal | keep growing; never get shadowbanned | 1K followers by summer 2027, or drop it |
 | Followers [C pull 21 Nov] | 7,486 | 92; 18 posts, median 812 |
 | Best 2026 | JJK 657K (15 Jan) | Choso 8.8K (14 Feb) |
-| Latest | Black Clover 945 (9 Nov) | Kimi ni Todoke (KnT) 1,515 (23 Nov, 96 h) |
+| Latest | Black Clover 945 (9 Nov) | Fruits Basket (FB) 382 (27 Nov, 1.7 h); Kimi ni Todoke (KnT) 1,515 (96 h) |
 - **Niche [V 16 Nov]:** "jugg" and "tiktok style" edits, mostly romance and/or thirst traps of popular characters. Both aim to feel sensual, intimate or personal.
   - **sasa jugg** (@smokinsasa7, @.sadaqatt): R&B song + soft shakes and blur transitions, on a character's look or a relationship (nearly always a couple).
   - **tiktok style** (@zrivvn): 1080×1080 edit of one character, slow transitions, soft blur flicker.
@@ -35,7 +35,7 @@ Updated 2026-11-28 by cloud (v21). Tags: [V] Vyx, [L] local, [C] cloud, [est] es
 
 ## 3. Recommendation now
 - **Target: average watch ≥6 s** in Studio at 24 h [est, n=10; caveat §2.1].
-- **Next [18 Nov]: Maomao × Jinshi**. 2nd show: Fruits Basket (circle 3/3 ≥2×; alt Kamisama Kiss; `research/show-pick-2026-11-20.md`). Audio: sasa's AHR "and when i hold you in my arms" (4.55×, unused by us); Feb replay needs S3's new ep, not S1. `research/audio-maomao-2026-11-18.md`.
+- **Next [18 Nov]: Maomao × Jinshi**. 2nd show: Fruits Basket, posted 27 Nov (`research/show-pick-2026-11-20.md`). Audio: sasa's AHR "and when i hold you in my arms" (4.55×, unused by us); Feb replay needs S3's new ep, not S1. `research/audio-maomao-2026-11-18.md`.
 - **Thirst traps: adult characters only.** Teens stay sweet, not sensual (Maomao 17 in S1, YLIA leads 14 [fan sources]); TikTok removes content sexualising minors, animated too [web].
 - **Export 1080, no 4K upscaling** (§2.3).
 - **Parked:** collabs [V 17 Nov].
@@ -45,9 +45,9 @@ Updated 2026-11-28 by cloud (v21). Tags: [V] Vyx, [L] local, [C] cloud, [est] es
 ## 4. Waiting on Vyx
 1. **Account status** on @chequethetime. @stayvyxed: strike confirmed [V 17 Nov].
 2. Slur rule: make it a hard rule?
-3. Studio screenshots for each new post. Engagement tab: KnT, Haikyuu. Which post is 18 Jan 143.6K?
+3. Studio screenshots for each new post. FB 24 h; Engagement: FB, KnT, Haikyuu. Which post is 18 Jan 143.6K?
 4. Next post past 1K: its 24 h read (KnT: 9 + 96 h only).
 
 ## 5. How to pull
 - **Studio:** Vyx's screenshots → `anime/log.csv`. Studio rows: local date; pull rows: UTC.
-- **Public lists:** Saturday routine → `research/data/<handle>_videos.csv` + `accounts.md`. vidIQ: **0 credits** until 14 Dec; ask Vyx first. AniList: cloud-blocked [18 Nov].
+- **Public lists:** Saturday routine → `research/data/<handle>_videos.csv` + `accounts.md`. vidIQ: **0 credits** until 14 Dec; ask Vyx first.
